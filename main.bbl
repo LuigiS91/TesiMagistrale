@@ -1,0 +1,153 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{DesTestCarm}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=ceff446ef4fafefead26c564b35a4ae7}{%
+           family={Carminati},
+           familyi={C\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Politecnico di Torino}%
+      }
+      \strng{namehash}{ceff446ef4fafefead26c564b35a4ae7}
+      \strng{fullhash}{ceff446ef4fafefead26c564b35a4ae7}
+      \strng{bibnamehash}{ceff446ef4fafefead26c564b35a4ae7}
+      \strng{authorbibnamehash}{ceff446ef4fafefead26c564b35a4ae7}
+      \strng{authornamehash}{ceff446ef4fafefead26c564b35a4ae7}
+      \strng{authorfullhash}{ceff446ef4fafefead26c564b35a4ae7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Design and Testing of Indoor UAS Control Techniques}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{Nuttx}{online}{}
+      \list{organization}{1}{%
+        {Wikipedia}%
+      }
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labeltitlesource}{title}
+      \field{title}{NuttX}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://it.wikipedia.org/wiki/NuttX
+      \endverb
+      \verb{url}
+      \verb https://it.wikipedia.org/wiki/NuttX
+      \endverb
+      \keyw{Nuttx}
+    \endentry
+    \entry{px4Guide}{online}{}
+      \list{organization}{1}{%
+        {PX4 Dev Team}%
+      }
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeltitlesource}{title}
+      \field{title}{PX4 Autopilot User Guide (1.8.2)}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.px4.io/v1.8.2/en/#px4-autopilot-user-guide--182
+      \endverb
+      \verb{url}
+      \verb https://docs.px4.io/v1.8.2/en/#px4-autopilot-user-guide--182
+      \endverb
+      \keyw{px4}
+    \endentry
+    \entry{px4Firmware}{online}{}
+      \list{organization}{1}{%
+        {PX4 Dev Team}%
+      }
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labeltitlesource}{title}
+      \field{title}{PX4 Development Guide (v1.8.0)}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
+      \endverb
+      \verb{url}
+      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
+      \endverb
+      \keyw{px4}
+    \endentry
+    \entry{toolPx4}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8687eae34a3830fc0c113d9d65382e90}{%
+           family={The\bibnamedelima MathWorks},
+           familyi={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Inc.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{8687eae34a3830fc0c113d9d65382e90}
+      \strng{fullhash}{8687eae34a3830fc0c113d9d65382e90}
+      \strng{bibnamehash}{8687eae34a3830fc0c113d9d65382e90}
+      \strng{authorbibnamehash}{8687eae34a3830fc0c113d9d65382e90}
+      \strng{authornamehash}{8687eae34a3830fc0c113d9d65382e90}
+      \strng{authorfullhash}{8687eae34a3830fc0c113d9d65382e90}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PX4 Autopilots Support from Embedded Coder}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://it.mathworks.com/hardware-support/px4-autopilots.html
+      \endverb
+      \verb{url}
+      \verb https://it.mathworks.com/hardware-support/px4-autopilots.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

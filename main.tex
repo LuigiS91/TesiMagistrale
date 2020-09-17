@@ -1,0 +1,87 @@
+\documentclass[corpo=12pt,twoside,tipotesi=magistrale,stile=classica]{toptesi}
+\usepackage[english,italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[autostyle]{csquotes}
+\usepackage[backend=biber]{biblatex}
+\usepackage[]{hyperref}
+\usepackage{lipsum}
+\usepackage{comment}
+
+
+\addbibresource{Bibliografia/bibliografia.bib}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+
+\includecomment{it}
+\excludecomment{en}
+
+%\includecomment{en}
+%\excludecomment{it}
+
+
+\begin{document}
+\begin{en}
+	\english
+	\begin{frontespizio*}
+		\ateneo{Politecnico di Torino}
+		\logosede{polito}
+		\CorsoDiLaureaIn{Master of Science’s Degree in}
+		\corsodilaurea{Aerospace Engineering}	
+		\TesiDiLaurea{Master's Thesis}	
+		\titolo{Processor in the loop simulations and Code generation for Unmanned Aerial systems}
+		\AdvisorName{Supervisor:}
+		\relatore{Prof.ssa Elisa Capello}
+		\CoAdvisorName{Co-supervisor}
+		\secondorelatore{Dott. Davide Carminati}
+		\sedutadilaurea{December 2020}
+		\TitoloListaCandidati{Author:}
+		\candidato{Luigi Sante}
+	\end{frontespizio*}
+\end{en}
+
+\begin{it}
+	\begin{frontespizio*}
+		\ateneo{Politecnico di Torino}
+		\logosede{polito}
+		\CorsoDiLaureaIn{Laurea Magistrale in}
+		\corsodilaurea{Ingegneria Aerospaziale}	
+		\TesiDiLaurea{Tesi Magistrale}	
+		\titolo{Processor in the loop simulations and Code generation for Unmanned Aerial systems}
+		\AdvisorName{Relatore:}
+		\relatore{Prof.ssa Elisa Capello}
+		\CoAdvisorName{Co-Relatore}
+		\secondorelatore{Dott. Davide Carminati}
+		\sedutadilaurea{Dicembre 2020}
+		\TitoloListaCandidati{Autore:}
+		\candidato{Luigi Sante}
+	\end{frontespizio*}
+\end{it}
+
+	
+	\sommario
+	TODO : Parlare di cosa tratta la tesi
+	\ringraziamenti
+	TODO : Scrivere i ringraziamenti
+	
+	
+	\tableofcontents
+	\listoftables
+	\listoffigures
+	
+	\mainmatter
+	
+	\include{Contestualizzazione/px4}
+	
+	
+%	\appendix
+	
+	
+	\backmatter
+	\include{Bibliografia/bibliografia}
+	
+\end{document}

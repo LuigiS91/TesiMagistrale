@@ -1,0 +1,39 @@
+\section{Architettura del software}
+Il firmware è principalmente suddiviso in due categorie di moduli:
+\begin{itemize}
+\item \textbf{Flight stack} : composta dalla parte che stima lo stato del sistema e il relativo controllo
+\item \textbf{Middleware} : composta dalle interfacce che collegano i vari moduli interni di PX4 tra di loro e verso l'esterno, con la possibilità di integrare gli hardware utilizzati.
+\end{itemize}
+
+Il sistema quindi separa le varie funzionalità in moduli separati, eseguiti in modo indipendente che scambiano i dati e comandi tra di loro e con l'esterno attraverso messaggi asincroni.
+Nella figura \ref{fig:px4.architettura} è riportato lo schema di alto livello del software di PX4 e la sua modularità.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{Contestualizzazione/Figure/PX4_Architecture}
+\caption{Architettura del codice di PX4 Autopilot}
+\label{fig:px4.architettura}
+\end{figure}
+\subsection{Flight stack}
+Il flight stack, mostrato in figura \ref{fig:px4.flightstack} è l'insieme di moduli che si occupano della stima dello stato del sistema e di tutti le funzionalità per il controllo,la guida e la navigazione. Esiste anche un modulo per interfacciarsi con il volo manuale attraverso radiocomando.
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{Contestualizzazione/Figure/PX4_High-Level_Flight-Stack}
+\caption{Architettura del flight stack di PX4}
+\label{fig:px4.flightstack}
+\end{figure}
+\paragraph{Sensors}
+Da dove prende i dati?
+Che cosa fa?
+A cosa serve?
+   Per chi lo fa?
+\paragraph{Position \& Attitude Estimator}
+\paragraph{Navigator}
+\paragraph{Position Controller}
+\paragraph{Attitude \& Rate Controller}
+\paragraph{Mixer}
+\paragraph{Actuator}
+\paragraph{RC}
+
+
+
