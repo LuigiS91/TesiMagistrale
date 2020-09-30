@@ -13,20 +13,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.1}Flight stack}{8}{subsection.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Sensors}{8}{section*.3}%
+\contentsline {paragraph}{Estimator}{8}{section*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Position \& Attitude Estimator}{8}{section*.4}%
+\contentsline {paragraph}{Controller}{8}{section*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Navigator}{8}{section*.5}%
+\contentsline {paragraph}{Mixer}{8}{section*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Position Controller}{8}{section*.6}%
+\contentsline {subsection}{\numberline {1.1.2}Middleware}{8}{subsection.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Attitude \& Rate Controller}{8}{section*.7}%
+\contentsline {section}{\numberline {1.2}Strumenti per lo sviluppo del codice}{8}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Mixer}{8}{section*.8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Actuator}{8}{section*.9}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{RC}{8}{section*.10}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografia}{11}{section*.10}%
+\contentsline {chapter}{Bibliografia}{13}{section.1.2}%

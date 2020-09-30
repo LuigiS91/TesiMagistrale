@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.10)  17 SEP 2020 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.30)  30 SEP 2020 18:50
 entering extended mode
 **./main.tex
 (main.tex
@@ -683,7 +683,7 @@ LaTeX Info: Redefining \nameref on input line 27.
 
 
 Straight input of comment.cut. (comment.cut
-<polito.png, id=27, 273.02pt x 271.0125pt>
+<polito.png, id=34, 273.02pt x 271.0125pt>
 File: polito.png Graphic file (type png)
 <use polito.png>
 Package pdftex.def Info: polito.png  used on input line 3.
@@ -764,7 +764,7 @@ Straight input of comment.cut. (comment.cut [7
 
 
 ]
-<Contestualizzazione/Figure/PX4_Architecture.png, id=74, 1237.62375pt x 1728.45
+<Contestualizzazione/Figure/PX4_Architecture.png, id=83, 1237.62375pt x 1728.45
 75pt>
 File: Contestualizzazione/Figure/PX4_Architecture.png Graphic file (type png)
 <use Contestualizzazione/Figure/PX4_Architecture.png>
@@ -775,7 +775,7 @@ on input line 13.
 
 LaTeX Warning: Float too large for page by 17.17212pt on input line 16.
 
-<Contestualizzazione/Figure/PX4_High-Level_Flight-Stack.png, id=77, 1367.1075pt
+<Contestualizzazione/Figure/PX4_High-Level_Flight-Stack.png, id=86, 1367.1075pt
  x 359.3425pt>
 File: Contestualizzazione/Figure/PX4_High-Level_Flight-Stack.png Graphic file (
 type png)
@@ -783,25 +783,27 @@ type png)
 Package pdftex.def Info: Contestualizzazione/Figure/PX4_High-Level_Flight-Stack
 .png  used on input line 21.
 (pdftex.def)             Requested size: 422.50232pt x 111.04958pt.
-) Excluding 'en' comment.) [8] [9 <./Contestualizzazione/Figure/PX4_Architectur
-e.png>] [10 <./Contestualizzazione/Figure/PX4_High-Level_Flight-Stack.png>]
+[8]) Excluding 'en' comment.) [9] [10 <./Contestualizzazione/Figure/PX4_Archite
+cture.png>] [11 <./Contestualizzazione/Figure/PX4_High-Level_Flight-Stack.png>]
+[12
+
+
+]
 \openout2 = `Bibliografia/bibliografia.aux'.
 
-
-(Bibliografia/bibliografia.tex) [11
-
+ (Bibliografia/bibliografia.tex) [13
 
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
- (main.aux (Contestualizzazione/px4.aux)
-(Bibliografia/bibliografia.aux))
+ (main.aux
+(Contestualizzazione/px4.aux) (Bibliografia/bibliografia.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 64F7CC69069F2E1234E710D6941AFAE3;344.
+(rerunfilecheck)             Checksum: 18A9C90B02AFCDC3F99ADF6E8FA7D6B6;489.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -812,13 +814,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16353 strings out of 481200
- 292684 string characters out of 2912646
- 1118552 words of memory out of 3000000
- 31653 multiletter control sequences out of 15000+200000
+ 16356 strings out of 481200
+ 292718 string characters out of 2912646
+ 1120553 words of memory out of 3000000
+ 31657 multiletter control sequences out of 15000+200000
  542669 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,14n,61p,812b,1411s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,14n,61p,812b,1409s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/luigi/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200
 .pk></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
 usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/l
@@ -829,9 +831,9 @@ mf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/share/miktex-texmf/fon
 ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/share/miktex-texmf/fonts/type
 1/public/amsfonts/cm/cmti12.pfb></usr/local/share/miktex-texmf/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (11 pages, 385751 bytes).
+Output written on main.pdf (13 pages, 390283 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 80 words of extra memory for PDF output out of 10000 (max. 10000000)
 

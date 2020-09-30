@@ -22,18 +22,15 @@ Il flight stack, mostrato in figura \ref{fig:px4.flightstack} è l'insieme di mo
 \caption{Architettura del flight stack di PX4}
 \label{fig:px4.flightstack}
 \end{figure}
-\paragraph{Sensors}
-Da dove prende i dati?
-Che cosa fa?
-A cosa serve?
-   Per chi lo fa?
-\paragraph{Position \& Attitude Estimator}
-\paragraph{Navigator}
-\paragraph{Position Controller}
-\paragraph{Attitude \& Rate Controller}
+\paragraph{Estimator}
+L'estimator è il modulo che prendendo i dati da uno o più sensori determina lo stato attuale del velivolo
+\paragraph{Controller}
+Si occupa di prendere in input i vari punti della pianificazione e confrontarli con lo stato attuale determinato dell'estimator. In questo modo vengono determinati i segnali di comando di output che saranno poi elaborati dal mixer.
 \paragraph{Mixer}
-\paragraph{Actuator}
-\paragraph{RC}
-
-
+Il mixer si occupa di determinare i segnali modulati ad impulsi che verranno utilizzati per il controllo del motore vero e proprio.
+\subsection{Middleware}
+Questo insieme di moduli si occupa invece di tutte le comunicazioni interne tra processi e tra PX4 e il mondo esterno. \'E composta principalmente dai driver per i sensori, i canali di comunicazione verso l'esterno e il bus di trasmissione di messaggi attraverso $\micro$ORB. In questo contesto ricade anche  la connessione con un simulatore per testare il codice generato nelle varie fasi di validazione.
+\section{Strumenti per lo sviluppo del codice}
+L'intero codice del firmware PX4 viene messo a disposizione attraverso la piattaforma github. Il progetto contiene all'interno le toolchain necessarie per compilare il sistema nei vari sistemi operativi. Agendo sulle varie possibili configurazioni di compilazione è possibile modificare e aggiunge delle funzionalità. Modificando le impostazioni di compilazioni si può generare il programma finale da caricare ed eseguire sull'autopilota.
+Sono presenti anche delle configurazioni di compilazione per effettuare l'analisi e la verifica del codice generato attraverso l'utilizzo di un ambiente simulato. I simulatori che presentano una configurazione di base sono : Gazebo, jMAVSim , AirSim, Xplane. Per quanto riguarda questa tesi, verrà utilizzato il software Gazebo sfruttando parzialmente il codice già presente e adottando alcune modifiche. nulla vieta comunque di poter collegare un simulatore diverso attraverso la creazione di un interfaccia dati con il firmware. Infatti la connessione viene effettuata attraverso UDP, risultando quindi indipendente dalla compilazione del codice del firmware.
 
