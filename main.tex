@@ -17,34 +17,13 @@
 	urlcolor=cyan,
 }
 
-\includecomment{it}
-\excludecomment{en}
 
-%\includecomment{en}
-%\excludecomment{it}
+\excludecomment{commento}
 
 
 \begin{document}
-\begin{en}
-	\english
-	\begin{frontespizio*}
-		\ateneo{Politecnico di Torino}
-		\logosede{polito}
-		\CorsoDiLaureaIn{Master of Science’s Degree in}
-		\corsodilaurea{Aerospace Engineering}	
-		\TesiDiLaurea{Master's Thesis}	
-		\titolo{Processor in the loop simulations and Code generation for Unmanned Aerial systems}
-		\AdvisorName{Supervisor:}
-		\relatore{Prof.ssa Elisa Capello}
-		\CoAdvisorName{Co-supervisor}
-		\secondorelatore{Dott. Davide Carminati}
-		\sedutadilaurea{December 2020}
-		\TitoloListaCandidati{Author:}
-		\candidato{Luigi Sante}
-	\end{frontespizio*}
-\end{en}
 
-\begin{it}
+
 	\begin{frontespizio*}
 		\ateneo{Politecnico di Torino}
 		\logosede{polito}
@@ -60,7 +39,7 @@
 		\TitoloListaCandidati{Autore:}
 		\candidato{Luigi Sante}
 	\end{frontespizio*}
-\end{it}
+
 
 	
 	\sommario
@@ -75,10 +54,15 @@
 	
 	\mainmatter
 	
-	\include{Contestualizzazione/px4}
+	\include{Introduzione/intro}
+	\include{Letteratura/letteratura}
+	\include{SistemaQuadrirotore/descrizione_drone}
+	\include{SistemaQuadrirotore/px4}
+	\include{SistemaQuadrirotore/leggidicontrollo}
+	\include{SistemaQuadrirotore/algoritmidiguida}
+	\include{Risultati/sitl}
+	\include{Risultati/conclusioni}
 	
-	
-%	\appendix
 	
 	
 	\backmatter

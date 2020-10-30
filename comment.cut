@@ -10,7 +10,7 @@ Nella figura \ref{fig:px4.architettura} è riportato lo schema di alto livello d
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=1\textwidth]{Contestualizzazione/Figure/PX4_Architecture}
+\includegraphics[width=1\textwidth]{SistemaQuadrirotore/Figure/PX4_Architecture}
 \caption{Architettura del codice di PX4 Autopilot}
 \label{fig:px4.architettura}
 \end{figure}
@@ -18,7 +18,7 @@ Nella figura \ref{fig:px4.architettura} è riportato lo schema di alto livello d
 Il flight stack, mostrato in figura \ref{fig:px4.flightstack} è l'insieme di moduli che si occupano della stima dello stato del sistema e di tutti le funzionalità per il controllo,la guida e la navigazione. Esiste anche un modulo per interfacciarsi con il volo manuale attraverso radiocomando.
 \begin{figure}[ht]
 \centering
-\includegraphics[width=1\textwidth]{Contestualizzazione/Figure/PX4_High-Level_Flight-Stack}
+\includegraphics[width=1\textwidth]{SistemaQuadrirotore/Figure/PX4_High-Level_Flight-Stack}
 \caption{Architettura del flight stack di PX4}
 \label{fig:px4.flightstack}
 \end{figure}
@@ -33,4 +33,6 @@ Questo insieme di moduli si occupa invece di tutte le comunicazioni interne tra 
 \section{Strumenti per lo sviluppo del codice}
 L'intero codice del firmware PX4 viene messo a disposizione attraverso la piattaforma github. Il progetto contiene all'interno le toolchain necessarie per compilare il sistema nei vari sistemi operativi. Agendo sulle varie possibili configurazioni di compilazione è possibile modificare e aggiunge delle funzionalità. Modificando le impostazioni di compilazioni si può generare il programma finale da caricare ed eseguire sull'autopilota.
 Sono presenti anche delle configurazioni di compilazione per effettuare l'analisi e la verifica del codice generato attraverso l'utilizzo di un ambiente simulato. I simulatori che presentano una configurazione di base sono : Gazebo, jMAVSim , AirSim, Xplane. Per quanto riguarda questa tesi, verrà utilizzato il software Gazebo sfruttando parzialmente il codice già presente e adottando alcune modifiche. nulla vieta comunque di poter collegare un simulatore diverso attraverso la creazione di un interfaccia dati con il firmware. Infatti la connessione viene effettuata attraverso UDP, risultando quindi indipendente dalla compilazione del codice del firmware.
+\subsection{MAVLink API}
+Esiste modulo API specifico permette attraverso il protocollo MAVLink di interfacciarsi con il mondo esterno , compreso il simulatore. Attraverso il suo utilizzo avviene lo scampio dei dati per esempio dei sensori  , oppure lo stato di funzionamento del drone.
 

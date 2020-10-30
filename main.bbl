@@ -45,6 +45,29 @@
       \field{dateera}{ce}
       \true{nocite}
     \endentry
+    \entry{MAVLink}{online}{}
+      \list{organization}{1}{%
+        {Dronecode Project}%
+      }
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeltitlesource}{title}
+      \field{title}{MAVLink Developer Guide}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://mavlink.io/en/
+      \endverb
+      \verb{url}
+      \verb https://mavlink.io/en/
+      \endverb
+      \keyw{mavlink}
+    \endentry
     \entry{Nuttx}{online}{}
       \list{organization}{1}{%
         {Wikipedia}%
@@ -84,10 +107,10 @@
       \field{urldateera}{ce}
       \true{nocite}
       \verb{urlraw}
-      \verb https://docs.px4.io/v1.8.2/en/#px4-autopilot-user-guide--182
+      \verb https://docs.px4.io/v1.8.0/en/#px4-autopilot-user-guide--180
       \endverb
       \verb{url}
-      \verb https://docs.px4.io/v1.8.2/en/#px4-autopilot-user-guide--182
+      \verb https://docs.px4.io/v1.8.0/en/#px4-autopilot-user-guide--180
       \endverb
       \keyw{px4}
     \endentry
@@ -146,6 +169,7 @@
       \verb{url}
       \verb https://it.mathworks.com/hardware-support/px4-autopilots.html
       \endverb
+      \keyw{px4}
     \endentry
   \enddatalist
 \endrefsection
