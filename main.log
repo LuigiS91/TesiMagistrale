@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.9.30)  30 OCT 2020 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.9.30)  30 OCT 2020 15:46
 entering extended mode
 **./main.tex
 (main.tex
@@ -569,9 +569,9 @@ Package csquotes Info: ... found 'babel' package.
  (main.aux
 (Introduzione/intro.aux) (Letteratura/letteratura.aux)
 (SistemaQuadrirotore/descrizione_drone.aux) (SistemaQuadrirotore/px4.aux)
-(SistemaQuadrirotore/leggidicontrollo.aux)
-(SistemaQuadrirotore/algoritmidiguida.aux) (Risultati/sitl.aux)
-(Risultati/conclusioni.aux) (Bibliografia/bibliografia.aux))
+(SistemaQuadrirotore/modello.aux) (SistemaQuadrirotore/leggidicontrollo.aux)
+(SistemaQuadrirotore/algoritmidiguida.aux) (Simulazioni/sitl.aux)
+(Simulazioni/conclusioni.aux) (Bibliografia/bibliografia.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -682,7 +682,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
-<polito.png, id=62, 273.02pt x 271.0125pt>
+<polito.png, id=66, 273.02pt x 271.0125pt>
 File: polito.png Graphic file (type png)
 <use polito.png>
 Package pdftex.def Info: polito.png  used on input line 29.
@@ -764,11 +764,7 @@ Excluding 'commento' comment.) [7
 Capitolo 2.
 [9
 
-]
-\openout2 = `SistemaQuadrirotore/descrizione_drone.aux'.
-
- (SistemaQuadrirotore/descrizione_drone.tex) [10
-
+] [10
 
 
 ]
@@ -776,18 +772,16 @@ Capitolo 3.
 [11
 
 ]
+\openout2 = `SistemaQuadrirotore/descrizione_drone.aux'.
+
+ (SistemaQuadrirotore/descrizione_drone.tex) [12
+
+]
 \openout2 = `SistemaQuadrirotore/px4.aux'.
 
- (SistemaQuadrirotore/px4.tex [12
 
-
-
-]
-Capitolo 4.
-[13
-
-]
-<SistemaQuadrirotore/Figure/PX4_Architecture.png, id=142, 1237.62375pt x 1728.4
+(SistemaQuadrirotore/px4.tex
+<SistemaQuadrirotore/Figure/PX4_Architecture.png, id=143, 1237.62375pt x 1728.4
 575pt>
 File: SistemaQuadrirotore/Figure/PX4_Architecture.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/PX4_Architecture.png>
@@ -798,7 +792,7 @@ on input line 22.
 
 LaTeX Warning: Float too large for page by 17.17212pt on input line 25.
 
-<SistemaQuadrirotore/Figure/PX4_High-Level_Flight-Stack.png, id=145, 1367.1075p
+<SistemaQuadrirotore/Figure/PX4_High-Level_Flight-Stack.png, id=146, 1367.1075p
 t x 359.3425pt>
 File: SistemaQuadrirotore/Figure/PX4_High-Level_Flight-Stack.png Graphic file (
 type png)
@@ -806,75 +800,71 @@ type png)
 Package pdftex.def Info: SistemaQuadrirotore/Figure/PX4_High-Level_Flight-Stack
 .png  used on input line 30.
 (pdftex.def)             Requested size: 422.50232pt x 111.04958pt.
-[14] Excluding 'commento' comment.) [15] [16 <./SistemaQuadrirotore/Figure/PX4_
-Architecture.png>] [17 <./SistemaQuadrirotore/Figure/PX4_High-Level_Flight-Stac
-k.png>]
-\openout2 = `SistemaQuadrirotore/leggidicontrollo.aux'.
+[13
 
- (SistemaQuadrirotore/leggidicontrollo.tex) [18
 
+] [14] Excluding 'commento' comment.) [15] [16 <./SistemaQuadrirotore/Figure/PX
+4_Architecture.png>] [17 <./SistemaQuadrirotore/Figure/PX4_High-Level_Flight-St
+ack.png>]
+\openout2 = `SistemaQuadrirotore/modello.aux'.
+
+ (SistemaQuadrirotore/modello.tex) [18
 
 
 ]
-Capitolo 5.
-[19
+\openout2 = `SistemaQuadrirotore/leggidicontrollo.aux'.
+
+
+(SistemaQuadrirotore/leggidicontrollo.tex) [19
+
 
 ]
 \openout2 = `SistemaQuadrirotore/algoritmidiguida.aux'.
 
- (SistemaQuadrirotore/algoritmidiguida.tex) [20
 
+(SistemaQuadrirotore/algoritmidiguida.tex) [20
 
 
 ]
-Capitolo 6.
+Capitolo 4.
 [21
 
-]
-\openout2 = `Risultati/sitl.aux'.
-
- (Risultati/sitl.tex) [22
-
-
 
 ]
-Capitolo 7.
-[23
+\openout2 = `Simulazioni/sitl.aux'.
+
+ (Simulazioni/sitl.tex) [22
 
 ]
-\openout2 = `Risultati/conclusioni.aux'.
+\openout2 = `Simulazioni/conclusioni.aux'.
 
- (Risultati/conclusioni.tex) [24
+ (Simulazioni/conclusioni.tex) [23
 
 
-
-]
-Capitolo 8.
-[25
-
-] [26
+] [24
 
 
 ]
 \openout2 = `Bibliografia/bibliografia.aux'.
 
- (Bibliografia/bibliografia.tex) [27
+
+(Bibliografia/bibliografia.tex) [25
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
- (main.aux
-(Introduzione/intro.aux) (Letteratura/letteratura.aux)
-(SistemaQuadrirotore/descrizione_drone.aux) (SistemaQuadrirotore/px4.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
+ (main.aux (Introduzione/intro.aux)
+(Letteratura/letteratura.aux) (SistemaQuadrirotore/descrizione_drone.aux)
+(SistemaQuadrirotore/px4.aux) (SistemaQuadrirotore/modello.aux)
 (SistemaQuadrirotore/leggidicontrollo.aux)
-(SistemaQuadrirotore/algoritmidiguida.aux) (Risultati/sitl.aux)
-(Risultati/conclusioni.aux) (Bibliografia/bibliografia.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
+(SistemaQuadrirotore/algoritmidiguida.aux) (Simulazioni/sitl.aux)
+(Simulazioni/conclusioni.aux) (Bibliografia/bibliografia.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 845FF4C8840A45CCD04A521BF20C62FC;851.
+(rerunfilecheck)             Checksum: B5FC67E5D82F7736F51861D286D22432;965.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -885,10 +875,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16466 strings out of 481200
- 296045 string characters out of 2912646
- 1138708 words of memory out of 3000000
- 31697 multiletter control sequences out of 15000+200000
+ 16480 strings out of 481200
+ 296571 string characters out of 2912646
+ 1140158 words of memory out of 3000000
+ 31703 multiletter control sequences out of 15000+200000
  542669 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,14n,61p,915b,1411s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -902,9 +892,9 @@ mf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/share/miktex-texmf/fon
 ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/share/miktex-texmf/fonts/type
 1/public/amsfonts/cm/cmti12.pfb></usr/local/share/miktex-texmf/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (27 pages, 405976 bytes).
+Output written on main.pdf (25 pages, 407619 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 144 words of extra memory for PDF output out of 10000 (max. 10000000)
 

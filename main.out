@@ -2,14 +2,15 @@
 \BOOKMARK [0][-]{section*.2}{Elenco delle figure}{}% 2
 \BOOKMARK [0][-]{chapter.1}{Introduzione}{}% 3
 \BOOKMARK [0][-]{chapter.2}{Letteratura}{}% 4
-\BOOKMARK [0][-]{chapter.3}{Descrizione del drone}{}% 5
-\BOOKMARK [0][-]{chapter.4}{PX4 Autopilot}{}% 6
-\BOOKMARK [1][-]{section.4.1}{Architettura del software}{chapter.4}% 7
-\BOOKMARK [2][-]{subsection.4.1.1}{Flight stack}{section.4.1}% 8
-\BOOKMARK [2][-]{subsection.4.1.2}{Middleware}{section.4.1}% 9
-\BOOKMARK [1][-]{section.4.2}{Strumenti per lo sviluppo del codice}{chapter.4}% 10
-\BOOKMARK [0][-]{chapter.5}{Leggi di controllo}{}% 11
-\BOOKMARK [0][-]{chapter.6}{Algoritmo di guida}{}% 12
-\BOOKMARK [0][-]{chapter.7}{Simulazioni effettuate}{}% 13
-\BOOKMARK [0][-]{chapter.8}{Conclusioni}{}% 14
-\BOOKMARK [0][-]{chapter.8}{Bibliografia}{}% 15
+\BOOKMARK [0][-]{chapter.3}{Sistema Quadrirotore}{}% 5
+\BOOKMARK [1][-]{section.3.1}{Descrizione del drone}{chapter.3}% 6
+\BOOKMARK [1][-]{section.3.2}{PX4 Autopilot}{chapter.3}% 7
+\BOOKMARK [2][-]{subsection.3.2.1}{Architettura del software}{section.3.2}% 8
+\BOOKMARK [2][-]{subsection.3.2.2}{Strumenti per lo sviluppo del codice}{section.3.2}% 9
+\BOOKMARK [1][-]{section.3.3}{Modello matematico}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.4}{Leggi di controllo}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.5}{Algoritmo di guida}{chapter.3}% 12
+\BOOKMARK [0][-]{chapter.4}{Simulazioni}{}% 13
+\BOOKMARK [1][-]{section.4.1}{Simulazione SITL}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.2}{Conclusioni}{chapter.4}% 15
+\BOOKMARK [0][-]{section.4.2}{Bibliografia}{}% 16

@@ -11,30 +11,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Letteratura}{9}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Descrizione del drone}{11}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Sistema Quadrirotore}{11}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}PX4 Autopilot}{13}{chapter.4}%
+\contentsline {section}{\numberline {3.1}Descrizione del drone}{12}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Architettura del software}{13}{section.4.1}%
+\contentsline {section}{\numberline {3.2}PX4 Autopilot}{13}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Flight stack}{14}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {3.2.1}Architettura del software}{13}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Estimator}{14}{section*.3}%
+\contentsline {subsubsection}{Flight stack}{14}{section*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Controller}{14}{section*.4}%
+\contentsline {paragraph}{Estimator}{14}{section*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Mixer}{14}{section*.5}%
+\contentsline {paragraph}{Controller}{14}{section*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Middleware}{14}{subsection.4.1.2}%
+\contentsline {paragraph}{Mixer}{14}{section*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Strumenti per lo sviluppo del codice}{15}{section.4.2}%
+\contentsline {subsubsection}{Middleware}{14}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Leggi di controllo}{19}{chapter.5}%
+\contentsline {subsection}{\numberline {3.2.2}Strumenti per lo sviluppo del codice}{14}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Algoritmo di guida}{21}{chapter.6}%
+\contentsline {section}{\numberline {3.3}Modello matematico}{18}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Simulazioni effettuate}{23}{chapter.7}%
+\contentsline {section}{\numberline {3.4}Leggi di controllo}{19}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Conclusioni}{25}{chapter.8}%
+\contentsline {section}{\numberline {3.5}Algoritmo di guida}{20}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografia}{27}{chapter.8}%
+\contentsline {chapter}{\numberline {4}Simulazioni}{21}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Simulazione SITL}{22}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Conclusioni}{23}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografia}{25}{section.4.2}%
