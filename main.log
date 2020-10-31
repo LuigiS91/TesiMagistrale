@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.9.30)  31 OCT 2020 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.9.30)  31 OCT 2020 13:09
 entering extended mode
 **./main.tex
 (main.tex
@@ -749,12 +749,12 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <29.85608> not available
 
  (Introduzione/intro.tex
 Capitolo 1.
-Excluding 'idee' comment. Excluding 'scaletta' comment.) [7
+Excluding 'idee' comment. Excluding 'scaletta' comment. [7
 
 
 
 
-] [8]
+]) [8]
 \openout2 = `Letteratura/letteratura.aux'.
 
 
@@ -876,7 +876,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  16489 strings out of 481200
  296671 string characters out of 2912646
- 1144302 words of memory out of 3000000
+ 1140302 words of memory out of 3000000
  31712 multiletter control sequences out of 15000+200000
  542669 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -891,7 +891,7 @@ mf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/share/miktex-texmf/fon
 ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/share/miktex-texmf/fonts/type
 1/public/amsfonts/cm/cmti12.pfb></usr/local/share/miktex-texmf/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (25 pages, 410881 bytes).
+Output written on main.pdf (25 pages, 410952 bytes).
 PDF statistics:
  276 PDF objects out of 1000 (max. 8388607)
  54 named destinations out of 1000 (max. 500000)
