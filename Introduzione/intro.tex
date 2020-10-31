@@ -1,63 +1,16 @@
 \chapter{Introduzione}
-\begin{idee}
-
-	Usare il px4 e pixhawk con gazebo per simulare le manovre.
-	
-	Valutare diverse manovre con differenti leggi di controllo.
-	
-	Modellare le leggi di controllo e generare il codice per il pixhawk usando px4 attraverso l'utilizzo di Simulink.
-	
-	Testare il software generato attraverso l'uso del simulatore. Caricare il programma generato nel pixhawk ed effettuare una simulazione simile per verificare.
-	
-	Creare i modelli di controllo dell'autopilota.
-	
-	Controllo pid e controllo smc.
-	
-	Utilizzo delle funzionalità di generazione del codice messe a disposizioni da Simulink.
-		
-	Non si può testare il codice direttamente sul drone, è pericoloso per le persone.	
-	
-	Il paradigma basata sui modelli prevede, avendo l'architettura del sistema e un modello sviluppato, di implementare il modello. Per verificarlo occorro effettuare una prima simulazione del software ottenuto. Secondariamente occerre eseguire il sofware sulla macchina. La fase finale prevede di testare il dispositivo con il  software installato e un altro computer si occupa di generare e ricevere i segnali reali (HITL). La fase finale prevede il volo effettivo e il test sul campo.
-	
-	Attualmente PX4 prevede di sviluppare il software, simularlo, fare hitl , che in realtà è processore in the loop. Dopo questa fase il deploy e il volo direttamente. E\' complesso scrivere il software direttamente. C'è un vantaggio nel concentrarsi sul modello invece che sul codice.
-	
-	Nonostante il mancato supporto per l'utilizzo di Gazebo come ambiente simulativo, aggirato il problema per il software in the loop.
-	
-	Difficoltà nella comunicazione dell'attuazione al simulatore. Corretta comunicazione dei sensori.
-\end{idee}
-
-\begin{scaletta}
-	Il paradigma basata sui modelli prevede, avendo l'architettura del sistema e un modello sviluppato, di implementare il modello. Per verificarlo occorro effettuare una prima simulazione del software ottenuto. Secondariamente occerre eseguire il sofware sulla macchina. La fase finale prevede di testare il dispositivo con il  software installato e un altro computer si occupa di generare e ricevere i segnali reali (HITL). La fase finale prevede il volo effettivo e il test sul campo.
-	
-	Attualmente PX4 prevede di sviluppare il software, simularlo,fare hitl , che in realtà è processore in the loop. Dopo questa fase il deploy e il volo direttamente. E\' complesso scrivere il software direttamente. C'è un vantaggio nel concentrarsi sul modello invece che sul codice.
-			
-	Il Tool messo a disposizione da mathwork permette di usare il model base e la generazione automatica del codice. Semplifica la creazione di controllori sofisticati.
-	
-	Creare i modelli di controllo dell'autopilota.
-
-	Controlli generati in questa tesi pid e controllo smc.
-	
-	Modellare le leggi di controllo e generare il codice per il pixhawk usando px4 attraverso l'utilizzo di Simulink.
-	
-	Testare il software generato attraverso l'uso del simulatore gazebo, conm le difficoltà connesse. Caricare il programma generato nel pixhawk ed effettuare una simulazione simile per verificare.
-	
-	Usare il px4 e pixhawk con gazebo per simulare le manovre.
-	
-	Valutare diverse manovre con differenti leggi di controllo.
-	
-\end{scaletta}
-La tesi prevede lo sviluppo del software necessario per il governo di un velivolo a pilotaggio remoto.
+La tesi prevede lo sviluppo del software necessario per il governo di un velivolo a pilotaggio remoto, implementando diversi modelli di controllo e validando il controllore con diverse simulazioni.
 
 Data la complessità della generazione del software necessario alla guida e controllo dei velivoli di questo tipo, l'approccio più intuitivo, che permette la collaborazione tra diverse figure professionali quali programmatori, ingegneri aerospaziali e meccatronici, risulta essere sicuramente basata sull'utilizzo di una logica progettuale a modelli. Questo tipo di approccio permette di semplificare lo sviluppo del software, concentrando gli sforzi di chi si occupa della creazione dei modelli di controllo sugli aspetti effettivamente importanti della funzionalità di questi, lasciando la complessità della generazione di algoritmi e le relative basi di dati a chi ha maggiore competenza informatica, attraverso lo sviluppo degli strumenti che automatizzano la generazione del codice e la sua compilazione. 
 Lo sviluppo del software effettuato in questo modo è accompagnato per ogni passaggio dalla corrispettiva fase di verifica: MIL, SIL, PIL, HIL; aspetto derivato proprio dal classica metodologia di sviluppo del software utilizzante il modello denominato a V, e pienamente solidificato in molti settori industriali.
 
-\'E stato scelto di utilizzare per l'implementazione dell'autopilota il dispositivo PixHawk con il relativo firmware PX4. Lo sviluppo del software avviene quinti specificatamente per questo ecosistema di prodotti e relativi firmware. Il codice del firmware è open-source, permettendo la possibilità di studiare e modificare il suo codice, producendo una soluzione che più si adatta alle specifiche. Il codice si trova ad uno stato abbastanza evoluto nello sviluppo, possedendo tutta una serie di funzionalità già sufficiente per gestire un velivolo a pilotaggio remoto. Concentrandosi solo sulla corretta configurazione dell'architettura e dei parametri interni per il software presente è quindi possibile avere un prodotto funzionante. Nel caso però si voglia inserire un personale modello di guida e controllo o di un nuovo stimatore, non sono previsti nativamente strumenti di modellazione, limitando lo sviluppo del software solo alle persone con una competenza informatica alta e obbligando la concentrazione su molti aspetti contemporaneamente, compresi la  vera e propria programmazione, incrementando la complessità di progettazione stessa. In definitiva si ha difficoltà di creazione del codice sorgente e la fase di verifica si limita a SIL e PIL, erroneamente chiamata HITL dai creatori del progetto.
+\'E stato scelto di utilizzare per l'implementazione dell'autopilota il dispositivo PixHawk con il relativo firmware PX4. Lo sviluppo del software avviene quinti specificatamente per questo ecosistema di prodotti e relativi firmware. Il codice del firmware è open-source, permettendo la possibilità di studiare e modificare il suo codice, producendo una soluzione che più si adatta alle specifiche. Il codice si trova ad uno stato abbastanza evoluto nello sviluppo, possedendo tutta una serie di funzionalità già sufficiente per gestire un velivolo a pilotaggio remoto. Nel caso però si voglia inserire un personale modello di guida e controllo o di un nuovo stimatore, non sono previsti nativamente strumenti di modellazione, limitando lo sviluppo del software solo alle persone con una competenza informatica alta, incrementando la complessità di progettazione stessa. In definitiva si ha difficoltà di creazione del codice sorgente partendo da un modello esistono però gli strumenti per verificare il codice tramite SIL e PIL.
 
-In modo complementare a PX4, si affianca lo sviluppo di un tool specifico per Simulink, chiamato "Embedded Coder Support Package
-for PX4 Autopilots". Simulink già permette nativamente di effettuare delle simulazione MIL, aspetto che trascende dalla implementazione specifica. Grazie a questo tool si permette la generazione del codice in modo automatico e l'inserimento del modulo prodotto nel firmware. Integrando quindi gli strumenti di compilazione presenti in PX4 si possono effettuare le simulazioni SIL e PIL, avvicinando lo sviluppo ad una approccio più industriale e permettendo di ripartire correttamente le difficoltà nelle varie fasi.
+In modo complementare a PX4, si affianca l'utilizzo di un tool specifico per Simulink, chiamato "Embedded Coder Support Package
+for PX4 Autopilots". Grazie a questo tool si permette la generazione del codice in modo automatico partendo dai modelli creati su Simulink e l'inserimento conforme del modulo prodotto all'interno del firmware e delle restanti funzionalità. Integrando quindi gli strumenti di compilazione presenti in PX4 si possono effettuare le simulazioni SIL e PIL, avvicinando lo sviluppo ad una approccio più industriale.
 
 Per testare correttamente il funzionamento di un velivolo a pilotaggio remoto, occorre ricreare in un ambiente simulato il velivolo stesso e le interazioni principali con l'ambiente in cui opera. La scelta dell'ambiente simulato ricade nell'utilizzo di Gazebo. Come anticipato precedentemente la procedura di SIL è nativamente presente nel progetto di PX4. I simulatori selezionabili per questa fase di test sono svariati, il tool di Simulink però limita la scelta ad un simulatore esterno solamente, ovvero jMavSim. Attraverso una procedura particolare però si è reso possibile l'utilizzo di Gazebo, ambiente più versatile e completamente personalizzabile.
 
-Sono stati generati i modelli di controllo delle diverse dinamiche del velivolo in due modi differenti e sono stati messi a confronto attraverso una simulazione SIL. Per qundo riguarda il controllo di posizione è stato utilizzato un semplice controllore PID, mentre per il controllo di quota e di assetto, sono stati confrontati un controllore PID e un SMC. 
+Sono stati creati due modelli di controllo delle diverse dinamiche del velivolo e, successivamente alla corretta configurazione dei parametri, sono stati messi a confronto attraverso simulazioni SIL. Per quando riguarda il controllo di posizione è stato utilizzato un semplice controllore PID, mentre per il controllo di quota e di assetto, sono stati utilizzati rispettivamente un controllore PID e un controllore SMC. 
 
-Purtroppo non è stato possibile effettuare correttamente la simulazione PIL a causa di alcuni problemi di comunicazione tra simulatore e pixhack. Precisamente, mentre la trasmissione tra simulatore e autopilota avviene correttamente per quanto riguarda la gestione dei dati dei sensori, ciò non viene altrettanto correttamente per quanto riguarda i messaggi da fornire agli attuatori. Questo ultimo aspetto richiede ulteriori indagini in eventuali lavori futuri.
+Purtroppo non è stato possibile effettuare correttamente la simulazione PIL a causa di alcuni problemi di comunicazione tra simulatore e pixhawk. La trasmissione tra simulatore e autopilota avviene correttamente per quanto riguarda la gestione dei dati dei sensori, ciò non viene altrettanto per quanto riguarda i messaggi da fornire agli attuatori. Questo ultimo aspetto richiede ulteriori indagini in lavori futuri.
