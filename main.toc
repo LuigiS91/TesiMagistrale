@@ -35,12 +35,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Leggi di controllo}{19}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Algoritmo di guida}{20}{section.3.5}%
+\contentsline {subsection}{\numberline {3.4.1}Controllore PID}{19}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Simulazioni}{21}{chapter.4}%
+\contentsline {section}{\numberline {3.5}Algoritmo di guida}{21}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Simulazione SITL}{22}{section.4.1}%
+\contentsline {chapter}{\numberline {4}Simulazioni}{23}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Conclusioni}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.1}Simulazione SITL}{24}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografia}{25}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Conclusioni}{25}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografia}{27}{section.4.2}%
