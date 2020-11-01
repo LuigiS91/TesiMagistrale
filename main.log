@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.9.30)  31 OCT 2020 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.9.30)  1 NOV 2020 14:16
 entering extended mode
 **./main.tex
 (main.tex
@@ -887,34 +887,14 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 18.
 
-! Undefined control sequence.
-l.20 \excludecoment
-                   {commento}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \excludecoment{c
-                     ommento}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Excluding comment 'idee' Excluding comment 'scaletta'
+Excluding comment 'commento' Excluding comment 'idee'
+Excluding comment 'scaletta'
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (main.aux
-(Introduzione/intro.aux) (Letteratura/letteratura.aux)
-(SistemaQuadrirotore/descrizione_drone.aux) (SistemaQuadrirotore/px4.aux)
-(SistemaQuadrirotore/modello.aux) (SistemaQuadrirotore/leggidicontrollo.aux)
+ (main.aux (Introduzione/intro.aux)
+(Letteratura/letteratura.aux) (SistemaQuadrirotore/descrizione_drone.aux)
+(SistemaQuadrirotore/px4.aux) (SistemaQuadrirotore/modello.aux)
+(SistemaQuadrirotore/leggidicontrollo.aux)
 (SistemaQuadrirotore/algoritmidiguida.aux) (Simulazioni/sitl.aux)
 (Simulazioni/conclusioni.aux) (Bibliografia/bibliografia.aux))
 \openout1 = `main.aux'.
@@ -964,32 +944,6 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.24 \begin{document}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\set@color ...\@pdfcolorstack push{\current@color 
-                                                  }\aftergroup \reset@color 
-l.24 \begin{document}
-                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[1
-
-
-{/home/luigi/.miktex/texmfs/data/pdftex/config/pdftex.map}]
 \captionwidth=\dimen256
 \fullwidth=\dimen257
 
@@ -1045,7 +999,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 \openout7 = `main.out'.
 
  ABD: EveryShipout initializing macros
-<polito.png, id=97, 273.02pt x 271.0125pt>
+<polito.png, id=93, 273.02pt x 271.0125pt>
 File: polito.png Graphic file (type png)
 <use polito.png>
 Package pdftex.def Info: polito.png  used on input line 28.
@@ -1070,7 +1024,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Overfull \vbox (12.50275pt too high) has occurred while \output is active []
 
 
-[1
+[1{/home/luigi/.miktex/texmfs/data/pdftex/config/pdftex.map}
+
+
 
  <./polito.png>]
 
@@ -1121,33 +1077,7 @@ Capitolo 1.
 
  (Letteratura/letteratura.tex
 Capitolo 2.
-
-! LaTeX Error: Environment commento undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \begin{commento}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{document} ended by \end{commento}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \end{commento}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Excluding 'idee' comment.) [9
+Excluding 'commento' comment. Excluding 'idee' comment.) [9
 
 
 
@@ -1168,7 +1098,7 @@ Capitolo 3.
 
 
 (SistemaQuadrirotore/px4.tex
-<SistemaQuadrirotore/Figure/PX4_Architecture.png, id=176, 1237.62375pt x 1728.4
+<SistemaQuadrirotore/Figure/PX4_Architecture.png, id=172, 1237.62375pt x 1728.4
 575pt>
 File: SistemaQuadrirotore/Figure/PX4_Architecture.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/PX4_Architecture.png>
@@ -1179,7 +1109,7 @@ on input line 22.
 
 LaTeX Warning: Float too large for page by 17.17212pt on input line 25.
 
-<SistemaQuadrirotore/Figure/PX4_High-Level_Flight-Stack.png, id=179, 1367.1075p
+<SistemaQuadrirotore/Figure/PX4_High-Level_Flight-Stack.png, id=175, 1367.1075p
 t x 359.3425pt>
 File: SistemaQuadrirotore/Figure/PX4_High-Level_Flight-Stack.png Graphic file (
 type png)
@@ -1262,10 +1192,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27278 strings out of 481200
- 529490 string characters out of 2912646
- 1347649 words of memory out of 3000000
- 42265 multiletter control sequences out of 15000+200000
+ 27281 strings out of 481200
+ 529533 string characters out of 2912646
+ 1347791 words of memory out of 3000000
+ 42268 multiletter control sequences out of 15000+200000
  542669 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,14n,90p,1013b,1427s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1279,9 +1209,9 @@ mf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/share/miktex-texmf/fon
 ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/share/miktex-texmf/fonts/type
 1/public/amsfonts/cm/cmti12.pfb></usr/local/share/miktex-texmf/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (26 pages, 423909 bytes).
+Output written on main.pdf (25 pages, 422091 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
+ 307 PDF objects out of 1000 (max. 8388607)
  57 named destinations out of 1000 (max. 500000)
  252 words of extra memory for PDF output out of 10000 (max. 10000000)
 

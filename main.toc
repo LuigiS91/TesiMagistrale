@@ -1,6 +1,6 @@
-\babel@toc {italian}{}
-\babel@toc {italian}{}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {italian}{}
+\babel@toc {italian}{}
 \babel@toc {italian}{}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Elenco delle tabelle}{5}{section*.2}%
