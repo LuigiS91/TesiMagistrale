@@ -13,4 +13,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Architettura del flight stack di PX4}}{17}{figure.3.2}%
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Modello di controllo completo PID}}{19}{figure.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Modello di controllo d' assetto PID}}{19}{figure.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Modello di controllo di altitudine PID}}{20}{figure.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Modello di controllo di posizione PID}}{20}{figure.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Modello di gestione dei segnali di armamento}}{21}{figure.3.7}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Risposta del sistema al segnale STEP}}{24}{figure.4.1}%
