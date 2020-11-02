@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.9.30)  2 NOV 2020 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.9.30)  2 NOV 2020 20:13
 entering extended mode
 **./main.tex
 (main.tex
@@ -1229,36 +1229,32 @@ LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line
 (/usr/local/share/miktex-texmf/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-
-! Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 echo "Makefile già 
-                         presente"
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: File `Simulazioni/Figure/PID/STEP/AltitudeControlPos' not found.
+Package epstopdf Info: Source file: <Simulazioni/Figure/PID/STEP/AltitudeContro
+lPos.eps>
+(epstopdf)                    date: 2020-11-02 20:09:16
+(epstopdf)                    size: 81466 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/PID/STEP/AltitudeContro
+lPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-02 20:10:30
+(epstopdf)                    size: 37896 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/STEP
+/AltitudeControlPos-eps-converted-to.pdf Simulazioni/Figure/PID/STEP/AltitudeCo
+ntrolPos.eps>
+(epstopdf)             \includegraphics on input line 46.
+Package epstopdf Info: Output file is already uptodate.
 
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ...azioni/Figure/PID/STEP/AltitudeControlPos}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/STEP/AltitudeControlPos
+-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<Simulazioni/Figure/PID/STEP/AltitudeControlPos-eps-converted-to.pdf, id=286, 3
+55.3275pt x 303.1325pt>
+File: Simulazioni/Figure/PID/STEP/AltitudeControlPos-eps-converted-to.pdf Graph
+ic file (type pdf)
+<use Simulazioni/Figure/PID/STEP/AltitudeControlPos-eps-converted-to.pdf>
+Package pdftex.def Info: Simulazioni/Figure/PID/STEP/AltitudeControlPos-eps-con
+verted-to.pdf  used on input line 46.
+(pdftex.def)             Requested size: 211.25116pt x 180.22499pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1267,56 +1263,57 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/STEP/AltitudeContro
 lVel.eps>
-(epstopdf)                    date: 2020-11-02 15:11:27
-(epstopdf)                    size: 78030 bytes
+(epstopdf)                    date: 2020-11-02 20:09:16
+(epstopdf)                    size: 78063 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/STEP/AltitudeContro
 lVel-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-11-02 20:03:57
-(epstopdf)                    size: 35474 bytes
+(epstopdf)                    date: 2020-11-02 20:10:31
+(epstopdf)                    size: 35508 bytes
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/STEP
 /AltitudeControlVel-eps-converted-to.pdf Simulazioni/Figure/PID/STEP/AltitudeCo
 ntrolVel.eps>
-(epstopdf)             \includegraphics on input line 54.
+(epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/STEP/AltitudeControlVel
 -eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
-<Simulazioni/Figure/PID/STEP/AltitudeControlVel-eps-converted-to.pdf, id=330, 3
-55.3275pt x 303.1325pt>
+<Simulazioni/Figure/PID/STEP/AltitudeControlVel-eps-converted-to.pdf, id=329, 3
+50.30875pt x 303.1325pt>
 File: Simulazioni/Figure/PID/STEP/AltitudeControlVel-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use Simulazioni/Figure/PID/STEP/AltitudeControlVel-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/STEP/AltitudeControlVel-eps-con
-verted-to.pdf  used on input line 54.
-(pdftex.def)             Requested size: 211.25116pt x 180.22499pt.
+verted-to.pdf  used on input line 52.
+(pdftex.def)             Requested size: 211.25116pt x 182.80598pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/STEP/PWM.eps>
-(epstopdf)                    date: 2020-11-02 15:11:30
-(epstopdf)                    size: 100906 bytes
+(epstopdf)                    date: 2020-11-02 20:09:22
+(epstopdf)                    size: 100922 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/STEP/PWM-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2020-11-02 20:03:57
-(epstopdf)                    size: 43164 bytes
+(epstopdf)                    date: 2020-11-02 20:10:32
+(epstopdf)                    size: 43192 bytes
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/STEP
 /PWM-eps-converted-to.pdf Simulazioni/Figure/PID/STEP/PWM.eps>
-(epstopdf)             \includegraphics on input line 60.
+(epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/STEP/PWM-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<Simulazioni/Figure/PID/STEP/PWM-eps-converted-to.pdf, id=331, 357.335pt x 275.
-0275pt>
+<Simulazioni/Figure/PID/STEP/PWM-eps-converted-to.pdf, id=330, 352.31625pt x 27
+5.0275pt>
 File: Simulazioni/Figure/PID/STEP/PWM-eps-converted-to.pdf Graphic file (type p
 df)
 <use Simulazioni/Figure/PID/STEP/PWM-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/STEP/PWM-eps-converted-to.pdf  
-used on input line 60.
-(pdftex.def)             Requested size: 211.25116pt x 162.59215pt.
-[25 <./Simulazioni/Figure/PID/STEP/AltitudeControlVel-eps-converted-to.pdf>]
-[26 <./Simulazioni/Figure/PID/STEP/PWM-eps-converted-to.pdf>]
+used on input line 58.
+(pdftex.def)             Requested size: 211.25116pt x 164.90866pt.
+[25 <./Simulazioni/Figure/PID/STEP/AltitudeControlPos-eps-converted-to.pdf> <./
+Simulazioni/Figure/PID/STEP/AltitudeControlVel-eps-converted-to.pdf>] [26 <./Si
+mulazioni/Figure/PID/STEP/PWM-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/STEP/AltitudeContro
 lPos.eps>
 (epstopdf)                    date: 2020-11-02 15:13:39
@@ -1328,20 +1325,20 @@ lPos-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/STEP
 /AltitudeControlPos-eps-converted-to.pdf Simulazioni/Figure/SMC/STEP/AltitudeCo
 ntrolPos.eps>
-(epstopdf)             \includegraphics on input line 70.
+(epstopdf)             \includegraphics on input line 68.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/STEP/AltitudeControlPos
 -eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
-<Simulazioni/Figure/SMC/STEP/AltitudeControlPos-eps-converted-to.pdf, id=350, 3
+<Simulazioni/Figure/SMC/STEP/AltitudeControlPos-eps-converted-to.pdf, id=351, 3
 50.30875pt x 303.1325pt>
 File: Simulazioni/Figure/SMC/STEP/AltitudeControlPos-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use Simulazioni/Figure/SMC/STEP/AltitudeControlPos-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/STEP/AltitudeControlPos-eps-con
-verted-to.pdf  used on input line 70.
+verted-to.pdf  used on input line 68.
 (pdftex.def)             Requested size: 211.25116pt x 182.80598pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/STEP/AltitudeContro
 lVel.eps>
@@ -1354,20 +1351,20 @@ lVel-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/STEP
 /AltitudeControlVel-eps-converted-to.pdf Simulazioni/Figure/SMC/STEP/AltitudeCo
 ntrolVel.eps>
-(epstopdf)             \includegraphics on input line 76.
+(epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/STEP/AltitudeControlVel
 -eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
-<Simulazioni/Figure/SMC/STEP/AltitudeControlVel-eps-converted-to.pdf, id=351, 3
+<Simulazioni/Figure/SMC/STEP/AltitudeControlVel-eps-converted-to.pdf, id=352, 3
 55.3275pt x 303.1325pt>
 File: Simulazioni/Figure/SMC/STEP/AltitudeControlVel-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use Simulazioni/Figure/SMC/STEP/AltitudeControlVel-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/STEP/AltitudeControlVel-eps-con
-verted-to.pdf  used on input line 76.
+verted-to.pdf  used on input line 74.
 (pdftex.def)             Requested size: 211.25116pt x 180.22499pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/STEP/PWM.eps>
 (epstopdf)                    date: 2020-11-02 15:13:42
@@ -1378,20 +1375,20 @@ ted-to.pdf>
 (epstopdf)                    size: 43590 bytes
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/STEP
 /PWM-eps-converted-to.pdf Simulazioni/Figure/SMC/STEP/PWM.eps>
-(epstopdf)             \includegraphics on input line 82.
+(epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/STEP/PWM-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<Simulazioni/Figure/SMC/STEP/PWM-eps-converted-to.pdf, id=352, 357.335pt x 278.
+<Simulazioni/Figure/SMC/STEP/PWM-eps-converted-to.pdf, id=353, 357.335pt x 278.
 03876pt>
 File: Simulazioni/Figure/SMC/STEP/PWM-eps-converted-to.pdf Graphic file (type p
 df)
 <use Simulazioni/Figure/SMC/STEP/PWM-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/STEP/PWM-eps-converted-to.pdf  
-used on input line 82.
+used on input line 80.
 (pdftex.def)             Requested size: 211.25116pt x 164.37236pt.
 [27
 
@@ -1437,10 +1434,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29292 strings out of 481200
- 561574 string characters out of 2912646
+ 29293 strings out of 481200
+ 561847 string characters out of 2912646
  1388852 words of memory out of 3000000
- 44168 multiletter control sequences out of 15000+200000
+ 44171 multiletter control sequences out of 15000+200000
  543135 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,14n,97p,1013b,1429s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1456,9 +1453,9 @@ onts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/share/miktex-texmf/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb></usr/local/share/miktex-texmf/fonts/type1/pu
 blic/amsfonts/cm/cmtt10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/a
 msfonts/cm/cmtt12.pfb>
-Output written on main.pdf (31 pages, 894286 bytes).
+Output written on main.pdf (31 pages, 930061 bytes).
 PDF statistics:
- 472 PDF objects out of 1000 (max. 8388607)
- 123 named destinations out of 1000 (max. 500000)
- 334 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 473 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
+ 339 words of extra memory for PDF output out of 10000 (max. 10000000)
 
