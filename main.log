@@ -1197,18 +1197,13 @@ ID.eps>
 (epstopdf)                    size: 81509 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/STEPaltitudecontrolposP
 ID-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-02 13:30:06
+(epstopdf)                    size: 37885 bytes
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/STEPalti
 tudecontrolposPID-eps-converted-to.pdf Simulazioni/Figure/STEPaltitudecontrolpo
 sPID.eps>
 (epstopdf)             \includegraphics on input line 6.
-runsystem(epstopdf --outfile=Simulazioni/Figure/STEPaltitudecontrolposPID-eps-c
-onverted-to.pdf Simulazioni/Figure/STEPaltitudecontrolposPID.eps)...executed (a
-llowed).
-
-Package epstopdf Info: Result file: <Simulazioni/Figure/STEPaltitudecontrolposP
-ID-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-11-02 13:30:06
-(epstopdf)                    size: 37885 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/STEPaltitudecontrolposPID-e
@@ -1272,25 +1267,29 @@ File: Simulazioni/Figure/STEPpwmPID-eps-converted-to.pdf Graphic file (type pdf
 Package pdftex.def Info: Simulazioni/Figure/STEPpwmPID-eps-converted-to.pdf  us
 ed on input line 18.
 (pdftex.def)             Requested size: 422.50232pt x 322.25937pt.
-) [24
+[24
 
  <./Simulazioni/Figure/STEPaltitudecontrolposPID-eps-converted-to.pdf>]
 [25 <./Simulazioni/Figure/STEPaltitudecontrolvelPID-eps-converted-to.pdf>]
-[26 <./Simulazioni/Figure/STEPpwmPID-eps-converted-to.pdf>]
+[26 <./Simulazioni/Figure/STEPpwmPID-eps-converted-to.pdf>] [27
+
+]) [28
+
+]
 \openout2 = `Simulazioni/conclusioni.aux'.
 
 
-(Simulazioni/conclusioni.tex) [27
+(Simulazioni/conclusioni.tex) [29
 
 
-] [28
+] [30
 
 
 ]
 \openout2 = `Bibliografia/bibliografia.aux'.
 
  (Bibliografia/bibliografia.tex)
-[29
+[31
 
 
 
@@ -1316,8 +1315,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27423 strings out of 481200
- 534694 string characters out of 2912646
+ 27425 strings out of 481200
+ 534708 string characters out of 2912646
  1347936 words of memory out of 3000000
  42370 multiletter control sequences out of 15000+200000
  542669 words of font info for 54 fonts, out of 3000000 for 9000
@@ -1333,9 +1332,9 @@ mf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/share/miktex-texmf/fon
 ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/share/miktex-texmf/fonts/type
 1/public/amsfonts/cm/cmti12.pfb></usr/local/share/miktex-texmf/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (29 pages, 793938 bytes).
+Output written on main.pdf (31 pages, 795421 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
+ 397 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
  324 words of extra memory for PDF output out of 10000 (max. 10000000)
 
