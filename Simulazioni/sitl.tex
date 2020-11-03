@@ -1,5 +1,4 @@
 \section{Simulazione SITL}
-
 \begin{lstlisting}
 #File : sil.h
 #!/bin/bash
@@ -191,6 +190,70 @@ $Firmware/Tools/sitl_run.sh $Firmware/build/posix_sitl_default/px4  posix-config
 \end{figure}
 
 \clearpage
+\subsubsection{SNAKE}
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/PID/SNAKE/PositionControlXPos}
+		\caption{Controllo posizione lungo x}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/PID/SNAKE/PositionControlYPos}
+		\caption{Controllo posizione lungo y}
+	\end{subfigure}
+	\\
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/PID/SNAKE/PositionControlXVel}
+		\caption{Controllo velocità lungo x}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/PID/SNAKE/PositionControlYVel}
+		\caption{Controllo velocità lungo y}
+	\end{subfigure}
+	\caption{Risposta in posizione con controllore interno PID al comando SNAKE}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/PID/SNAKE/AttitudeControlPitch}
+		\caption{Controllo beccheggio}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/PID/SNAKE/AttitudeControlRoll}
+		\caption{Controllo rollio}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/PID/SNAKE/AttitudeControlYaw}
+		\caption{Controllo imbardata}
+	\end{subfigure}
+	\caption{Risposta dell' assetto con controllore interno PID al comando SNAKE}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{Simulazioni/Figure/PID/SNAKE/PWM}
+	\caption{Segnali PWM del controllore PID al segnale SNAKE}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{Simulazioni/Figure/PID/SNAKE/Trajectory}
+	\caption{Traiettoria percorsa con controllore PID al segnale SNAKE}
+\end{figure}
+
+\clearpage
 \subsection{SMC}
 \subsubsection{STEP}
 \todo[inline]{Tabella dei waypoints}
@@ -281,6 +344,7 @@ $Firmware/Tools/sitl_run.sh $Firmware/build/posix_sitl_default/px4  posix-config
 
 \clearpage
 \subsubsection{BUTTERFLY}
+
 \begin{figure}
 	\centering
 	\begin{subfigure}{0.45\textwidth}
@@ -339,7 +403,71 @@ $Firmware/Tools/sitl_run.sh $Firmware/build/posix_sitl_default/px4  posix-config
 \begin{figure}
 	\centering
 	\includegraphics[width=0.5\textwidth]{Simulazioni/Figure/SMC/BUTTERFLY/Trajectory}
-	\caption{Traiettoria percorsa con controllore SMC al segnale SQUARE}
+	\caption{Traiettoria percorsa con controllore SMC al segnale BUTTERFLY}
+\end{figure}
+
+\clearpage
+\subsubsection{SNAKE}
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/PositionControlXPos}
+		\caption{Controllo posizione lungo x}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/PositionControlYPos}
+		\caption{Controllo posizione lungo y}
+	\end{subfigure}
+	\\
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/PositionControlXVel}
+		\caption{Controllo velocità lungo x}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/PositionControlYVel}
+		\caption{Controllo velocità lungo y}
+	\end{subfigure}
+	\caption{Risposta in posizione con controllore interno SMC al comando SNAKE}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/AttitudeControlPitch}
+		\caption{Controllo beccheggio}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/AttitudeControlRoll}
+		\caption{Controllo rollio}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/AttitudeControlYaw}
+		\caption{Controllo imbardata}
+	\end{subfigure}
+	\caption{Risposta dell' assetto con controllore interno SMC al comando SNAKE}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{Simulazioni/Figure/SMC/SNAKE/PWM}
+	\caption{Segnali PWM del controllore SMC al segnale SNAKE}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{Simulazioni/Figure/SMC/SNAKE/Trajectory}
+	\caption{Traiettoria percorsa con controllore SMC al segnale SNAKE}
 \end{figure}
 
 \clearpage
