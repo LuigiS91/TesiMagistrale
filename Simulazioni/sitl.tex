@@ -1,43 +1,6 @@
+\chapter{Simulazioni}
+
 \section{Simulazione SITL}
-
-\lstset{language=csh}
-\begin{lstlisting}
-#File : sil.h
-#!/bin/bash
-
-export GAZEBO_MODEL_DATABASE_URI=""
-
-sim=$1
-
-Firmware=$(realpath .)
-
-cp posix-configs/SITL/init/ekf2/iris posix-configs/SITL/init/ekf2/sim
-
-if [ "$#" -lt 1 ]
-then
-	echo Specificare il simulatore : jmavsim , gazebo
-	exit 1
-fi
-
-if [ "$sim" == "gazebo" ] 
-then
-	cd build/posix_sitl_default/build_gazebo
-if [ "$(ls -A .)" ]
-then
-	echo "Makefile gia' presente"
-else
-	echo "Creazione makefile"
-	cmake $Firmware/Tools/sitl_gazebo
-fi
-	echo "Esecuzione makefile"
-	make
-	cd $Firmware/build/posix_sitl_default
-else
-	cd $Firmware/build/posix_sitl_default
-fi
-
-$Firmware/Tools/sitl_run.sh $Firmware/build/posix_sitl_default/px4  posix-configs/SITL/init/ekf2 none $sim sim $Firmware $Firmware/build/posix_sitl_default
-\end{lstlisting}
 
 \subsection{PID}
 \subsubsection{STEP}
@@ -63,6 +26,7 @@ $Firmware/Tools/sitl_run.sh $Firmware/build/posix_sitl_default/px4  posix-config
 	\includegraphics[width=0.5\textwidth]{Simulazioni/Figure/PID/STEP/PWM}
 	\caption{Segnali PWM del controllore PID al segnale STEP}
 \end{figure}
+\clearpage
 \subsubsection{SQUARE}
 \begin{figure}
 	\centering
@@ -280,6 +244,7 @@ $Firmware/Tools/sitl_run.sh $Firmware/build/posix_sitl_default/px4  posix-config
 	\includegraphics[width=0.5\textwidth]{Simulazioni/Figure/SMC/STEP/PWM}
 	\caption{Segnali PWM generati del controllore SMC al segnale STEP}
 \end{figure}
+\clearpage
 
 \subsubsection{SQUARE}
 \begin{figure}
@@ -473,4 +438,4 @@ $Firmware/Tools/sitl_run.sh $Firmware/build/posix_sitl_default/px4  posix-config
 \end{figure}
 
 \clearpage
-\subsection{Confronto}
+%\subsection{Confronto}
