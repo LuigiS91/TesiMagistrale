@@ -6,7 +6,7 @@
 \usepackage[]{hyperref}
 \usepackage{lipsum}
 \usepackage{comment}
-\usepackage[]{todonotes}
+\usepackage[disable]{todonotes}
 \usepackage{listings}
 \usepackage{color}
 \usepackage{caption}
@@ -46,6 +46,9 @@
 \excludecomment{idee}
 \excludecomment{scaletta}
 
+\includeonly{Sommario,DescrizioneAutopilota/px4,Simulazioni/sitl}
+
+
 \begin{document}
 
 	\begin{frontespizio*}
@@ -64,23 +67,21 @@
 		\candidato{Luigi Sante}
 	\end{frontespizio*}
 
+	\include{sommario}
 
-	\sommario
-
-	\ringraziamenti
+	\include{ringraziamenti}
 	
 	\tableofcontents
-	\listoftables
+%	\listoftables
 	\listoffigures
 	
 	\mainmatter
 	
 	\include{Introduzione/intro}	
 	
-	\chapter{Sistema Quadrirotore}
-	\include{SistemaQuadrirotore/modello}
-	\include{SistemaQuadrirotore/leggidicontrollo}
-	\include{SistemaQuadrirotore/algoritmidiguida}
+	\include{sistemaquadrirotore}
+	
+	\include{SistemaQuadrirotore/submain}
 	
 	\chapter{Descrizione Autopilota}
 	\include{DescrizioneAutopilota/descrizione_drone}

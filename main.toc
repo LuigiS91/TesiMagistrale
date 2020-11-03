@@ -3,23 +3,11 @@
 \babel@toc {italian}{}
 \babel@toc {italian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Elenco delle tabelle}{5}{section*.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Elenco delle figure}{6}{section*.2}%
+\contentsline {chapter}{Elenco delle figure}{3}{section*.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduzione}{9}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Sistema Quadrirotore}{11}{chapter.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Modello matematico}{12}{section.2.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Leggi di controllo}{13}{section.2.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Controllore PID}{13}{subsection.2.2.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Algoritmo di guida}{16}{section.2.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Descrizione Autopilota}{17}{chapter.3}%
+\contentsline {chapter}{\numberline {2}Descrizione Autopilota}{11}{chapter.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Descrizione del drone}{18}{section.3.1}%
 \defcounter {refsection}{0}\relax 
@@ -27,15 +15,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Architettura del software}{19}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Flight stack}{20}{section*.12}%
+\contentsline {subsubsection}{Flight stack}{20}{section*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Estimator}{20}{section*.14}%
+\contentsline {paragraph}{Estimator}{20}{section*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Controller}{20}{section*.15}%
+\contentsline {paragraph}{Controller}{20}{section*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Mixer}{20}{section*.16}%
+\contentsline {paragraph}{Mixer}{20}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Middleware}{20}{section*.17}%
+\contentsline {subsubsection}{Middleware}{20}{section*.8}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Strumenti per lo sviluppo del codice}{20}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
@@ -45,23 +33,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.1}PID}{27}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{STEP}{27}{section*.20}%
+\contentsline {subsubsection}{STEP}{27}{section*.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SQUARE}{27}{section*.24}%
+\contentsline {subsubsection}{SQUARE}{27}{section*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{BUTTERFLY}{31}{section*.29}%
+\contentsline {subsubsection}{BUTTERFLY}{31}{section*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SNAKE}{34}{section*.34}%
+\contentsline {subsubsection}{SNAKE}{34}{section*.22}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.2}SMC}{37}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{STEP}{37}{section*.39}%
+\contentsline {subsubsection}{STEP}{37}{section*.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SQUARE}{37}{section*.43}%
+\contentsline {subsubsection}{SQUARE}{37}{section*.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{BUTTERFLY}{41}{section*.48}%
+\contentsline {subsubsection}{BUTTERFLY}{41}{section*.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SNAKE}{44}{section*.53}%
+\contentsline {subsubsection}{SNAKE}{44}{section*.40}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.3}Confronto}{47}{subsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
@@ -69,6 +57,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Appendice}{49}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Gazebo}{49}{section*.58}%
+\contentsline {subsection}{Gazebo}{49}{section*.51}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Bibliografia}{51}{lstnumber.-3.25}%
