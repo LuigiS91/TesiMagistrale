@@ -46,7 +46,6 @@
 \excludecomment{idee}
 \excludecomment{scaletta}
 
-\includeonly{Sommario,DescrizioneAutopilota/px4,Simulazioni/sitl}
 
 
 \begin{document}
@@ -79,17 +78,16 @@
 	
 	\include{Introduzione/intro}	
 	
-	\include{sistemaquadrirotore}
-	
-	\include{SistemaQuadrirotore/submain}
+	\chapter{Sistema Quadrirotore}
+	\include{SistemaQuadrirotore/modello}
+	\include{SistemaQuadrirotore/leggidicontrollo}
+	\include{SistemaQuadrirotore/algoritmidiguida}
 	
 	\chapter{Descrizione Autopilota}
 	\include{DescrizioneAutopilota/descrizione_drone}
 	\include{DescrizioneAutopilota/px4}
 	\include{DescrizioneAutopilota/gazebo}
 
-	
-	
 	\chapter{Simulazioni}
 	\include{Simulazioni/sitl}
 	\include{Simulazioni/pitl}
