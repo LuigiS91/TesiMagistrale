@@ -16,7 +16,8 @@
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
 
-\lstset{frame=tb,
+\lstset{
+	frame=tb,
 	aboveskip=3mm,
 	belowskip=3mm,
 	showstringspaces=false,
@@ -74,21 +75,23 @@
 	
 	\mainmatter
 	
-	\include{Introduzione/intro}
+	\include{Introduzione/intro}	
 	
-	\chapter{Descrizione autopilota}
-	\include{SistemaQuadrirotore/descrizione_drone}
-	\include{SistemaQuadrirotore/px4}
-	\include{gazebo}
 	\chapter{Sistema Quadrirotore}
 	\include{SistemaQuadrirotore/modello}
 	\include{SistemaQuadrirotore/leggidicontrollo}
 	\include{SistemaQuadrirotore/algoritmidiguida}
 	
+	\chapter{Descrizione Autopilota}
+	\include{DescrizioneAutopilota/descrizione_drone}
+	\include{DescrizioneAutopilota/px4}
+	\include{DescrizioneAutopilota/gazebo}
+
+	
 	
 	\chapter{Simulazioni}
 	\include{Simulazioni/sitl}
-	\include{pitl}
+	\include{Simulazioni/pitl}
 	\include{Simulazioni/conclusioni} %lavori futuri
 	
 	\backmatter

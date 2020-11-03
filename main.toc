@@ -3,70 +3,72 @@
 \babel@toc {italian}{}
 \babel@toc {italian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Elenco delle tabelle}{5}{section*.2}%
+\contentsline {chapter}{Elenco delle tabelle}{5}{section*.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Elenco delle figure}{6}{section*.3}%
+\contentsline {chapter}{Elenco delle figure}{6}{section*.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduzione}{9}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Revisione della letteratura}{11}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Sistema Quadrirotore}{11}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Sistema Quadrirotore}{13}{chapter.3}%
+\contentsline {section}{\numberline {2.1}Modello matematico}{12}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Descrizione del drone}{14}{section.3.1}%
+\contentsline {section}{\numberline {2.2}Leggi di controllo}{13}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}PX4 Autopilot}{15}{section.3.2}%
+\contentsline {subsection}{\numberline {2.2.1}Controllore PID}{13}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Architettura del software}{15}{subsection.3.2.1}%
+\contentsline {section}{\numberline {2.3}Algoritmo di guida}{16}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Flight stack}{16}{section*.6}%
+\contentsline {chapter}{\numberline {3}Descrizione Autopilota}{17}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Estimator}{16}{section*.8}%
+\contentsline {section}{\numberline {3.1}Descrizione del drone}{18}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Controller}{16}{section*.9}%
+\contentsline {section}{\numberline {3.2}PX4 Autopilot}{19}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Mixer}{16}{section*.10}%
+\contentsline {subsection}{\numberline {3.2.1}Architettura del software}{19}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Middleware}{16}{section*.11}%
+\contentsline {subsubsection}{Flight stack}{20}{section*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Strumenti per lo sviluppo del codice}{16}{subsection.3.2.2}%
+\contentsline {paragraph}{Estimator}{20}{section*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Modello matematico}{20}{section.3.3}%
+\contentsline {paragraph}{Controller}{20}{section*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Gazebo}{20}{subsection.3.3.1}%
+\contentsline {paragraph}{Mixer}{20}{section*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Leggi di controllo}{22}{section.3.4}%
+\contentsline {subsubsection}{Middleware}{20}{section*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Controllore PID}{22}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.2.2}Strumenti per lo sviluppo del codice}{20}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Algoritmo di guida}{25}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Simulazioni}{25}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Simulazioni}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Simulazione SITL}{26}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Simulazione SITL}{28}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}PID}{27}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}PID}{29}{subsection.4.1.1}%
+\contentsline {subsubsection}{STEP}{27}{section*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{STEP}{29}{section*.21}%
+\contentsline {subsubsection}{SQUARE}{27}{section*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SQUARE}{29}{section*.25}%
+\contentsline {subsubsection}{BUTTERFLY}{31}{section*.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{BUTTERFLY}{33}{section*.30}%
+\contentsline {subsubsection}{SNAKE}{34}{section*.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SNAKE}{36}{section*.35}%
+\contentsline {subsection}{\numberline {4.1.2}SMC}{37}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}SMC}{39}{subsection.4.1.2}%
+\contentsline {subsubsection}{STEP}{37}{section*.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{STEP}{39}{section*.40}%
+\contentsline {subsubsection}{SQUARE}{37}{section*.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SQUARE}{39}{section*.44}%
+\contentsline {subsubsection}{BUTTERFLY}{41}{section*.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{BUTTERFLY}{43}{section*.49}%
+\contentsline {subsubsection}{SNAKE}{44}{section*.53}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SNAKE}{46}{section*.54}%
+\contentsline {subsection}{\numberline {4.1.3}Confronto}{47}{subsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Confronto}{49}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Conclusioni}{48}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Conclusioni}{50}{section.4.2}%
+\contentsline {chapter}{Appendice}{49}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografia}{51}{section.4.2}%
+\contentsline {subsection}{Gazebo}{49}{section*.58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografia}{51}{lstnumber.-3.25}%

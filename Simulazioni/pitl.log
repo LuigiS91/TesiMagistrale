@@ -1,0 +1,21 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.9.30)  3 NOV 2020 20:20
+entering extended mode
+**./pitl.tex
+(pitl.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-09-03>)
+! Emergency stop.
+<*> ./pitl.tex
+              
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 18 strings out of 481200
+ 402 string characters out of 2912646
+ 243117 words of memory out of 3000000
+ 15721 multiletter control sequences out of 15000+200000
+ 535088 words of font info for 29 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 12i,0n,15p,42b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
