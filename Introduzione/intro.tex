@@ -15,3 +15,36 @@ Sono stati creati due modelli di controllo delle diverse dinamiche del velivolo 
 \todo{Che tipo di algoritmo di guida è stato utilizzato?}
 
 Non è invece stato possibile effettuare correttamente la simulazione PIL a causa di alcuni problemi di comunicazione tra simulatore PixHawk. La trasmissione tra simulatore e autopilota avviene correttamente per quanto riguarda la gestione dei dati dei sensori, ciò non viene altrettanto per quanto riguarda i messaggi da fornire agli attuatori. Questo problema é probabilmente causato dalla differenza sostanziale che c'è tra l'applicazione generata dal tool di Simulink e la logica di base di PX4 nella gestione dei messaggi agli attuatori. Questo aspetto richiede ulteriori indagini in lavori futuri.
+
+
+\begin{commento}
+Capitolo sulla letteratura	
+\end{commento}
+\begin{idee}
+	La principale fonte è la tesi di davide, essendo la continuazione naturale del suo lavoro.
+	Cosa ha fatto nel suo lavoro.
+	Nella libreria di gazebo è stato modificata la sezione dei rotori in modo da rispettare il lavoro della tesi di davide, essendo l'applicazione finale lo stesso drone.
+	
+	Il segnale preso dal controllore viene dal filtro di kalman di px4.
+	Spiegazione di come funziona un filtro di kalman.
+	
+	Bisogna parlare dei controlli PID e SMC dalla sua bibliografia.
+	
+	Un'altra tesi è stata presa in considerazione per lo sviluppo del codice attraverso il tool. 
+	
+	Si è studiata la documentazione del tool.
+	
+	Si è utilizzato il codice sorgente è la relativa documentazione.
+	
+	Ci sono diverse tipologie di controllori applicati ai velivoli a pilotaggio remoto. 
+	
+	Quali tipologie di droni esistono.
+	
+	Quali sono le possibili applicazioni nel settore.
+	
+	Come è fatta la verifica dei prodotti nel settore industriale.
+	
+	Documentazione relativa a gazebo per l'istallazione e la modifica dei plug-in.
+	
+	Utilizzi di gazebo nel settore dei droni.
+\end{idee}
