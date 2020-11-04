@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.9.30)  4 NOV 2020 10:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.9.30)  4 NOV 2020 13:34
 entering extended mode
 **./main.tex
 (main.tex
@@ -2898,15 +2898,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
 (Bibliografia/bibliografia.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 94D16E9F2EEA85B7D6A3EEFC84D0B65E;809.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: C2971D418A42DCFD890A4383325470D2;742
-(rerunfilecheck)             After:  94D16E9F2EEA85B7D6A3EEFC84D0B65E;809.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.97607pt have occurred.
@@ -2976,7 +2970,7 @@ are/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/share/mik
 tex-texmf/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/share/miktex-tex
 mf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/share/miktex-texmf/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (39 pages, 5908261 bytes).
+Output written on main.pdf (39 pages, 5908379 bytes).
 PDF statistics:
  801 PDF objects out of 1000 (max. 8388607)
  211 named destinations out of 1000 (max. 500000)
