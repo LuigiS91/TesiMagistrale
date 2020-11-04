@@ -61,8 +61,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Conclusioni}{43}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendice}{45}{section.3.2}%
+\contentsline {chapter}{Appendice}{45}{figure.caption.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Gazebo}{45}{section*.50}%
+\contentsline {subsection}{Modifiche nel codice dei plugin di Gazebo}{45}{section*.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Script per il lancio delle simulazioni}{47}{section*.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Modelli Simulink}{47}{section*.47}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Bibliografia}{47}{lstnumber.-3.25}%
