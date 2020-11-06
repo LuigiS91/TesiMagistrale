@@ -71,4 +71,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Modelli Simulink}{47}{section*.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografia}{47}{lstnumber.-3.25}%
+\contentsline {chapter}{Bibliografia}{51}{figure.caption.52}%
