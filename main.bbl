@@ -43,7 +43,31 @@
       \field{title}{Design and Testing of Indoor UAS Control Techniques}
       \field{year}{2019}
       \field{dateera}{ce}
-      \true{nocite}
+    \endentry
+    \entry{irisquad}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=dd03d045deba2bf6cabba9162582c2f9}{%
+           family={Fum},
+           familyi={F\bibinitperiod},
+           given={Wei\bibnamedelima Zhong},
+           giveni={W\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Monterey, California: Naval Postgraduate School}%
+      }
+      \strng{namehash}{dd03d045deba2bf6cabba9162582c2f9}
+      \strng{fullhash}{dd03d045deba2bf6cabba9162582c2f9}
+      \strng{bibnamehash}{dd03d045deba2bf6cabba9162582c2f9}
+      \strng{authorbibnamehash}{dd03d045deba2bf6cabba9162582c2f9}
+      \strng{authornamehash}{dd03d045deba2bf6cabba9162582c2f9}
+      \strng{authorfullhash}{dd03d045deba2bf6cabba9162582c2f9}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Implementation of Simulink controller design on Iris+ quadrotor}
+      \field{year}{2015}
+      \field{dateera}{ce}
     \endentry
     \entry{multi2015}{article}{}
       \name{author}{1}{}{%
@@ -113,7 +137,6 @@
       \field{booktitle}{2008 IEEE International Conference on Networking, Sensing and Control}
       \field{title}{Nonlinear Flight Control Strategy for an Underactuated Quadrotor Aerial Robot}
       \field{year}{2008}
-      \true{nocite}
       \field{pages}{938\bibrangedash 942}
       \range{pages}{5}
       \verb{doi}
