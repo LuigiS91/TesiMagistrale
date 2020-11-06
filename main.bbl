@@ -87,6 +87,39 @@
       \endverb
       \keyw{mavlink}
     \endentry
+    \entry{nonlinear2008}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=94a428616319c35e284c0a01933b770d}{%
+           family={{Mian}},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4ce5f77c86196da7c29ccb252a4bcbe6}{%
+           family={{Daobo}},
+           familyi={D\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{27cda715181ae968712352917e9a630f}
+      \strng{fullhash}{27cda715181ae968712352917e9a630f}
+      \strng{bibnamehash}{27cda715181ae968712352917e9a630f}
+      \strng{authorbibnamehash}{27cda715181ae968712352917e9a630f}
+      \strng{authornamehash}{27cda715181ae968712352917e9a630f}
+      \strng{authorfullhash}{27cda715181ae968712352917e9a630f}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 IEEE International Conference on Networking, Sensing and Control}
+      \field{title}{Nonlinear Flight Control Strategy for an Underactuated Quadrotor Aerial Robot}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{938\bibrangedash 942}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICNSC.2008.4525351
+      \endverb
+    \endentry
     \entry{Nuttx}{online}{}
       \list{organization}{1}{%
         {Wikipedia}%
