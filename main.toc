@@ -25,15 +25,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Architettura del software}{16}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Flight stack}{17}{section*.3}%
+\contentsline {subsubsection}{Flight stack}{17}{section*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Estimator}{17}{section*.5}%
+\contentsline {paragraph}{Estimator}{17}{section*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Controller}{17}{section*.6}%
+\contentsline {paragraph}{Controller}{17}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Mixer}{17}{section*.7}%
+\contentsline {paragraph}{Mixer}{17}{section*.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Middleware}{17}{section*.8}%
+\contentsline {subsubsection}{Middleware}{17}{section*.9}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Strumenti per lo sviluppo del codice}{17}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
@@ -43,32 +43,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}PID}{21}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{STEP}{21}{section*.9}%
+\contentsline {subsubsection}{STEP}{21}{section*.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SQUARE}{23}{section*.12}%
+\contentsline {subsubsection}{SQUARE}{23}{section*.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{BUTTERFLY}{26}{section*.17}%
+\contentsline {subsubsection}{BUTTERFLY}{26}{section*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SNAKE}{29}{section*.22}%
+\contentsline {subsubsection}{SNAKE}{29}{section*.23}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.2}SMC}{32}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{STEP}{32}{section*.27}%
+\contentsline {subsubsection}{STEP}{32}{section*.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SQUARE}{33}{section*.30}%
+\contentsline {subsubsection}{SQUARE}{33}{section*.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{BUTTERFLY}{36}{section*.35}%
+\contentsline {subsubsection}{BUTTERFLY}{36}{section*.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SNAKE}{39}{section*.40}%
+\contentsline {subsubsection}{SNAKE}{39}{section*.41}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Conclusioni}{43}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendice}{45}{figure.caption.44}%
+\contentsline {chapter}{Appendice}{45}{figure.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Modifiche nel codice dei plugin di Gazebo}{45}{section*.45}%
+\contentsline {subsection}{Modifiche nel codice dei plugin di Gazebo}{45}{section*.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Script per il lancio delle simulazioni}{47}{section*.46}%
+\contentsline {subsection}{Script per il lancio delle simulazioni}{47}{section*.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Modelli Simulink}{47}{section*.47}%
+\contentsline {subsection}{Modelli Simulink}{47}{section*.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografia}{51}{figure.caption.52}%
+\contentsline {chapter}{Bibliografia}{51}{figure.caption.53}%

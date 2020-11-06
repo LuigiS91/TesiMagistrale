@@ -45,6 +45,29 @@
       \field{dateera}{ce}
       \true{nocite}
     \endentry
+    \entry{multi2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e31266b1bd79c3a0a971722fd92d9ba4}{%
+           family={Kanaiya\bibnamedelima Agrawal},
+           familyi={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Punit\bibnamedelima Shrivastav},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e31266b1bd79c3a0a971722fd92d9ba4}
+      \strng{fullhash}{e31266b1bd79c3a0a971722fd92d9ba4}
+      \strng{bibnamehash}{e31266b1bd79c3a0a971722fd92d9ba4}
+      \strng{authorbibnamehash}{e31266b1bd79c3a0a971722fd92d9ba4}
+      \strng{authornamehash}{e31266b1bd79c3a0a971722fd92d9ba4}
+      \strng{authorfullhash}{e31266b1bd79c3a0a971722fd92d9ba4}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Science and Research}
+      \field{title}{Multi-rotors: A Revolution In Unmanned Aerial Vehicle}
+      \field{year}{2015}
+      \field{dateera}{ce}
+    \endentry
     \entry{MAVLink}{online}{}
       \list{organization}{1}{%
         {Dronecode Project}%
