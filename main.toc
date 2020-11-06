@@ -5,6 +5,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Elenco delle figure}{6}{section*.1}%
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduzione}{9}{chapter.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Sistema Quadrirotore}{9}{chapter.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Modello matematico}{9}{section.1.1}%
