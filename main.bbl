@@ -92,6 +92,54 @@
       \field{year}{2015}
       \field{dateera}{ce}
     \endentry
+    \entry{KoksalN2018ALQA}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a8136ae9cf79a5a915e7c24280a4aaf0}{%
+           family={Koksal},
+           familyi={K\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ed528f566d91bffa7e1663d09565df51}{%
+           family={Jalalmaab},
+           familyi={J\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9f1564811f804addbc5b149230abbb52}{%
+           family={Fidan},
+           familyi={F\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Switzerland}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{ecc4737116181300928b8b75581b2ff1}
+      \strng{fullhash}{ecc4737116181300928b8b75581b2ff1}
+      \strng{bibnamehash}{ecc4737116181300928b8b75581b2ff1}
+      \strng{authorbibnamehash}{ecc4737116181300928b8b75581b2ff1}
+      \strng{authornamehash}{ecc4737116181300928b8b75581b2ff1}
+      \strng{authorfullhash}{ecc4737116181300928b8b75581b2ff1}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, an infinite-horizon adaptive linear quadratic tracking (ALQT) control scheme is designed for optimal attitude tracking of a quadrotor unmanned aerial vehicle (UAV). The proposed control scheme is experimentally validated in the presence of real-world uncertainties in quadrotor system parameters and sensor measurement. The designed control scheme guarantees asymptotic stability of the close-loop system with the help of complete controllability of the attitude dynamics in applying optimal control signals. To achieve robustness against parametric uncertainties, the optimal tracking solution is combined with an online least squares based parameter identification scheme to estimate the instantaneous inertia of the quadrotor. Sensor measurement noises are also taken into account for the on-board Inertia Measurement Unit (IMU) sensors. To improve controller performance in the presence of sensor measurement noises, two sensor fusion techniques are employed, one based on Kalman filtering and the other based on complementary filtering. The ALQT controller performance is compared for the use of these two sensor fusion techniques, and it is concluded that the Kalman filter based approach provides less mean-square estimation error, better attitude estimation, and better attitude control performance.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors (Basel, Switzerland)}
+      \field{number}{1}
+      \field{title}{Adaptive Linear Quadratic Attitude Tracking Control of a Quadrotor UAV Based on IMU Sensor Data Fusion}
+      \field{volume}{19}
+      \field{year}{2018}
+      \field{pages}{46}
+      \range{pages}{1}
+      \keyw{quadrotor UAV ; sensor fusion ; Kalman filter ; least squares estimation ; adaptive linear quadratic tracking ; indirect estimation}
+    \endentry
     \entry{MAVLink}{online}{}
       \list{organization}{1}{%
         {Dronecode Project}%
