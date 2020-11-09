@@ -2,13 +2,16 @@
 Il capitolo è incentrato sulla descrizione del modello matematico del sistema quadricottero con le relative dinamiche, leggi di guida e leggi di controllo possibili da implementare.
 \section{Modello matematico}
 \todo[inline]{Principi di funzionamento}
-\begin{formula}
-	\begin{matrix}
-	\cos(\psi) \cos(\theta) -\sin(\phi)\sin(\phi)	&  &  \\ 
-		&  &  \\ 
-		&  & 
-	\end{matrix} 
-\end{formula}
+Il principio di funzionamento del quadrirotore è relativamente semplice nel suo complesso. Come accennato in precedenza la gestione dell'assetto è ottenuta attraverso l'azionamento differenziale dei rotori, montati su di una struttura rigida \cite{modelquad}
+\[ 	c(\cdot)=\cos(\cdot)\ ,\  s(\cdot) = \sin(\cdot) \]
+\begin{equation}
+R=
+	\begin{pmatrix}
+	c(\psi)c(\theta)-s\phi)s(\psi)s(\theta) & -c(\phi)s(\psi) & c(\psi)s(\theta)+c(\theta)s(\theta)s(\psi) \\ 
+	c(\theta) s(\psi)+c(\psi)s(\phi)s(\theta) & c(\phi)c(\psi) & s(\psi)s(\theta)-c(\psi)c(\theta)s(\phi) \\ 
+	-c(\phi)s(\theta)	& s(\phi) & c(\phi)c(\theta)
+	\end{pmatrix}
+\end{equation}
 \todo[inline]{il sistema di riferimento}
 \todo[inline]{Figura della configurazione del drone
 tipo di azionamento base}
