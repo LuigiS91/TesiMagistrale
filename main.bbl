@@ -44,6 +44,48 @@
       \field{year}{2019}
       \field{dateera}{ce}
     \endentry
+    \entry{baseTesi}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=99457a29ff186d168bc0281d6d131a49}{%
+           family={{de Pierrepont Franzetti}},
+           familyi={d\bibinitperiod},
+           given={I.\bibnamedelimi D.\bibnamedelimi D.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ea848a8ad78c716448c9acc0e821c1ba}{%
+           family={{Carminati}},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fbff618ede522f9ba0f2795ffdc423f2}{%
+           family={{Scanavino}},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=35093df67657f55cadca7ea91526e833}{%
+           family={{Capello}},
+           familyi={C\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0fd1b068eae3521cdb31bf59bf1e54d5}
+      \strng{fullhash}{9aa201f97e07df8537278511dffec554}
+      \strng{bibnamehash}{0fd1b068eae3521cdb31bf59bf1e54d5}
+      \strng{authorbibnamehash}{0fd1b068eae3521cdb31bf59bf1e54d5}
+      \strng{authornamehash}{0fd1b068eae3521cdb31bf59bf1e54d5}
+      \strng{authorfullhash}{9aa201f97e07df8537278511dffec554}
+      \field{sortinit}{d}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 International Conference on Unmanned Aircraft Systems (ICUAS)}
+      \field{title}{Model-In-the-Loop Testing of Control Systems and Path Planner Algorithms for QuadRotor UAVs}
+      \field{year}{2020}
+      \field{pages}{1809\bibrangedash 1818}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/ICUAS48674.2020.9213885
+      \endverb
+    \endentry
     \entry{irisquad}{thesis}{}
       \name{author}{1}{}{%
         {{hash=dd03d045deba2bf6cabba9162582c2f9}{%
@@ -159,7 +201,7 @@
       \endverb
       \keyw{mavlink}
     \endentry
-    \entry{nonlinear2008}{proceedings}{}
+    \entry{nonlinear2008}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=94a428616319c35e284c0a01933b770d}{%
            family={{Mian}},
