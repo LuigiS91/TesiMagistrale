@@ -18,7 +18,101 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
+  \datalist[entry]{none/global//global/global}
+    \entry{histoDrone}{online}{}
+      \list{organization}{1}{%
+        {RedOrbit}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{The History Of Drone Technology}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.redorbit.com/reference/the-history-of-drone-technology/
+      \endverb
+      \verb{url}
+      \verb https://www.redorbit.com/reference/the-history-of-drone-technology/
+      \endverb
+    \endentry
+    \entry{Young}{book}{}
+      \name{author}{1}{}{%
+        {{hash=aa4b5b88ea6a3f49af037b1fce9b01aa}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Warren\bibnamedelima R.},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
+      \strng{fullhash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
+      \strng{bibnamehash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
+      \strng{authorbibnamehash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
+      \strng{authornamehash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
+      \strng{authorfullhash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Helicopters "The Epic of Flight"}
+      \field{year}{1982}
+      \field{dateera}{ce}
+    \endentry
+    \entry{multi2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e31266b1bd79c3a0a971722fd92d9ba4}{%
+           family={Kanaiya\bibnamedelima Agrawal},
+           familyi={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Punit\bibnamedelima Shrivastav},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e31266b1bd79c3a0a971722fd92d9ba4}
+      \strng{fullhash}{e31266b1bd79c3a0a971722fd92d9ba4}
+      \strng{bibnamehash}{e31266b1bd79c3a0a971722fd92d9ba4}
+      \strng{authorbibnamehash}{e31266b1bd79c3a0a971722fd92d9ba4}
+      \strng{authornamehash}{e31266b1bd79c3a0a971722fd92d9ba4}
+      \strng{authorfullhash}{e31266b1bd79c3a0a971722fd92d9ba4}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Science and Research}
+      \field{title}{Multi-rotors: A Revolution In Unmanned Aerial Vehicle}
+      \field{year}{2015}
+      \field{dateera}{ce}
+    \endentry
+    \entry{nonlinear2008}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=94a428616319c35e284c0a01933b770d}{%
+           family={{Mian}},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4ce5f77c86196da7c29ccb252a4bcbe6}{%
+           family={{Daobo}},
+           familyi={D\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{27cda715181ae968712352917e9a630f}
+      \strng{fullhash}{27cda715181ae968712352917e9a630f}
+      \strng{bibnamehash}{27cda715181ae968712352917e9a630f}
+      \strng{authorbibnamehash}{27cda715181ae968712352917e9a630f}
+      \strng{authornamehash}{27cda715181ae968712352917e9a630f}
+      \strng{authorfullhash}{27cda715181ae968712352917e9a630f}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 IEEE International Conference on Networking, Sensing and Control}
+      \field{title}{Nonlinear Flight Control Strategy for an Underactuated Quadrotor Aerial Robot}
+      \field{year}{2008}
+      \field{pages}{938\bibrangedash 942}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICNSC.2008.4525351
+      \endverb
+    \endentry
     \entry{DesTestCarm}{thesis}{}
       \name{author}{1}{}{%
         {{hash=ceff446ef4fafefead26c564b35a4ae7}{%
@@ -36,55 +130,13 @@
       \strng{authorbibnamehash}{ceff446ef4fafefead26c564b35a4ae7}
       \strng{authornamehash}{ceff446ef4fafefead26c564b35a4ae7}
       \strng{authorfullhash}{ceff446ef4fafefead26c564b35a4ae7}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Design and Testing of Indoor UAS Control Techniques}
       \field{year}{2019}
       \field{dateera}{ce}
-    \endentry
-    \entry{baseTesi}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=99457a29ff186d168bc0281d6d131a49}{%
-           family={{de Pierrepont Franzetti}},
-           familyi={d\bibinitperiod},
-           given={I.\bibnamedelimi D.\bibnamedelimi D.\bibnamedelimi M.},
-           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=ea848a8ad78c716448c9acc0e821c1ba}{%
-           family={{Carminati}},
-           familyi={C\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=fbff618ede522f9ba0f2795ffdc423f2}{%
-           family={{Scanavino}},
-           familyi={S\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=35093df67657f55cadca7ea91526e833}{%
-           family={{Capello}},
-           familyi={C\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{0fd1b068eae3521cdb31bf59bf1e54d5}
-      \strng{fullhash}{9aa201f97e07df8537278511dffec554}
-      \strng{bibnamehash}{0fd1b068eae3521cdb31bf59bf1e54d5}
-      \strng{authorbibnamehash}{0fd1b068eae3521cdb31bf59bf1e54d5}
-      \strng{authornamehash}{0fd1b068eae3521cdb31bf59bf1e54d5}
-      \strng{authorfullhash}{9aa201f97e07df8537278511dffec554}
-      \field{sortinit}{d}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2020 International Conference on Unmanned Aircraft Systems (ICUAS)}
-      \field{title}{Model-In-the-Loop Testing of Control Systems and Path Planner Algorithms for QuadRotor UAVs}
-      \field{year}{2020}
-      \field{pages}{1809\bibrangedash 1818}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1109/ICUAS48674.2020.9213885
-      \endverb
     \endentry
     \entry{irisquad}{thesis}{}
       \name{author}{1}{}{%
@@ -103,34 +155,11 @@
       \strng{authorbibnamehash}{dd03d045deba2bf6cabba9162582c2f9}
       \strng{authornamehash}{dd03d045deba2bf6cabba9162582c2f9}
       \strng{authorfullhash}{dd03d045deba2bf6cabba9162582c2f9}
-      \field{sortinit}{F}
-      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Implementation of Simulink controller design on Iris+ quadrotor}
-      \field{year}{2015}
-      \field{dateera}{ce}
-    \endentry
-    \entry{multi2015}{article}{}
-      \name{author}{1}{}{%
-        {{hash=e31266b1bd79c3a0a971722fd92d9ba4}{%
-           family={Kanaiya\bibnamedelima Agrawal},
-           familyi={K\bibinitperiod\bibinitdelim A\bibinitperiod},
-           given={Punit\bibnamedelima Shrivastav},
-           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \strng{namehash}{e31266b1bd79c3a0a971722fd92d9ba4}
-      \strng{fullhash}{e31266b1bd79c3a0a971722fd92d9ba4}
-      \strng{bibnamehash}{e31266b1bd79c3a0a971722fd92d9ba4}
-      \strng{authorbibnamehash}{e31266b1bd79c3a0a971722fd92d9ba4}
-      \strng{authornamehash}{e31266b1bd79c3a0a971722fd92d9ba4}
-      \strng{authorfullhash}{e31266b1bd79c3a0a971722fd92d9ba4}
-      \field{sortinit}{K}
-      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Science and Research}
-      \field{title}{Multi-rotors: A Revolution In Unmanned Aerial Vehicle}
       \field{year}{2015}
       \field{dateera}{ce}
     \endentry
@@ -167,8 +196,8 @@
       \strng{authorbibnamehash}{ecc4737116181300928b8b75581b2ff1}
       \strng{authornamehash}{ecc4737116181300928b8b75581b2ff1}
       \strng{authorfullhash}{ecc4737116181300928b8b75581b2ff1}
-      \field{sortinit}{K}
-      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, an infinite-horizon adaptive linear quadratic tracking (ALQT) control scheme is designed for optimal attitude tracking of a quadrotor unmanned aerial vehicle (UAV). The proposed control scheme is experimentally validated in the presence of real-world uncertainties in quadrotor system parameters and sensor measurement. The designed control scheme guarantees asymptotic stability of the close-loop system with the help of complete controllability of the attitude dynamics in applying optimal control signals. To achieve robustness against parametric uncertainties, the optimal tracking solution is combined with an online least squares based parameter identification scheme to estimate the instantaneous inertia of the quadrotor. Sensor measurement noises are also taken into account for the on-board Inertia Measurement Unit (IMU) sensors. To improve controller performance in the presence of sensor measurement noises, two sensor fusion techniques are employed, one based on Kalman filtering and the other based on complementary filtering. The ALQT controller performance is compared for the use of these two sensor fusion techniques, and it is concluded that the Kalman filter based approach provides less mean-square estimation error, better attitude estimation, and better attitude control performance.}
@@ -182,63 +211,93 @@
       \range{pages}{1}
       \keyw{quadrotor UAV ; sensor fusion ; Kalman filter ; least squares estimation ; adaptive linear quadratic tracking ; indirect estimation}
     \endentry
-    \entry{MAVLink}{online}{}
-      \list{organization}{1}{%
-        {Dronecode Project}%
+    \entry{baseTesi}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=99457a29ff186d168bc0281d6d131a49}{%
+           family={{de Pierrepont Franzetti}},
+           familyi={d\bibinitperiod},
+           given={I.\bibnamedelimi D.\bibnamedelimi D.\bibnamedelimi M.},
+           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ea848a8ad78c716448c9acc0e821c1ba}{%
+           family={{Carminati}},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fbff618ede522f9ba0f2795ffdc423f2}{%
+           family={{Scanavino}},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=35093df67657f55cadca7ea91526e833}{%
+           family={{Capello}},
+           familyi={C\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
       }
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{labeltitlesource}{title}
-      \field{title}{MAVLink Developer Guide}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://mavlink.io/en/
-      \endverb
-      \verb{url}
-      \verb https://mavlink.io/en/
-      \endverb
-      \keyw{mavlink}
-    \endentry
-    \entry{nonlinear2008}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=94a428616319c35e284c0a01933b770d}{%
-           family={{Mian}},
-           familyi={M\bibinitperiod},
-           given={A.\bibnamedelimi A.},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=4ce5f77c86196da7c29ccb252a4bcbe6}{%
-           family={{Daobo}},
-           familyi={D\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{27cda715181ae968712352917e9a630f}
-      \strng{fullhash}{27cda715181ae968712352917e9a630f}
-      \strng{bibnamehash}{27cda715181ae968712352917e9a630f}
-      \strng{authorbibnamehash}{27cda715181ae968712352917e9a630f}
-      \strng{authornamehash}{27cda715181ae968712352917e9a630f}
-      \strng{authorfullhash}{27cda715181ae968712352917e9a630f}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \strng{namehash}{267882ee1713eab75fb9510230813b3b}
+      \strng{fullhash}{9aa201f97e07df8537278511dffec554}
+      \strng{bibnamehash}{9aa201f97e07df8537278511dffec554}
+      \strng{authorbibnamehash}{9aa201f97e07df8537278511dffec554}
+      \strng{authornamehash}{267882ee1713eab75fb9510230813b3b}
+      \strng{authorfullhash}{9aa201f97e07df8537278511dffec554}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2008 IEEE International Conference on Networking, Sensing and Control}
-      \field{title}{Nonlinear Flight Control Strategy for an Underactuated Quadrotor Aerial Robot}
-      \field{year}{2008}
-      \field{pages}{938\bibrangedash 942}
-      \range{pages}{5}
+      \field{booktitle}{2020 International Conference on Unmanned Aircraft Systems (ICUAS)}
+      \field{title}{Model-In-the-Loop Testing of Control Systems and Path Planner Algorithms for QuadRotor UAVs}
+      \field{year}{2020}
+      \field{pages}{1809\bibrangedash 1818}
+      \range{pages}{10}
       \verb{doi}
-      \verb 10.1109/ICNSC.2008.4525351
+      \verb 10.1109/ICUAS48674.2020.9213885
+      \endverb
+    \endentry
+    \entry{modelquad}{article}{}
+      \name{author}{3}{}{%
+        {{hash=557ac8b0d5f2ea79ae1c98d25604636a}{%
+           family={{Mahony}},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a662108e4098710ee8727851db5c5311}{%
+           family={{Kumar}},
+           familyi={K\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=89cd23734c6d7a33c04518e67f7d2493}{%
+           family={{Corke}},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
+      \strng{fullhash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
+      \strng{bibnamehash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
+      \strng{authorbibnamehash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
+      \strng{authornamehash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
+      \strng{authorfullhash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Robotics Automation Magazine}
+      \field{number}{3}
+      \field{title}{Multirotor Aerial Vehicles: Modeling, Estimation, and Control of Quadrotor}
+      \field{volume}{19}
+      \field{year}{2012}
+      \field{pages}{20\bibrangedash 32}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/MRA.2012.2206474
       \endverb
     \endentry
     \entry{Nuttx}{online}{}
       \list{organization}{1}{%
         {Wikipedia}%
       }
-      \field{sortinit}{N}
-      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{title}{NuttX}
       \field{year}{2020}
@@ -255,8 +314,8 @@
       \list{organization}{1}{%
         {PX4 Dev Team}%
       }
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{title}{PX4 Autopilot User Guide (1.8.2)}
       \field{year}{2020}
@@ -269,42 +328,6 @@
       \verb https://docs.px4.io/v1.8.2/en/
       \endverb
       \keyw{px4}
-    \endentry
-    \entry{px4Firmware}{online}{}
-      \list{organization}{1}{%
-        {PX4 Dev Team}%
-      }
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{labeltitlesource}{title}
-      \field{title}{PX4 Development Guide (v1.8.0)}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
-      \endverb
-      \verb{url}
-      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
-      \endverb
-      \keyw{px4}
-    \endentry
-    \entry{histoDrone}{online}{}
-      \list{organization}{1}{%
-        {RedOrbit}%
-      }
-      \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
-      \field{labeltitlesource}{title}
-      \field{title}{The History Of Drone Technology}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.redorbit.com/reference/the-history-of-drone-technology/
-      \endverb
-      \verb{url}
-      \verb https://www.redorbit.com/reference/the-history-of-drone-technology/
-      \endverb
     \endentry
     \entry{toolPx4}{online}{}
       \name{author}{1}{}{%
@@ -320,8 +343,8 @@
       \strng{authorbibnamehash}{8687eae34a3830fc0c113d9d65382e90}
       \strng{authornamehash}{8687eae34a3830fc0c113d9d65382e90}
       \strng{authorfullhash}{8687eae34a3830fc0c113d9d65382e90}
-      \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{PX4 Autopilots Support from Embedded Coder}
@@ -336,27 +359,43 @@
       \endverb
       \keyw{px4}
     \endentry
-    \entry{Young}{book}{}
-      \name{author}{1}{}{%
-        {{hash=aa4b5b88ea6a3f49af037b1fce9b01aa}{%
-           family={Young},
-           familyi={Y\bibinitperiod},
-           given={Warren\bibnamedelima R.},
-           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+    \entry{px4Firmware}{online}{}
+      \list{organization}{1}{%
+        {PX4 Dev Team}%
       }
-      \strng{namehash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
-      \strng{fullhash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
-      \strng{bibnamehash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
-      \strng{authorbibnamehash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
-      \strng{authornamehash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
-      \strng{authorfullhash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
-      \field{sortinit}{Y}
-      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
-      \field{labelnamesource}{author}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
-      \field{title}{The Helicopters "The Epic of Flight"}
-      \field{year}{1982}
+      \field{title}{PX4 Development Guide (v1.8.0)}
+      \field{year}{2020}
       \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
+      \endverb
+      \verb{url}
+      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
+      \endverb
+      \keyw{px4}
+    \endentry
+    \entry{MAVLink}{online}{}
+      \list{organization}{1}{%
+        {Dronecode Project}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{MAVLink Developer Guide}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://mavlink.io/en/
+      \endverb
+      \verb{url}
+      \verb https://mavlink.io/en/
+      \endverb
+      \keyw{mavlink}
     \endentry
   \enddatalist
 \endrefsection

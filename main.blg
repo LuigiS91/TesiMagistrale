@@ -1,15 +1,15 @@
 [0] Config.pm:312> INFO - This is Biber 2.15
 [0] Config.pm:315> INFO - Logfile is 'main.blg'
-[71] biber:330> INFO - === sab nov  7, 2020, 19:59:28
-[85] Biber.pm:415> INFO - Reading 'main.bcf'
-[159] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[171] Biber.pm:4334> INFO - Processing section 0
-[181] Biber.pm:4523> INFO - Looking for bibtex format file 'Bibliografia/bibliografia.bib' for section 0
-[182] bibtex.pm:1682> INFO - LaTeX decoding ...
-[192] bibtex.pm:1494> INFO - Found BibTeX data source 'Bibliografia/bibliografia.bib'
-[255] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[256] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[256] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'it-IT'
-[256] Biber.pm:4168> INFO - No sort tailoring available for locale 'it-IT'
-[269] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[273] bbl.pm:754> INFO - Output to main.bbl
+[85] biber:330> INFO - === lun nov  9, 2020, 19:38:27
+[100] Biber.pm:415> INFO - Reading 'main.bcf'
+[174] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[187] Biber.pm:4334> INFO - Processing section 0
+[197] Biber.pm:4523> INFO - Looking for bibtex format file 'Bibliografia/bibliografia.bib' for section 0
+[198] bibtex.pm:1682> INFO - LaTeX decoding ...
+[210] bibtex.pm:1494> INFO - Found BibTeX data source 'Bibliografia/bibliografia.bib'
+[277] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[277] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[277] Biber.pm:4162> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'it-IT'
+[277] Biber.pm:4168> INFO - No sort tailoring available for locale 'it-IT'
+[287] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[292] bbl.pm:754> INFO - Output to main.bbl
