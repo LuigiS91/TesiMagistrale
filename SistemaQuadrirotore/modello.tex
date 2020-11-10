@@ -40,20 +40,73 @@ Nel seguente elenco di manovre di base , viene preso come riferimento la figura 
 	\item \textbf{Comando di imbardata : } Questo comando è il meno efficace nel quadricottero in quando viene implementato attraverso un effetto secondario. Come si vede nella figura \ref{fig:modello_quad_yaw}, la rotazione dei rotori viene, mantendendo la portanza totale costante, distribuita in modo differente tra le pale che ruotano in modo orario e antiorario. Il comando di variazione positivo dell'angolo di imbardata si ottiene facendo ruotare più rapidamente i rotori 1 e 2 rispetto a 3 e 4.
 	\item \textbf{Comando di spinta complessiva : } La variazione di quota avviene grazie a questo tipo di comando. Aumentando o diminuendo in modo identico la velocità di rotazione dei rotori è possibile equilibrare il peso, contrastato dalla portanza da essi generata. una portanza maggiore si traduce in una accelerazione verso l'alto, viceversa una diminuzione.
 \end{itemize}
-Attraverso questo funzionamento e l'utilizzo di un mixer, che ha lo scopo di mescolare i quattro tipi di azionamento visti, si può governare il velivolo modificandone la posizione nello spazio \cite{DesTestCarm}.
+Grazie a questo funzionamento e l'utilizzo di un mixer, che ha lo scopo di mescolare i quattro tipi di azionamento visti, si può governare il velivolo modificandone la posizione nello spazio \cite{DesTestCarm}.
 \subsubsection{Relazioni matematiche}
-Esplicitando i sitemi di riferimento del corpo del drone e del riferimento terreste come in  \todo{Aggiungere figura riferimenti}figura, si può definire la matrice di rotazione $R$ espressa nella relazione \ref{eq:SistemaQuadrirotore_R}.
+Esplicitando i sistemi di riferimento del corpo del drone e del riferimento terreste come in figura \ref{fig:riferimenti}, si definisce la matrice di rotazione $R$ espressa nella relazione \ref{eq:SistemaQuadrirotore_R}. Si ricavano le relazioni tra i ratei e le derivate degli angoli di Eulero attraverso la relazione \ref{eq:SistemaQuadrirotore_ratei}.
+Si definiscono le seguenti semplificazioni di scrittura : 
 \[ 	c(\cdot)=\cos(\cdot)\ ,\  s(\cdot) = \sin(\cdot) \]
 \begin{equation}
 R=
 	\begin{pmatrix}
-	c(\psi)c(\theta)-s\phi)s(\psi)s(\theta) & -c(\phi)s(\psi) & c(\psi)s(\theta)+c(\theta)s(\theta)s(\psi) \\ 
+	c(\psi)c(\theta)-s(\phi)s(\psi)s(\theta) & -c(\phi)s(\psi) & c(\psi)s(\theta)+c(\theta)s(\theta)s(\psi) \\ 
 	c(\theta) s(\psi)+c(\psi)s(\phi)s(\theta) & c(\phi)c(\psi) & s(\psi)s(\theta)-c(\psi)c(\theta)s(\phi) \\ 
 	-c(\phi)s(\theta)	& s(\phi) & c(\phi)c(\theta)
 	\end{pmatrix}
 	\label{eq:SistemaQuadrirotore_R}
 \end{equation}
+\begin{equation}
+	\begin{Bmatrix}
+		\dot{\phi}\\
+		\dot{\theta}\\
+		\dot{\psi}
+		\end{Bmatrix}=
+	\begin{pmatrix}
+		1 & \sin(\phi)\tan(\theta) & \cos(\phi)\tan(\theta) \\ 
+		0 & \cos(\phi) & -\sin(\phi) \\ 
+		0 & \frac{\sin(\phi)}{\cos(\theta)} & \frac{\cos(\phi)}{\cos(\theta)}
+	\end{pmatrix}
+	\begin{Bmatrix}
+		p\\
+		q\\
+		r
+	\end{Bmatrix}
+	\label{eq:SistemaQuadrirotore_ratei}
+\end{equation}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.33\textwidth]{SistemaQuadrirotore/Figure/eulerangles.png}
+	\caption{Rotazione tra sistemi di riferimento NED e corpo}
+	\label{fig:riferimenti}
+\end{figure}
+
+\'E utile presentare anche la rappresentazione di rotazioni nello spazio attraverso l'uso di quaternioni, molto utilizzata in applicazioni robotiche, riuscendo a superare limitazioni dovuti alla singolarità presenti nella rappresentazione euleriana.
+Si definisce un quaternione nella forma :
+\[ 
+	\mathbb{q} = q_0 + q_1 \mathbf{i} + q_2 \mathbf{j} + q_3 \mathbf{k}
+\]
+Esprimibile anche nelle forme :
+\[ 
+	\mathfrak{q} = \begin{Bmatrix}
+		q_0\\
+		\mathbf{q}
+	\end{Bmatrix} \ , \ \mathbf{q} = \begin{Bmatrix}
+		q_1\\
+		q_2\\
+		q_3
+	\end{Bmatrix}
+\]
+Nella precedente rappresentazione $\mathbf{i}$,$\mathbf{j}$ e $\mathbf{k}$ sono l'equivalente di numeri complessi che godono tra di loro della proprietà di ortogonalità, mentre $q_0$, $q_1$, $q_2$ e $q_3$ sono numeri reali. Utilizzando la definizione del prodotto di Hamilton, \ref{eq:SistemaQuadrirotore_hamilton}, si può determinare il quaternione rappresentante l'errore da minimizzare nella fase di controllo, \ref{eq:SistemaQuadrirotore_errore}, dove $\mathfrak{q}_{est}$ è la misurazione e $ \mathfrak{q}_{ref}$ e il riferimento.
+\begin{equation}\label{eq:SistemaQuadrirotore_hamilton}
+	\mathfrak{q} \otimes \mathfrak{p} = q_0 p_0 - \mathbf{q} \cdot \mathbf{p} + q_0 \mathbf{p} + p_0 \mathbf{q} + \mathbf{q} \times \mathbf{p}
+\end{equation}
+\begin{equation}\label{eq:SistemaQuadrirotore_errore}
+	\mathfrak{q}_{err} = \mathfrak{q}_{est}^{-1} \otimes \mathfrak{q}_{ref}
+\end{equation}
+
 \todo[inline]{I sistemi di riferimento e la rotazione da uno al altro}
 \todo[inline]{Definizione degli operatori necessari a descrivere il modello base del drone}
 \todo[inline]{Forze e momenti applicati nel modello di partenza}
 \todo[inline]{Breve descrizione alle modifiche fatte al modello per applicazione su gazebo con rimando al capitolo specifico}
+
+\todo[inline]{Nel sottocapitolo seguente raccolta di possibili modelli di guide e di controllo}
