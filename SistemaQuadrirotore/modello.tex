@@ -103,23 +103,93 @@ Nella precedente rappresentazione $\mathbf{i}$,$\mathbf{j}$ e $\mathbf{k}$ sono 
 \begin{equation}\label{eq:SistemaQuadrirotore_errore}
 	\mathfrak{q}_{err} = \mathfrak{q}_{est}^{-1} \otimes \mathfrak{q}_{ref}
 \end{equation}
+La derivata del rotore nel tempo si puù determinare attraverso la relazione \ref{eq:SistemaQuadrirotore_quaternionederivato}, dove $p$, $q$ ed $r$ sono rispettivamente i ratei di rotazione rispetto agli assi $x$, $y$ e $z$.
+\begin{equation}\label{eq:SistemaQuadrirotore_quaternionederivato}
+\mathfrak{\dot{q}} = \frac{1}{2} \mathbf{\Omega} \mathfrak{q} =
+	\begin{pmatrix}
+		0 & -p & -q & -r \\
+		p &  0 &  r & -q \\
+		q &  r &  0 &  p \\
+		r &  q & -p &  0 
+	\end{pmatrix}
+	\begin{Bmatrix}
+		q_0 \\
+		\mathbf{q}
+	\end{Bmatrix}
+\end{equation}
 
 \begin{equation}\label{eq:SistemaQuadrirotore_Forze}
-
+	\mathbf{F} + \mathbf{R} m \mathbf{g} = m \left[\frac{d \mathbf{v}}{d t} + \boldsymbol{\omega}\times \mathbf{v}\right]
 \end{equation}
 
 \begin{equation}\label{eq:SistemaQuadrirotore_acc}
-
+	\frac{\mathbf{F}}{m} + \mathbf{R} \mathbf{g} = \mathbf{\dot{v}} + \boldsymbol{\omega} \times \mathbf{v}
 \end{equation}
 
 \begin{equation}\label{eq:SistemaQuadrirotore_momenti}
+	\boldsymbol{\tau} = \frac{d \mathbf{H}}{d t } + \boldsymbol{\omega} \times \mathbf{H}
+\end{equation}
 
+\begin{equation}
+	\mathbf{H} = \mathbf{J} \boldsymbol{\omega} =
+	\begin{pmatrix}
+		J_x & J_xy & J_xz \\
+		-Jxy & J_y & -Jyz \\
+		-Jxz & -Jyz & -Jz 
+	\end{pmatrix}
+	\begin{Bmatrix}
+		p\\
+		q\\
+		r
+	\end{Bmatrix}
 \end{equation}
 
 \begin{equation}\label{eq:SistemaQuadrirotore_accang}
-
+	\boldsymbol{\dot{\omega}} = - \mathbf{J^{-1}}\left(\boldsymbol{\omega}\times\left(\mathbf{J}\boldsymbol{\omega}\right)\right) + \mathbf{J^-1}\boldsymbol{\tau}
 \end{equation}
 
+\begin{equation}\label{eq:SistemaQuadrirotore_statespace}
+	\mathbf{\dot{x}} = \mathbf{f(x)} + \mathbf{g} \cdot \mathbf{u}
+\end{equation}
+
+\[ 
+	\mathbf{x} = \begin{Bmatrix}
+		x \\ y \\ z \\ \phi \\ \theta \\ \psi \\ u \\ v \\ w \\ p \\ q \\ r
+	\end{Bmatrix}, \  \mathbf{u} = \begin{Bmatrix}
+	F_x \\ F_y \\ F_z \\ \tau_x \\ \tau_y \\ \tau_z
+	\end{Bmatrix}
+\]
+
+\begin{equation}\label{eq:SistemaQuadrirotore_statespaceElement}
+	\mathbf{f(x)} = \begin{Bmatrix}
+		\mathbf{R} \begin{Bmatrix}
+			u \\ v \\ w
+		\end{Bmatrix} \\
+		p + (q\sin(\phi)+r\cos(\phi))\tan(\theta) \\
+		q\cos(\phi) - r\sin(\phi) \\
+		\frac{q\sin(\phi) - r\cos(\phi)}{\cos(\theta)}\\
+		rv-qw-g\sin(\theta)\\
+		-ru + pw p g \sin(\phi)\cos(\theta)\\
+		qu - pv + g \cos(\phi)\cos(\theta)\\
+		q (c_1 r + c_2 p)\\
+		c_5 pr - (p^2-r^2) c_6 \\
+		q(c_8 p - c_2 r)
+	\end{Bmatrix}, \ \mathbf{g} =
+	\begin{pmatrix}
+		0 & \cdots & \cdots & \cdots & \cdots & 0 \\
+		0 & \ddots & & & & \vdots \\
+		0 & & \ddots & & & \vdots \\
+		0 & & & \ddots & & \vdots \\
+		0 & & & & \ddots & \vdots \\
+		0 & \cdots & \cdots & \cdots & \cdots & 0 \\
+		\frac{1}{m} & 0 & \cdots & \cdots & \cdots & 0 \\
+		0 & \frac{1}{m} & 0 & \cdots & \cdots & 0 \\
+		0 & 0 & \frac{1}{m} & 0 & \cdots & 0 \\
+		0 & \cdots & 0 & c_3 & 0 & c_4 \\
+		0 & \ddots & \vdots & 0 & c_7 & 0 \\
+		0 & \cdots & 0 & c_4 & 0 & c_9 \\
+	\end{pmatrix}
+\end{equation}
 
 \todo[inline]{I sistemi di riferimento e la rotazione da uno al altro}
 \todo[inline]{Definizione degli operatori necessari a descrivere il modello base del drone}
