@@ -2365,7 +2365,9 @@
     <bcf:citekey order="9">baseTesi</bcf:citekey>
     <bcf:citekey order="10">modelquad</bcf:citekey>
     <bcf:citekey order="11">DesTestCarm</bcf:citekey>
-    <bcf:citekey order="12">Nuttx</bcf:citekey>
+    <bcf:citekey order="12">DesTestCarm</bcf:citekey>
+    <bcf:citekey order="13">baseTesi</bcf:citekey>
+    <bcf:citekey order="14">Nuttx</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

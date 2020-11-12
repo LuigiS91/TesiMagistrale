@@ -42,8 +42,10 @@ Nel seguente elenco di manovre di base , viene preso come riferimento la figura 
 \end{itemize}
 Grazie a questo funzionamento e l'utilizzo di un mixer, che ha lo scopo di mescolare i quattro tipi di azionamento visti, si può governare il velivolo modificandone la posizione nello spazio \cite{DesTestCarm}.
 \subsubsection{Relazioni matematiche}
-Esplicitando i sistemi di riferimento del corpo del drone e del riferimento terreste come in figura \ref{fig:riferimenti}, si definisce la matrice di rotazione $R$ espressa nella relazione \ref{eq:SistemaQuadrirotore_R}. Si ricavano le relazioni tra i ratei e le derivate degli angoli di Eulero attraverso la relazione \ref{eq:SistemaQuadrirotore_ratei}.
-Si definiscono le seguenti semplificazioni di scrittura : 
+Verranno esplicitate alcune formule utili per la modellazione iniziale del problema del quadrirotore come riportato in bibliografia, \cite{DesTestCarm}, \cite{baseTesi}.
+
+Utilizzando i sistemi di riferimento del corpo del drone e del riferimento terreste come in figura \ref{fig:riferimenti}, si definisce la matrice di rotazione $R$ espressa dalla relazione \ref{eq:SistemaQuadrirotore_R}. In questo sistema si impongono che l'asse $x$ del corpo sia diretto ferso il muso del drone e l'asse $y$ verso destra, in modo che l'asse $z$ sia diretto verso il basso, mentre l'asse $x_e$ risulta essere diretto verso nord, l'asse $y_e$ verso est e di conseguenza l'asse $z_e$ verso il centro della terra. 
+Attraverso il sistema di equazioni , espresso in forma matriciale \ref{eq:SistemaQuadrirotore_ratei}, si ricavano i retei degli angoli di assetto partendo dalle accelerazioni angolari, utillizzando per  comodità le seguenti semplificazioni di scrittura : 
 \[ 	c(\cdot)=\cos(\cdot)\ ,\  s(\cdot) = \sin(\cdot) \]
 \begin{equation}
 R=
@@ -80,12 +82,12 @@ R=
 	\label{fig:riferimenti}
 \end{figure}
 
-\'E utile presentare anche la rappresentazione di rotazioni nello spazio attraverso l'uso di quaternioni, molto utilizzata in applicazioni robotiche, riuscendo a superare limitazioni dovuti alla singolarità presenti nella rappresentazione euleriana.
-Si definisce un quaternione nella forma :
+Risulta utile presentare anche la rappresentazione di rotazioni nello spazio attraverso l'uso di quaternioni, molto utilizzata in applicazioni robotiche grazie alla possibilità di superare le limitazioni dovute alle singolarità presenti nella rappresentazione euleriana.
+Si definisce quindi un quaternione :
 \[ 
 	\mathbb{q} = q_0 + q_1 \mathbf{i} + q_2 \mathbf{j} + q_3 \mathbf{k}
 \]
-Esprimibile anche nelle forme :
+Per comodità si utilizzeranno le scritture nelle forme :
 \[ 
 	\mathfrak{q} = \begin{Bmatrix}
 		q_0\\
@@ -96,14 +98,14 @@ Esprimibile anche nelle forme :
 		q_3
 	\end{Bmatrix}
 \]
-Nella precedente rappresentazione $\mathbf{i}$,$\mathbf{j}$ e $\mathbf{k}$ sono l'equivalente di numeri complessi che godono tra di loro della proprietà di ortogonalità, mentre $q_0$, $q_1$, $q_2$ e $q_3$ sono numeri reali. Utilizzando la definizione del prodotto di Hamilton, \ref{eq:SistemaQuadrirotore_hamilton}, si può determinare il quaternione rappresentante l'errore da minimizzare nella fase di controllo, \ref{eq:SistemaQuadrirotore_errore}, dove $\mathfrak{q}_{est}$ è la misurazione e $ \mathfrak{q}_{ref}$ e il riferimento.
+Nella definizione del quaternione $\mathbf{i}$,$\mathbf{j}$ e $\mathbf{k}$ sono l'equivalente di numeri complessi che godono tra di loro della proprietà di ortogonalità, mentre $q_0$, $q_1$, $q_2$ e $q_3$ sono numeri reali. Utilizzando la definizione del prodotto di Hamilton, \ref{eq:SistemaQuadrirotore_hamilton}, si può determinare il quaternione rappresentante l'errore da minimizzare nella fase di controllo, \ref{eq:SistemaQuadrirotore_errore}, dove $\mathfrak{q}_{est}$ è la misurazione e $ \mathfrak{q}_{ref}$ e il riferimento.
 \begin{equation}\label{eq:SistemaQuadrirotore_hamilton}
 	\mathfrak{q} \otimes \mathfrak{p} = q_0 p_0 - \mathbf{q} \cdot \mathbf{p} + q_0 \mathbf{p} + p_0 \mathbf{q} + \mathbf{q} \times \mathbf{p}
 \end{equation}
 \begin{equation}\label{eq:SistemaQuadrirotore_errore}
 	\mathfrak{q}_{err} = \mathfrak{q}_{est}^{-1} \otimes \mathfrak{q}_{ref}
 \end{equation}
-La derivata del rotore nel tempo si puù determinare attraverso la relazione \ref{eq:SistemaQuadrirotore_quaternionederivato}, dove $p$, $q$ ed $r$ sono rispettivamente i ratei di rotazione rispetto agli assi $x$, $y$ e $z$.
+La derivata del rotore nel tempo è esprimibile attraverso la relazione \ref{eq:SistemaQuadrirotore_quaternionederivato}, dove $p$, $q$ ed $r$ sono rispettivamente i ratei di rotazione rispetto agli assi $x$, $y$ e $z$.
 \begin{equation}\label{eq:SistemaQuadrirotore_quaternionederivato}
 \mathfrak{\dot{q}} = \frac{1}{2} \mathbf{\Omega} \mathfrak{q} =
 	\begin{pmatrix}
@@ -117,7 +119,7 @@ La derivata del rotore nel tempo si puù determinare attraverso la relazione \re
 		\mathbf{q}
 	\end{Bmatrix}
 \end{equation}
-
+utilizzando le formule \ref{eq:SistemaQuadrirotore_Forze} e \ref{eq:SistemaQuadrirotore_momenti} si determinano relativamente le forze e i momenti applicati. Manipolando le relazioni precedenti si possono ottenere le accelerazioni e le accelerazioni angolari, \ref{eq:SistemaQuadrirotore_acc}, \ref{eq:SistemaQuadrirotore_accang}. Per esplicitare le accelerazioni angolari è necessario anche la formula \ref{eq:SistemaQuadrirotore_momento_qdm} che esprime il momento della quantità di moto.
 \begin{equation}\label{eq:SistemaQuadrirotore_Forze}
 	\mathbf{F} + \mathbf{R} m \mathbf{g} = m \left[\frac{d \mathbf{v}}{d t} + \boldsymbol{\omega}\times \mathbf{v}\right]
 \end{equation}
@@ -130,7 +132,7 @@ La derivata del rotore nel tempo si puù determinare attraverso la relazione \re
 	\boldsymbol{\tau} = \frac{d \mathbf{H}}{d t } + \boldsymbol{\omega} \times \mathbf{H}
 \end{equation}
 
-\begin{equation}
+\begin{equation}\label{eq:SistemaQuadrirotore_momento_qdm}
 	\mathbf{H} = \mathbf{J} \boldsymbol{\omega} =
 	\begin{pmatrix}
 		J_x & J_xy & J_xz \\
@@ -148,10 +150,7 @@ La derivata del rotore nel tempo si puù determinare attraverso la relazione \re
 	\boldsymbol{\dot{\omega}} = - \mathbf{J^{-1}}\left(\boldsymbol{\omega}\times\left(\mathbf{J}\boldsymbol{\omega}\right)\right) + \mathbf{J^{-1}}\boldsymbol{\tau}
 \end{equation}
 
-\begin{equation}\label{eq:SistemaQuadrirotore_statespace}
-	\mathbf{\dot{x}} = \mathbf{f(x)} + \mathbf{g} \cdot \mathbf{u}
-\end{equation}
-
+Si definiscono il vettore di stato e di comando come segue:
 \[ 
 	\mathbf{x} = \begin{Bmatrix}
 		x \\ y \\ z \\ \phi \\ \theta \\ \psi \\ u \\ v \\ w \\ p \\ q \\ r
@@ -159,6 +158,19 @@ La derivata del rotore nel tempo si puù determinare attraverso la relazione \re
 	F_x \\ F_y \\ F_z \\ \tau_x \\ \tau_y \\ \tau_z
 	\end{Bmatrix}
 \]
+Si definiscono inoltre le costanti : 
+\[ 
+	\begin{matrix}
+	c_1 = \frac{J_{xz} (J_x -J_y + J_z)}{J_x J_y- J_xz^2} , & c_2 = \frac{J_xz (J_x -Jy +J_z)}{J_x J_y-J_xz^2}, &c_3 \frac{J_z}{J_x J_y - J_xz^2}, \\
+	c_4 = \frac{J_xz}{J_x J_y -J_xz^2} ,& c_5 = \frac{J_z - J x}{J_y},& c_6 = \frac{J_xz}{J_y}, \\
+	c_7 = \frac{1}{J_y} ,& c_8 = \frac{J_xz^2 + J_x (J_x - J_y)}{J_x J_y - J_xz^2},& c_9 =  \frac{J_x}{J_x J_y -J_xz^2}
+	\end{matrix}
+\]
+
+Con le formule precedenti, si riformulano le equazioni differenziali ottenendo la scrittura stato spazio \ref{eq:SistemaQuadrirotore_statespace}, dove sono esplicitati gli elementi principali nelle relazioni \ref{eq:SistemaQuadrirotore_statespaceElement}.
+\begin{equation}\label{eq:SistemaQuadrirotore_statespace}
+\mathbf{\dot{x}} = \mathbf{f(x)} + \mathbf{g} \cdot \mathbf{u}
+\end{equation}
 
 \begin{equation}\label{eq:SistemaQuadrirotore_statespaceElement}
 	\mathbf{f(x)} = \begin{Bmatrix}
@@ -190,6 +202,10 @@ La derivata del rotore nel tempo si puù determinare attraverso la relazione \re
 		0 & \cdots & 0 & c_4 & 0 & c_9 \\
 	\end{pmatrix}
 \end{equation}
+
+Quello presentato è quindi un modello matematico rappresentativo del quadricottero.
+
+\todo[inline]{Parlare del vettore di comando e del mixer}
 
 \todo[inline]{I sistemi di riferimento e la rotazione da uno al altro}
 \todo[inline]{Definizione degli operatori necessari a descrivere il modello base del drone}
