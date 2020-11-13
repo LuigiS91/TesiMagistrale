@@ -135,9 +135,9 @@ utilizzando le formule \ref{eq:SistemaQuadrirotore_Forze} e \ref{eq:SistemaQuadr
 \begin{equation}\label{eq:SistemaQuadrirotore_momento_qdm}
 	\mathbf{H} = \mathbf{J} \boldsymbol{\omega} =
 	\begin{pmatrix}
-		J_x & J_xy & J_xz \\
-		-Jxy & J_y & -Jyz \\
-		-Jxz & -Jyz & -Jz 
+		J_x & J_{xy} & J_{xz} \\
+		-J_{xy} & J_y & -J_{yz} \\
+		-J_{xz} & -J_{yz} & -J_z 
 	\end{pmatrix}
 	\begin{Bmatrix}
 		p\\
@@ -161,9 +161,9 @@ Si definiscono il vettore di stato e di comando come segue:
 Si definiscono inoltre le costanti : 
 \[ 
 	\begin{matrix}
-	c_1 = \frac{J_{xz} (J_x -J_y + J_z)}{J_x J_y- J_xz^2} , & c_2 = \frac{J_xz (J_x -Jy +J_z)}{J_x J_y-J_xz^2}, &c_3 \frac{J_z}{J_x J_y - J_xz^2}, \\
-	c_4 = \frac{J_xz}{J_x J_y -J_xz^2} ,& c_5 = \frac{J_z - J x}{J_y},& c_6 = \frac{J_xz}{J_y}, \\
-	c_7 = \frac{1}{J_y} ,& c_8 = \frac{J_xz^2 + J_x (J_x - J_y)}{J_x J_y - J_xz^2},& c_9 =  \frac{J_x}{J_x J_y -J_xz^2}
+	c_1 = \frac{J_{xz} (J_x -J_y + J_z)}{J_x J_y- J_{xz}^2} , & c_2 = \frac{J_{xz} (J_x -J_y +J_z)}{J_x J_y-J_{xz}^2}, &c_3 \frac{J_z}{J_x J_y - J_{xz}^2}, \\
+	c_4 = \frac{J_{xz}}{J_x J_y -J_{xz}^2} ,& c_5 = \frac{J_z - J x}{J_y},& c_6 = \frac{J_{xz}}{J_y}, \\
+	c_7 = \frac{1}{J_y} ,& c_8 = \frac{J_{xz}^2 + J_x (J_x - J_y)}{J_x J_y - J_{xz}^2},& c_9 =  \frac{J_x}{J_x J_y -J_{xz}^2}
 	\end{matrix}
 \]
 
@@ -205,7 +205,7 @@ Con le formule precedenti, si riformulano le equazioni differenziali ottenendo l
 
 Quello presentato è quindi un modello matematico rappresentativo del comportamento del quadricottero, ottenibile integrando le equazioni differenziali che rappresenta.
 
-Nel precedente studio il contributo della spinta introdotta dalla presenza dei rotori era stata ricavata sperimentalmente su di un banco di prova. In questa tesi verranno utilizzate le stesse leggi quadratiche ricavate e rappresentate in figura \ref{fig:pwmTM}. Questi sono necessari per valutare il vettore di comando, presentato dalla formula \ref{eq:SistemaQuadrirotore_vettorecomando}.
+Nel precedente studio il contributo della spinta introdotta dalla presenza dei rotori era stata ricavata sperimentalmente su di un banco di prova. In questa tesi verranno utilizzate le stesse leggi quadratiche ricavate e rappresentate in figura \ref{fig:pwmTM}. Questi sono necessari per valutare il vettore di comando, presentato dalla formula \ref{eq:SistemaQuadrirotore_vettorecomando}, dove $l$ rappresenta il braccio del rotore rispetto al centro di massa.
 
 \begin{equation}\label{eq:SistemaQuadrirotore_vettorecomando}
 	\mathbf{u}(\nu_1,\nu_2,\nu_3,\nu_4) = 
@@ -215,11 +215,11 @@ Nel precedente studio il contributo della spinta introdotta dalla presenza dei r
 	=\begin{Bmatrix}
 		0 \\ 0 \\
 		-\left[F(\nu_1)+F(\nu_2)+F(\nu_3)+F(\nu_4)\right] \\
-		\left[F(\nu_2)+F(\nu_3)-F(\nu_3)-F(\nu_4)\right ] l \\
-		\left[F(\nu_1)+F(\nu_3)-F(\nu_2)-F(\nu_4)\right] l \\
-		\tau(\nu_3)+\tau(\nu_3)-\tau(\nu_3)-\tau(\nu_3)
+		\left[F(\nu_4)+F(\nu_2)-F(\nu_1)-F(\nu_3)\right ] l \\
+		\left[F(\nu_2)+F(\nu_3)-F(\nu_4)-F(\nu_4)\right] l \\
+		\tau(\nu_1)+\tau(\nu_2)-\tau(\nu_3)-\tau(\nu_4)
 	\end{Bmatrix}
-\end{equation}
+\end{equation} \todo{seguendo gli schemi in figura \ref{fig:modello_quad_pitch},\ref{fig:modello_quad_roll} e \ref{fig:modello_quad_yaw}}
 
 \begin{figure}
 	\centering
@@ -238,4 +238,4 @@ Nel precedente studio il contributo della spinta introdotta dalla presenza dei r
 	\label{fig:pwmTM}
 \end{figure}
  
-L'implementazione in Gazebo verrà trattata in dettaglio nel capitolo \ref{section:gazebo}.
+L'implementazione in Gazebo verrà trattata in dettaglio nel capitolo \ref{section:gazebo}, nella quale verrà descritta anche la parte relativa all'imprlementazione del disturbo presente nelle misurazioni dei sensori.
