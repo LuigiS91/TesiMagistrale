@@ -42,7 +42,7 @@ Nel seguente elenco di manovre di base , viene preso come riferimento la figura 
 \end{itemize}
 Grazie a questo funzionamento e l'utilizzo di un mixer, che ha lo scopo di mescolare i quattro tipi di azionamento visti, si può governare il velivolo modificandone la posizione nello spazio \cite{DesTestCarm}.
 \subsubsection{Relazioni matematiche}
-Verranno esplicitate alcune formule utili per la modellazione iniziale del problema del quadrirotore come riportato in bibliografia, \cite{DesTestCarm}, \cite{baseTesi}.
+Verranno esplicitate alcune formule utili per la modellazione iniziale del problema del quadrirotore come riportato in bibliografia, \cite{DesTestCarm}, \cite{baseTesi}. Le ipotesi di partenza della trattazione prevedono di considerare come corpi rigidi tutti i componenti, di supporre trascurabile le forze aerodinamiche diverse dalla spinta principale del rotore. Inoltre viene considerato un sistema di riferimento terrestre come fosse inerziale, conosciuto come modello di terra piatta.
 
 Utilizzando i sistemi di riferimento del corpo del drone e del riferimento terreste come in figura \ref{fig:riferimenti}, si definisce la matrice di rotazione $R$ espressa dalla relazione \ref{eq:SistemaQuadrirotore_R}. In questo sistema si impongono che l'asse $x$ del corpo sia diretto ferso il muso del drone e l'asse $y$ verso destra, in modo che l'asse $z$ sia diretto verso il basso, mentre l'asse $x_e$ risulta essere diretto verso nord, l'asse $y_e$ verso est e di conseguenza l'asse $z_e$ verso il centro della terra. 
 Attraverso il sistema di equazioni , espresso in forma matriciale \ref{eq:SistemaQuadrirotore_ratei}, si ricavano i retei degli angoli di assetto partendo dalle accelerazioni angolari, utillizzando per  comodità le seguenti semplificazioni di scrittura : 
@@ -205,17 +205,37 @@ Con le formule precedenti, si riformulano le equazioni differenziali ottenendo l
 
 Quello presentato è quindi un modello matematico rappresentativo del comportamento del quadricottero, ottenibile integrando le equazioni differenziali che rappresenta.
 
-\todo[inline]{Parlare del vettore di comando e del mixer}
+Nel precedente studio il contributo della spinta introdotta dalla presenza dei rotori era stata ricavata sperimentalmente su di un banco di prova. In questa tesi verranno utilizzate le stesse leggi quadratiche ricavate e rappresentate in figura \ref{fig:pwmTM}. Questi sono necessari per valutare il vettore di comando, presentato dalla formula \ref{eq:SistemaQuadrirotore_vettorecomando}.
 
-La tesi precedente aveva trovato una relazione tra il segnale pwm e la spinta in modo sperimentale.
-Viene usata una regressione quadratica.
-Specificare il vettore u funzione del segnale pwm.
+\begin{equation}\label{eq:SistemaQuadrirotore_vettorecomando}
+	\mathbf{u}(\nu_1,\nu_2,\nu_3,\nu_4) = 
+	\begin{Bmatrix}
+		F_x \\ F_y \\ F_z \\ \tau_x \\ \tau_y \\ \tau_z
+	\end{Bmatrix}
+	=\begin{Bmatrix}
+		0 \\ 0 \\
+		-\left[F(\nu_1)+F(\nu_2)+F(\nu_3)+F(\nu_4)\right] \\
+		\left[F(\nu_2)+F(\nu_3)-F(\nu_3)-F(\nu_4)\right ] l \\
+		\left[F(\nu_1)+F(\nu_3)-F(\nu_2)-F(\nu_4)\right] l \\
+		\tau(\nu_3)+\tau(\nu_3)-\tau(\nu_3)-\tau(\nu_3)
+	\end{Bmatrix}
+\end{equation}
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{SistemaQuadrirotore/Figure/ForzaPWM}
+		\caption{Spinta generata in funzione del segnale PWM}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{SistemaQuadrirotore/Figure/MomentoPWM}
+		\caption{Momento generato in funzione del segnale PWM}
+	\end{subfigure}
+	\caption{Fitting quadratico delle leggi eiguardanti il rotore}
+	\label{fig:pwmTM}
+\end{figure}
  
-Rimando al capitolo di gazebo.
-
-\todo[inline]{I sistemi di riferimento e la rotazione da uno al altro}
-\todo[inline]{Definizione degli operatori necessari a descrivere il modello base del drone}
-\todo[inline]{Forze e momenti applicati nel modello di partenza}
-\todo[inline]{Breve descrizione alle modifiche fatte al modello per applicazione su gazebo con rimando al capitolo specifico}
-
-\todo[inline]{Nel sottocapitolo seguente raccolta di possibili modelli di guide e di controllo}
+L'implementazione in Gazebo verrà trattata in dettaglio nel capitolo \ref{section:gazebo}.
