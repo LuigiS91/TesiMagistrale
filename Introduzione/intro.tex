@@ -1,77 +1,3 @@
-\begin{commento}
-Capitolo sulla letteratura	
-\end{commento}
-\begin{idee}
-	La principale fonte è la tesi di davide, essendo la continuazione naturale del suo lavoro.
-	Cosa ha fatto nel suo lavoro.
-	Nella libreria di gazebo è stato modificata la sezione dei rotori in modo da rispettare il lavoro della tesi di davide, essendo l'applicazione finale lo stesso drone.
-	
-	Il segnale preso dal controllore viene dal filtro di kalman di px4.
-	Spiegazione di come funziona un filtro di kalman.
-	
-	Bisogna parlare dei controlli PID e SMC dalla sua bibliografia.
-	
-	Un'altra tesi è stata presa in considerazione per lo sviluppo del codice attraverso il tool. 
-	
-	Si è studiata la documentazione del tool.
-	
-	Si è utilizzato il codice sorgente è la relativa documentazione.
-	
-	Ci sono diverse tipologie di controllori applicati ai velivoli a pilotaggio remoto. 
-	
-	Quali tipologie di droni esistono.
-	
-	Quali sono le possibili applicazioni nel settore.
-	
-	Come è fatta la verifica dei prodotti nel settore industriale.
-	
-	Documentazione relativa a gazebo per l'istallazione e la modifica dei plug-in.
-	
-	Utilizzi di gazebo nel settore dei droni.
-\end{idee}
-\begin{commento}
-	Davide 
-	I droni possono volare senza il comando diretto dell'uomo. 
-	Funzionamento molto basilare.
-	Diversi tipi di configurazione possibile (citazione agrawal2015multi).
-	I droni sono comandati su tutti i gradi di libertà.
-	Vantaggi e svantaggi dei droni. (ELENCARE QUALI)
-	I droni possono essere impiegati in ambienti rischiosi e missinoi di svariata natura.
-	Nascono quasi per gioco , solo secondariamente si è percepito il suo grande potenziale di impiego.
-	Costano poco è sono una grande risolrsa su cui poter fare molta ricerca su modelli di controllo avanzati.
-	Necessità di un controllo robusto anche in assenza di segnale GPS per applicazioni indoor.
-	Necessità di avere una molteplicità di sensori per evitare gli ostacoli.
-	
-	bouabdallah2004pid
-	
-	bolandi2013attitude ... varia bibliografia
-	
-	Utilizzati due controlli per posizione e attitude. Perchè fare così?
-	
-	Controllori lineari e non lineari. Vantaggi e svantaggi. Utilizzo di quali? Descrivere i vari tipi di controllori che esistono.
-	
-	Applicazioni di queste leggi di controllo ad un caso reale con generazione del codice e verifica del funzionamento in ambiente simulato.
-	Versatilità e possibilità di metodi alternativi come machine learning.
-	falanga2018foldable possibilità di riconfigurazioni. panza2016tilt
-	
-	utilizzo di PX4 e sel suo stimatore.
-	Parlare dei sensori.
-	
-	Suddivisione dei capitoli.
-\end{commento}
-\begin{commento}
-	La nascita dei quadricotteri, si può far risalire agli arbori della nascita degli elicotteri.
-	Il primo quadrirotore ad ala fissa fu costruito da George de Bothezat nel 1922. L'elicottero però non era facile da manovrare (Young, Warren R. The Helicopters. "The Epic of Flight". Chicago: Time-Life Books, 1982).
-	Nel periodo successivo grazie allo sviluppo dell'aeromodellistica degli anni 60' e allo sviluppo parallelo in ambito militare si arriva a sviluppare i primi droni commerciali di successo (PARROT AR Drone) governato interamente tramite wifi. Uso professionale e amatoriale. Presente il POV.molto semplice da usare. Main stream, necessarie normative restrittive. Riflessioni sulle infine possibilità di impiego. Sviluppo di sensori e algoritmi avanzati di controllo. inteligenze artificiali per evitare gli ostacoli.
-\end{commento}
-
-\begin{scaletta}
-	Nascita dei quadrirotori e dei sistemi sapr. (Al contrario)
-	Tipologie di droni e vantaggi delle architetture. escursus sui sensori e perchè sono utili
-	Missioni in cui si possono usare
-	tipo di controllo
-	spiegazione dei capitoli
-\end{scaletta}
 \chapter{Introduzione}
 La necessità di avere dei velivoli a pilotaggio remoto nasce inizialmente per scopi militari. Il primo velivolo radiocomandato fu infatti in De Haviland 82, adattato per l'addestramento della contraerea con un sistema di pilotaggio remoto attraverso radiocomando \cite{histoDrone}. \'E invece alla sperimentazione riguardante il mondo elicotteristico che si deve la comparsa delle prime configurazioni di quadricottero, un esempio il Jerome-de Bothezat Flying Octopus, velivolo costruito da George de Bothezat nel 1922 \cite{Young}. Ai tempi però questi tipi di configurazione avendo caratteristiche di controllabilità molto carenti e non riuscendo a soddisfare le caratteristiche di peso strutturale e potenze dei motori necessarie non permisero un successivo sviluppo a vantaggio delle configurazioni degli elicotteri così come la conosciamo adesso. Con il successivo avvento della modellistica negli anni '60, lo sviluppo di nuove tecnologie elettroniche e dei materiali, con relativo abbattimento dei costi, si sono potute superare le limitazioni del passato aprendo agli scenari applicativi più svariati oltre a quelli bellici, amatoriali e industriali. Nacquero quindi i primi modelli di droni commerciali.
 
@@ -92,6 +18,23 @@ Vengono riportati i principali vantaggi e svantaggi di questi sistemi \cite{DesT
 \end{itemize}
 
 Un aspetto importate da considerare è la presenza dei sensori, senza di questi non sarebbe possibile ricavare attraverso filtraggio e stima, lo stato del velivolo e quindi determinare il controllo da attuare per ottenere la risposta, in termini di posizione e velocità o traiettoria desiderata. I tipici sensori installati sono quelli che permettono la determinazione delle accelerazioni sui tre assi e angolari. Teoricamente queste sei misure se integrate sarebbero sufficienti, ma a causa della intrinseca presenza di rumore ed errori non del tutto eliminabili, si adoperano ulteriori sensori. L'antenna di ricezione del Sistema di posizionamento globale (GPS), un altrimetro barometrico e magnetometri, possono compensare i difetti di misurazione, attraverso filtraggio e composizione delle misure \cite{KoksalN2018ALQA}. Nell'applicazione specifica trattata in questa tesi il segnale GPS non è da considerarsi affidabile in quanto, viene ripreso in parte il lavoro di ricerca svolto al Politecnico di Torino \cite{DesTestCarm}, \cite{baseTesi}.
+
+\todo[inline]{lavori simili}
+\begin{commento}
+citare Development of Hardware-in-the-Loop Simulation Based on Gazebo
+	and Pixhawk for Unmanned Aerial Vehicles : assenza di simulink
+citare il lavoro di Davide
+citare la tesi naval con luso di simulink
+citare Implementation of Sliding Mode Fault Tolerant Control on the IRIS+
+Quadrotor
+\end{commento}
+
+\todo[inline]{motivazione del lavoro}
+\todo[inline]{obbiettivo del lavoro}
+\todo[inline]{Perchè è importate fare SITL e PITL invece che flight test}
+Come riportato nella stessa guida di PX4, le simulazioni sono il modo più sicuro e rapido per testare il codice, prima di avere il vero e proprio quadricottero. Dal settore automotive si può capire l'importanza di un approccio model based con corrispettive fasi di validazione, citando Model-based testing of Automotive System, vantaggi nella progettazione semplificando la descrizione del problema e nell'automazione della fase di testing del prodotto. 
+
+
 
 \section{Organigramma della tesi}
 La tesi è suddivisa, oltre a questo capitolo introduttivo, in tre capitoli:
