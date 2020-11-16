@@ -45,7 +45,7 @@ Grazie a questo funzionamento e l'utilizzo di un mixer, che ha lo scopo di mesco
 Verranno esplicitate alcune formule utili per la modellazione iniziale del problema del quadrirotore come riportato in bibliografia, \cite{DesTestCarm}, \cite{baseTesi}. Le ipotesi di partenza della trattazione prevedono di considerare come corpi rigidi tutti i componenti, di supporre trascurabile le forze aerodinamiche diverse dalla spinta principale del rotore. Inoltre viene considerato un sistema di riferimento terrestre come fosse inerziale, conosciuto come modello di terra piatta.
 
 Utilizzando i sistemi di riferimento del corpo del drone e del riferimento terreste come in figura \ref{fig:riferimenti}, si definisce la matrice di rotazione $R$ espressa dalla relazione \ref{eq:SistemaQuadrirotore_R}. In questo sistema si impongono che l'asse $x$ del corpo sia diretto ferso il muso del drone e l'asse $y$ verso destra, in modo che l'asse $z$ sia diretto verso il basso, mentre l'asse $x_e$ risulta essere diretto verso nord, l'asse $y_e$ verso est e di conseguenza l'asse $z_e$ verso il centro della terra. 
-Attraverso il sistema di equazioni , espresso in forma matriciale \ref{eq:SistemaQuadrirotore_ratei}, si ricavano i retei degli angoli di assetto partendo dalle accelerazioni angolari, utillizzando per  comodità le seguenti semplificazioni di scrittura : 
+Attraverso il sistema di equazioni , espresso in forma matriciale \ref{eq:SistemaQuadrirotore_ratei}, si ricavano i retei degli angoli di assetto partendo dalle accelerazioni angolari, utilizzando per  comodità le seguenti semplificazioni di scrittura : 
 \[ 	c(\cdot)=\cos(\cdot)\ ,\  s(\cdot) = \sin(\cdot) \]
 \begin{equation}
 R=
@@ -238,4 +238,4 @@ Nel precedente studio il contributo della spinta introdotta dalla presenza dei r
 	\label{fig:pwmTM}
 \end{figure}
  
-L'implementazione in Gazebo verrà trattata in dettaglio nel capitolo \ref{section:gazebo}, nella quale verrà descritta anche la parte relativa all'imprlementazione del disturbo presente nelle misurazioni dei sensori.
+L'implementazione in Gazebo verrà trattata in dettaglio nel capitolo \ref{section:gazebo}, nella quale verrà descritta anche la parte relativa all'implementazione del disturbo presente nelle misurazioni dei sensori.
