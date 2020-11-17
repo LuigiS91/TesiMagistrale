@@ -267,24 +267,6 @@
       \verb https://www.iso.org/obp/ui/#iso:std:iso:26262:-6:ed-2:v1:en
       \endverb
     \endentry
-    \entry{px4Firmware}{online}{}
-      \list{organization}{1}{%
-        {PX4 Dev Team}%
-      }
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labeltitlesource}{title}
-      \field{title}{PX4 Development Guide (v1.8.0)}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
-      \endverb
-      \verb{url}
-      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
-      \endverb
-      \keyw{px4}
-    \endentry
     \entry{modelquad}{article}{}
       \name{author}{3}{}{%
         {{hash=557ac8b0d5f2ea79ae1c98d25604636a}{%
@@ -413,8 +395,8 @@
       \list{organization}{1}{%
         {Wikipedia}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{title}{NuttX}
       \field{year}{2020}
@@ -473,6 +455,25 @@
       \endverb
       \verb{url}
       \verb https://it.mathworks.com/hardware-support/px4-autopilots.html
+      \endverb
+      \keyw{px4}
+    \endentry
+    \entry{px4Firmware}{online}{}
+      \list{organization}{1}{%
+        {PX4 Dev Team}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{title}{PX4 Development Guide (v1.8.0)}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
+      \endverb
+      \verb{url}
+      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
       \endverb
       \keyw{px4}
     \endentry
@@ -588,8 +589,8 @@
       \strng{authorbibnamehash}{dd7863978255f488066dc4e0533e540f}
       \strng{authornamehash}{dd7863978255f488066dc4e0533e540f}
       \strng{authorfullhash}{dd7863978255f488066dc4e0533e540f}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2005 IEEE/RSJ International Conference on Intelligent Robots and Systems}
@@ -621,8 +622,8 @@
       \strng{authorbibnamehash}{12579294d3f6f7b4ce3812855995492b}
       \strng{authornamehash}{12579294d3f6f7b4ce3812855995492b}
       \strng{authorfullhash}{12579294d3f6f7b4ce3812855995492b}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0-7695-3127-4}
@@ -889,7 +890,7 @@
       \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Aeronautical & Space Sciences}
+      \field{journaltitle}{International Journal of Aeronautical \& Space Sciences}
       \field{month}{03}
       \field{title}{Development of Hardware-in-the-Loop Simulation Based on Gazebo and Pixhawk for Unmanned Aerial Vehicles}
       \field{volume}{19}
