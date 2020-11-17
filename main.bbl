@@ -253,103 +253,6 @@
       \verb 10.1109/ICUAS48674.2020.9213885
       \endverb
     \endentry
-    \entry{px4Firmware}{online}{}
-      \list{organization}{1}{%
-        {PX4 Dev Team}%
-      }
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labeltitlesource}{title}
-      \field{title}{PX4 Development Guide (v1.8.0)}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
-      \endverb
-      \verb{url}
-      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
-      \endverb
-      \keyw{px4}
-    \endentry
-    \entry{modelquad}{article}{}
-      \name{author}{3}{}{%
-        {{hash=557ac8b0d5f2ea79ae1c98d25604636a}{%
-           family={{Mahony}},
-           familyi={M\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=a662108e4098710ee8727851db5c5311}{%
-           family={{Kumar}},
-           familyi={K\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-        {{hash=89cd23734c6d7a33c04518e67f7d2493}{%
-           family={{Corke}},
-           familyi={C\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
-      \strng{fullhash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
-      \strng{bibnamehash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
-      \strng{authorbibnamehash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
-      \strng{authornamehash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
-      \strng{authorfullhash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Robotics Automation Magazine}
-      \field{number}{3}
-      \field{title}{Multirotor Aerial Vehicles: Modeling, Estimation, and Control of Quadrotor}
-      \field{volume}{19}
-      \field{year}{2012}
-      \field{pages}{20\bibrangedash 32}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1109/MRA.2012.2206474
-      \endverb
-    \endentry
-    \entry{ZuluAndrew2014ARoC}{article}{}
-      \name{author}{2}{}{%
-        {{hash=a878e386cb6ad037097a5aa6e41c5e7c}{%
-           family={Zulu},
-           familyi={Z\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod}}}%
-        {{hash=77cec18751e4671b3c498ef187bbc424}{%
-           family={John},
-           familyi={J\bibinitperiod},
-           given={Samuel},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{publisher}{1}{%
-        {Scientific Research Publishing, Inc}%
-      }
-      \strng{namehash}{70f0ce7f598fc642ce62dcfad4775c2c}
-      \strng{fullhash}{70f0ce7f598fc642ce62dcfad4775c2c}
-      \strng{bibnamehash}{70f0ce7f598fc642ce62dcfad4775c2c}
-      \strng{authorbibnamehash}{70f0ce7f598fc642ce62dcfad4775c2c}
-      \strng{authornamehash}{70f0ce7f598fc642ce62dcfad4775c2c}
-      \strng{authorfullhash}{70f0ce7f598fc642ce62dcfad4775c2c}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Open Journal of Applied Sciences, 2014, 4, 547-556 The quadrotor unmanned aerial vehicle is a great platform for control systems research as its nonlinear nature and under-actuated configuration make it ideal to synthesize and analyze control algorithms. After a brief explanation of the system, several algorithms have been analyzed including their advantages and disadvantages: PID, Linear Quadratic Regulator (LQR), Sliding mode, Backstepping, Feedback linearization, Adaptive, Robust, Optimal, L1, H-infinity, Fuzzy logic and Artificial neutral networks. The conclusion of this work is a proposal of hybrid systems to be considered as they combine advantages from more than one control philosophy.}
-      \field{issn}{2165-3925}
-      \field{journaltitle}{Open journal of applied sciences (Irvine, CA)}
-      \field{number}{14}
-      \field{title}{A Review of Control Algorithms for Autonomous Quadrotors}
-      \field{volume}{4}
-      \field{year}{2014}
-      \field{pages}{547\bibrangedash 556}
-      \range{pages}{10}
-      \keyw{Computer Science - Systems and Control}
-    \endentry
     \entry{KimJinho2020ACSo}{article}{}
       \name{author}{3}{}{%
         {{hash=afcfea51c97949d46d85998af1283dd8}{%
@@ -394,6 +297,229 @@
       \field{pages}{3\bibrangedash 16}
       \range{pages}{14}
       \keyw{unmanned aerial vehicle (UAV) ; unmanned aircraft system (UAS) ; Helicopters ; Rotors ; Military aircraft ; Control systems ; quadrotor ; Unmanned aerial vehicles ; control ; Autonomous ; Aircraft propulsion}
+    \endentry
+    \entry{ZuluAndrew2014ARoC}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a878e386cb6ad037097a5aa6e41c5e7c}{%
+           family={Zulu},
+           familyi={Z\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=77cec18751e4671b3c498ef187bbc424}{%
+           family={John},
+           familyi={J\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Scientific Research Publishing, Inc}%
+      }
+      \strng{namehash}{70f0ce7f598fc642ce62dcfad4775c2c}
+      \strng{fullhash}{70f0ce7f598fc642ce62dcfad4775c2c}
+      \strng{bibnamehash}{70f0ce7f598fc642ce62dcfad4775c2c}
+      \strng{authorbibnamehash}{70f0ce7f598fc642ce62dcfad4775c2c}
+      \strng{authornamehash}{70f0ce7f598fc642ce62dcfad4775c2c}
+      \strng{authorfullhash}{70f0ce7f598fc642ce62dcfad4775c2c}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Open Journal of Applied Sciences, 2014, 4, 547-556 The quadrotor unmanned aerial vehicle is a great platform for control systems research as its nonlinear nature and under-actuated configuration make it ideal to synthesize and analyze control algorithms. After a brief explanation of the system, several algorithms have been analyzed including their advantages and disadvantages: PID, Linear Quadratic Regulator (LQR), Sliding mode, Backstepping, Feedback linearization, Adaptive, Robust, Optimal, L1, H-infinity, Fuzzy logic and Artificial neutral networks. The conclusion of this work is a proposal of hybrid systems to be considered as they combine advantages from more than one control philosophy.}
+      \field{issn}{2165-3925}
+      \field{journaltitle}{Open journal of applied sciences (Irvine, CA)}
+      \field{number}{14}
+      \field{title}{A Review of Control Algorithms for Autonomous Quadrotors}
+      \field{volume}{4}
+      \field{year}{2014}
+      \field{pages}{547\bibrangedash 556}
+      \range{pages}{10}
+      \keyw{Computer Science - Systems and Control}
+    \endentry
+    \entry{CrazyS}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f2779cfdfc88c732b4be5c9906695b9f}{%
+           family={{Silano}},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8f086285573229b50b52ad29849edbdc}{%
+           family={{Aucone}},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=377cbcb4acfb9cf693a88f1703d5b821}{%
+           family={{Iannelli}},
+           familyi={I\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ac53a256fe9f15ee30947325ce1a63b}
+      \strng{fullhash}{1ac53a256fe9f15ee30947325ce1a63b}
+      \strng{bibnamehash}{1ac53a256fe9f15ee30947325ce1a63b}
+      \strng{authorbibnamehash}{1ac53a256fe9f15ee30947325ce1a63b}
+      \strng{authornamehash}{1ac53a256fe9f15ee30947325ce1a63b}
+      \strng{authorfullhash}{1ac53a256fe9f15ee30947325ce1a63b}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 26th Mediterranean Conference on Control and Automation (MED)}
+      \field{title}{CrazyS: A Software-In-The-Loop Platform for the Crazyflie 2.0 Nano-Quadcopter}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/MED.2018.8442759
+      \endverb
+    \endentry
+    \entry{SIL_design}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=cdd7b8cc9fa62e0fd087947c19fa5f3f}{%
+           family={{Silva}},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi H.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e69b95813014e5c4f425d23e9aa825e1}{%
+           family={{Santos}},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=c801bd841b022c916a96e7b9c878b821}{%
+           family={{Silva}},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=369ad08ad9b218a076d1a17fe3982741}{%
+           family={{S. Neto}},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=1645131e663e0411bbc9b02357f45685}{%
+           family={{Mercorelli}},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{845cf397344d5a1a65aaf2feedb7e30c}
+      \strng{fullhash}{bed794ac95a132bf911a8480d83520be}
+      \strng{bibnamehash}{bed794ac95a132bf911a8480d83520be}
+      \strng{authorbibnamehash}{bed794ac95a132bf911a8480d83520be}
+      \strng{authornamehash}{845cf397344d5a1a65aaf2feedb7e30c}
+      \strng{authorfullhash}{bed794ac95a132bf911a8480d83520be}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 20th International Carpathian Control Conference (ICCC)}
+      \field{title}{Design of Controllers Applied to Autonomous Unmanned Aerial Vehicles Using Software In The Loop}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/CarpathianCC.2019.8766036
+      \endverb
+    \endentry
+    \entry{implement}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{IMPLEMENTATION OF CUSTOM ATTITUDE CONTROL ALGHORITHMS OVER}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{HIL_Dev}{article}{}
+      \name{author}{2}{}{%
+        {{hash=987069ad04d8a3db5d51409458307bc3}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Khoa},
+           giveni={K\bibinitperiod}}}%
+        {{hash=911796f965f997f4d41325283e246f5b}{%
+           family={Ha},
+           familyi={H\bibinitperiod},
+           given={Cheolkeun},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a585da0577ebdc7496ab3239a8edce5c}
+      \strng{fullhash}{a585da0577ebdc7496ab3239a8edce5c}
+      \strng{bibnamehash}{a585da0577ebdc7496ab3239a8edce5c}
+      \strng{authorbibnamehash}{a585da0577ebdc7496ab3239a8edce5c}
+      \strng{authornamehash}{a585da0577ebdc7496ab3239a8edce5c}
+      \strng{authorfullhash}{a585da0577ebdc7496ab3239a8edce5c}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Aeronautical & Space Sciences}
+      \field{month}{03}
+      \field{title}{Development of Hardware-in-the-Loop Simulation Based on Gazebo and Pixhawk for Unmanned Aerial Vehicles}
+      \field{volume}{19}
+      \field{year}{2018}
+      \field{pages}{238\bibrangedash 249}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s42405-018-0012-8
+      \endverb
+    \endentry
+    \entry{px4Firmware}{online}{}
+      \list{organization}{1}{%
+        {PX4 Dev Team}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{PX4 Development Guide (v1.8.0)}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
+      \endverb
+      \verb{url}
+      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
+      \endverb
+      \keyw{px4}
+    \endentry
+    \entry{modelquad}{article}{}
+      \name{author}{3}{}{%
+        {{hash=557ac8b0d5f2ea79ae1c98d25604636a}{%
+           family={{Mahony}},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a662108e4098710ee8727851db5c5311}{%
+           family={{Kumar}},
+           familyi={K\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=89cd23734c6d7a33c04518e67f7d2493}{%
+           family={{Corke}},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
+      \strng{fullhash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
+      \strng{bibnamehash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
+      \strng{authorbibnamehash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
+      \strng{authornamehash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
+      \strng{authorfullhash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Robotics Automation Magazine}
+      \field{number}{3}
+      \field{title}{Multirotor Aerial Vehicles: Modeling, Estimation, and Control of Quadrotor}
+      \field{volume}{19}
+      \field{year}{2012}
+      \field{pages}{20\bibrangedash 32}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/MRA.2012.2206474
+      \endverb
     \endentry
     \entry{Nuttx}{online}{}
       \list{organization}{1}{%
@@ -446,8 +572,8 @@
       \strng{authorbibnamehash}{8687eae34a3830fc0c113d9d65382e90}
       \strng{authornamehash}{8687eae34a3830fc0c113d9d65382e90}
       \strng{authorfullhash}{8687eae34a3830fc0c113d9d65382e90}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{PX4 Autopilots Support from Embedded Coder}
@@ -466,8 +592,8 @@
       \list{organization}{1}{%
         {Dronecode Project}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labeltitlesource}{title}
       \field{title}{MAVLink Developer Guide}
       \field{year}{2020}
@@ -505,8 +631,8 @@
       \strng{authorbibnamehash}{0a409cbeb8f23b8114f820b01f6fd56a}
       \strng{authornamehash}{0a409cbeb8f23b8114f820b01f6fd56a}
       \strng{authorfullhash}{0a409cbeb8f23b8114f820b01f6fd56a}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566)}
@@ -534,8 +660,8 @@
       \strng{authorbibnamehash}{4bb3ff7fb2870d1f4a50fcbb787cb74e}
       \strng{authornamehash}{4bb3ff7fb2870d1f4a50fcbb787cb74e}
       \strng{authorfullhash}{4bb3ff7fb2870d1f4a50fcbb787cb74e}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Automatic Control}
@@ -574,8 +700,8 @@
       \strng{authorbibnamehash}{dd7863978255f488066dc4e0533e540f}
       \strng{authornamehash}{dd7863978255f488066dc4e0533e540f}
       \strng{authorfullhash}{dd7863978255f488066dc4e0533e540f}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2005 IEEE/RSJ International Conference on Intelligent Robots and Systems}
@@ -674,8 +800,8 @@
       \strng{authorbibnamehash}{adb20de06fdc9d602881b898062569c7}
       \strng{authornamehash}{adb20de06fdc9d602881b898062569c7}
       \strng{authorfullhash}{adb20de06fdc9d602881b898062569c7}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2019 International Conference on System Science and Engineering (ICSSE)}
@@ -712,8 +838,8 @@
       \strng{authorbibnamehash}{baf232151b5d5fb2b2de0f0f777664df}
       \strng{authornamehash}{baf232151b5d5fb2b2de0f0f777664df}
       \strng{authorfullhash}{baf232151b5d5fb2b2de0f0f777664df}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)}
@@ -724,6 +850,46 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.1109/SMC.2019.8914154
+      \endverb
+    \endentry
+    \entry{SIL_perform}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a1969b1a0fe2e7ca42380e7a899f4694}{%
+           family={{Aminzadeh}},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=40ef73ec1f71c00f0b1ff8285efe86c2}{%
+           family={{Atashgah}},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7fc37cfee8182f821ceb331ae719b41e}{%
+           family={{Roudbari}},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6ef7ea1afb1e8591e584b27ef3f67bb}
+      \strng{fullhash}{e6ef7ea1afb1e8591e584b27ef3f67bb}
+      \strng{bibnamehash}{e6ef7ea1afb1e8591e584b27ef3f67bb}
+      \strng{authorbibnamehash}{e6ef7ea1afb1e8591e584b27ef3f67bb}
+      \strng{authornamehash}{e6ef7ea1afb1e8591e584b27ef3f67bb}
+      \strng{authorfullhash}{e6ef7ea1afb1e8591e584b27ef3f67bb}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Aerospace and Electronic Systems Magazine}
+      \field{number}{1}
+      \field{title}{Software in the loop framework for the performance assessment of a navigation and control system of an unmanned aerial vehicle}
+      \field{volume}{33}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{50\bibrangedash 57}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/MAES.2018.160219
       \endverb
     \endentry
   \enddatalist
