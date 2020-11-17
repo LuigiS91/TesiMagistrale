@@ -17,9 +17,10 @@ Vengono riportati i principali vantaggi e svantaggi di questi sistemi \cite{DesT
 	\item Il payload imbarcabile è relativamente basso.
 \end{itemize}
 
-Un aspetto importate da considerare è la presenza dei sensori, senza di questi non sarebbe possibile ricavare attraverso filtraggio e stima, lo stato del velivolo e quindi determinare il controllo da attuare per ottenere la risposta, in termini di posizione e velocità o traiettoria desiderata. I tipici sensori installati sono quelli che permettono la determinazione delle accelerazioni sui tre assi e angolari. Teoricamente queste sei misure se integrate sarebbero sufficienti, ma a causa della intrinseca presenza di rumore ed errori non del tutto eliminabili, si adoperano ulteriori sensori. L'antenna di ricezione del Sistema di posizionamento globale (GPS), un altrimetro barometrico e magnetometri, possono compensare i difetti di misurazione, attraverso filtraggio e composizione delle misure \cite{KoksalN2018ALQA}. Nell'applicazione specifica trattata in questa tesi il segnale GPS non è da considerarsi affidabile in quanto, viene ripreso in parte il lavoro di ricerca svolto al Politecnico di Torino \cite{DesTestCarm}, \cite{baseTesi}.
+Un aspetto importate da considerare è la presenza dei sensori, senza di questi non sarebbe possibile ricavare attraverso filtraggio e stima, lo stato del velivolo e quindi determinare il controllo da attuare per ottenere la risposta, in termini di posizione e velocità o traiettoria desiderata. I tipici sensori installati sono quelli che permettono la determinazione delle accelerazioni sui tre assi e angolari. Teoricamente queste sei misure se integrate sarebbero sufficienti, ma a causa della intrinseca presenza di rumore ed errori non del tutto eliminabili, si adoperano ulteriori sensori. L'antenna di ricezione del Sistema di posizionamento globale (GPS), un altimetro barometrico e magnetometri, possono compensare i difetti di misurazione, attraverso filtraggio e composizione delle misure \cite{KoksalN2018ALQA}. Nell'applicazione specifica trattata in questa tesi il segnale GPS non è da considerarsi affidabile in quanto, viene ripreso in parte il lavoro di ricerca svolto al Politecnico di Torino \cite{DesTestCarm}, \cite{baseTesi}, ovvere l'uso per applicazioni indoor.
 
 \todo[inline]{lavori simili}
+
 \begin{commento}
 citare Development of Hardware-in-the-Loop Simulation Based on Gazebo
 	and Pixhawk for Unmanned Aerial Vehicles : assenza di simulink
@@ -29,17 +30,48 @@ citare Implementation of Sliding Mode Fault Tolerant Control on the IRIS+
 Quadrotor
 \end{commento}
 
+\begin{idee}
+\cite{KimJinho2020ACSo} : In questo pubblicazione vengono riassunti vari tipi di controllori che sono stati utilizzati in diverse pubblicazioni. trattato in dettaglio nel capitolo
+
+\cite{KoksalN2018ALQA} : Necessità di fusione dei sensori per avere una stima corretta del posizionamento del drone nello spazio, in più viene usato un controllore LQR . Qui si fa un test di volo direttamente, che cosa hanno capito?
+
+In questa pubblicazione hanno ottenuto la garanzia di stabilità controllabilità applicando un controllo ottimale.
+Hanno tenuto conto del rumore, confrontando due tipi di filtraggio dei dati dei sensori : Kalman filtro complementare. Il loro scopo era ottimizzare il consumo di batteria attraverso il design ottimale del controllore e path planner. Viene suddiviso il controllo in due livello : alto livello,guidance e posizione; secondo livello attitude e altidue , maggiore interesse in questo . Concentrazione. Due voli sperimentali molto semplici. Drone specifico protetto da struttura di posizione. Io Voglio poterlo fare a rpescindere, cambiare drone.
+
+\cite{ZuluAndrew2014ARoC} : Trade-off tra diversi sistemi di controllo usati in varie pubblicazioni.
+
+
+
+\cite{CrazyS} :  QUi si motiva iperchè usare SIL. In questo articolo viene proposto CrasyS una estensione di ROS per modellare , sviluppare e integrare il Quadricottero Crazy flight 2.0 nano nella simulazione basata su Gazebo. Il controllore usa due PID e un generatore del segnale di riferimento. Per validare il sistema viene usato Il toolbox  di MAthWorks Robotics System che collega matlab e simulink a gazebo attraverso messaggi asincroni
+
+Il problema nasce dalla difficoltà di fare volare autonomamente il drone in modo autonomo in contesti particolari come quelli indoor, dove possono verificarsi condizioni imprevedibili.Situazioni critiche. Studiare missioni complesse subito nel mondo reale può essere complicato e richiedere moloto tempo invece la simulazione è molto più semplice, e costare nulla in termini di costi e sicurezza. Si può far schiantare il drone quante volte si vuole. In questo modo dalle simulazioni è possibile testare il sistema in varie condizioni. L'ambiente simulativo è molto versatile e si possono espandere le funzionalità in modo da poter avere più test possibili.
+
+\cite{SIL_design} : Progetto di un sistema di controllo di altitudine sviluppato attraverso le simulazioni fatte in software in the loop. Questo approccio ha permesso di descrivere un procedura di test basati su modelli fisici del sistema. Viene usato una procedura detta chiusura del loop successiva. Il collegamento e lo scambio dei dati con i sensori emulati avviene attraverso protocollo MAVLink. Viene utilizzato DRONEkit e attraverso le sue API, per rendere più facili la generazione di codice del computer compagno con firmware Ardupilot.
+
+
+\end{idee}
+
+
+
+
+\begin{idee}
+	Durante la SIT è possibili introdurre fault arbitrari ai fini di testare i meccanismi di sicurezza , simulando la rottura di componenti software e hardware. Il più è possibile valutare sulle macchine target alcuni aspetti di utilizzo delle risorse, questo consente di aumentare la funtional safety del prodotto. In più si può fare back to back comparazione tra modello e codice, garantendo la robustezza del risultato.
+\end{idee}
+
+
+
+
 \todo[inline]{motivazione del lavoro}
 \todo[inline]{obbiettivo del lavoro}
 \todo[inline]{Perchè è importate fare SITL e PITL invece che flight test}
-Come riportato nella stessa guida di PX4, le simulazioni sono il modo più sicuro e rapido per testare il codice, prima di avere il vero e proprio quadricottero. Dal settore automotive si può capire l'importanza di un approccio model based con corrispettive fasi di validazione, citando Model-based testing of Automotive System, vantaggi nella progettazione semplificando la descrizione del problema e nell'automazione della fase di testing del prodotto. 
+Come riportato nella stessa guida di PX4 \cite{px4Firmware}, le simulazioni sono il modo più sicuro e rapido per testare il codice, prima di avere il vero e proprio quadricottero. Dal settore automotive si può capire l'importanza di un approccio model based con corrispettive fasi di validazione, \cite, vantaggi nella progettazione semplificando la descrizione del problema e nell'automazione della fase di testing del prodotto. 
 
 
 
 \section{Organigramma della tesi}
 La tesi è suddivisa, oltre a questo capitolo introduttivo, in tre capitoli:
 \begin{itemize}
-	\item \textbf{Sistema Quadrirotore :} In questo capitolo verrà trattato nel dettaglio il sistema quadrirotore. Nello specifico verranno considerati il modello matematico, le leggi di controllo adottate e gli algoritmi di guida.
+	\item \textbf{Sistema Quadrirotore:} In questo capitolo verrà trattato nel dettaglio il sistema quadrirotore. Nello specifico verranno considerati il modello matematico, le leggi di controllo adottate e gli algoritmi di guida.
 	\item \textbf{Descrizione Autopilota :} Verranno trattati i dettagli del sistema scelto per l'implementazione. Varranno descritti in questo capitolo i dettagli del drone, l'autopilota scelto con il corrispettivo firmware e gli strumenti messi a disposizione per i test, con le modifiche effettuate.
 	\item \textbf{Simulazioni : } In questo ultimo capitolo verranno messi a confronto attraverso le simulazioni due differenti sistemi di controllo e le conclusioni. L'ultima parte del capitolo riguarderà il lavoro svolto sulle simulazioni PIL e i problemi riscontrati e possibili studi futuri.
 \end{itemize}

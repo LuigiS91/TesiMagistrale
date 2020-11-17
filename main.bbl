@@ -253,6 +253,24 @@
       \verb 10.1109/ICUAS48674.2020.9213885
       \endverb
     \endentry
+    \entry{px4Firmware}{online}{}
+      \list{organization}{1}{%
+        {PX4 Dev Team}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{PX4 Development Guide (v1.8.0)}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
+      \endverb
+      \verb{url}
+      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
+      \endverb
+      \keyw{px4}
+    \endentry
     \entry{modelquad}{article}{}
       \name{author}{3}{}{%
         {{hash=557ac8b0d5f2ea79ae1c98d25604636a}{%
@@ -381,8 +399,8 @@
       \list{organization}{1}{%
         {Wikipedia}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{title}{NuttX}
       \field{year}{2020}
@@ -399,8 +417,8 @@
       \list{organization}{1}{%
         {PX4 Dev Team}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{title}{PX4 Autopilot User Guide (1.8.2)}
       \field{year}{2020}
@@ -444,25 +462,6 @@
       \endverb
       \keyw{px4}
     \endentry
-    \entry{px4Firmware}{online}{}
-      \list{organization}{1}{%
-        {PX4 Dev Team}%
-      }
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labeltitlesource}{title}
-      \field{title}{PX4 Development Guide (v1.8.0)}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
-      \endverb
-      \verb{url}
-      \verb https://dev.px4.io/v1.8.0/en/index.html#px4-development-guide-v180
-      \endverb
-      \keyw{px4}
-    \endentry
     \entry{MAVLink}{online}{}
       \list{organization}{1}{%
         {Dronecode Project}%
@@ -482,7 +481,7 @@
       \endverb
       \keyw{mavlink}
     \endentry
-    \entry{1389776}{inproceedings}{}
+    \entry{PID_vs_LQ}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=46418fc03f0fcf6e4fa7791dc9cea1f1}{%
            family={{Bouabdallah}},
@@ -521,7 +520,7 @@
       \verb 10.1109/IROS.2004.1389776
       \endverb
     \endentry
-    \entry{1102603}{article}{}
+    \entry{Feedback}{article}{}
       \name{author}{1}{}{%
         {{hash=4bb3ff7fb2870d1f4a50fcbb787cb74e}{%
            family={{Zames}},
@@ -551,7 +550,7 @@
       \verb 10.1109/TAC.1981.1102603
       \endverb
     \endentry
-    \entry{1545112}{inproceedings}{}
+    \entry{G_inf}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=ff0ab64c013e495c08a5fb06320f6111}{%
            family={{Mokhtari}},
@@ -587,6 +586,144 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.1109/IROS.2005.1545112
+      \endverb
+    \endentry
+    \entry{MIL_Auto}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=7a91b822d9a0a0e3d1bc8647de873cf7}{%
+           family={Bringmann},
+           familyi={B\bibinitperiod},
+           given={Eckard},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ea1df8a6f4ab76cbbc6cb97b0dfee075}{%
+           family={Kramer},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{12579294d3f6f7b4ce3812855995492b}
+      \strng{fullhash}{12579294d3f6f7b4ce3812855995492b}
+      \strng{bibnamehash}{12579294d3f6f7b4ce3812855995492b}
+      \strng{authorbibnamehash}{12579294d3f6f7b4ce3812855995492b}
+      \strng{authornamehash}{12579294d3f6f7b4ce3812855995492b}
+      \strng{authorfullhash}{12579294d3f6f7b4ce3812855995492b}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-7695-3127-4}
+      \field{month}{05}
+      \field{title}{Model-Based Testing of Automotive Systems}
+      \field{year}{2008}
+      \true{nocite}
+      \field{pages}{485\bibrangedash 493}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/ICST.2008.45
+      \endverb
+    \endentry
+    \entry{SIL_obstacle}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=70fa1b776bd13415d9963991d6063cca}{%
+           family={{García}},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2fe1c7db2ef59d087a06f7fd2f023883}{%
+           family={{Molina}},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{918cc97f271f28cdbbbeb1629cdf8f94}
+      \strng{fullhash}{918cc97f271f28cdbbbeb1629cdf8f94}
+      \strng{bibnamehash}{918cc97f271f28cdbbbeb1629cdf8f94}
+      \strng{authorbibnamehash}{918cc97f271f28cdbbbeb1629cdf8f94}
+      \strng{authornamehash}{918cc97f271f28cdbbbeb1629cdf8f94}
+      \strng{authorfullhash}{918cc97f271f28cdbbbeb1629cdf8f94}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops)}
+      \field{title}{Simulation in Real Conditions of Navigation and Obstacle Avoidance with PX4/Gazebo Platform}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{979\bibrangedash 984}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/PERCOMW.2019.8730764
+      \endverb
+    \endentry
+    \entry{Vision_base}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=cc3118888c2558b6858feef770d4faea}{%
+           family={{Dang Nguyen}},
+           familyi={D\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b09b9fab0bc3ed13d1127f4ee47fa373}{%
+           family={{Nguyen}},
+           familyi={N\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{adb20de06fdc9d602881b898062569c7}
+      \strng{fullhash}{adb20de06fdc9d602881b898062569c7}
+      \strng{bibnamehash}{adb20de06fdc9d602881b898062569c7}
+      \strng{authorbibnamehash}{adb20de06fdc9d602881b898062569c7}
+      \strng{authornamehash}{adb20de06fdc9d602881b898062569c7}
+      \strng{authorfullhash}{adb20de06fdc9d602881b898062569c7}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 International Conference on System Science and Engineering (ICSSE)}
+      \field{title}{Vision-Based Software-in-the-Loop-Simulation for Unmanned Aerial Vehicles Using Gazebo and PX4 Open Source}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{429\bibrangedash 432}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICSSE.2019.8823322
+      \endverb
+    \endentry
+    \entry{SIL_Improv}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f2779cfdfc88c732b4be5c9906695b9f}{%
+           family={{Silano}},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4d344149428e244f10caf489b2ffdb01}{%
+           family={{Oppido}},
+           familyi={O\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=377cbcb4acfb9cf693a88f1703d5b821}{%
+           family={{Iannelli}},
+           familyi={I\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{baf232151b5d5fb2b2de0f0f777664df}
+      \strng{fullhash}{baf232151b5d5fb2b2de0f0f777664df}
+      \strng{bibnamehash}{baf232151b5d5fb2b2de0f0f777664df}
+      \strng{authorbibnamehash}{baf232151b5d5fb2b2de0f0f777664df}
+      \strng{authornamehash}{baf232151b5d5fb2b2de0f0f777664df}
+      \strng{authorfullhash}{baf232151b5d5fb2b2de0f0f777664df}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)}
+      \field{title}{Software-in-the-loop simulation for improving flight control system design: a quadrotor case study}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{466\bibrangedash 471}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/SMC.2019.8914154
       \endverb
     \endentry
   \enddatalist
