@@ -17,9 +17,8 @@ Vengono riportati i principali vantaggi e svantaggi di questi sistemi \cite{DesT
 	\item Il payload imbarcabile è relativamente basso.
 \end{itemize}
 
-Un aspetto importate da considerare è la presenza dei sensori, senza di questi non sarebbe possibile ricavare attraverso filtraggio e stima, lo stato del velivolo e quindi determinare il controllo da attuare per ottenere la risposta, in termini di posizione e velocità o traiettoria desiderata. I tipici sensori installati sono quelli che permettono la determinazione delle accelerazioni sui tre assi e angolari. Teoricamente queste sei misure se integrate sarebbero sufficienti, ma a causa della intrinseca presenza di rumore ed errori non del tutto eliminabili, si adoperano ulteriori sensori. L'antenna di ricezione del Sistema di posizionamento globale (GPS), un altimetro barometrico e magnetometri, possono compensare i difetti di misurazione, attraverso filtraggio e composizione delle misure \cite{KoksalN2018ALQA}. Nell'applicazione specifica trattata in questa tesi il segnale GPS non è da considerarsi affidabile in quanto, viene ripreso in parte il lavoro di ricerca svolto al Politecnico di Torino \cite{DesTestCarm}, \cite{baseTesi}, ovvere l'uso per applicazioni indoor.
+Un aspetto importate da considerare è la presenza dei sensori, senza di questi non sarebbe possibile ricavare attraverso filtraggio e stima, lo stato del velivolo e quindi determinare il controllo da attuare per ottenere la risposta, in termini di posizione e velocità o traiettoria desiderata. I tipici sensori installati sono quelli che permettono la determinazione delle accelerazioni sui tre assi e angolari. Teoricamente queste sei misure se integrate sarebbero sufficienti, ma a causa della intrinseca presenza di rumore ed errori non del tutto eliminabili, si adoperano ulteriori sensori. L'antenna di ricezione del Sistema di posizionamento globale (GPS), un altimetro barometrico e magnetometri, possono compensare i difetti di misurazione, attraverso filtraggio e composizione delle misure \cite{KoksalN2018ALQA}. Nell'applicazione specifica trattata in questa tesi il segnale GPS non è da considerarsi affidabile in quanto, viene ripreso in parte il lavoro di ricerca svolto al Politecnico di Torino \cite{DesTestCarm}, \cite{baseTesi}, ovvero l'uso per applicazioni indoor.
 
-\todo[inline]{lavori simili}
 
 \begin{commento}
 citare Development of Hardware-in-the-Loop Simulation Based on Gazebo
@@ -33,10 +32,10 @@ Quadrotor
 \begin{idee}
 \cite{KimJinho2020ACSo} : In questo pubblicazione vengono riassunti vari tipi di controllori che sono stati utilizzati in diverse pubblicazioni. trattato in dettaglio nel capitolo
 
-\cite{KoksalN2018ALQA} : Necessità di fusione dei sensori per avere una stima corretta del posizionamento del drone nello spazio, in più viene usato un controllore LQR . Qui si fa un test di volo direttamente, che cosa hanno capito?
-
-In questa pubblicazione hanno ottenuto la garanzia di stabilità controllabilità applicando un controllo ottimale.
-Hanno tenuto conto del rumore, confrontando due tipi di filtraggio dei dati dei sensori : Kalman filtro complementare. Il loro scopo era ottimizzare il consumo di batteria attraverso il design ottimale del controllore e path planner. Viene suddiviso il controllo in due livello : alto livello,guidance e posizione; secondo livello attitude e altidue , maggiore interesse in questo . Concentrazione. Due voli sperimentali molto semplici. Drone specifico protetto da struttura di posizione. Io Voglio poterlo fare a rpescindere, cambiare drone.
+%\cite{KoksalN2018ALQA} : Necessità di fusione dei sensori per avere una stima corretta del posizionamento del drone nello spazio, in più viene usato un controllore LQR . Qui si fa un test di volo direttamente, che cosa hanno capito?
+%
+%In questa pubblicazione hanno ottenuto la garanzia di stabilità controllabilità applicando un controllo ottimale.
+%Hanno tenuto conto del rumore, confrontando due tipi di filtraggio dei dati dei sensori : Kalman filtro complementare. Il loro scopo era ottimizzare il consumo di batteria attraverso il design ottimale del controllore e path planner. Viene suddiviso il controllo in due livello : alto livello,guidance e posizione; secondo livello attitude e altidue , maggiore interesse in questo . Concentrazione. Due voli sperimentali molto semplici. Drone specifico protetto da struttura di posizione. Io Voglio poterlo fare a rpescindere, cambiare drone.
 
 \cite{ZuluAndrew2014ARoC} : Trade-off tra diversi sistemi di controllo usati in varie pubblicazioni.
 
@@ -50,6 +49,15 @@ Il problema nasce dalla difficoltà di fare volare autonomamente il drone in mod
 \cite{implement} : in questa presentazione del tool di matlab viene presentata la procedura di generazione del codice danda risalto alla necessità di effettuare la validazione seguendo l'approccio model-base. Viene Espressa l'implementazione specifica utilizzando il controllore ixHawk con sistema PX4 . Specificando quale parte del codice viene generato e come questo viene implementato all'interno del firmware dell'hardware. Vengono trttate le funzionalitò del Tool. Viene però usato jMavsim.
 
 \cite{HIL_Dev} : in questa pubblicazione si sviluppa un software per testare l'effettiva comunicazione tra le varie parti del sistema per fare HIL in modo sicuro. viene usato Gazebo pixHawk . Viene sviluppato CAS Control application Software. Viene enfatizzata anche qui la necessità di simulare prima di effettuare test di volo. Riduce il rishio di rompere il sistema, a causa si cadute , fallimenti del sistema malfunzionamento del cotnrollore. Si fa riferimento alla poca versatilità di implementazione di modelli matematici di jmavsim. Gli altri simulatori son molto difficili da modificare in termini di aggiunta di diversi tipi di sensori, per questo si sceglia Gazebo. Gazebo è molto usato in robotica.Prensenta anche la capacità di risolvere la dinamica con il suo motore fisico open Dynamic Engine (ODE), conm grande accuratezza.
+
+\cite{SIL_perform} : In questo lavoro di evidenzia come sia necessario fare SITL. Viene utilizzato il SITL per valutare le performance del sistema di guida e controllo di un UAV, utilizzando un filtro di calman per stimare lo stato del velivolo e un controllo formato da PID
+
+\cite{SIL_Improv} : Questa pubblicazione parla eslicitamente perchè è importate fare SITL. Viene mostrato come alcune criticità della SITL non siano mostrate il MIL. Nele simulazioni vengono considerate missioni complesse. Si fa riferimento esplicito al V-model. Il controllo usato è di tipo PD. In questo lavoro si utilizza ROS con pacchetto RotorS, implementato in Gazebo. Mentre la soluzione è accettabile in MIL, non lo è in SIL, instabilità del controllo.
+
+\cite{Vision_base} : In questo lavoro viene usato PX4 e si fa SITL, utilizzando Gazebo. In Gazebo viene aggiunto un sensore visivo per fare delle simulazioni avanzate sfruttando questa funzionalità.
+
+\cite{SIL_obstacle} : viene validato il sensore LIDAR e la capacità di separazione dagli ostacoli utilizzando un computer di bordo PixHawk , usando un modello simulativo su gazebo in condizioni realistiche. 
+
 
 %\cite{iso26262} : nella Normativa si fa riferimento alla funcrional Safety. Deriva dalla IEC 61508 standard nel settore specifico elettronico.
 %Si utilizza il modello a V : Software integration and verification Software unit verification. 
@@ -67,17 +75,7 @@ Il problema nasce dalla difficoltà di fare volare autonomamente il drone in mod
 %	Durante la SIT è possibili introdurre fault arbitrari ai fini di testare i meccanismi di sicurezza , simulando la rottura di componenti software e hardware. Il più è possibile valutare sulle macchine target alcuni aspetti di utilizzo delle risorse, questo consente di aumentare la funtional safety del prodotto. In più si può fare back to back comparazione tra modello e codice, garantendo la robustezza del risultato.
 %\end{idee}
 
-\begin{scaletta}
-	Nel settore industriare risulta ormai affermata la pratica di progettazione model-based, più precisamente in questo lavoro di tesi si fa riferimento alla fase di generazione del codice, di test e validazione dei componenti software. Prendendo ad esempio il settore automotive viene preso come riferimento da standard di qualità, nella quale si parla di "Software Integration and Unit Verification", come tassello chiave dello sviluppo di software da implementare in dispositivi hardware, seguiti da tutti i documenti redatti per una corretta tranciabilità necessaria ad uno sviluppo coerente e professionale \cite{iso26262}. \'E evidente la necessità di prendere spunto nello sviluppo di questi tipi di prodotto alle pratiche industriali, in modo da soddisfare diversi criteri come la sicurezza. Nella fase di test preliminare del software si possono introdurre situazioni complesse che richiederebbero uno sforzo in termini di tempo e denaro non facilmente affrontabili se non addirittura irrealizzabili, oltre che alla validazione della compatibilità tra il software e l'hardware utilizzato.
-	
-	\cite{KoksalN2018ALQA} : Necessità di fusione dei sensori per avere una stima corretta del posizionamento del drone nello spazio, in più viene usato un controllore LQR . Qui si fa un test di volo direttamente, che cosa hanno capito?
-	
-	In questa pubblicazione hanno ottenuto la garanzia di stabilità controllabilità applicando un controllo ottimale.
-	Hanno tenuto conto del rumore, confrontando due tipi di filtraggio dei dati dei sensori : Kalman filtro complementare. Il loro scopo era ottimizzare il consumo di batteria attraverso il design ottimale del controllore e path planner. Viene suddiviso il controllo in due livello : alto livello,guidance e posizione; secondo livello attitude e altidue , maggiore interesse in questo . Concentrazione. Due voli sperimentali molto semplici. Drone specifico protetto da struttura di posizione. Io Voglio poterlo fare a rpescindere, cambiare drone.
-	
-	
-	
-\end{scaletta}
+Nel settore industriare risulta ormai affermata la pratica di progettazione model-based, più precisamente in questo lavoro di tesi si fa riferimento alla fase di generazione del codice, di test e validazione dei componenti software. Prendendo ad esempio il settore automotive viene preso come riferimento da standard di qualità, nella quale si parla di "Software Integration and Unit Verification", come tassello chiave dello sviluppo di software da implementare in dispositivi hardware, seguiti da tutti i documenti redatti per una corretta tranciabilità necessaria ad uno sviluppo coerente e professionale \cite{iso26262}. \'E evidente la necessità di prendere spunto nello sviluppo di questi tipi di prodotto alle pratiche industriali, in modo da soddisfare diversi criteri come la sicurezza. Nella fase di test preliminare del software si possono introdurre situazioni complesse che richiederebbero uno sforzo in termini di tempo e denaro non facilmente affrontabili se non addirittura irrealizzabili, oltre che alla validazione della compatibilità tra il software e l'hardware utilizzato. 
 
 
 \todo[inline]{motivazione del lavoro}
