@@ -93,30 +93,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.28}{\ignorespaces Traiettoria percorsa con controllore SMC al segnale SNAKE\relax }}{55}{figure.caption.76}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Risposta nella simulazione MIL in posizione con controllore interno PID al comando SNAKE\relax }}{57}{figure.caption.79}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Risposta nella simulazione MIL in posizione con controllore interno PID al comando SNAKE\relax }}{57}{figure.caption.81}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Risposta dell' assetto nella simulazione MIL con controllore interno PID al comando SNAKE\relax }}{58}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Risposta dell' assetto nella simulazione MIL con controllore interno PID al comando SNAKE\relax }}{58}{figure.caption.82}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Segnali PWM nella simulazione MIL del controllore PID al segnale SNAKE\relax }}{58}{figure.caption.81}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Segnali PWM nella simulazione MIL del controllore PID al segnale SNAKE\relax }}{58}{figure.caption.83}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Traiettoria percorsa nella simulazione MIL con controllore PID al segnale SNAKE\relax }}{59}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Traiettoria percorsa nella simulazione MIL con controllore PID al segnale SNAKE\relax }}{59}{figure.caption.84}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Risposta in posizione nella simulazione MIL con controllore interno SMC al comando SNAKE\relax }}{60}{figure.caption.84}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Risposta in posizione nella simulazione MIL con controllore interno SMC al comando SNAKE\relax }}{60}{figure.caption.86}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Risposta dell' assetto nella simulazione MIL con controllore interno SMC al comando SNAKE\relax }}{61}{figure.caption.85}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Risposta dell' assetto nella simulazione MIL con controllore interno SMC al comando SNAKE\relax }}{61}{figure.caption.87}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Segnali PWM del controllore SMC al segnale SNAKE\relax }}{61}{figure.caption.86}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Segnali PWM del controllore SMC al segnale SNAKE\relax }}{61}{figure.caption.88}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Traiettoria percorsa con controllore SMC nella simulazione MIL al segnale SNAKE\relax }}{62}{figure.caption.87}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Traiettoria percorsa con controllore SMC nella simulazione MIL al segnale SNAKE\relax }}{62}{figure.caption.89}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.37}{\ignorespaces Modello di controllo completo PID\relax }}{68}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Modello di controllo completo PID\relax }}{68}{figure.caption.98}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.38}{\ignorespaces Modello di controllo d' assetto PID\relax }}{68}{figure.caption.96}%
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Modello di controllo d' assetto PID\relax }}{68}{figure.caption.99}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.39}{\ignorespaces Modello di controllo di altitudine PID\relax }}{69}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Modello di controllo di altitudine PID\relax }}{69}{figure.caption.100}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.40}{\ignorespaces Modello di controllo di posizione PID\relax }}{69}{figure.caption.98}%
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Modello di controllo di posizione PID\relax }}{69}{figure.caption.101}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.41}{\ignorespaces Modello di gestione dei segnali di armamento\relax }}{70}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.41}{\ignorespaces Modello di gestione dei segnali di armamento\relax }}{70}{figure.caption.102}%
