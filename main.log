@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.9.30)  17 NOV 2020 20:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.9.30)  19 NOV 2020 16:09
 entering extended mode
 **./main.tex
 (main.tex
@@ -1031,14 +1031,13 @@ Excluding comment 'commento' Excluding comment 'idee'
 Excluding comment 'scaletta'
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (main.aux (sommario.aux) (ringraziamenti.aux)
-(Introduzione/intro.aux) (SistemaQuadrirotore/modello.aux)
-(SistemaQuadrirotore/leggidicontrollo.aux)
+ (main.aux (sommario.aux) (Introduzione/intro.aux)
+(SistemaQuadrirotore/modello.aux) (SistemaQuadrirotore/leggidicontrollo.aux)
 (SistemaQuadrirotore/algoritmidiguida.aux)
 (DescrizioneAutopilota/descrizione_drone.aux) (DescrizioneAutopilota/px4.aux)
-(DescrizioneAutopilota/gazebo.aux) (Simulazioni/sitl.aux) (Simulazioni/pitl.aux
-) (Simulazioni/conclusioni.aux) (Appendice/appendice.aux)
-(Bibliografia/bibliografia.aux))
+(DescrizioneAutopilota/gazebo.aux) (Simulazioni/sitl.aux) (Simulazioni/mitl.aux
+) (Simulazioni/pitl.aux) (Simulazioni/conclusioni.aux) (Appendice/appendice.aux
+) (Bibliografia/bibliografia.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
@@ -1141,7 +1140,7 @@ LaTeX Info: Redefining \nameref on input line 55.
 \c@lstlisting=\count463
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<polito.png, id=118, 273.02pt x 271.0125pt>
+<polito.png, id=158, 273.02pt x 271.0125pt>
 File: polito.png Graphic file (type png)
 <use polito.png>
 Package pdftex.def Info: polito.png  used on input line 59.
@@ -1189,15 +1188,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Excluding 'commento' comment.) [3] (main.toc)
+Excluding 'commento' comment.) [3] (main.toc [4
+
+
+])
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
- [5
-
-
-
-] (main.lof [6
+ [5] (main.lof [6
 
 
 ]
@@ -1231,25 +1229,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  (SistemaQuadrirotore/modello.tex
 Capitolo 2.
-<SistemaQuadrirotore/Figure/drone_alto.png, id=340, 509.2626pt x 521.7894pt>
+<SistemaQuadrirotore/Figure/drone_alto.png, id=408, 509.2626pt x 521.7894pt>
 File: SistemaQuadrirotore/Figure/drone_alto.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/drone_alto.png>
 Package pdftex.def Info: SistemaQuadrirotore/Figure/drone_alto.png  used on inp
 ut line 10.
 (pdftex.def)             Requested size: 190.12474pt x 194.80269pt.
-<SistemaQuadrirotore/Figure/drone_pitch.png, id=342, 795.9336pt x 815.2056pt>
+<SistemaQuadrirotore/Figure/drone_pitch.png, id=410, 795.9336pt x 815.2056pt>
 File: SistemaQuadrirotore/Figure/drone_pitch.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/drone_pitch.png>
 Package pdftex.def Info: SistemaQuadrirotore/Figure/drone_pitch.png  used on in
 put line 17.
 (pdftex.def)             Requested size: 190.12474pt x 194.72041pt.
-<SistemaQuadrirotore/Figure/drone_roll.png, id=343, 795.9336pt x 815.2056pt>
+<SistemaQuadrirotore/Figure/drone_roll.png, id=411, 795.9336pt x 815.2056pt>
 File: SistemaQuadrirotore/Figure/drone_roll.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/drone_roll.png>
 Package pdftex.def Info: SistemaQuadrirotore/Figure/drone_roll.png  used on inp
 ut line 24.
 (pdftex.def)             Requested size: 190.12474pt x 194.72041pt.
-<SistemaQuadrirotore/Figure/drone_yaw.png, id=344, 795.9336pt x 815.2056pt>
+<SistemaQuadrirotore/Figure/drone_yaw.png, id=412, 795.9336pt x 815.2056pt>
 File: SistemaQuadrirotore/Figure/drone_yaw.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/drone_yaw.png>
 Package pdftex.def Info: SistemaQuadrirotore/Figure/drone_yaw.png  used on inpu
@@ -1267,7 +1265,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [14 <./SistemaQuadrirotore/Figure/drone_alto.png> <./SistemaQuadrirotore/Figur
 e/drone_pitch.png> <./SistemaQuadrirotore/Figure/drone_roll.png> <./SistemaQuad
 rirotore/Figure/drone_yaw.png>]
-<SistemaQuadrirotore/Figure/eulerangles.png, id=370, 813.2784pt x 813.2784pt>
+<SistemaQuadrirotore/Figure/eulerangles.png, id=438, 813.2784pt x 813.2784pt>
 File: SistemaQuadrirotore/Figure/eulerangles.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/eulerangles.png>
 Package pdftex.def Info: SistemaQuadrirotore/Figure/eulerangles.png  used on in
@@ -1296,7 +1294,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./SistemaQuadrirotore/Figure/ForzaPWM-eps-conver
 ted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
 allowed
-<SistemaQuadrirotore/Figure/ForzaPWM-eps-converted-to.pdf, id=427, 421.575pt x 
+<SistemaQuadrirotore/Figure/ForzaPWM-eps-converted-to.pdf, id=495, 421.575pt x 
 316.18124pt>
 File: SistemaQuadrirotore/Figure/ForzaPWM-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1326,7 +1324,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./SistemaQuadrirotore/Figure/MomentoPWM-eps-conv
 erted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
 > allowed
-<SistemaQuadrirotore/Figure/MomentoPWM-eps-converted-to.pdf, id=428, 429.605pt 
+<SistemaQuadrirotore/Figure/MomentoPWM-eps-converted-to.pdf, id=496, 429.605pt 
 x 316.18124pt>
 File: SistemaQuadrirotore/Figure/MomentoPWM-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1334,30 +1332,26 @@ type pdf)
 Package pdftex.def Info: SistemaQuadrirotore/Figure/MomentoPWM-eps-converted-to
 .pdf  used on input line 235.
 (pdftex.def)             Requested size: 190.12474pt x 139.9307pt.
-
-LaTeX Warning: Reference `section:gazebo' on page 18 undefined on input line 24
-2.
-
 ) [18 <./SistemaQuadrirotore/Figure/ForzaPWM-eps-converted-to.pdf> <./SistemaQu
 adrirotore/Figure/MomentoPWM-eps-converted-to.pdf>]
 \openout2 = `SistemaQuadrirotore/leggidicontrollo.aux'.
 
 
 (SistemaQuadrirotore/leggidicontrollo.tex
-<SistemaQuadrirotore/Figure/Classificazione.png, id=442, 539.1342pt x 333.8874p
+<SistemaQuadrirotore/Figure/Classificazione.png, id=511, 539.1342pt x 333.8874p
 t>
 File: SistemaQuadrirotore/Figure/Classificazione.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/Classificazione.png>
 Package pdftex.def Info: SistemaQuadrirotore/Figure/Classificazione.png  used o
 n input line 5.
 (pdftex.def)             Requested size: 253.50397pt x 156.99333pt.
-<SistemaQuadrirotore/Figure/PID.png, id=443, 813.2784pt x 451.9284pt>
+<SistemaQuadrirotore/Figure/PID.png, id=512, 813.2784pt x 451.9284pt>
 File: SistemaQuadrirotore/Figure/PID.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/PID.png>
 Package pdftex.def Info: SistemaQuadrirotore/Figure/PID.png  used on input line
  16.
 (pdftex.def)             Requested size: 253.50397pt x 140.86868pt.
-<SistemaQuadrirotore/Figure/LQR.png, id=446, 813.2784pt x 451.9284pt>
+<SistemaQuadrirotore/Figure/LQR.png, id=515, 813.2784pt x 451.9284pt>
 File: SistemaQuadrirotore/Figure/LQR.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/LQR.png>
 Package pdftex.def Info: SistemaQuadrirotore/Figure/LQR.png  used on input line
@@ -1371,7 +1365,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20 <./SistemaQuadrirotore/Figure/PID.png> <./SistemaQuadrirotore/Figure/LQR.p
 ng>]
-<SistemaQuadrirotore/Figure/FLP.png, id=464, 813.2784pt x 451.9284pt>
+<SistemaQuadrirotore/Figure/FLP.png, id=533, 813.2784pt x 451.9284pt>
 File: SistemaQuadrirotore/Figure/FLP.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/FLP.png>
 Package pdftex.def Info: SistemaQuadrirotore/Figure/FLP.png  used on input line
@@ -1379,13 +1373,13 @@ Package pdftex.def Info: SistemaQuadrirotore/Figure/FLP.png  used on input line
 (pdftex.def)             Requested size: 253.50397pt x 140.86868pt.
 
 [21 <./SistemaQuadrirotore/Figure/FLP.png>]
-<SistemaQuadrirotore/Figure/SMC.png, id=473, 813.2784pt x 451.9284pt>
+<SistemaQuadrirotore/Figure/SMC.png, id=542, 813.2784pt x 451.9284pt>
 File: SistemaQuadrirotore/Figure/SMC.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/SMC.png>
 Package pdftex.def Info: SistemaQuadrirotore/Figure/SMC.png  used on input line
  57.
 (pdftex.def)             Requested size: 253.50397pt x 140.86868pt.
-<SistemaQuadrirotore/Figure/MPC.png, id=474, 813.2784pt x 451.9284pt>
+<SistemaQuadrirotore/Figure/MPC.png, id=543, 813.2784pt x 451.9284pt>
 File: SistemaQuadrirotore/Figure/MPC.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/MPC.png>
 Package pdftex.def Info: SistemaQuadrirotore/Figure/MPC.png  used on input line
@@ -1393,13 +1387,13 @@ Package pdftex.def Info: SistemaQuadrirotore/Figure/MPC.png  used on input line
 (pdftex.def)             Requested size: 253.50397pt x 140.86868pt.
  [22 <./SistemaQuadrirotore/Figure/SMC.png> <./SistemaQuadrirotore/Figure/MPC.p
 ng>]
-<SistemaQuadrirotore/Figure/Fuzzy.png, id=482, 813.2784pt x 451.9284pt>
+<SistemaQuadrirotore/Figure/Fuzzy.png, id=551, 813.2784pt x 451.9284pt>
 File: SistemaQuadrirotore/Figure/Fuzzy.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/Fuzzy.png>
 Package pdftex.def Info: SistemaQuadrirotore/Figure/Fuzzy.png  used on input li
 ne 80.
 (pdftex.def)             Requested size: 338.00314pt x 187.82951pt.
-<SistemaQuadrirotore/Figure/NN.png, id=483, 813.2784pt x 451.9284pt>
+<SistemaQuadrirotore/Figure/NN.png, id=552, 813.2784pt x 451.9284pt>
 File: SistemaQuadrirotore/Figure/NN.png Graphic file (type png)
 <use SistemaQuadrirotore/Figure/NN.png>
 Package pdftex.def Info: SistemaQuadrirotore/Figure/NN.png  used on input line 
@@ -1407,11 +1401,29 @@ Package pdftex.def Info: SistemaQuadrirotore/Figure/NN.png  used on input line
 (pdftex.def)             Requested size: 253.50397pt x 140.86868pt.
 ) [23 <./SistemaQuadrirotore/Figure/Fuzzy.png>] [24 <./SistemaQuadrirotore/Figu
 re/NN.png>]
+\openout2 = `SistemaQuadrirotore/algoritmidiguida.aux'.
+
+
+(SistemaQuadrirotore/algoritmidiguida.tex) [25
+
+
+]
+\openout2 = `DescrizioneAutopilota/descrizione_drone.aux'.
+
+
+(DescrizioneAutopilota/descrizione_drone.tex [26
+
+
+
+]
+Capitolo 3.
+) [27
+
+]
 \openout2 = `DescrizioneAutopilota/px4.aux'.
 
-
-(DescrizioneAutopilota/px4.tex
-<DescrizioneAutopilota/Figure/PX4_Architecture.png, id=498, 1237.62375pt x 1728
+ (DescrizioneAutopilota/px4.tex
+<DescrizioneAutopilota/Figure/PX4_Architecture.png, id=582, 1237.62375pt x 1728
 .4575pt>
 File: DescrizioneAutopilota/Figure/PX4_Architecture.png Graphic file (type png)
 
@@ -1423,7 +1435,7 @@ d on input line 22.
 
 LaTeX Warning: Float too large for page by 6.9599pt on input line 25.
 
-<DescrizioneAutopilota/Figure/PX4_High-Level_Flight-Stack.png, id=500, 1367.107
+<DescrizioneAutopilota/Figure/PX4_High-Level_Flight-Stack.png, id=584, 1367.107
 5pt x 359.3425pt>
 File: DescrizioneAutopilota/Figure/PX4_High-Level_Flight-Stack.png Graphic file
  (type png)
@@ -1431,48 +1443,31 @@ File: DescrizioneAutopilota/Figure/PX4_High-Level_Flight-Stack.png Graphic file
 Package pdftex.def Info: DescrizioneAutopilota/Figure/PX4_High-Level_Flight-Sta
 ck.png  used on input line 30.
 (pdftex.def)             Requested size: 422.50232pt x 111.04958pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.18}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.34 \paragraph
-               {Estimator} [18
+[28
 
 
+] [29] Excluding 'idee' comment.) [30] [31 <./DescrizioneAutopilota/Figure/PX4_
+Architecture.png>] [32 <./DescrizioneAutopilota/Figure/PX4_High-Level_Flight-St
+ack.png>]
+\openout2 = `DescrizioneAutopilota/gazebo.aux'.
+
+ (DescrizioneAutopilota/gazebo.tex) [33
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.19}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.45 
-      [19] Excluding 'idee' comment.)pdfTeX warning (ext4): destination with th
-e same identifier (name{page.20}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.92 	\include{DescrizioneAutopilota/px4}
-                                          [20]pdfTeX warning (ext4): destinatio
-n with the same identifier (name{page.21}) has been already used, duplicate ign
-ored
-<to be read again> 
-                   \relax 
-l.92 	\include{DescrizioneAutopilota/px4}
-                                          [21 <./DescrizioneAutopilota/Figure/P
-X4_Architecture.png>]pdfTeX warning (ext4): destination with the same identifie
-r (name{page.22}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.92 	\include{DescrizioneAutopilota/px4}
-                                          [22 <./DescrizioneAutopilota/Figure/P
-X4_High-Level_Flight-Stack.png>]
+]
 \openout2 = `Simulazioni/sitl.aux'.
 
  (Simulazioni/sitl.tex
+[34
+
+
+
+]
 Capitolo 4.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/STEP/AltitudeContro
 lPos.eps>
-(epstopdf)                    date: 2020-11-13 12:26:50
-(epstopdf)                    size: 66120 bytes
+(epstopdf)                    date: 2020-11-19 16:07:31
+(epstopdf)                    size: 65988 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/STEP/AltitudeContro
 lPos-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:30:25
@@ -1481,23 +1476,30 @@ lPos-eps-converted-to.pdf>
 /AltitudeControlPos-eps-converted-to.pdf Simulazioni/Figure/PID/STEP/AltitudeCo
 ntrolPos.eps>
 (epstopdf)             \includegraphics on input line 12.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/STEP/AltitudeControlPos-eps
+-converted-to.pdf Simulazioni/Figure/PID/STEP/AltitudeControlPos.eps)...execute
+d (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/STEP/AltitudeContro
+lPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:27
+(epstopdf)                    size: 31081 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/STEP/AltitudeControlPos
 -eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
-<Simulazioni/Figure/PID/STEP/AltitudeControlPos-eps-converted-to.pdf, id=526, 3
-71.3875pt x 292.09125pt>
+<Simulazioni/Figure/PID/STEP/AltitudeControlPos-eps-converted-to.pdf, id=624, 3
+65.365pt x 292.09125pt>
 File: Simulazioni/Figure/PID/STEP/AltitudeControlPos-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use Simulazioni/Figure/PID/STEP/AltitudeControlPos-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/STEP/AltitudeControlPos-eps-con
 verted-to.pdf  used on input line 12.
-(pdftex.def)             Requested size: 190.12474pt x 149.53503pt.
+(pdftex.def)             Requested size: 190.12474pt x 151.99527pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/STEP/AltitudeContro
 lVel.eps>
-(epstopdf)                    date: 2020-11-13 12:26:50
+(epstopdf)                    date: 2020-11-19 16:07:31
 (epstopdf)                    size: 65637 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/STEP/AltitudeContro
 lVel-eps-converted-to.pdf>
@@ -1507,13 +1509,20 @@ lVel-eps-converted-to.pdf>
 /AltitudeControlVel-eps-converted-to.pdf Simulazioni/Figure/PID/STEP/AltitudeCo
 ntrolVel.eps>
 (epstopdf)             \includegraphics on input line 18.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/STEP/AltitudeControlVel-eps
+-converted-to.pdf Simulazioni/Figure/PID/STEP/AltitudeControlVel.eps)...execute
+d (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/STEP/AltitudeContro
+lVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:28
+(epstopdf)                    size: 30414 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/STEP/AltitudeControlVel
 -eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
-<Simulazioni/Figure/PID/STEP/AltitudeControlVel-eps-converted-to.pdf, id=527, 3
+<Simulazioni/Figure/PID/STEP/AltitudeControlVel-eps-converted-to.pdf, id=625, 3
 65.365pt x 292.09125pt>
 File: Simulazioni/Figure/PID/STEP/AltitudeControlVel-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1522,8 +1531,8 @@ Package pdftex.def Info: Simulazioni/Figure/PID/STEP/AltitudeControlVel-eps-con
 verted-to.pdf  used on input line 18.
 (pdftex.def)             Requested size: 190.12474pt x 151.99527pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/STEP/PWM.eps>
-(epstopdf)                    date: 2020-11-13 12:26:53
-(epstopdf)                    size: 102902 bytes
+(epstopdf)                    date: 2020-11-19 16:07:34
+(epstopdf)                    size: 102188 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/STEP/PWM-eps-conver
 ted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:30:27
@@ -1531,42 +1540,35 @@ ted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/STEP
 /PWM-eps-converted-to.pdf Simulazioni/Figure/PID/STEP/PWM.eps>
 (epstopdf)             \includegraphics on input line 26.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/STEP/PWM-eps-converted-to.p
+df Simulazioni/Figure/PID/STEP/PWM.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/STEP/PWM-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:28
+(epstopdf)                    size: 85746 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/STEP/PWM-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<Simulazioni/Figure/PID/STEP/PWM-eps-converted-to.pdf, id=528, 369.38pt x 281.0
-5pt>
+<Simulazioni/Figure/PID/STEP/PWM-eps-converted-to.pdf, id=626, 357.335pt x 281.
+05pt>
 File: Simulazioni/Figure/PID/STEP/PWM-eps-converted-to.pdf Graphic file (type p
 df)
 <use Simulazioni/Figure/PID/STEP/PWM-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/STEP/PWM-eps-converted-to.pdf  
 used on input line 26.
-(pdftex.def)             Requested size: 211.25116pt x 160.7362pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.23}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.29 \clearpage
-                [23
-
-
-
+(pdftex.def)             Requested size: 211.25116pt x 166.15256pt.
+[35
 
  <./Simulazioni/Figure/PID/STEP/AltitudeControlPos-eps-converted-to.pdf> <./Sim
-ulazioni/Figure/PID/STEP/AltitudeControlVel-eps-converted-to.pdf>]pdfTeX warnin
-g (ext4): destination with the same identifier (name{page.24}) has been already
- used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.29 \clearpage
-                [24 <./Simulazioni/Figure/PID/STEP/PWM-eps-converted-to.pdf>]
+ulazioni/Figure/PID/STEP/AltitudeControlVel-eps-converted-to.pdf>] [36 <./Simul
+azioni/Figure/PID/STEP/PWM-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SQUARE/PositionCont
 rolXPos.eps>
-(epstopdf)                    date: 2020-11-13 12:31:05
-(epstopdf)                    size: 165723 bytes
+(epstopdf)                    date: 2020-11-19 16:07:57
+(epstopdf)                    size: 164454 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SQUARE/PositionCont
 rolXPos-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:35:58
@@ -1575,24 +1577,31 @@ rolXPos-eps-converted-to.pdf>
 RE/PositionControlXPos-eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/Posit
 ionControlXPos.eps>
 (epstopdf)             \includegraphics on input line 35.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SQUARE/PositionControlXPos-
+eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/PositionControlXPos.eps)...e
+xecuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SQUARE/PositionCont
+rolXPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:29
+(epstopdf)                    size: 63610 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SQUARE/PositionControlX
 Pos-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<Simulazioni/Figure/PID/SQUARE/PositionControlXPos-eps-converted-to.pdf, id=546
-, 366.36874pt x 292.09125pt>
+<Simulazioni/Figure/PID/SQUARE/PositionControlXPos-eps-converted-to.pdf, id=643
+, 359.3425pt x 292.09125pt>
 File: Simulazioni/Figure/PID/SQUARE/PositionControlXPos-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Simulazioni/Figure/PID/SQUARE/PositionControlXPos-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/SQUARE/PositionControlXPos-eps-
 converted-to.pdf  used on input line 35.
-(pdftex.def)             Requested size: 190.12474pt x 151.58078pt.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SQUARE/PositionCont
 rolYPos.eps>
-(epstopdf)                    date: 2020-11-13 12:31:06
-(epstopdf)                    size: 166148 bytes
+(epstopdf)                    date: 2020-11-19 16:07:58
+(epstopdf)                    size: 164879 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SQUARE/PositionCont
 rolYPos-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:35:59
@@ -1601,24 +1610,31 @@ rolYPos-eps-converted-to.pdf>
 RE/PositionControlYPos-eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/Posit
 ionControlYPos.eps>
 (epstopdf)             \includegraphics on input line 41.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SQUARE/PositionControlYPos-
+eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/PositionControlYPos.eps)...e
+xecuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SQUARE/PositionCont
+rolYPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:29
+(epstopdf)                    size: 67026 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SQUARE/PositionControlY
 Pos-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<Simulazioni/Figure/PID/SQUARE/PositionControlYPos-eps-converted-to.pdf, id=547
-, 366.36874pt x 292.09125pt>
+<Simulazioni/Figure/PID/SQUARE/PositionControlYPos-eps-converted-to.pdf, id=644
+, 359.3425pt x 292.09125pt>
 File: Simulazioni/Figure/PID/SQUARE/PositionControlYPos-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Simulazioni/Figure/PID/SQUARE/PositionControlYPos-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/SQUARE/PositionControlYPos-eps-
 converted-to.pdf  used on input line 41.
-(pdftex.def)             Requested size: 190.12474pt x 151.58078pt.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SQUARE/PositionCont
 rolXVel.eps>
-(epstopdf)                    date: 2020-11-13 12:31:05
-(epstopdf)                    size: 166059 bytes
+(epstopdf)                    date: 2020-11-19 16:07:58
+(epstopdf)                    size: 164792 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SQUARE/PositionCont
 rolXVel-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:35:59
@@ -1627,24 +1643,31 @@ rolXVel-eps-converted-to.pdf>
 RE/PositionControlXVel-eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/Posit
 ionControlXVel.eps>
 (epstopdf)             \includegraphics on input line 47.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SQUARE/PositionControlXVel-
+eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/PositionControlXVel.eps)...e
+xecuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SQUARE/PositionCont
+rolXVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:30
+(epstopdf)                    size: 58803 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SQUARE/PositionControlX
 Vel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<Simulazioni/Figure/PID/SQUARE/PositionControlXVel-eps-converted-to.pdf, id=548
-, 374.39874pt x 292.09125pt>
+<Simulazioni/Figure/PID/SQUARE/PositionControlXVel-eps-converted-to.pdf, id=645
+, 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/PID/SQUARE/PositionControlXVel-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Simulazioni/Figure/PID/SQUARE/PositionControlXVel-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/SQUARE/PositionControlXVel-eps-
 converted-to.pdf  used on input line 47.
-(pdftex.def)             Requested size: 190.12474pt x 148.32721pt.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SQUARE/PositionCont
 rolYVel.eps>
-(epstopdf)                    date: 2020-11-13 12:31:06
-(epstopdf)                    size: 170411 bytes
+(epstopdf)                    date: 2020-11-19 16:07:59
+(epstopdf)                    size: 169161 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SQUARE/PositionCont
 rolYVel-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:00
@@ -1653,23 +1676,30 @@ rolYVel-eps-converted-to.pdf>
 RE/PositionControlYVel-eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/Posit
 ionControlYVel.eps>
 (epstopdf)             \includegraphics on input line 53.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SQUARE/PositionControlYVel-
+eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/PositionControlYVel.eps)...e
+xecuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SQUARE/PositionCont
+rolYVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:30
+(epstopdf)                    size: 67055 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SQUARE/PositionControlY
 Vel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<Simulazioni/Figure/PID/SQUARE/PositionControlYVel-eps-converted-to.pdf, id=549
-, 374.39874pt x 292.09125pt>
+<Simulazioni/Figure/PID/SQUARE/PositionControlYVel-eps-converted-to.pdf, id=646
+, 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/PID/SQUARE/PositionControlYVel-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Simulazioni/Figure/PID/SQUARE/PositionControlYVel-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/SQUARE/PositionControlYVel-eps-
 converted-to.pdf  used on input line 53.
-(pdftex.def)             Requested size: 190.12474pt x 148.32721pt.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SQUARE/AttitudeCont
 rolPitch.eps>
-(epstopdf)                    date: 2020-11-13 12:31:08
+(epstopdf)                    date: 2020-11-19 16:08:00
 (epstopdf)                    size: 169115 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SQUARE/AttitudeCont
 rolPitch-eps-converted-to.pdf>
@@ -1679,14 +1709,21 @@ rolPitch-eps-converted-to.pdf>
 RE/AttitudeControlPitch-eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/Atti
 tudeControlPitch.eps>
 (epstopdf)             \includegraphics on input line 63.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SQUARE/AttitudeControlPitch
+-eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/AttitudeControlPitch.eps)..
+.executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SQUARE/AttitudeCont
+rolPitch-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:31
+(epstopdf)                    size: 72025 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SQUARE/AttitudeControlP
 itch-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-<Simulazioni/Figure/PID/SQUARE/AttitudeControlPitch-eps-converted-to.pdf, id=55
-0, 367.3725pt x 292.09125pt>
+<Simulazioni/Figure/PID/SQUARE/AttitudeControlPitch-eps-converted-to.pdf, id=64
+7, 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/PID/SQUARE/AttitudeControlPitch-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Simulazioni/Figure/PID/SQUARE/AttitudeControlPitch-eps-converted-to.pdf>
@@ -1695,7 +1732,7 @@ Package pdftex.def Info: Simulazioni/Figure/PID/SQUARE/AttitudeControlPitch-eps
 (pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SQUARE/AttitudeCont
 rolRoll.eps>
-(epstopdf)                    date: 2020-11-13 12:31:08
+(epstopdf)                    date: 2020-11-19 16:08:01
 (epstopdf)                    size: 169532 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SQUARE/AttitudeCont
 rolRoll-eps-converted-to.pdf>
@@ -1705,13 +1742,20 @@ rolRoll-eps-converted-to.pdf>
 RE/AttitudeControlRoll-eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/Attit
 udeControlRoll.eps>
 (epstopdf)             \includegraphics on input line 69.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SQUARE/AttitudeControlRoll-
+eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/AttitudeControlRoll.eps)...e
+xecuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SQUARE/AttitudeCont
+rolRoll-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:31
+(epstopdf)                    size: 72240 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SQUARE/AttitudeControlR
 oll-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<Simulazioni/Figure/PID/SQUARE/AttitudeControlRoll-eps-converted-to.pdf, id=551
+<Simulazioni/Figure/PID/SQUARE/AttitudeControlRoll-eps-converted-to.pdf, id=648
 , 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/PID/SQUARE/AttitudeControlRoll-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -1721,8 +1765,8 @@ converted-to.pdf  used on input line 69.
 (pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SQUARE/AttitudeCont
 rolYaw.eps>
-(epstopdf)                    date: 2020-11-13 12:31:09
-(epstopdf)                    size: 161873 bytes
+(epstopdf)                    date: 2020-11-19 16:08:02
+(epstopdf)                    size: 160621 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SQUARE/AttitudeCont
 rolYaw-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:01
@@ -1731,23 +1775,30 @@ rolYaw-eps-converted-to.pdf>
 RE/AttitudeControlYaw-eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/Attitu
 deControlYaw.eps>
 (epstopdf)             \includegraphics on input line 75.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SQUARE/AttitudeControlYaw-e
+ps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/AttitudeControlYaw.eps)...exe
+cuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SQUARE/AttitudeCont
+rolYaw-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:32
+(epstopdf)                    size: 53066 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SQUARE/AttitudeControlY
 aw-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Simulazioni/Figure/PID/SQUARE/AttitudeControlYaw-eps-converted-to.pdf, id=552,
- 379.4175pt x 292.09125pt>
+<Simulazioni/Figure/PID/SQUARE/AttitudeControlYaw-eps-converted-to.pdf, id=649,
+ 372.39125pt x 292.09125pt>
 File: Simulazioni/Figure/PID/SQUARE/AttitudeControlYaw-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use Simulazioni/Figure/PID/SQUARE/AttitudeControlYaw-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/SQUARE/AttitudeControlYaw-eps-c
 onverted-to.pdf  used on input line 75.
-(pdftex.def)             Requested size: 190.12474pt x 146.36615pt.
+(pdftex.def)             Requested size: 190.12474pt x 149.12946pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SQUARE/PWM.eps>
-(epstopdf)                    date: 2020-11-13 12:31:10
-(epstopdf)                    size: 304984 bytes
+(epstopdf)                    date: 2020-11-19 16:08:03
+(epstopdf)                    size: 300871 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SQUARE/PWM-eps-conv
 erted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:02
@@ -1755,24 +1806,30 @@ erted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/SQUA
 RE/PWM-eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/PWM.eps>
 (epstopdf)             \includegraphics on input line 84.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SQUARE/PWM-eps-converted-to
+.pdf Simulazioni/Figure/PID/SQUARE/PWM.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SQUARE/PWM-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:32
+(epstopdf)                    size: 152815 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SQUARE/PWM-eps-converte
 d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<Simulazioni/Figure/PID/SQUARE/PWM-eps-converted-to.pdf, id=553, 372.39125pt x 
-284.06125pt>
+<Simulazioni/Figure/PID/SQUARE/PWM-eps-converted-to.pdf, id=650, 359.3425pt x 2
+84.06125pt>
 File: Simulazioni/Figure/PID/SQUARE/PWM-eps-converted-to.pdf Graphic file (type
  pdf)
 <use Simulazioni/Figure/PID/SQUARE/PWM-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/SQUARE/PWM-eps-converted-to.pdf
   used on input line 84.
-(pdftex.def)             Requested size: 211.25116pt x 161.14938pt.
+(pdftex.def)             Requested size: 211.25116pt x 167.00085pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SQUARE/Trajectory.e
 ps>
-(epstopdf)                    date: 2020-11-13 12:31:11
-(epstopdf)                    size: 77283 bytes
+(epstopdf)                    date: 2020-11-19 16:08:04
+(epstopdf)                    size: 76742 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SQUARE/Trajectory-e
 ps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:03
@@ -1781,35 +1838,44 @@ ps-converted-to.pdf>
 RE/Trajectory-eps-converted-to.pdf Simulazioni/Figure/PID/SQUARE/Trajectory.eps
 >
 (epstopdf)             \includegraphics on input line 89.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SQUARE/Trajectory-eps-conve
+rted-to.pdf Simulazioni/Figure/PID/SQUARE/Trajectory.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SQUARE/Trajectory-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:33
+(epstopdf)                    size: 70383 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SQUARE/Trajectory-eps-c
 onverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<Simulazioni/Figure/PID/SQUARE/Trajectory-eps-converted-to.pdf, id=554, 429.605
-pt x 317.185pt>
+<Simulazioni/Figure/PID/SQUARE/Trajectory-eps-converted-to.pdf, id=651, 422.578
+75pt x 317.185pt>
 File: Simulazioni/Figure/PID/SQUARE/Trajectory-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use Simulazioni/Figure/PID/SQUARE/Trajectory-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/SQUARE/Trajectory-eps-converted
 -to.pdf  used on input line 89.
-(pdftex.def)             Requested size: 422.50232pt x 311.94748pt.
-[25
+(pdftex.def)             Requested size: 422.50232pt x 317.1358pt.
+[37
 
  <./Simulazioni/Figure/PID/SQUARE/PositionControlXPos-eps-converted-to.pdf> <./
 Simulazioni/Figure/PID/SQUARE/PositionControlYPos-eps-converted-to.pdf> <./Simu
 lazioni/Figure/PID/SQUARE/PositionControlXVel-eps-converted-to.pdf> <./Simulazi
-oni/Figure/PID/SQUARE/PositionControlYVel-eps-converted-to.pdf>] [26 <./Simulaz
-ioni/Figure/PID/SQUARE/AttitudeControlPitch-eps-converted-to.pdf> <./Simulazion
-i/Figure/PID/SQUARE/AttitudeControlRoll-eps-converted-to.pdf> <./Simulazioni/Fi
-gure/PID/SQUARE/AttitudeControlYaw-eps-converted-to.pdf> <./Simulazioni/Figure/
-PID/SQUARE/PWM-eps-converted-to.pdf>] [27 <./Simulazioni/Figure/PID/SQUARE/Traj
-ectory-eps-converted-to.pdf>]
+oni/Figure/PID/SQUARE/PositionControlYVel-eps-converted-to.pdf>]
+
+LaTeX Warning: Text page 38 contains only floats.
+
+[38 <./Simulazioni/Figure/PID/SQUARE/AttitudeControlPitch-eps-converted-to.pdf>
+ <./Simulazioni/Figure/PID/SQUARE/AttitudeControlRoll-eps-converted-to.pdf> <./
+Simulazioni/Figure/PID/SQUARE/AttitudeControlYaw-eps-converted-to.pdf> <./Simul
+azioni/Figure/PID/SQUARE/PWM-eps-converted-to.pdf>] [39 <./Simulazioni/Figure/P
+ID/SQUARE/Trajectory-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/BUTTERFLY/PositionC
 ontrolXPos.eps>
-(epstopdf)                    date: 2020-11-13 12:31:36
-(epstopdf)                    size: 148644 bytes
+(epstopdf)                    date: 2020-11-19 16:06:49
+(epstopdf)                    size: 63799 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/BUTTERFLY/PositionC
 ontrolXPos-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:03
@@ -1818,25 +1884,32 @@ ontrolXPos-eps-converted-to.pdf>
 ERFLY/PositionControlXPos-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY
 /PositionControlXPos.eps>
 (epstopdf)             \includegraphics on input line 100.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/BUTTERFLY/PositionControlXP
+os-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY/PositionControlXPos.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/BUTTERFLY/PositionC
+ontrolXPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:33
+(epstopdf)                    size: 28800 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/BUTTERFLY/PositionContr
 olXPos-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <Simulazioni/Figure/PID/BUTTERFLY/PositionControlXPos-eps-converted-to.pdf, id=
-594, 366.36874pt x 292.09125pt>
+688, 370.38374pt x 292.09125pt>
 File: Simulazioni/Figure/PID/BUTTERFLY/PositionControlXPos-eps-converted-to.pdf
  Graphic file (type pdf)
 <use Simulazioni/Figure/PID/BUTTERFLY/PositionControlXPos-eps-converted-to.pdf>
 
 Package pdftex.def Info: Simulazioni/Figure/PID/BUTTERFLY/PositionControlXPos-e
 ps-converted-to.pdf  used on input line 100.
-(pdftex.def)             Requested size: 190.12474pt x 151.58078pt.
+(pdftex.def)             Requested size: 190.12474pt x 149.93617pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/BUTTERFLY/PositionC
 ontrolYPos.eps>
-(epstopdf)                    date: 2020-11-13 12:31:38
-(epstopdf)                    size: 149111 bytes
+(epstopdf)                    date: 2020-11-19 16:06:50
+(epstopdf)                    size: 62223 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/BUTTERFLY/PositionC
 ontrolYPos-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:04
@@ -1845,25 +1918,32 @@ ontrolYPos-eps-converted-to.pdf>
 ERFLY/PositionControlYPos-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY
 /PositionControlYPos.eps>
 (epstopdf)             \includegraphics on input line 106.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/BUTTERFLY/PositionControlYP
+os-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY/PositionControlYPos.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/BUTTERFLY/PositionC
+ontrolYPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:34
+(epstopdf)                    size: 29251 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/BUTTERFLY/PositionContr
 olYPos-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <Simulazioni/Figure/PID/BUTTERFLY/PositionControlYPos-eps-converted-to.pdf, id=
-595, 366.36874pt x 292.09125pt>
+689, 370.38374pt x 292.09125pt>
 File: Simulazioni/Figure/PID/BUTTERFLY/PositionControlYPos-eps-converted-to.pdf
  Graphic file (type pdf)
 <use Simulazioni/Figure/PID/BUTTERFLY/PositionControlYPos-eps-converted-to.pdf>
 
 Package pdftex.def Info: Simulazioni/Figure/PID/BUTTERFLY/PositionControlYPos-e
 ps-converted-to.pdf  used on input line 106.
-(pdftex.def)             Requested size: 190.12474pt x 151.58078pt.
+(pdftex.def)             Requested size: 190.12474pt x 149.93617pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/BUTTERFLY/PositionC
 ontrolXVel.eps>
-(epstopdf)                    date: 2020-11-13 12:31:37
-(epstopdf)                    size: 149086 bytes
+(epstopdf)                    date: 2020-11-19 16:06:50
+(epstopdf)                    size: 68340 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/BUTTERFLY/PositionC
 ontrolXVel-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:04
@@ -1872,25 +1952,32 @@ ontrolXVel-eps-converted-to.pdf>
 ERFLY/PositionControlXVel-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY
 /PositionControlXVel.eps>
 (epstopdf)             \includegraphics on input line 112.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/BUTTERFLY/PositionControlXV
+el-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY/PositionControlXVel.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/BUTTERFLY/PositionC
+ontrolXVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:34
+(epstopdf)                    size: 33498 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/BUTTERFLY/PositionContr
 olXVel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <Simulazioni/Figure/PID/BUTTERFLY/PositionControlXVel-eps-converted-to.pdf, id=
-596, 374.39874pt x 292.09125pt>
+690, 370.38374pt x 292.09125pt>
 File: Simulazioni/Figure/PID/BUTTERFLY/PositionControlXVel-eps-converted-to.pdf
  Graphic file (type pdf)
 <use Simulazioni/Figure/PID/BUTTERFLY/PositionControlXVel-eps-converted-to.pdf>
 
 Package pdftex.def Info: Simulazioni/Figure/PID/BUTTERFLY/PositionControlXVel-e
 ps-converted-to.pdf  used on input line 112.
-(pdftex.def)             Requested size: 190.12474pt x 148.32721pt.
+(pdftex.def)             Requested size: 190.12474pt x 149.93617pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/BUTTERFLY/PositionC
 ontrolYVel.eps>
-(epstopdf)                    date: 2020-11-13 12:31:38
-(epstopdf)                    size: 151461 bytes
+(epstopdf)                    date: 2020-11-19 16:06:51
+(epstopdf)                    size: 62627 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/BUTTERFLY/PositionC
 ontrolYVel-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:04
@@ -1899,25 +1986,32 @@ ontrolYVel-eps-converted-to.pdf>
 ERFLY/PositionControlYVel-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY
 /PositionControlYVel.eps>
 (epstopdf)             \includegraphics on input line 118.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/BUTTERFLY/PositionControlYV
+el-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY/PositionControlYVel.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/BUTTERFLY/PositionC
+ontrolYVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:35
+(epstopdf)                    size: 29715 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/BUTTERFLY/PositionContr
 olYVel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <Simulazioni/Figure/PID/BUTTERFLY/PositionControlYVel-eps-converted-to.pdf, id=
-597, 374.39874pt x 292.09125pt>
+691, 370.38374pt x 292.09125pt>
 File: Simulazioni/Figure/PID/BUTTERFLY/PositionControlYVel-eps-converted-to.pdf
  Graphic file (type pdf)
 <use Simulazioni/Figure/PID/BUTTERFLY/PositionControlYVel-eps-converted-to.pdf>
 
 Package pdftex.def Info: Simulazioni/Figure/PID/BUTTERFLY/PositionControlYVel-e
 ps-converted-to.pdf  used on input line 118.
-(pdftex.def)             Requested size: 190.12474pt x 148.32721pt.
+(pdftex.def)             Requested size: 190.12474pt x 149.93617pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/BUTTERFLY/AttitudeC
 ontrolPitch.eps>
-(epstopdf)                    date: 2020-11-13 12:31:40
-(epstopdf)                    size: 152277 bytes
+(epstopdf)                    date: 2020-11-19 16:06:52
+(epstopdf)                    size: 67338 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/BUTTERFLY/AttitudeC
 ontrolPitch-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:05
@@ -1926,25 +2020,32 @@ ontrolPitch-eps-converted-to.pdf>
 ERFLY/AttitudeControlPitch-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFL
 Y/AttitudeControlPitch.eps>
 (epstopdf)             \includegraphics on input line 128.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlPi
+tch-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlPitch.
+eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/BUTTERFLY/AttitudeC
+ontrolPitch-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:35
+(epstopdf)                    size: 32863 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/BUTTERFLY/AttitudeContr
 olPitch-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at m
 ost version <1.5> allowed
 <Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlPitch-eps-converted-to.pdf, id
-=598, 367.3725pt x 292.09125pt>
+=692, 365.365pt x 292.09125pt>
 File: Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlPitch-eps-converted-to.pd
 f Graphic file (type pdf)
 <use Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlPitch-eps-converted-to.pdf
 >
 Package pdftex.def Info: Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlPitch-
 eps-converted-to.pdf  used on input line 128.
-(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
+(pdftex.def)             Requested size: 190.12474pt x 151.99527pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/BUTTERFLY/AttitudeC
 ontrolRoll.eps>
-(epstopdf)                    date: 2020-11-13 12:31:40
-(epstopdf)                    size: 152615 bytes
+(epstopdf)                    date: 2020-11-19 16:06:53
+(epstopdf)                    size: 64428 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/BUTTERFLY/AttitudeC
 ontrolRoll-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:05
@@ -1953,25 +2054,32 @@ ontrolRoll-eps-converted-to.pdf>
 ERFLY/AttitudeControlRoll-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY
 /AttitudeControlRoll.eps>
 (epstopdf)             \includegraphics on input line 134.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlRo
+ll-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlRoll.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/BUTTERFLY/AttitudeC
+ontrolRoll-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:35
+(epstopdf)                    size: 30211 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/BUTTERFLY/AttitudeContr
 olRoll-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlRoll-eps-converted-to.pdf, id=
-599, 367.3725pt x 292.09125pt>
+693, 365.365pt x 292.09125pt>
 File: Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlRoll-eps-converted-to.pdf
  Graphic file (type pdf)
 <use Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlRoll-eps-converted-to.pdf>
 
 Package pdftex.def Info: Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlRoll-e
 ps-converted-to.pdf  used on input line 134.
-(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
+(pdftex.def)             Requested size: 190.12474pt x 151.99527pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/BUTTERFLY/AttitudeC
 ontrolYaw.eps>
-(epstopdf)                    date: 2020-11-13 12:31:41
-(epstopdf)                    size: 159196 bytes
+(epstopdf)                    date: 2020-11-19 16:06:53
+(epstopdf)                    size: 67349 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/BUTTERFLY/AttitudeC
 ontrolYaw-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:06
@@ -1980,23 +2088,30 @@ ontrolYaw-eps-converted-to.pdf>
 ERFLY/AttitudeControlYaw-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY/
 AttitudeControlYaw.eps>
 (epstopdf)             \includegraphics on input line 140.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlYa
+w-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlYaw.eps)
+...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/BUTTERFLY/AttitudeC
+ontrolYaw-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:36
+(epstopdf)                    size: 28632 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/BUTTERFLY/AttitudeContr
 olYaw-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mos
 t version <1.5> allowed
 <Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlYaw-eps-converted-to.pdf, id=6
-00, 379.4175pt x 292.09125pt>
+94, 370.38374pt x 292.09125pt>
 File: Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlYaw-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlYaw-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlYaw-ep
 s-converted-to.pdf  used on input line 140.
-(pdftex.def)             Requested size: 190.12474pt x 146.36615pt.
+(pdftex.def)             Requested size: 190.12474pt x 149.93617pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/BUTTERFLY/PWM.eps>
-(epstopdf)                    date: 2020-11-13 12:31:42
-(epstopdf)                    size: 268408 bytes
+(epstopdf)                    date: 2020-11-19 16:06:54
+(epstopdf)                    size: 102188 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/BUTTERFLY/PWM-eps-c
 onverted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:07
@@ -2004,24 +2119,30 @@ onverted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/BUTT
 ERFLY/PWM-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY/PWM.eps>
 (epstopdf)             \includegraphics on input line 149.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/BUTTERFLY/PWM-eps-converted
+-to.pdf Simulazioni/Figure/PID/BUTTERFLY/PWM.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/BUTTERFLY/PWM-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:36
+(epstopdf)                    size: 85746 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/BUTTERFLY/PWM-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<Simulazioni/Figure/PID/BUTTERFLY/PWM-eps-converted-to.pdf, id=601, 372.39125pt
- x 284.06125pt>
+<Simulazioni/Figure/PID/BUTTERFLY/PWM-eps-converted-to.pdf, id=695, 357.335pt x
+ 281.05pt>
 File: Simulazioni/Figure/PID/BUTTERFLY/PWM-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use Simulazioni/Figure/PID/BUTTERFLY/PWM-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/BUTTERFLY/PWM-eps-converted-to.
 pdf  used on input line 149.
-(pdftex.def)             Requested size: 211.25116pt x 161.14938pt.
+(pdftex.def)             Requested size: 211.25116pt x 166.15256pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/BUTTERFLY/Trajector
 y.eps>
-(epstopdf)                    date: 2020-11-13 12:31:43
-(epstopdf)                    size: 77134 bytes
+(epstopdf)                    date: 2020-11-19 16:06:55
+(epstopdf)                    size: 68988 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/BUTTERFLY/Trajector
 y-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:07
@@ -2030,38 +2151,42 @@ y-eps-converted-to.pdf>
 ERFLY/Trajectory-eps-converted-to.pdf Simulazioni/Figure/PID/BUTTERFLY/Trajecto
 ry.eps>
 (epstopdf)             \includegraphics on input line 154.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/BUTTERFLY/Trajectory-eps-co
+nverted-to.pdf Simulazioni/Figure/PID/BUTTERFLY/Trajectory.eps)...executed (all
+owed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/BUTTERFLY/Trajector
+y-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:37
+(epstopdf)                    size: 63200 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/BUTTERFLY/Trajectory-ep
 s-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
-<Simulazioni/Figure/PID/BUTTERFLY/Trajectory-eps-converted-to.pdf, id=602, 429.
-605pt x 317.185pt>
+<Simulazioni/Figure/PID/BUTTERFLY/Trajectory-eps-converted-to.pdf, id=696, 422.
+57875pt x 317.185pt>
 File: Simulazioni/Figure/PID/BUTTERFLY/Trajectory-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use Simulazioni/Figure/PID/BUTTERFLY/Trajectory-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/BUTTERFLY/Trajectory-eps-conver
 ted-to.pdf  used on input line 154.
-(pdftex.def)             Requested size: 422.50232pt x 311.94748pt.
-[28
+(pdftex.def)             Requested size: 422.50232pt x 317.1358pt.
+[40
 
  <./Simulazioni/Figure/PID/BUTTERFLY/PositionControlXPos-eps-converted-to.pdf> 
 <./Simulazioni/Figure/PID/BUTTERFLY/PositionControlYPos-eps-converted-to.pdf> <
 ./Simulazioni/Figure/PID/BUTTERFLY/PositionControlXVel-eps-converted-to.pdf> <.
-/Simulazioni/Figure/PID/BUTTERFLY/PositionControlYVel-eps-converted-to.pdf>]
-
-LaTeX Warning: Text page 29 contains only floats.
-
-[29 <./Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlPitch-eps-converted-to.p
-df> <./Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlRoll-eps-converted-to.pd
-f> <./Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlYaw-eps-converted-to.pdf>
- <./Simulazioni/Figure/PID/BUTTERFLY/PWM-eps-converted-to.pdf>] [30 <./Simulazi
-oni/Figure/PID/BUTTERFLY/Trajectory-eps-converted-to.pdf>]
+/Simulazioni/Figure/PID/BUTTERFLY/PositionControlYVel-eps-converted-to.pdf>] [4
+1 <./Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlPitch-eps-converted-to.pdf
+> <./Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlRoll-eps-converted-to.pdf>
+ <./Simulazioni/Figure/PID/BUTTERFLY/AttitudeControlYaw-eps-converted-to.pdf> <
+./Simulazioni/Figure/PID/BUTTERFLY/PWM-eps-converted-to.pdf>] [42 <./Simulazion
+i/Figure/PID/BUTTERFLY/Trajectory-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE/PositionContr
 olXPos.eps>
-(epstopdf)                    date: 2020-11-13 12:32:14
-(epstopdf)                    size: 362515 bytes
+(epstopdf)                    date: 2020-11-19 16:05:05
+(epstopdf)                    size: 362481 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE/PositionContr
 olXPos-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:08
@@ -2070,24 +2195,31 @@ olXPos-eps-converted-to.pdf>
 E/PositionControlXPos-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/Positio
 nControlXPos.eps>
 (epstopdf)             \includegraphics on input line 164.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE/PositionControlXPos-e
+ps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/PositionControlXPos.eps)...exe
+cuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE/PositionContr
+olXPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:37
+(epstopdf)                    size: 125022 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE/PositionControlXP
 os-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Simulazioni/Figure/PID/SNAKE/PositionControlXPos-eps-converted-to.pdf, id=641,
- 366.36874pt x 292.09125pt>
+<Simulazioni/Figure/PID/SNAKE/PositionControlXPos-eps-converted-to.pdf, id=732,
+ 359.3425pt x 292.09125pt>
 File: Simulazioni/Figure/PID/SNAKE/PositionControlXPos-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use Simulazioni/Figure/PID/SNAKE/PositionControlXPos-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE/PositionControlXPos-eps-c
 onverted-to.pdf  used on input line 164.
-(pdftex.def)             Requested size: 190.12474pt x 151.58078pt.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE/PositionContr
 olYPos.eps>
-(epstopdf)                    date: 2020-11-13 12:32:15
-(epstopdf)                    size: 366259 bytes
+(epstopdf)                    date: 2020-11-19 16:05:06
+(epstopdf)                    size: 366221 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE/PositionContr
 olYPos-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:08
@@ -2096,24 +2228,31 @@ olYPos-eps-converted-to.pdf>
 E/PositionControlYPos-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/Positio
 nControlYPos.eps>
 (epstopdf)             \includegraphics on input line 170.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE/PositionControlYPos-e
+ps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/PositionControlYPos.eps)...exe
+cuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE/PositionContr
+olYPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:38
+(epstopdf)                    size: 117196 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE/PositionControlYP
 os-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Simulazioni/Figure/PID/SNAKE/PositionControlYPos-eps-converted-to.pdf, id=642,
- 366.36874pt x 292.09125pt>
+<Simulazioni/Figure/PID/SNAKE/PositionControlYPos-eps-converted-to.pdf, id=733,
+ 359.3425pt x 292.09125pt>
 File: Simulazioni/Figure/PID/SNAKE/PositionControlYPos-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use Simulazioni/Figure/PID/SNAKE/PositionControlYPos-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE/PositionControlYPos-eps-c
 onverted-to.pdf  used on input line 170.
-(pdftex.def)             Requested size: 190.12474pt x 151.58078pt.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE/PositionContr
 olXVel.eps>
-(epstopdf)                    date: 2020-11-13 12:32:15
-(epstopdf)                    size: 360995 bytes
+(epstopdf)                    date: 2020-11-19 16:05:06
+(epstopdf)                    size: 360977 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE/PositionContr
 olXVel-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:09
@@ -2122,24 +2261,31 @@ olXVel-eps-converted-to.pdf>
 E/PositionControlXVel-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/Positio
 nControlXVel.eps>
 (epstopdf)             \includegraphics on input line 176.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE/PositionControlXVel-e
+ps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/PositionControlXVel.eps)...exe
+cuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE/PositionContr
+olXVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:39
+(epstopdf)                    size: 113144 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE/PositionControlXV
 el-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Simulazioni/Figure/PID/SNAKE/PositionControlXVel-eps-converted-to.pdf, id=643,
- 374.39874pt x 292.09125pt>
+<Simulazioni/Figure/PID/SNAKE/PositionControlXVel-eps-converted-to.pdf, id=734,
+ 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/PID/SNAKE/PositionControlXVel-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use Simulazioni/Figure/PID/SNAKE/PositionControlXVel-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE/PositionControlXVel-eps-c
 onverted-to.pdf  used on input line 176.
-(pdftex.def)             Requested size: 190.12474pt x 148.32721pt.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE/PositionContr
 olYVel.eps>
-(epstopdf)                    date: 2020-11-13 12:32:16
-(epstopdf)                    size: 373857 bytes
+(epstopdf)                    date: 2020-11-19 16:05:07
+(epstopdf)                    size: 373840 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE/PositionContr
 olYVel-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:10
@@ -2148,23 +2294,30 @@ olYVel-eps-converted-to.pdf>
 E/PositionControlYVel-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/Positio
 nControlYVel.eps>
 (epstopdf)             \includegraphics on input line 182.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE/PositionControlYVel-e
+ps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/PositionControlYVel.eps)...exe
+cuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE/PositionContr
+olYVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:39
+(epstopdf)                    size: 112185 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE/PositionControlYV
 el-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Simulazioni/Figure/PID/SNAKE/PositionControlYVel-eps-converted-to.pdf, id=644,
- 374.39874pt x 292.09125pt>
+<Simulazioni/Figure/PID/SNAKE/PositionControlYVel-eps-converted-to.pdf, id=735,
+ 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/PID/SNAKE/PositionControlYVel-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use Simulazioni/Figure/PID/SNAKE/PositionControlYVel-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE/PositionControlYVel-eps-c
 onverted-to.pdf  used on input line 182.
-(pdftex.def)             Requested size: 190.12474pt x 148.32721pt.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE/AttitudeContr
 olPitch.eps>
-(epstopdf)                    date: 2020-11-13 12:32:18
+(epstopdf)                    date: 2020-11-19 16:05:09
 (epstopdf)                    size: 369427 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE/AttitudeContr
 olPitch-eps-converted-to.pdf>
@@ -2174,13 +2327,20 @@ olPitch-eps-converted-to.pdf>
 E/AttitudeControlPitch-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/Attitu
 deControlPitch.eps>
 (epstopdf)             \includegraphics on input line 192.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE/AttitudeControlPitch-
+eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/AttitudeControlPitch.eps)...e
+xecuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE/AttitudeContr
+olPitch-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:40
+(epstopdf)                    size: 130544 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE/AttitudeControlPi
 tch-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<Simulazioni/Figure/PID/SNAKE/AttitudeControlPitch-eps-converted-to.pdf, id=645
+<Simulazioni/Figure/PID/SNAKE/AttitudeControlPitch-eps-converted-to.pdf, id=736
 , 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/PID/SNAKE/AttitudeControlPitch-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -2190,7 +2350,7 @@ converted-to.pdf  used on input line 192.
 (pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE/AttitudeContr
 olRoll.eps>
-(epstopdf)                    date: 2020-11-13 12:32:18
+(epstopdf)                    date: 2020-11-19 16:05:09
 (epstopdf)                    size: 369793 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE/AttitudeContr
 olRoll-eps-converted-to.pdf>
@@ -2200,13 +2360,20 @@ olRoll-eps-converted-to.pdf>
 E/AttitudeControlRoll-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/Attitud
 eControlRoll.eps>
 (epstopdf)             \includegraphics on input line 198.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE/AttitudeControlRoll-e
+ps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/AttitudeControlRoll.eps)...exe
+cuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE/AttitudeContr
+olRoll-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:41
+(epstopdf)                    size: 130309 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE/AttitudeControlRo
 ll-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Simulazioni/Figure/PID/SNAKE/AttitudeControlRoll-eps-converted-to.pdf, id=646,
+<Simulazioni/Figure/PID/SNAKE/AttitudeControlRoll-eps-converted-to.pdf, id=737,
  367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/PID/SNAKE/AttitudeControlRoll-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -2216,8 +2383,8 @@ onverted-to.pdf  used on input line 198.
 (pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE/AttitudeContr
 olYaw.eps>
-(epstopdf)                    date: 2020-11-13 12:32:19
-(epstopdf)                    size: 339572 bytes
+(epstopdf)                    date: 2020-11-19 16:05:10
+(epstopdf)                    size: 339555 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE/AttitudeContr
 olYaw-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:12
@@ -2226,23 +2393,30 @@ olYaw-eps-converted-to.pdf>
 E/AttitudeControlYaw-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/Attitude
 ControlYaw.eps>
 (epstopdf)             \includegraphics on input line 204.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE/AttitudeControlYaw-ep
+s-converted-to.pdf Simulazioni/Figure/PID/SNAKE/AttitudeControlYaw.eps)...execu
+ted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE/AttitudeContr
+olYaw-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:41
+(epstopdf)                    size: 81817 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE/AttitudeControlYa
 w-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Simulazioni/Figure/PID/SNAKE/AttitudeControlYaw-eps-converted-to.pdf, id=647, 
-379.4175pt x 292.09125pt>
+<Simulazioni/Figure/PID/SNAKE/AttitudeControlYaw-eps-converted-to.pdf, id=738, 
+372.39125pt x 292.09125pt>
 File: Simulazioni/Figure/PID/SNAKE/AttitudeControlYaw-eps-converted-to.pdf Grap
 hic file (type pdf)
 <use Simulazioni/Figure/PID/SNAKE/AttitudeControlYaw-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE/AttitudeControlYaw-eps-co
 nverted-to.pdf  used on input line 204.
-(pdftex.def)             Requested size: 190.12474pt x 146.36615pt.
+(pdftex.def)             Requested size: 190.12474pt x 149.12946pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE/PWM.eps>
-(epstopdf)                    date: 2020-11-13 12:32:20
-(epstopdf)                    size: 694105 bytes
+(epstopdf)                    date: 2020-11-19 16:05:11
+(epstopdf)                    size: 695508 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE/PWM-eps-conve
 rted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:13
@@ -2250,24 +2424,30 @@ rted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/SNAK
 E/PWM-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/PWM.eps>
 (epstopdf)             \includegraphics on input line 213.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE/PWM-eps-converted-to.
+pdf Simulazioni/Figure/PID/SNAKE/PWM.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE/PWM-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:42
+(epstopdf)                    size: 267694 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE/PWM-eps-converted
 -to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-<Simulazioni/Figure/PID/SNAKE/PWM-eps-converted-to.pdf, id=648, 372.39125pt x 2
+<Simulazioni/Figure/PID/SNAKE/PWM-eps-converted-to.pdf, id=739, 360.34625pt x 2
 81.05pt>
 File: Simulazioni/Figure/PID/SNAKE/PWM-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use Simulazioni/Figure/PID/SNAKE/PWM-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE/PWM-eps-converted-to.pdf 
  used on input line 213.
-(pdftex.def)             Requested size: 211.25116pt x 159.44109pt.
+(pdftex.def)             Requested size: 211.25116pt x 164.76309pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE/Trajectory.ep
 s>
-(epstopdf)                    date: 2020-11-13 12:32:20
-(epstopdf)                    size: 74413 bytes
+(epstopdf)                    date: 2020-11-19 16:05:12
+(epstopdf)                    size: 74056 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE/Trajectory-ep
 s-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:13
@@ -2275,35 +2455,44 @@ s-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/SNAK
 E/Trajectory-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE/Trajectory.eps>
 (epstopdf)             \includegraphics on input line 218.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE/Trajectory-eps-conver
+ted-to.pdf Simulazioni/Figure/PID/SNAKE/Trajectory.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE/Trajectory-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:43
+(epstopdf)                    size: 103370 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE/Trajectory-eps-co
 nverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
-<Simulazioni/Figure/PID/SNAKE/Trajectory-eps-converted-to.pdf, id=649, 429.605p
-t x 317.185pt>
+<Simulazioni/Figure/PID/SNAKE/Trajectory-eps-converted-to.pdf, id=740, 422.5787
+5pt x 317.185pt>
 File: Simulazioni/Figure/PID/SNAKE/Trajectory-eps-converted-to.pdf Graphic file
  (type pdf)
 <use Simulazioni/Figure/PID/SNAKE/Trajectory-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE/Trajectory-eps-converted-
 to.pdf  used on input line 218.
-(pdftex.def)             Requested size: 422.50232pt x 311.94748pt.
-[31
+(pdftex.def)             Requested size: 422.50232pt x 317.1358pt.
+[43
 
  <./Simulazioni/Figure/PID/SNAKE/PositionControlXPos-eps-converted-to.pdf> <./S
 imulazioni/Figure/PID/SNAKE/PositionControlYPos-eps-converted-to.pdf> <./Simula
 zioni/Figure/PID/SNAKE/PositionControlXVel-eps-converted-to.pdf> <./Simulazioni
-/Figure/PID/SNAKE/PositionControlYVel-eps-converted-to.pdf>] [32 <./Simulazioni
-/Figure/PID/SNAKE/AttitudeControlPitch-eps-converted-to.pdf> <./Simulazioni/Fig
-ure/PID/SNAKE/AttitudeControlRoll-eps-converted-to.pdf> <./Simulazioni/Figure/P
-ID/SNAKE/AttitudeControlYaw-eps-converted-to.pdf> <./Simulazioni/Figure/PID/SNA
-KE/PWM-eps-converted-to.pdf>] [33 <./Simulazioni/Figure/PID/SNAKE/Trajectory-ep
-s-converted-to.pdf>]
+/Figure/PID/SNAKE/PositionControlYVel-eps-converted-to.pdf>]
+
+LaTeX Warning: Text page 44 contains only floats.
+
+[44 <./Simulazioni/Figure/PID/SNAKE/AttitudeControlPitch-eps-converted-to.pdf> 
+<./Simulazioni/Figure/PID/SNAKE/AttitudeControlRoll-eps-converted-to.pdf> <./Si
+mulazioni/Figure/PID/SNAKE/AttitudeControlYaw-eps-converted-to.pdf> <./Simulazi
+oni/Figure/PID/SNAKE/PWM-eps-converted-to.pdf>] [45 <./Simulazioni/Figure/PID/S
+NAKE/Trajectory-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/STEP/AltitudeContro
 lPos.eps>
-(epstopdf)                    date: 2020-11-13 12:32:53
-(epstopdf)                    size: 62569 bytes
+(epstopdf)                    date: 2020-11-19 16:00:07
+(epstopdf)                    size: 62430 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/STEP/AltitudeContro
 lPos-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:13
@@ -2312,23 +2501,30 @@ lPos-eps-converted-to.pdf>
 /AltitudeControlPos-eps-converted-to.pdf Simulazioni/Figure/SMC/STEP/AltitudeCo
 ntrolPos.eps>
 (epstopdf)             \includegraphics on input line 230.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/STEP/AltitudeControlPos-eps
+-converted-to.pdf Simulazioni/Figure/SMC/STEP/AltitudeControlPos.eps)...execute
+d (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/STEP/AltitudeContro
+lPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:43
+(epstopdf)                    size: 27903 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/STEP/AltitudeControlPos
 -eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
-<Simulazioni/Figure/SMC/STEP/AltitudeControlPos-eps-converted-to.pdf, id=689, 3
-71.3875pt x 292.09125pt>
+<Simulazioni/Figure/SMC/STEP/AltitudeControlPos-eps-converted-to.pdf, id=777, 3
+65.365pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/STEP/AltitudeControlPos-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use Simulazioni/Figure/SMC/STEP/AltitudeControlPos-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/STEP/AltitudeControlPos-eps-con
 verted-to.pdf  used on input line 230.
-(pdftex.def)             Requested size: 190.12474pt x 149.53503pt.
+(pdftex.def)             Requested size: 190.12474pt x 151.99527pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/STEP/AltitudeContro
 lVel.eps>
-(epstopdf)                    date: 2020-11-13 12:32:53
+(epstopdf)                    date: 2020-11-19 16:00:08
 (epstopdf)                    size: 65633 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/STEP/AltitudeContro
 lVel-eps-converted-to.pdf>
@@ -2338,13 +2534,20 @@ lVel-eps-converted-to.pdf>
 /AltitudeControlVel-eps-converted-to.pdf Simulazioni/Figure/SMC/STEP/AltitudeCo
 ntrolVel.eps>
 (epstopdf)             \includegraphics on input line 236.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/STEP/AltitudeControlVel-eps
+-converted-to.pdf Simulazioni/Figure/SMC/STEP/AltitudeControlVel.eps)...execute
+d (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/STEP/AltitudeContro
+lVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:43
+(epstopdf)                    size: 30438 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/STEP/AltitudeControlVel
 -eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
-<Simulazioni/Figure/SMC/STEP/AltitudeControlVel-eps-converted-to.pdf, id=690, 3
+<Simulazioni/Figure/SMC/STEP/AltitudeControlVel-eps-converted-to.pdf, id=778, 3
 65.365pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/STEP/AltitudeControlVel-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -2353,8 +2556,8 @@ Package pdftex.def Info: Simulazioni/Figure/SMC/STEP/AltitudeControlVel-eps-con
 verted-to.pdf  used on input line 236.
 (pdftex.def)             Requested size: 190.12474pt x 151.99527pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/STEP/PWM.eps>
-(epstopdf)                    date: 2020-11-13 12:32:56
-(epstopdf)                    size: 103064 bytes
+(epstopdf)                    date: 2020-11-19 16:00:10
+(epstopdf)                    size: 102462 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/STEP/PWM-eps-conver
 ted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:14
@@ -2362,29 +2565,35 @@ ted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/STEP
 /PWM-eps-converted-to.pdf Simulazioni/Figure/SMC/STEP/PWM.eps>
 (epstopdf)             \includegraphics on input line 244.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/STEP/PWM-eps-converted-to.p
+df Simulazioni/Figure/SMC/STEP/PWM.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/STEP/PWM-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:44
+(epstopdf)                    size: 87600 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/STEP/PWM-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<Simulazioni/Figure/SMC/STEP/PWM-eps-converted-to.pdf, id=691, 369.38pt x 284.0
-6125pt>
+<Simulazioni/Figure/SMC/STEP/PWM-eps-converted-to.pdf, id=779, 357.335pt x 284.
+06125pt>
 File: Simulazioni/Figure/SMC/STEP/PWM-eps-converted-to.pdf Graphic file (type p
 df)
 <use Simulazioni/Figure/SMC/STEP/PWM-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/STEP/PWM-eps-converted-to.pdf  
 used on input line 244.
-(pdftex.def)             Requested size: 211.25116pt x 162.45837pt.
-[34
+(pdftex.def)             Requested size: 211.25116pt x 167.93275pt.
+[46
 
  <./Simulazioni/Figure/SMC/STEP/AltitudeControlPos-eps-converted-to.pdf> <./Sim
 ulazioni/Figure/SMC/STEP/AltitudeControlVel-eps-converted-to.pdf> <./Simulazion
 i/Figure/SMC/STEP/PWM-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SQUARE/PositionCont
 rolXPos.eps>
-(epstopdf)                    date: 2020-11-13 12:33:20
-(epstopdf)                    size: 165811 bytes
+(epstopdf)                    date: 2020-11-19 15:59:17
+(epstopdf)                    size: 164542 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SQUARE/PositionCont
 rolXPos-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:15
@@ -2393,24 +2602,31 @@ rolXPos-eps-converted-to.pdf>
 RE/PositionControlXPos-eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/Posit
 ionControlXPos.eps>
 (epstopdf)             \includegraphics on input line 254.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SQUARE/PositionControlXPos-
+eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/PositionControlXPos.eps)...e
+xecuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SQUARE/PositionCont
+rolXPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:44
+(epstopdf)                    size: 63241 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SQUARE/PositionControlX
 Pos-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<Simulazioni/Figure/SMC/SQUARE/PositionControlXPos-eps-converted-to.pdf, id=707
-, 366.36874pt x 292.09125pt>
+<Simulazioni/Figure/SMC/SQUARE/PositionControlXPos-eps-converted-to.pdf, id=792
+, 359.3425pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/SQUARE/PositionControlXPos-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Simulazioni/Figure/SMC/SQUARE/PositionControlXPos-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/SQUARE/PositionControlXPos-eps-
 converted-to.pdf  used on input line 254.
-(pdftex.def)             Requested size: 190.12474pt x 151.58078pt.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SQUARE/PositionCont
 rolYPos.eps>
-(epstopdf)                    date: 2020-11-13 12:33:21
-(epstopdf)                    size: 166155 bytes
+(epstopdf)                    date: 2020-11-19 15:59:18
+(epstopdf)                    size: 164886 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SQUARE/PositionCont
 rolYPos-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:15
@@ -2419,24 +2635,31 @@ rolYPos-eps-converted-to.pdf>
 RE/PositionControlYPos-eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/Posit
 ionControlYPos.eps>
 (epstopdf)             \includegraphics on input line 260.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SQUARE/PositionControlYPos-
+eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/PositionControlYPos.eps)...e
+xecuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SQUARE/PositionCont
+rolYPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:45
+(epstopdf)                    size: 67077 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SQUARE/PositionControlY
 Pos-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<Simulazioni/Figure/SMC/SQUARE/PositionControlYPos-eps-converted-to.pdf, id=708
-, 366.36874pt x 292.09125pt>
+<Simulazioni/Figure/SMC/SQUARE/PositionControlYPos-eps-converted-to.pdf, id=793
+, 359.3425pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/SQUARE/PositionControlYPos-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Simulazioni/Figure/SMC/SQUARE/PositionControlYPos-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/SQUARE/PositionControlYPos-eps-
 converted-to.pdf  used on input line 260.
-(pdftex.def)             Requested size: 190.12474pt x 151.58078pt.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SQUARE/PositionCont
 rolXVel.eps>
-(epstopdf)                    date: 2020-11-13 12:33:21
-(epstopdf)                    size: 168110 bytes
+(epstopdf)                    date: 2020-11-19 15:59:17
+(epstopdf)                    size: 166846 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SQUARE/PositionCont
 rolXVel-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:16
@@ -2445,24 +2668,31 @@ rolXVel-eps-converted-to.pdf>
 RE/PositionControlXVel-eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/Posit
 ionControlXVel.eps>
 (epstopdf)             \includegraphics on input line 266.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SQUARE/PositionControlXVel-
+eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/PositionControlXVel.eps)...e
+xecuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SQUARE/PositionCont
+rolXVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:45
+(epstopdf)                    size: 60082 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SQUARE/PositionControlX
 Vel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<Simulazioni/Figure/SMC/SQUARE/PositionControlXVel-eps-converted-to.pdf, id=709
-, 374.39874pt x 292.09125pt>
+<Simulazioni/Figure/SMC/SQUARE/PositionControlXVel-eps-converted-to.pdf, id=794
+, 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/SQUARE/PositionControlXVel-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Simulazioni/Figure/SMC/SQUARE/PositionControlXVel-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/SQUARE/PositionControlXVel-eps-
 converted-to.pdf  used on input line 266.
-(pdftex.def)             Requested size: 190.12474pt x 148.32721pt.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SQUARE/PositionCont
 rolYVel.eps>
-(epstopdf)                    date: 2020-11-13 12:33:22
-(epstopdf)                    size: 168473 bytes
+(epstopdf)                    date: 2020-11-19 15:59:19
+(epstopdf)                    size: 167209 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SQUARE/PositionCont
 rolYVel-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:16
@@ -2471,23 +2701,30 @@ rolYVel-eps-converted-to.pdf>
 RE/PositionControlYVel-eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/Posit
 ionControlYVel.eps>
 (epstopdf)             \includegraphics on input line 272.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SQUARE/PositionControlYVel-
+eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/PositionControlYVel.eps)...e
+xecuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SQUARE/PositionCont
+rolYVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:46
+(epstopdf)                    size: 61818 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SQUARE/PositionControlY
 Vel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<Simulazioni/Figure/SMC/SQUARE/PositionControlYVel-eps-converted-to.pdf, id=710
-, 374.39874pt x 292.09125pt>
+<Simulazioni/Figure/SMC/SQUARE/PositionControlYVel-eps-converted-to.pdf, id=795
+, 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/SQUARE/PositionControlYVel-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Simulazioni/Figure/SMC/SQUARE/PositionControlYVel-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/SQUARE/PositionControlYVel-eps-
 converted-to.pdf  used on input line 272.
-(pdftex.def)             Requested size: 190.12474pt x 148.32721pt.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SQUARE/AttitudeCont
 rolPitch.eps>
-(epstopdf)                    date: 2020-11-13 12:33:23
+(epstopdf)                    date: 2020-11-19 15:59:21
 (epstopdf)                    size: 169120 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SQUARE/AttitudeCont
 rolPitch-eps-converted-to.pdf>
@@ -2497,14 +2734,21 @@ rolPitch-eps-converted-to.pdf>
 RE/AttitudeControlPitch-eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/Atti
 tudeControlPitch.eps>
 (epstopdf)             \includegraphics on input line 282.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SQUARE/AttitudeControlPitch
+-eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/AttitudeControlPitch.eps)..
+.executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SQUARE/AttitudeCont
+rolPitch-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:46
+(epstopdf)                    size: 72522 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SQUARE/AttitudeControlP
 itch-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most
  version <1.5> allowed
-<Simulazioni/Figure/SMC/SQUARE/AttitudeControlPitch-eps-converted-to.pdf, id=71
-1, 367.3725pt x 292.09125pt>
+<Simulazioni/Figure/SMC/SQUARE/AttitudeControlPitch-eps-converted-to.pdf, id=79
+6, 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/SQUARE/AttitudeControlPitch-eps-converted-to.pdf G
 raphic file (type pdf)
 <use Simulazioni/Figure/SMC/SQUARE/AttitudeControlPitch-eps-converted-to.pdf>
@@ -2513,7 +2757,7 @@ Package pdftex.def Info: Simulazioni/Figure/SMC/SQUARE/AttitudeControlPitch-eps
 (pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SQUARE/AttitudeCont
 rolRoll.eps>
-(epstopdf)                    date: 2020-11-13 12:33:24
+(epstopdf)                    date: 2020-11-19 15:59:21
 (epstopdf)                    size: 169550 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SQUARE/AttitudeCont
 rolRoll-eps-converted-to.pdf>
@@ -2523,13 +2767,20 @@ rolRoll-eps-converted-to.pdf>
 RE/AttitudeControlRoll-eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/Attit
 udeControlRoll.eps>
 (epstopdf)             \includegraphics on input line 288.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SQUARE/AttitudeControlRoll-
+eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/AttitudeControlRoll.eps)...e
+xecuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SQUARE/AttitudeCont
+rolRoll-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:47
+(epstopdf)                    size: 72882 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SQUARE/AttitudeControlR
 oll-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<Simulazioni/Figure/SMC/SQUARE/AttitudeControlRoll-eps-converted-to.pdf, id=712
+<Simulazioni/Figure/SMC/SQUARE/AttitudeControlRoll-eps-converted-to.pdf, id=797
 , 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/SQUARE/AttitudeControlRoll-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -2539,8 +2790,8 @@ converted-to.pdf  used on input line 288.
 (pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SQUARE/AttitudeCont
 rolYaw.eps>
-(epstopdf)                    date: 2020-11-13 12:33:25
-(epstopdf)                    size: 160425 bytes
+(epstopdf)                    date: 2020-11-19 15:59:22
+(epstopdf)                    size: 159175 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SQUARE/AttitudeCont
 rolYaw-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:18
@@ -2549,23 +2800,30 @@ rolYaw-eps-converted-to.pdf>
 RE/AttitudeControlYaw-eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/Attitu
 deControlYaw.eps>
 (epstopdf)             \includegraphics on input line 294.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SQUARE/AttitudeControlYaw-e
+ps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/AttitudeControlYaw.eps)...exe
+cuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SQUARE/AttitudeCont
+rolYaw-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:47
+(epstopdf)                    size: 54079 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SQUARE/AttitudeControlY
 aw-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Simulazioni/Figure/SMC/SQUARE/AttitudeControlYaw-eps-converted-to.pdf, id=713,
- 379.4175pt x 292.09125pt>
+<Simulazioni/Figure/SMC/SQUARE/AttitudeControlYaw-eps-converted-to.pdf, id=798,
+ 372.39125pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/SQUARE/AttitudeControlYaw-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use Simulazioni/Figure/SMC/SQUARE/AttitudeControlYaw-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/SQUARE/AttitudeControlYaw-eps-c
 onverted-to.pdf  used on input line 294.
-(pdftex.def)             Requested size: 190.12474pt x 146.36615pt.
+(pdftex.def)             Requested size: 190.12474pt x 149.12946pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SQUARE/PWM.eps>
-(epstopdf)                    date: 2020-11-13 12:33:26
-(epstopdf)                    size: 304159 bytes
+(epstopdf)                    date: 2020-11-19 15:59:23
+(epstopdf)                    size: 300046 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SQUARE/PWM-eps-conv
 erted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:18
@@ -2573,24 +2831,30 @@ erted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/SQUA
 RE/PWM-eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/PWM.eps>
 (epstopdf)             \includegraphics on input line 303.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SQUARE/PWM-eps-converted-to
+.pdf Simulazioni/Figure/SMC/SQUARE/PWM.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SQUARE/PWM-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:48
+(epstopdf)                    size: 158380 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SQUARE/PWM-eps-converte
 d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<Simulazioni/Figure/SMC/SQUARE/PWM-eps-converted-to.pdf, id=714, 372.39125pt x 
-284.06125pt>
+<Simulazioni/Figure/SMC/SQUARE/PWM-eps-converted-to.pdf, id=799, 359.3425pt x 2
+84.06125pt>
 File: Simulazioni/Figure/SMC/SQUARE/PWM-eps-converted-to.pdf Graphic file (type
  pdf)
 <use Simulazioni/Figure/SMC/SQUARE/PWM-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/SQUARE/PWM-eps-converted-to.pdf
   used on input line 303.
-(pdftex.def)             Requested size: 211.25116pt x 161.14938pt.
+(pdftex.def)             Requested size: 211.25116pt x 167.00085pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SQUARE/Trajectory.e
 ps>
-(epstopdf)                    date: 2020-11-13 12:33:26
-(epstopdf)                    size: 75614 bytes
+(epstopdf)                    date: 2020-11-19 15:59:24
+(epstopdf)                    size: 75695 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SQUARE/Trajectory-e
 ps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:19
@@ -2599,38 +2863,41 @@ ps-converted-to.pdf>
 RE/Trajectory-eps-converted-to.pdf Simulazioni/Figure/SMC/SQUARE/Trajectory.eps
 >
 (epstopdf)             \includegraphics on input line 308.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SQUARE/Trajectory-eps-conve
+rted-to.pdf Simulazioni/Figure/SMC/SQUARE/Trajectory.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SQUARE/Trajectory-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:48
+(epstopdf)                    size: 69694 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SQUARE/Trajectory-eps-c
 onverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<Simulazioni/Figure/SMC/SQUARE/Trajectory-eps-converted-to.pdf, id=715, 429.605
-pt x 317.185pt>
+<Simulazioni/Figure/SMC/SQUARE/Trajectory-eps-converted-to.pdf, id=800, 422.578
+75pt x 317.185pt>
 File: Simulazioni/Figure/SMC/SQUARE/Trajectory-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use Simulazioni/Figure/SMC/SQUARE/Trajectory-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/SQUARE/Trajectory-eps-converted
 -to.pdf  used on input line 308.
-(pdftex.def)             Requested size: 422.50232pt x 311.94748pt.
-[35
+(pdftex.def)             Requested size: 422.50232pt x 317.1358pt.
+[47
 
  <./Simulazioni/Figure/SMC/SQUARE/PositionControlXPos-eps-converted-to.pdf> <./
 Simulazioni/Figure/SMC/SQUARE/PositionControlYPos-eps-converted-to.pdf> <./Simu
 lazioni/Figure/SMC/SQUARE/PositionControlXVel-eps-converted-to.pdf> <./Simulazi
-oni/Figure/SMC/SQUARE/PositionControlYVel-eps-converted-to.pdf>]
-
-LaTeX Warning: Text page 36 contains only floats.
-
-[36 <./Simulazioni/Figure/SMC/SQUARE/AttitudeControlPitch-eps-converted-to.pdf>
- <./Simulazioni/Figure/SMC/SQUARE/AttitudeControlRoll-eps-converted-to.pdf> <./
-Simulazioni/Figure/SMC/SQUARE/AttitudeControlYaw-eps-converted-to.pdf> <./Simul
-azioni/Figure/SMC/SQUARE/PWM-eps-converted-to.pdf>] [37 <./Simulazioni/Figure/S
-MC/SQUARE/Trajectory-eps-converted-to.pdf>]
+oni/Figure/SMC/SQUARE/PositionControlYVel-eps-converted-to.pdf>] [48 <./Simulaz
+ioni/Figure/SMC/SQUARE/AttitudeControlPitch-eps-converted-to.pdf> <./Simulazion
+i/Figure/SMC/SQUARE/AttitudeControlRoll-eps-converted-to.pdf> <./Simulazioni/Fi
+gure/SMC/SQUARE/AttitudeControlYaw-eps-converted-to.pdf> <./Simulazioni/Figure/
+SMC/SQUARE/PWM-eps-converted-to.pdf>] [49 <./Simulazioni/Figure/SMC/SQUARE/Traj
+ectory-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/BUTTERFLY/PositionC
 ontrolXPos.eps>
-(epstopdf)                    date: 2020-11-13 12:34:24
-(epstopdf)                    size: 148723 bytes
+(epstopdf)                    date: 2020-11-19 16:00:33
+(epstopdf)                    size: 148724 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/BUTTERFLY/PositionC
 ontrolXPos-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:19
@@ -2639,25 +2906,32 @@ ontrolXPos-eps-converted-to.pdf>
 ERFLY/PositionControlXPos-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY
 /PositionControlXPos.eps>
 (epstopdf)             \includegraphics on input line 319.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXP
+os-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXPos.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/BUTTERFLY/PositionC
+ontrolXPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:49
+(epstopdf)                    size: 57969 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/BUTTERFLY/PositionContr
 olXPos-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXPos-eps-converted-to.pdf, id=
-755, 366.36874pt x 292.09125pt>
+837, 359.3425pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXPos-eps-converted-to.pdf
  Graphic file (type pdf)
 <use Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXPos-eps-converted-to.pdf>
 
 Package pdftex.def Info: Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXPos-e
 ps-converted-to.pdf  used on input line 319.
-(pdftex.def)             Requested size: 190.12474pt x 151.58078pt.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/BUTTERFLY/PositionC
 ontrolYPos.eps>
-(epstopdf)                    date: 2020-11-13 12:34:26
-(epstopdf)                    size: 149157 bytes
+(epstopdf)                    date: 2020-11-19 16:00:34
+(epstopdf)                    size: 149158 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/BUTTERFLY/PositionC
 ontrolYPos-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:20
@@ -2666,25 +2940,32 @@ ontrolYPos-eps-converted-to.pdf>
 ERFLY/PositionControlYPos-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY
 /PositionControlYPos.eps>
 (epstopdf)             \includegraphics on input line 325.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYP
+os-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYPos.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/BUTTERFLY/PositionC
+ontrolYPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:49
+(epstopdf)                    size: 59843 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/BUTTERFLY/PositionContr
 olYPos-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYPos-eps-converted-to.pdf, id=
-756, 366.36874pt x 292.09125pt>
+838, 359.3425pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYPos-eps-converted-to.pdf
  Graphic file (type pdf)
 <use Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYPos-eps-converted-to.pdf>
 
 Package pdftex.def Info: Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYPos-e
 ps-converted-to.pdf  used on input line 325.
-(pdftex.def)             Requested size: 190.12474pt x 151.58078pt.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/BUTTERFLY/PositionC
 ontrolXVel.eps>
-(epstopdf)                    date: 2020-11-13 12:34:25
-(epstopdf)                    size: 155281 bytes
+(epstopdf)                    date: 2020-11-19 16:00:33
+(epstopdf)                    size: 155294 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/BUTTERFLY/PositionC
 ontrolXVel-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:20
@@ -2693,25 +2974,32 @@ ontrolXVel-eps-converted-to.pdf>
 ERFLY/PositionControlXVel-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY
 /PositionControlXVel.eps>
 (epstopdf)             \includegraphics on input line 331.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXV
+el-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXVel.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/BUTTERFLY/PositionC
+ontrolXVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:50
+(epstopdf)                    size: 58800 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/BUTTERFLY/PositionContr
 olXVel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXVel-eps-converted-to.pdf, id=
-757, 374.39874pt x 292.09125pt>
+839, 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXVel-eps-converted-to.pdf
  Graphic file (type pdf)
 <use Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXVel-eps-converted-to.pdf>
 
 Package pdftex.def Info: Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXVel-e
 ps-converted-to.pdf  used on input line 331.
-(pdftex.def)             Requested size: 190.12474pt x 148.32721pt.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/BUTTERFLY/PositionC
 ontrolYVel.eps>
-(epstopdf)                    date: 2020-11-13 12:34:26
-(epstopdf)                    size: 150420 bytes
+(epstopdf)                    date: 2020-11-19 16:00:34
+(epstopdf)                    size: 150418 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/BUTTERFLY/PositionC
 ontrolYVel-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:21
@@ -2720,24 +3008,31 @@ ontrolYVel-eps-converted-to.pdf>
 ERFLY/PositionControlYVel-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY
 /PositionControlYVel.eps>
 (epstopdf)             \includegraphics on input line 337.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYV
+el-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYVel.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/BUTTERFLY/PositionC
+ontrolYVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:50
+(epstopdf)                    size: 53238 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/BUTTERFLY/PositionContr
 olYVel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYVel-eps-converted-to.pdf, id=
-758, 366.36874pt x 292.09125pt>
+840, 359.3425pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYVel-eps-converted-to.pdf
  Graphic file (type pdf)
 <use Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYVel-eps-converted-to.pdf>
 
 Package pdftex.def Info: Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYVel-e
 ps-converted-to.pdf  used on input line 337.
-(pdftex.def)             Requested size: 190.12474pt x 151.58078pt.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/BUTTERFLY/AttitudeC
 ontrolPitch.eps>
-(epstopdf)                    date: 2020-11-13 12:34:28
+(epstopdf)                    date: 2020-11-19 16:00:36
 (epstopdf)                    size: 152261 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/BUTTERFLY/AttitudeC
 ontrolPitch-eps-converted-to.pdf>
@@ -2747,14 +3042,21 @@ ontrolPitch-eps-converted-to.pdf>
 ERFLY/AttitudeControlPitch-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFL
 Y/AttitudeControlPitch.eps>
 (epstopdf)             \includegraphics on input line 347.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlPi
+tch-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlPitch.
+eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/BUTTERFLY/AttitudeC
+ontrolPitch-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:51
+(epstopdf)                    size: 64984 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/BUTTERFLY/AttitudeContr
 olPitch-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at m
 ost version <1.5> allowed
 <Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlPitch-eps-converted-to.pdf, id
-=759, 367.3725pt x 292.09125pt>
+=841, 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlPitch-eps-converted-to.pd
 f Graphic file (type pdf)
 <use Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlPitch-eps-converted-to.pdf
@@ -2764,7 +3066,7 @@ eps-converted-to.pdf  used on input line 347.
 (pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/BUTTERFLY/AttitudeC
 ontrolRoll.eps>
-(epstopdf)                    date: 2020-11-13 12:34:29
+(epstopdf)                    date: 2020-11-19 16:00:36
 (epstopdf)                    size: 152549 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/BUTTERFLY/AttitudeC
 ontrolRoll-eps-converted-to.pdf>
@@ -2774,14 +3076,21 @@ ontrolRoll-eps-converted-to.pdf>
 ERFLY/AttitudeControlRoll-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY
 /AttitudeControlRoll.eps>
 (epstopdf)             \includegraphics on input line 353.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlRo
+ll-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlRoll.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/BUTTERFLY/AttitudeC
+ontrolRoll-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:51
+(epstopdf)                    size: 65204 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/BUTTERFLY/AttitudeContr
 olRoll-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlRoll-eps-converted-to.pdf, id=
-760, 367.3725pt x 292.09125pt>
+842, 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlRoll-eps-converted-to.pdf
  Graphic file (type pdf)
 <use Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlRoll-eps-converted-to.pdf>
@@ -2791,8 +3100,8 @@ ps-converted-to.pdf  used on input line 353.
 (pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/BUTTERFLY/AttitudeC
 ontrolYaw.eps>
-(epstopdf)                    date: 2020-11-13 12:34:29
-(epstopdf)                    size: 148797 bytes
+(epstopdf)                    date: 2020-11-19 16:00:37
+(epstopdf)                    size: 148811 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/BUTTERFLY/AttitudeC
 ontrolYaw-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:22
@@ -2801,23 +3110,30 @@ ontrolYaw-eps-converted-to.pdf>
 ERFLY/AttitudeControlYaw-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY/
 AttitudeControlYaw.eps>
 (epstopdf)             \includegraphics on input line 359.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlYa
+w-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlYaw.eps)
+...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/BUTTERFLY/AttitudeC
+ontrolYaw-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:52
+(epstopdf)                    size: 46692 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/BUTTERFLY/AttitudeContr
 olYaw-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mos
 t version <1.5> allowed
-<Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlYaw-eps-converted-to.pdf, id=7
-61, 379.4175pt x 292.09125pt>
+<Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlYaw-eps-converted-to.pdf, id=8
+43, 372.39125pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlYaw-eps-converted-to.pdf 
 Graphic file (type pdf)
 <use Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlYaw-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlYaw-ep
 s-converted-to.pdf  used on input line 359.
-(pdftex.def)             Requested size: 190.12474pt x 146.36615pt.
+(pdftex.def)             Requested size: 190.12474pt x 149.12946pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/BUTTERFLY/PWM.eps>
-(epstopdf)                    date: 2020-11-13 12:34:30
-(epstopdf)                    size: 268172 bytes
+(epstopdf)                    date: 2020-11-19 16:00:38
+(epstopdf)                    size: 266917 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/BUTTERFLY/PWM-eps-c
 onverted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:23
@@ -2825,24 +3141,30 @@ onverted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/BUTT
 ERFLY/PWM-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY/PWM.eps>
 (epstopdf)             \includegraphics on input line 367.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/BUTTERFLY/PWM-eps-converted
+-to.pdf Simulazioni/Figure/SMC/BUTTERFLY/PWM.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/BUTTERFLY/PWM-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:52
+(epstopdf)                    size: 140342 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/BUTTERFLY/PWM-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<Simulazioni/Figure/SMC/BUTTERFLY/PWM-eps-converted-to.pdf, id=762, 372.39125pt
+<Simulazioni/Figure/SMC/BUTTERFLY/PWM-eps-converted-to.pdf, id=844, 360.34625pt
  x 284.06125pt>
 File: Simulazioni/Figure/SMC/BUTTERFLY/PWM-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use Simulazioni/Figure/SMC/BUTTERFLY/PWM-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/BUTTERFLY/PWM-eps-converted-to.
 pdf  used on input line 367.
-(pdftex.def)             Requested size: 211.25116pt x 161.14938pt.
+(pdftex.def)             Requested size: 211.25116pt x 166.5284pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/BUTTERFLY/Trajector
 y.eps>
-(epstopdf)                    date: 2020-11-13 12:34:31
-(epstopdf)                    size: 76653 bytes
+(epstopdf)                    date: 2020-11-19 16:00:39
+(epstopdf)                    size: 77350 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/BUTTERFLY/Trajector
 y-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:23
@@ -2851,38 +3173,42 @@ y-eps-converted-to.pdf>
 ERFLY/Trajectory-eps-converted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY/Trajecto
 ry.eps>
 (epstopdf)             \includegraphics on input line 372.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/BUTTERFLY/Trajectory-eps-co
+nverted-to.pdf Simulazioni/Figure/SMC/BUTTERFLY/Trajectory.eps)...executed (all
+owed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/BUTTERFLY/Trajector
+y-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:53
+(epstopdf)                    size: 70789 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/BUTTERFLY/Trajectory-ep
 s-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
-<Simulazioni/Figure/SMC/BUTTERFLY/Trajectory-eps-converted-to.pdf, id=763, 429.
-605pt x 317.185pt>
+<Simulazioni/Figure/SMC/BUTTERFLY/Trajectory-eps-converted-to.pdf, id=845, 422.
+57875pt x 317.185pt>
 File: Simulazioni/Figure/SMC/BUTTERFLY/Trajectory-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use Simulazioni/Figure/SMC/BUTTERFLY/Trajectory-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/BUTTERFLY/Trajectory-eps-conver
 ted-to.pdf  used on input line 372.
-(pdftex.def)             Requested size: 422.50232pt x 311.94748pt.
-[38
+(pdftex.def)             Requested size: 422.50232pt x 317.1358pt.
+[50
 
  <./Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXPos-eps-converted-to.pdf> 
 <./Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYPos-eps-converted-to.pdf> <
 ./Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXVel-eps-converted-to.pdf> <.
-/Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYVel-eps-converted-to.pdf>]
-
-LaTeX Warning: Text page 39 contains only floats.
-
-[39 <./Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlPitch-eps-converted-to.p
-df> <./Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlRoll-eps-converted-to.pd
-f> <./Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlYaw-eps-converted-to.pdf>
- <./Simulazioni/Figure/SMC/BUTTERFLY/PWM-eps-converted-to.pdf>] [40 <./Simulazi
-oni/Figure/SMC/BUTTERFLY/Trajectory-eps-converted-to.pdf>]
+/Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYVel-eps-converted-to.pdf>] [5
+1 <./Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlPitch-eps-converted-to.pdf
+> <./Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlRoll-eps-converted-to.pdf>
+ <./Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlYaw-eps-converted-to.pdf> <
+./Simulazioni/Figure/SMC/BUTTERFLY/PWM-eps-converted-to.pdf>] [52 <./Simulazion
+i/Figure/SMC/BUTTERFLY/Trajectory-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE/PositionContr
 olXPos.eps>
-(epstopdf)                    date: 2020-11-13 12:34:54
-(epstopdf)                    size: 362597 bytes
+(epstopdf)                    date: 2020-11-19 16:01:27
+(epstopdf)                    size: 362563 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE/PositionContr
 olXPos-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:24
@@ -2891,24 +3217,31 @@ olXPos-eps-converted-to.pdf>
 E/PositionControlXPos-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/Positio
 nControlXPos.eps>
 (epstopdf)             \includegraphics on input line 382.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE/PositionControlXPos-e
+ps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/PositionControlXPos.eps)...exe
+cuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE/PositionContr
+olXPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:53
+(epstopdf)                    size: 125032 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE/PositionControlXP
 os-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Simulazioni/Figure/SMC/SNAKE/PositionControlXPos-eps-converted-to.pdf, id=802,
- 366.36874pt x 292.09125pt>
+<Simulazioni/Figure/SMC/SNAKE/PositionControlXPos-eps-converted-to.pdf, id=881,
+ 359.3425pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/SNAKE/PositionControlXPos-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use Simulazioni/Figure/SMC/SNAKE/PositionControlXPos-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE/PositionControlXPos-eps-c
 onverted-to.pdf  used on input line 382.
-(pdftex.def)             Requested size: 190.12474pt x 151.58078pt.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE/PositionContr
 olYPos.eps>
-(epstopdf)                    date: 2020-11-13 12:34:55
-(epstopdf)                    size: 366264 bytes
+(epstopdf)                    date: 2020-11-19 16:01:28
+(epstopdf)                    size: 366226 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE/PositionContr
 olYPos-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:25
@@ -2917,24 +3250,31 @@ olYPos-eps-converted-to.pdf>
 E/PositionControlYPos-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/Positio
 nControlYPos.eps>
 (epstopdf)             \includegraphics on input line 388.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE/PositionControlYPos-e
+ps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/PositionControlYPos.eps)...exe
+cuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE/PositionContr
+olYPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:54
+(epstopdf)                    size: 115983 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE/PositionControlYP
 os-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Simulazioni/Figure/SMC/SNAKE/PositionControlYPos-eps-converted-to.pdf, id=803,
- 366.36874pt x 292.09125pt>
+<Simulazioni/Figure/SMC/SNAKE/PositionControlYPos-eps-converted-to.pdf, id=882,
+ 359.3425pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/SNAKE/PositionControlYPos-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use Simulazioni/Figure/SMC/SNAKE/PositionControlYPos-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE/PositionControlYPos-eps-c
 onverted-to.pdf  used on input line 388.
-(pdftex.def)             Requested size: 190.12474pt x 151.58078pt.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE/PositionContr
 olXVel.eps>
-(epstopdf)                    date: 2020-11-13 12:34:54
-(epstopdf)                    size: 359319 bytes
+(epstopdf)                    date: 2020-11-19 16:01:27
+(epstopdf)                    size: 359304 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE/PositionContr
 olXVel-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:25
@@ -2943,24 +3283,31 @@ olXVel-eps-converted-to.pdf>
 E/PositionControlXVel-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/Positio
 nControlXVel.eps>
 (epstopdf)             \includegraphics on input line 394.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE/PositionControlXVel-e
+ps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/PositionControlXVel.eps)...exe
+cuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE/PositionContr
+olXVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:55
+(epstopdf)                    size: 114535 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE/PositionControlXV
 el-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Simulazioni/Figure/SMC/SNAKE/PositionControlXVel-eps-converted-to.pdf, id=804,
- 374.39874pt x 292.09125pt>
+<Simulazioni/Figure/SMC/SNAKE/PositionControlXVel-eps-converted-to.pdf, id=883,
+ 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/SNAKE/PositionControlXVel-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use Simulazioni/Figure/SMC/SNAKE/PositionControlXVel-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE/PositionControlXVel-eps-c
 onverted-to.pdf  used on input line 394.
-(pdftex.def)             Requested size: 190.12474pt x 148.32721pt.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE/PositionContr
 olYVel.eps>
-(epstopdf)                    date: 2020-11-13 12:34:56
-(epstopdf)                    size: 371027 bytes
+(epstopdf)                    date: 2020-11-19 16:01:28
+(epstopdf)                    size: 370995 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE/PositionContr
 olYVel-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:26
@@ -2969,23 +3316,30 @@ olYVel-eps-converted-to.pdf>
 E/PositionControlYVel-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/Positio
 nControlYVel.eps>
 (epstopdf)             \includegraphics on input line 400.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE/PositionControlYVel-e
+ps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/PositionControlYVel.eps)...exe
+cuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE/PositionContr
+olYVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:55
+(epstopdf)                    size: 108335 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE/PositionControlYV
 el-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Simulazioni/Figure/SMC/SNAKE/PositionControlYVel-eps-converted-to.pdf, id=805,
- 374.39874pt x 292.09125pt>
+<Simulazioni/Figure/SMC/SNAKE/PositionControlYVel-eps-converted-to.pdf, id=884,
+ 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/SNAKE/PositionControlYVel-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use Simulazioni/Figure/SMC/SNAKE/PositionControlYVel-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE/PositionControlYVel-eps-c
 onverted-to.pdf  used on input line 400.
-(pdftex.def)             Requested size: 190.12474pt x 148.32721pt.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE/AttitudeContr
 olPitch.eps>
-(epstopdf)                    date: 2020-11-13 12:34:57
+(epstopdf)                    date: 2020-11-19 16:01:30
 (epstopdf)                    size: 370712 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE/AttitudeContr
 olPitch-eps-converted-to.pdf>
@@ -2995,13 +3349,20 @@ olPitch-eps-converted-to.pdf>
 E/AttitudeControlPitch-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/Attitu
 deControlPitch.eps>
 (epstopdf)             \includegraphics on input line 410.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE/AttitudeControlPitch-
+eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/AttitudeControlPitch.eps)...e
+xecuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE/AttitudeContr
+olPitch-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:56
+(epstopdf)                    size: 136519 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE/AttitudeControlPi
 tch-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<Simulazioni/Figure/SMC/SNAKE/AttitudeControlPitch-eps-converted-to.pdf, id=806
+<Simulazioni/Figure/SMC/SNAKE/AttitudeControlPitch-eps-converted-to.pdf, id=885
 , 367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/SNAKE/AttitudeControlPitch-eps-converted-to.pdf Gr
 aphic file (type pdf)
@@ -3011,7 +3372,7 @@ converted-to.pdf  used on input line 410.
 (pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE/AttitudeContr
 olRoll.eps>
-(epstopdf)                    date: 2020-11-13 12:34:58
+(epstopdf)                    date: 2020-11-19 16:01:31
 (epstopdf)                    size: 369728 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE/AttitudeContr
 olRoll-eps-converted-to.pdf>
@@ -3021,13 +3382,20 @@ olRoll-eps-converted-to.pdf>
 E/AttitudeControlRoll-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/Attitud
 eControlRoll.eps>
 (epstopdf)             \includegraphics on input line 416.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE/AttitudeControlRoll-e
+ps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/AttitudeControlRoll.eps)...exe
+cuted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE/AttitudeContr
+olRoll-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:57
+(epstopdf)                    size: 132571 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE/AttitudeControlRo
 ll-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Simulazioni/Figure/SMC/SNAKE/AttitudeControlRoll-eps-converted-to.pdf, id=807,
+<Simulazioni/Figure/SMC/SNAKE/AttitudeControlRoll-eps-converted-to.pdf, id=886,
  367.3725pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/SNAKE/AttitudeControlRoll-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -3037,8 +3405,8 @@ onverted-to.pdf  used on input line 416.
 (pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE/AttitudeContr
 olYaw.eps>
-(epstopdf)                    date: 2020-11-13 12:34:58
-(epstopdf)                    size: 338077 bytes
+(epstopdf)                    date: 2020-11-19 16:01:31
+(epstopdf)                    size: 338062 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE/AttitudeContr
 olYaw-eps-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:28
@@ -3047,23 +3415,30 @@ olYaw-eps-converted-to.pdf>
 E/AttitudeControlYaw-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/Attitude
 ControlYaw.eps>
 (epstopdf)             \includegraphics on input line 422.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE/AttitudeControlYaw-ep
+s-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/AttitudeControlYaw.eps)...execu
+ted (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE/AttitudeContr
+olYaw-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:57
+(epstopdf)                    size: 85141 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE/AttitudeControlYa
 w-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Simulazioni/Figure/SMC/SNAKE/AttitudeControlYaw-eps-converted-to.pdf, id=808, 
-379.4175pt x 292.09125pt>
+<Simulazioni/Figure/SMC/SNAKE/AttitudeControlYaw-eps-converted-to.pdf, id=887, 
+372.39125pt x 292.09125pt>
 File: Simulazioni/Figure/SMC/SNAKE/AttitudeControlYaw-eps-converted-to.pdf Grap
 hic file (type pdf)
 <use Simulazioni/Figure/SMC/SNAKE/AttitudeControlYaw-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE/AttitudeControlYaw-eps-co
 nverted-to.pdf  used on input line 422.
-(pdftex.def)             Requested size: 190.12474pt x 146.36615pt.
+(pdftex.def)             Requested size: 190.12474pt x 149.12946pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE/PWM.eps>
-(epstopdf)                    date: 2020-11-13 12:34:59
-(epstopdf)                    size: 694708 bytes
+(epstopdf)                    date: 2020-11-19 16:01:32
+(epstopdf)                    size: 693336 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE/PWM-eps-conve
 rted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:29
@@ -3071,24 +3446,30 @@ rted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/SNAK
 E/PWM-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/PWM.eps>
 (epstopdf)             \includegraphics on input line 431.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE/PWM-eps-converted-to.
+pdf Simulazioni/Figure/SMC/SNAKE/PWM.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE/PWM-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:58
+(epstopdf)                    size: 285101 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE/PWM-eps-converted
 -to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-<Simulazioni/Figure/SMC/SNAKE/PWM-eps-converted-to.pdf, id=809, 372.39125pt x 2
+<Simulazioni/Figure/SMC/SNAKE/PWM-eps-converted-to.pdf, id=888, 360.34625pt x 2
 84.06125pt>
 File: Simulazioni/Figure/SMC/SNAKE/PWM-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use Simulazioni/Figure/SMC/SNAKE/PWM-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE/PWM-eps-converted-to.pdf 
  used on input line 431.
-(pdftex.def)             Requested size: 211.25116pt x 161.14938pt.
+(pdftex.def)             Requested size: 211.25116pt x 166.5284pt.
 Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE/Trajectory.ep
 s>
-(epstopdf)                    date: 2020-11-13 12:35:00
-(epstopdf)                    size: 72933 bytes
+(epstopdf)                    date: 2020-11-19 16:01:33
+(epstopdf)                    size: 71801 bytes
 (epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE/Trajectory-ep
 s-converted-to.pdf>
 (epstopdf)                    date: 2020-11-13 12:36:29
@@ -3096,36 +3477,685 @@ s-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/SNAK
 E/Trajectory-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE/Trajectory.eps>
 (epstopdf)             \includegraphics on input line 436.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE/Trajectory-eps-conver
+ted-to.pdf Simulazioni/Figure/SMC/SNAKE/Trajectory.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE/Trajectory-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:09:59
+(epstopdf)                    size: 101548 bytes.
 
 
 pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE/Trajectory-eps-co
 nverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
-<Simulazioni/Figure/SMC/SNAKE/Trajectory-eps-converted-to.pdf, id=810, 429.605p
-t x 317.185pt>
+<Simulazioni/Figure/SMC/SNAKE/Trajectory-eps-converted-to.pdf, id=889, 422.5787
+5pt x 317.185pt>
 File: Simulazioni/Figure/SMC/SNAKE/Trajectory-eps-converted-to.pdf Graphic file
  (type pdf)
 <use Simulazioni/Figure/SMC/SNAKE/Trajectory-eps-converted-to.pdf>
 Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE/Trajectory-eps-converted-
 to.pdf  used on input line 436.
-(pdftex.def)             Requested size: 422.50232pt x 311.94748pt.
-[41
+(pdftex.def)             Requested size: 422.50232pt x 317.1358pt.
+[53
 
  <./Simulazioni/Figure/SMC/SNAKE/PositionControlXPos-eps-converted-to.pdf> <./S
 imulazioni/Figure/SMC/SNAKE/PositionControlYPos-eps-converted-to.pdf> <./Simula
 zioni/Figure/SMC/SNAKE/PositionControlXVel-eps-converted-to.pdf> <./Simulazioni
-/Figure/SMC/SNAKE/PositionControlYVel-eps-converted-to.pdf>] [42 <./Simulazioni
-/Figure/SMC/SNAKE/AttitudeControlPitch-eps-converted-to.pdf> <./Simulazioni/Fig
-ure/SMC/SNAKE/AttitudeControlRoll-eps-converted-to.pdf> <./Simulazioni/Figure/S
-MC/SNAKE/AttitudeControlYaw-eps-converted-to.pdf> <./Simulazioni/Figure/SMC/SNA
-KE/PWM-eps-converted-to.pdf>] [43 <./Simulazioni/Figure/SMC/SNAKE/Trajectory-ep
-s-converted-to.pdf>]) [44
+/Figure/SMC/SNAKE/PositionControlYVel-eps-converted-to.pdf>]
+
+LaTeX Warning: Text page 54 contains only floats.
+
+[54 <./Simulazioni/Figure/SMC/SNAKE/AttitudeControlPitch-eps-converted-to.pdf> 
+<./Simulazioni/Figure/SMC/SNAKE/AttitudeControlRoll-eps-converted-to.pdf> <./Si
+mulazioni/Figure/SMC/SNAKE/AttitudeControlYaw-eps-converted-to.pdf> <./Simulazi
+oni/Figure/SMC/SNAKE/PWM-eps-converted-to.pdf>] [55 <./Simulazioni/Figure/SMC/S
+NAKE/Trajectory-eps-converted-to.pdf>]) [56
+
+]
+\openout2 = `Simulazioni/mitl.aux'.
+
+ (Simulazioni/mitl.tex
+Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE_MIL/PositionC
+ontrolXPos.eps>
+(epstopdf)                    date: 2020-11-19 15:55:39
+(epstopdf)                    size: 832619 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE_MIL/PositionC
+ontrolXPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:08
+(epstopdf)                    size: 114312 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/SNAK
+E_MIL/PositionControlXPos-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL
+/PositionControlXPos.eps>
+(epstopdf)             \includegraphics on input line 9.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE_MIL/PositionControlXP
+os-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL/PositionControlXPos.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE_MIL/PositionC
+ontrolXPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:00
+(epstopdf)                    size: 223759 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE_MIL/PositionContr
+olXPos-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
+st version <1.5> allowed
+<Simulazioni/Figure/PID/SNAKE_MIL/PositionControlXPos-eps-converted-to.pdf, id=
+931, 359.3425pt x 292.09125pt>
+File: Simulazioni/Figure/PID/SNAKE_MIL/PositionControlXPos-eps-converted-to.pdf
+ Graphic file (type pdf)
+<use Simulazioni/Figure/PID/SNAKE_MIL/PositionControlXPos-eps-converted-to.pdf>
+
+Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE_MIL/PositionControlXPos-e
+ps-converted-to.pdf  used on input line 9.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE_MIL/PositionC
+ontrolYPos.eps>
+(epstopdf)                    date: 2020-11-19 15:55:41
+(epstopdf)                    size: 842436 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE_MIL/PositionC
+ontrolYPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:08
+(epstopdf)                    size: 106249 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/SNAK
+E_MIL/PositionControlYPos-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL
+/PositionControlYPos.eps>
+(epstopdf)             \includegraphics on input line 15.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE_MIL/PositionControlYP
+os-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL/PositionControlYPos.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE_MIL/PositionC
+ontrolYPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:01
+(epstopdf)                    size: 217839 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE_MIL/PositionContr
+olYPos-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
+st version <1.5> allowed
+<Simulazioni/Figure/PID/SNAKE_MIL/PositionControlYPos-eps-converted-to.pdf, id=
+932, 359.3425pt x 292.09125pt>
+File: Simulazioni/Figure/PID/SNAKE_MIL/PositionControlYPos-eps-converted-to.pdf
+ Graphic file (type pdf)
+<use Simulazioni/Figure/PID/SNAKE_MIL/PositionControlYPos-eps-converted-to.pdf>
+
+Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE_MIL/PositionControlYPos-e
+ps-converted-to.pdf  used on input line 15.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE_MIL/PositionC
+ontrolXVel.eps>
+(epstopdf)                    date: 2020-11-19 15:55:40
+(epstopdf)                    size: 839469 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE_MIL/PositionC
+ontrolXVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:09
+(epstopdf)                    size: 95203 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/SNAK
+E_MIL/PositionControlXVel-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL
+/PositionControlXVel.eps>
+(epstopdf)             \includegraphics on input line 21.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE_MIL/PositionControlXV
+el-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL/PositionControlXVel.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE_MIL/PositionC
+ontrolXVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:02
+(epstopdf)                    size: 225986 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE_MIL/PositionContr
+olXVel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
+st version <1.5> allowed
+<Simulazioni/Figure/PID/SNAKE_MIL/PositionControlXVel-eps-converted-to.pdf, id=
+933, 367.3725pt x 292.09125pt>
+File: Simulazioni/Figure/PID/SNAKE_MIL/PositionControlXVel-eps-converted-to.pdf
+ Graphic file (type pdf)
+<use Simulazioni/Figure/PID/SNAKE_MIL/PositionControlXVel-eps-converted-to.pdf>
+
+Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE_MIL/PositionControlXVel-e
+ps-converted-to.pdf  used on input line 21.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE_MIL/PositionC
+ontrolYVel.eps>
+(epstopdf)                    date: 2020-11-19 15:55:41
+(epstopdf)                    size: 814923 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE_MIL/PositionC
+ontrolYVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:09
+(epstopdf)                    size: 90910 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/SNAK
+E_MIL/PositionControlYVel-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL
+/PositionControlYVel.eps>
+(epstopdf)             \includegraphics on input line 27.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE_MIL/PositionControlYV
+el-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL/PositionControlYVel.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE_MIL/PositionC
+ontrolYVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:03
+(epstopdf)                    size: 223670 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE_MIL/PositionContr
+olYVel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
+st version <1.5> allowed
+<Simulazioni/Figure/PID/SNAKE_MIL/PositionControlYVel-eps-converted-to.pdf, id=
+934, 367.3725pt x 292.09125pt>
+File: Simulazioni/Figure/PID/SNAKE_MIL/PositionControlYVel-eps-converted-to.pdf
+ Graphic file (type pdf)
+<use Simulazioni/Figure/PID/SNAKE_MIL/PositionControlYVel-eps-converted-to.pdf>
+
+Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE_MIL/PositionControlYVel-e
+ps-converted-to.pdf  used on input line 27.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE_MIL/AttitudeC
+ontrolPitch.eps>
+(epstopdf)                    date: 2020-11-19 15:55:43
+(epstopdf)                    size: 841610 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE_MIL/AttitudeC
+ontrolPitch-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:10
+(epstopdf)                    size: 101931 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/SNAK
+E_MIL/AttitudeControlPitch-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MI
+L/AttitudeControlPitch.eps>
+(epstopdf)             \includegraphics on input line 37.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlPi
+tch-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlPitch.
+eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE_MIL/AttitudeC
+ontrolPitch-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:04
+(epstopdf)                    size: 271031 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE_MIL/AttitudeContr
+olPitch-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at m
+ost version <1.5> allowed
+<Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlPitch-eps-converted-to.pdf, id
+=935, 374.39874pt x 292.09125pt>
+File: Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlPitch-eps-converted-to.pd
+f Graphic file (type pdf)
+<use Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlPitch-eps-converted-to.pdf
+>
+Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlPitch-
+eps-converted-to.pdf  used on input line 37.
+(pdftex.def)             Requested size: 190.12474pt x 148.32721pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE_MIL/AttitudeC
+ontrolRoll.eps>
+(epstopdf)                    date: 2020-11-19 15:55:44
+(epstopdf)                    size: 841854 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE_MIL/AttitudeC
+ontrolRoll-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:11
+(epstopdf)                    size: 103968 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/SNAK
+E_MIL/AttitudeControlRoll-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL
+/AttitudeControlRoll.eps>
+(epstopdf)             \includegraphics on input line 43.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlRo
+ll-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlRoll.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE_MIL/AttitudeC
+ontrolRoll-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:05
+(epstopdf)                    size: 269725 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE_MIL/AttitudeContr
+olRoll-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
+st version <1.5> allowed
+<Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlRoll-eps-converted-to.pdf, id=
+936, 367.3725pt x 292.09125pt>
+File: Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlRoll-eps-converted-to.pdf
+ Graphic file (type pdf)
+<use Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlRoll-eps-converted-to.pdf>
+
+Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlRoll-e
+ps-converted-to.pdf  used on input line 43.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE_MIL/AttitudeC
+ontrolYaw.eps>
+(epstopdf)                    date: 2020-11-19 15:55:44
+(epstopdf)                    size: 807320 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE_MIL/AttitudeC
+ontrolYaw-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:11
+(epstopdf)                    size: 105240 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/SNAK
+E_MIL/AttitudeControlYaw-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL/
+AttitudeControlYaw.eps>
+(epstopdf)             \includegraphics on input line 49.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlYa
+w-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlYaw.eps)
+...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE_MIL/AttitudeC
+ontrolYaw-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:06
+(epstopdf)                    size: 167892 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE_MIL/AttitudeContr
+olYaw-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mos
+t version <1.5> allowed
+<Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlYaw-eps-converted-to.pdf, id=9
+37, 372.39125pt x 292.09125pt>
+File: Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlYaw-eps-converted-to.pdf 
+Graphic file (type pdf)
+<use Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlYaw-eps-converted-to.pdf>
+Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlYaw-ep
+s-converted-to.pdf  used on input line 49.
+(pdftex.def)             Requested size: 190.12474pt x 149.12946pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE_MIL/PWM.eps>
+(epstopdf)                    date: 2020-11-19 15:55:46
+(epstopdf)                    size: 1638107 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE_MIL/PWM-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:12
+(epstopdf)                    size: 175109 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/SNAK
+E_MIL/PWM-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL/PWM.eps>
+(epstopdf)             \includegraphics on input line 58.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE_MIL/PWM-eps-converted
+-to.pdf Simulazioni/Figure/PID/SNAKE_MIL/PWM.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE_MIL/PWM-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:07
+(epstopdf)                    size: 600069 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE_MIL/PWM-eps-conve
+rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
+<Simulazioni/Figure/PID/SNAKE_MIL/PWM-eps-converted-to.pdf, id=938, 366.36874pt
+ x 284.06125pt>
+File: Simulazioni/Figure/PID/SNAKE_MIL/PWM-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use Simulazioni/Figure/PID/SNAKE_MIL/PWM-eps-converted-to.pdf>
+Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE_MIL/PWM-eps-converted-to.
+pdf  used on input line 58.
+(pdftex.def)             Requested size: 211.25116pt x 163.79338pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/PID/SNAKE_MIL/Trajector
+y.eps>
+(epstopdf)                    date: 2020-11-19 15:55:46
+(epstopdf)                    size: 74884 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/PID/SNAKE_MIL/Trajector
+y-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:13
+(epstopdf)                    size: 63125 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/PID/SNAK
+E_MIL/Trajectory-eps-converted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL/Trajecto
+ry.eps>
+(epstopdf)             \includegraphics on input line 63.
+runsystem(epstopdf --outfile=Simulazioni/Figure/PID/SNAKE_MIL/Trajectory-eps-co
+nverted-to.pdf Simulazioni/Figure/PID/SNAKE_MIL/Trajectory.eps)...executed (all
+owed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/PID/SNAKE_MIL/Trajector
+y-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:08
+(epstopdf)                    size: 104916 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/PID/SNAKE_MIL/Trajectory-ep
+s-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
+n <1.5> allowed
+<Simulazioni/Figure/PID/SNAKE_MIL/Trajectory-eps-converted-to.pdf, id=939, 422.
+57875pt x 317.185pt>
+File: Simulazioni/Figure/PID/SNAKE_MIL/Trajectory-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use Simulazioni/Figure/PID/SNAKE_MIL/Trajectory-eps-converted-to.pdf>
+Package pdftex.def Info: Simulazioni/Figure/PID/SNAKE_MIL/Trajectory-eps-conver
+ted-to.pdf  used on input line 63.
+(pdftex.def)             Requested size: 422.50232pt x 317.1358pt.
+[57
+
+
+ <./Simulazioni/Figure/PID/SNAKE_MIL/PositionControlXPos-eps-converted-to.pdf> 
+<./Simulazioni/Figure/PID/SNAKE_MIL/PositionControlYPos-eps-converted-to.pdf> <
+./Simulazioni/Figure/PID/SNAKE_MIL/PositionControlXVel-eps-converted-to.pdf> <.
+/Simulazioni/Figure/PID/SNAKE_MIL/PositionControlYVel-eps-converted-to.pdf>] [5
+8 <./Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlPitch-eps-converted-to.pdf
+> <./Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlRoll-eps-converted-to.pdf>
+ <./Simulazioni/Figure/PID/SNAKE_MIL/AttitudeControlYaw-eps-converted-to.pdf> <
+./Simulazioni/Figure/PID/SNAKE_MIL/PWM-eps-converted-to.pdf>] [59 <./Simulazion
+i/Figure/PID/SNAKE_MIL/Trajectory-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE_MIL/PositionC
+ontrolXPos.eps>
+(epstopdf)                    date: 2020-11-19 15:18:01
+(epstopdf)                    size: 362524 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE_MIL/PositionC
+ontrolXPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:13
+(epstopdf)                    size: 61052 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/SNAK
+E_MIL/PositionControlXPos-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL
+/PositionControlXPos.eps>
+(epstopdf)             \includegraphics on input line 74.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlXP
+os-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlXPos.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE_MIL/PositionC
+ontrolXPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:08
+(epstopdf)                    size: 110607 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE_MIL/PositionContr
+olXPos-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
+st version <1.5> allowed
+<Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlXPos-eps-converted-to.pdf, id=
+975, 359.3425pt x 292.09125pt>
+File: Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlXPos-eps-converted-to.pdf
+ Graphic file (type pdf)
+<use Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlXPos-eps-converted-to.pdf>
+
+Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlXPos-e
+ps-converted-to.pdf  used on input line 74.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE_MIL/PositionC
+ontrolYPos.eps>
+(epstopdf)                    date: 2020-11-19 15:18:02
+(epstopdf)                    size: 366230 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE_MIL/PositionC
+ontrolYPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:14
+(epstopdf)                    size: 58750 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/SNAK
+E_MIL/PositionControlYPos-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL
+/PositionControlYPos.eps>
+(epstopdf)             \includegraphics on input line 80.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlYP
+os-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlYPos.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE_MIL/PositionC
+ontrolYPos-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:09
+(epstopdf)                    size: 106910 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE_MIL/PositionContr
+olYPos-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
+st version <1.5> allowed
+<Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlYPos-eps-converted-to.pdf, id=
+976, 359.3425pt x 292.09125pt>
+File: Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlYPos-eps-converted-to.pdf
+ Graphic file (type pdf)
+<use Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlYPos-eps-converted-to.pdf>
+
+Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlYPos-e
+ps-converted-to.pdf  used on input line 80.
+(pdftex.def)             Requested size: 190.12474pt x 154.54465pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE_MIL/PositionC
+ontrolXVel.eps>
+(epstopdf)                    date: 2020-11-19 15:18:02
+(epstopdf)                    size: 353775 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE_MIL/PositionC
+ontrolXVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:14
+(epstopdf)                    size: 68916 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/SNAK
+E_MIL/PositionControlXVel-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL
+/PositionControlXVel.eps>
+(epstopdf)             \includegraphics on input line 86.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlXV
+el-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlXVel.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE_MIL/PositionC
+ontrolXVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:10
+(epstopdf)                    size: 110037 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE_MIL/PositionContr
+olXVel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
+st version <1.5> allowed
+<Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlXVel-eps-converted-to.pdf, id=
+977, 367.3725pt x 292.09125pt>
+File: Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlXVel-eps-converted-to.pdf
+ Graphic file (type pdf)
+<use Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlXVel-eps-converted-to.pdf>
+
+Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlXVel-e
+ps-converted-to.pdf  used on input line 86.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE_MIL/PositionC
+ontrolYVel.eps>
+(epstopdf)                    date: 2020-11-19 15:18:03
+(epstopdf)                    size: 349251 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE_MIL/PositionC
+ontrolYVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:15
+(epstopdf)                    size: 63081 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/SNAK
+E_MIL/PositionControlYVel-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL
+/PositionControlYVel.eps>
+(epstopdf)             \includegraphics on input line 92.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlYV
+el-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlYVel.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE_MIL/PositionC
+ontrolYVel-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:10
+(epstopdf)                    size: 109299 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE_MIL/PositionContr
+olYVel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
+st version <1.5> allowed
+<Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlYVel-eps-converted-to.pdf, id=
+978, 367.3725pt x 292.09125pt>
+File: Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlYVel-eps-converted-to.pdf
+ Graphic file (type pdf)
+<use Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlYVel-eps-converted-to.pdf>
+
+Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlYVel-e
+ps-converted-to.pdf  used on input line 92.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeC
+ontrolPitch.eps>
+(epstopdf)                    date: 2020-11-19 15:18:05
+(epstopdf)                    size: 369275 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeC
+ontrolPitch-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:15
+(epstopdf)                    size: 86732 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/SNAK
+E_MIL/AttitudeControlPitch-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MI
+L/AttitudeControlPitch.eps>
+(epstopdf)             \includegraphics on input line 102.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlPi
+tch-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlPitch.
+eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeC
+ontrolPitch-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:11
+(epstopdf)                    size: 137374 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeContr
+olPitch-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at m
+ost version <1.5> allowed
+<Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlPitch-eps-converted-to.pdf, id
+=979, 367.3725pt x 292.09125pt>
+File: Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlPitch-eps-converted-to.pd
+f Graphic file (type pdf)
+<use Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlPitch-eps-converted-to.pdf
+>
+Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlPitch-
+eps-converted-to.pdf  used on input line 102.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeC
+ontrolRoll.eps>
+(epstopdf)                    date: 2020-11-19 15:18:06
+(epstopdf)                    size: 369602 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeC
+ontrolRoll-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:16
+(epstopdf)                    size: 88610 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/SNAK
+E_MIL/AttitudeControlRoll-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL
+/AttitudeControlRoll.eps>
+(epstopdf)             \includegraphics on input line 108.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlRo
+ll-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlRoll.ep
+s)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeC
+ontrolRoll-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:12
+(epstopdf)                    size: 137227 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeContr
+olRoll-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
+st version <1.5> allowed
+<Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlRoll-eps-converted-to.pdf, id=
+980, 367.3725pt x 292.09125pt>
+File: Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlRoll-eps-converted-to.pdf
+ Graphic file (type pdf)
+<use Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlRoll-eps-converted-to.pdf>
+
+Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlRoll-e
+ps-converted-to.pdf  used on input line 108.
+(pdftex.def)             Requested size: 190.12474pt x 151.16629pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeC
+ontrolYaw.eps>
+(epstopdf)                    date: 2020-11-19 15:18:07
+(epstopdf)                    size: 353906 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeC
+ontrolYaw-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:16
+(epstopdf)                    size: 59257 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/SNAK
+E_MIL/AttitudeControlYaw-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL/
+AttitudeControlYaw.eps>
+(epstopdf)             \includegraphics on input line 114.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlYa
+w-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlYaw.eps)
+...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeC
+ontrolYaw-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:12
+(epstopdf)                    size: 81748 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeContr
+olYaw-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mos
+t version <1.5> allowed
+<Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlYaw-eps-converted-to.pdf, id=9
+81, 372.39125pt x 292.09125pt>
+File: Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlYaw-eps-converted-to.pdf 
+Graphic file (type pdf)
+<use Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlYaw-eps-converted-to.pdf>
+Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlYaw-ep
+s-converted-to.pdf  used on input line 114.
+(pdftex.def)             Requested size: 190.12474pt x 149.12946pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE_MIL/PWM.eps>
+(epstopdf)                    date: 2020-11-19 15:18:09
+(epstopdf)                    size: 688768 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE_MIL/PWM-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:17
+(epstopdf)                    size: 176820 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/SNAK
+E_MIL/PWM-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL/PWM.eps>
+(epstopdf)             \includegraphics on input line 123.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE_MIL/PWM-eps-converted
+-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL/PWM.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE_MIL/PWM-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:13
+(epstopdf)                    size: 295190 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE_MIL/PWM-eps-conve
+rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
+ allowed
+<Simulazioni/Figure/SMC/SNAKE_MIL/PWM-eps-converted-to.pdf, id=982, 360.34625pt
+ x 284.06125pt>
+File: Simulazioni/Figure/SMC/SNAKE_MIL/PWM-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use Simulazioni/Figure/SMC/SNAKE_MIL/PWM-eps-converted-to.pdf>
+Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE_MIL/PWM-eps-converted-to.
+pdf  used on input line 123.
+(pdftex.def)             Requested size: 211.25116pt x 166.5284pt.
+Package epstopdf Info: Source file: <Simulazioni/Figure/SMC/SNAKE_MIL/Trajector
+y.eps>
+(epstopdf)                    date: 2020-11-19 15:18:10
+(epstopdf)                    size: 74896 bytes
+(epstopdf)             Output file: <Simulazioni/Figure/SMC/SNAKE_MIL/Trajector
+y-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-18 09:19:17
+(epstopdf)                    size: 102800 bytes
+(epstopdf)             Command: <epstopdf --outfile=Simulazioni/Figure/SMC/SNAK
+E_MIL/Trajectory-eps-converted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL/Trajecto
+ry.eps>
+(epstopdf)             \includegraphics on input line 128.
+runsystem(epstopdf --outfile=Simulazioni/Figure/SMC/SNAKE_MIL/Trajectory-eps-co
+nverted-to.pdf Simulazioni/Figure/SMC/SNAKE_MIL/Trajectory.eps)...executed (all
+owed).
+
+Package epstopdf Info: Result file: <Simulazioni/Figure/SMC/SNAKE_MIL/Trajector
+y-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-11-19 16:10:14
+(epstopdf)                    size: 105991 bytes.
+
+
+pdfTeX warning: pdflatex (file ./Simulazioni/Figure/SMC/SNAKE_MIL/Trajectory-ep
+s-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
+n <1.5> allowed
+<Simulazioni/Figure/SMC/SNAKE_MIL/Trajectory-eps-converted-to.pdf, id=983, 429.
+605pt x 317.185pt>
+File: Simulazioni/Figure/SMC/SNAKE_MIL/Trajectory-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use Simulazioni/Figure/SMC/SNAKE_MIL/Trajectory-eps-converted-to.pdf>
+Package pdftex.def Info: Simulazioni/Figure/SMC/SNAKE_MIL/Trajectory-eps-conver
+ted-to.pdf  used on input line 128.
+(pdftex.def)             Requested size: 422.50232pt x 311.94748pt.
+) [60
+
+ <./Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlXPos-eps-converted-to.pdf> 
+<./Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlYPos-eps-converted-to.pdf> <
+./Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlXVel-eps-converted-to.pdf> <.
+/Simulazioni/Figure/SMC/SNAKE_MIL/PositionControlYVel-eps-converted-to.pdf>] [6
+1 <./Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlPitch-eps-converted-to.pdf
+> <./Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlRoll-eps-converted-to.pdf>
+ <./Simulazioni/Figure/SMC/SNAKE_MIL/AttitudeControlYaw-eps-converted-to.pdf> <
+./Simulazioni/Figure/SMC/SNAKE_MIL/PWM-eps-converted-to.pdf>] [62 <./Simulazion
+i/Figure/SMC/SNAKE_MIL/Trajectory-eps-converted-to.pdf>]
+\openout2 = `Simulazioni/pitl.aux'.
+
+
+(Simulazioni/pitl.tex) [63
+
+
+]
+\openout2 = `Simulazioni/conclusioni.aux'.
+
+ (Simulazioni/conclusioni.tex) [64
+
 
 ]
 \openout2 = `Appendice/appendice.aux'.
 
- (Appendice/appendice.tex
+
+(Appendice/appendice.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 2.
@@ -3138,9 +4168,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 (/usr/local/share/miktex-texmf/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-) [45
-
-
+) [65
 
 
 
@@ -3160,56 +4188,56 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
+ [66]
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
 85.
 
 (/usr/local/share/miktex-texmf/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<DescrizioneAutopilota/Figure/completopid.png, id=927, 1152.305pt x 754.82pt>
+<DescrizioneAutopilota/Figure/completopid.png, id=1104, 1152.305pt x 754.82pt>
 File: DescrizioneAutopilota/Figure/completopid.png Graphic file (type png)
 <use DescrizioneAutopilota/Figure/completopid.png>
 Package pdftex.def Info: DescrizioneAutopilota/Figure/completopid.png  used on 
 input line 119.
 (pdftex.def)             Requested size: 422.50232pt x 276.75667pt.
-<DescrizioneAutopilota/Figure/attitudecontrollerpid.png, id=928, 1457.445pt x 4
-92.84125pt>
+<DescrizioneAutopilota/Figure/attitudecontrollerpid.png, id=1105, 1457.445pt x 
+492.84125pt>
 File: DescrizioneAutopilota/Figure/attitudecontrollerpid.png Graphic file (type
  png)
 <use DescrizioneAutopilota/Figure/attitudecontrollerpid.png>
 Package pdftex.def Info: DescrizioneAutopilota/Figure/attitudecontrollerpid.png
   used on input line 125.
 (pdftex.def)             Requested size: 422.50232pt x 142.86765pt.
-<DescrizioneAutopilota/Figure/altitudecontrollerpid.png, id=929, 1565.85pt x 49
-3.845pt>
+<DescrizioneAutopilota/Figure/altitudecontrollerpid.png, id=1106, 1565.85pt x 4
+93.845pt>
 File: DescrizioneAutopilota/Figure/altitudecontrollerpid.png Graphic file (type
  png)
 <use DescrizioneAutopilota/Figure/altitudecontrollerpid.png>
 Package pdftex.def Info: DescrizioneAutopilota/Figure/altitudecontrollerpid.png
   used on input line 131.
 (pdftex.def)             Requested size: 422.50232pt x 133.2495pt.
-<DescrizioneAutopilota/Figure/positioncontrollerpid.png, id=930, 997.7275pt x 6
-89.57625pt>
+<DescrizioneAutopilota/Figure/positioncontrollerpid.png, id=1107, 997.7275pt x 
+689.57625pt>
 File: DescrizioneAutopilota/Figure/positioncontrollerpid.png Graphic file (type
  png)
 <use DescrizioneAutopilota/Figure/positioncontrollerpid.png>
 Package pdftex.def Info: DescrizioneAutopilota/Figure/positioncontrollerpid.png
   used on input line 137.
 (pdftex.def)             Requested size: 422.50232pt x 292.00856pt.
-<DescrizioneAutopilota/Figure/armpid.png, id=931, 717.68124pt x 516.93124pt>
+<DescrizioneAutopilota/Figure/armpid.png, id=1108, 717.68124pt x 516.93124pt>
 File: DescrizioneAutopilota/Figure/armpid.png Graphic file (type png)
 <use DescrizioneAutopilota/Figure/armpid.png>
 Package pdftex.def Info: DescrizioneAutopilota/Figure/armpid.png  used on input
  line 143.
 (pdftex.def)             Requested size: 211.25116pt x 152.15422pt.
-) [47] [48 <./DescrizioneAutopilota/Figure/completopid.png> <./DescrizioneAutop
-ilota/Figure/attitudecontrollerpid.png>] [49 <./DescrizioneAutopilota/Figure/al
+) [67] [68 <./DescrizioneAutopilota/Figure/completopid.png> <./DescrizioneAutop
+ilota/Figure/attitudecontrollerpid.png>] [69 <./DescrizioneAutopilota/Figure/al
 titudecontrollerpid.png> <./DescrizioneAutopilota/Figure/positioncontrollerpid.
-png>] [50 <./DescrizioneAutopilota/Figure/armpid.png>]
+png>] [70 <./DescrizioneAutopilota/Figure/armpid.png>]
 \openout2 = `Bibliografia/bibliografia.aux'.
 
- (Bibliografia/bibliografia.tex [51
+ (Bibliografia/bibliografia.tex [71
 
 
 
@@ -3231,21 +4259,20 @@ Overfull \hbox (2.76643pt too wide) in paragraph at lines 2--2
 Loop-Simulation
  []
 
-[52]) [53]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
- (main.aux (sommario.aux) (ringraziamenti.aux)
-(Introduzione/intro.aux) (SistemaQuadrirotore/modello.aux)
-(SistemaQuadrirotore/leggidicontrollo.aux)
+[72]) [73]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+ (main.aux (sommario.aux) (Introduzione/intro.aux)
+(SistemaQuadrirotore/modello.aux) (SistemaQuadrirotore/leggidicontrollo.aux)
 (SistemaQuadrirotore/algoritmidiguida.aux)
 (DescrizioneAutopilota/descrizione_drone.aux) (DescrizioneAutopilota/px4.aux)
-(DescrizioneAutopilota/gazebo.aux) (Simulazioni/sitl.aux) (Simulazioni/pitl.aux
-) (Simulazioni/conclusioni.aux) (Appendice/appendice.aux)
-(Bibliografia/bibliografia.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
+(DescrizioneAutopilota/gazebo.aux) (Simulazioni/sitl.aux) (Simulazioni/mitl.aux
+) (Simulazioni/pitl.aux) (Simulazioni/conclusioni.aux) (Appendice/appendice.aux
+) (Bibliografia/bibliografia.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1D84E1618513DEBE9D3B1921EC9C81CC;1440.
+(rerunfilecheck)             Checksum: 63F6214AF9EDEC226864324815735D93;2049.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3264,51 +4291,39 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33140 strings out of 481200
- 672734 string characters out of 2912646
- 1442897 words of memory out of 3000000
- 47727 multiletter control sequences out of 15000+200000
+ 33576 strings out of 481200
+ 694793 string characters out of 2912646
+ 1443707 words of memory out of 3000000
+ 48104 multiletter control sequences out of 15000+200000
  550124 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,14n,107p,1585b,2023s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section.4.2} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist
-, replaced by a fixed one
-
- </home/luigi/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tctt1095.p
-k> </home/luigi/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200
-.pk></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/loc
-al/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/sh
-are/miktex-texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/share/mi
-ktex-texmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/share/miktex-t
-exmf/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/share/miktex-texmf/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/share/miktex-texmf/fonts/typ
-e1/public/amsfonts/cm/cmmib10.pfb></usr/local/share/miktex-texmf/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/am
-sfonts/cm/cmr12.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/
-cm/cmr17.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr6
-.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
-sr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/loc
-al/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/sha
-re/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/share/mikt
-ex-texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/share/miktex-texm
-f/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/share/miktex-texmf/font
-s/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/share/miktex-texmf/fonts/type
-1/public/amsfonts/cm/cmtt12.pfb></usr/local/share/miktex-texmf/fonts/type1/publ
-ic/amsfonts/euler/eufm10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/
-amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (59 pages, 8330054 bytes).
+ </home/luigi/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tctt1095
+.pk> </home/luigi/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm12
+00.pk></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/l
+ocal/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/
+share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/share/
+miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/share/miktex
+-texmf/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/share/miktex-texmf/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/share/miktex-texmf/fonts/t
+ype1/public/amsfonts/cm/cmmib10.pfb></usr/local/share/miktex-texmf/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfont
+s/cm/cmr17.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cm
+r6.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/l
+ocal/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/s
+hare/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/share/mi
+ktex-texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/share/miktex-te
+xmf/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/share/miktex-texmf/fo
+nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/share/miktex-texmf/fonts/ty
+pe1/public/amsfonts/cm/cmtt12.pfb></usr/local/share/miktex-texmf/fonts/type1/pu
+blic/amsfonts/euler/eufm10.pfb></usr/local/share/miktex-texmf/fonts/type1/publi
+c/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (73 pages, 11837405 bytes).
 PDF statistics:
- 1190 PDF objects out of 1200 (max. 8388607)
- 296 named destinations out of 1000 (max. 500000)
- 700 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1377 PDF objects out of 1440 (max. 8388607)
+ 340 named destinations out of 1000 (max. 500000)
+ 870 words of extra memory for PDF output out of 10000 (max. 10000000)
 
