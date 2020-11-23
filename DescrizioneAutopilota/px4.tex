@@ -1,5 +1,5 @@
 \section{PX4 Autopilot}
-Il firmware utilizzato nelle simulazioni di software in the loop e processor in the loop è il PX4 Autopilot.
+Il firmware utilizzato nelle simulazioni di software in the loop e processor in the loop è il PX4 Autopilot \cite{px4Firmware}, \cite{px4Guide}.
 	
 Questo software mette a disposizione diverse funzionalità per avere un sistema di gestione e controllo robusto e affidabile, implementato in diversi tipi di sistemi. L'implementazione non è quindi specifica solo a mezzi aerei di qualsiasi configurazione, ma anche a velicoli di terra, marini e razzi. Il software è open-source e vanta del contributo di parecchi sviluppatori, dagli esperti del settore a contributi di livello accademico. Lo sviluppo open-source permette quindi di aggiungere o modificare le funzionalità messe a disposizione in modo da soddisfare le proprie esigenze e arricchire il progetto generico di nuove funzionalità utili ad altri. Il sistema operativo sulla quale viene eseguito materialmente il codice può essere Nuttx o Linux/MacOS la cui distinzione principale in questa applicazione è solo nella gestione di task e thread.
 
@@ -43,8 +43,8 @@ Questo insieme di moduli si occupa invece di tutte le comunicazioni interne tra 
 L'intero codice del firmware PX4 viene messo a disposizione attraverso la piattaforma github. Il progetto contiene all'interno le toolchain necessarie per compilare il sistema nei vari sistemi operativi. Agendo sulle varie possibili configurazioni di compilazione è possibile modificare e aggiunge delle funzionalità. Modificando le impostazioni di compilazione si può generare il programma finale da caricare ed eseguire sull'autopilota.
 Sono presenti anche delle configurazioni per effettuare l'analisi e la verifica del codice generato attraverso l'utilizzo di un ambiente simulato. I simulatori che presentano una configurazione di base sono : Gazebo, jMAVSim , AirSim, Xplane. Per quanto riguarda questa tesi, verrà utilizzato il software Gazebo sfruttando parzialmente il codice già presente e adottando alcune modifiche. Nulla vieta comunque di poter collegare un simulatore diverso attraverso la creazione di un interfaccia dati con il firmware. Infatti, la connessione viene effettuata attraverso UDP o seriale, utilizzando su essa il protocollo MAVLink.
 
-\todo[inline]{Prendere spunto dalla guida al tool di simulink}
-\todo[inline]{Parlare del codice generato}
+\todo[inline]{Prendere spunto dalla guida al tool di simulink \cite{toolPx4}}
+\todo[inline]{Parlare del codice generato e della code generation}
 
 \begin{idee}
 	Bypass del mixer nel codice generato attraverso simulink.

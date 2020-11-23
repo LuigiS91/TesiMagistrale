@@ -267,6 +267,61 @@
       \verb https://www.iso.org/obp/ui/#iso:std:iso:26262:-6:ed-2:v1:en
       \endverb
     \endentry
+    \entry{AutoSPICE}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9fa82140a66398b1f2b3e4c885f2e92a}{%
+           family={SIG},
+           familyi={S\bibinitperiod},
+           given={VDA\bibnamedelimb QMC\bibnamedelimb Working\bibnamedelimb Group\bibnamedelimb 13\bibnamedelimb /\bibnamedelima Automotive},
+           giveni={V\bibinitperiod\bibinitdelim Q\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim 1\bibinitperiod\bibinitdelim /\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9fa82140a66398b1f2b3e4c885f2e92a}
+      \strng{fullhash}{9fa82140a66398b1f2b3e4c885f2e92a}
+      \strng{bibnamehash}{9fa82140a66398b1f2b3e4c885f2e92a}
+      \strng{authorbibnamehash}{9fa82140a66398b1f2b3e4c885f2e92a}
+      \strng{authornamehash}{9fa82140a66398b1f2b3e4c885f2e92a}
+      \strng{authorfullhash}{9fa82140a66398b1f2b3e4c885f2e92a}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Automotive SPICE Process Assessment / Reference Model}
+      \field{year}{2015}
+      \field{dateera}{ce}
+    \endentry
+    \entry{MIL_Auto}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=7a91b822d9a0a0e3d1bc8647de873cf7}{%
+           family={Bringmann},
+           familyi={B\bibinitperiod},
+           given={Eckard},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ea1df8a6f4ab76cbbc6cb97b0dfee075}{%
+           family={Kramer},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{12579294d3f6f7b4ce3812855995492b}
+      \strng{fullhash}{12579294d3f6f7b4ce3812855995492b}
+      \strng{bibnamehash}{12579294d3f6f7b4ce3812855995492b}
+      \strng{authorbibnamehash}{12579294d3f6f7b4ce3812855995492b}
+      \strng{authornamehash}{12579294d3f6f7b4ce3812855995492b}
+      \strng{authorfullhash}{12579294d3f6f7b4ce3812855995492b}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-7695-3127-4}
+      \field{month}{05}
+      \field{title}{Model-Based Testing of Automotive Systems}
+      \field{year}{2008}
+      \field{pages}{485\bibrangedash 493}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/ICST.2008.45
+      \endverb
+    \endentry
     \entry{SIL_Improv}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=f2779cfdfc88c732b4be5c9906695b9f}{%
@@ -539,8 +594,8 @@
       \strng{authorbibnamehash}{8687eae34a3830fc0c113d9d65382e90}
       \strng{authornamehash}{8687eae34a3830fc0c113d9d65382e90}
       \strng{authorfullhash}{8687eae34a3830fc0c113d9d65382e90}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{PX4 Autopilots Support from Embedded Coder}
@@ -558,8 +613,8 @@
       \list{organization}{1}{%
         {PX4 Dev Team}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{title}{PX4 Development Guide (v1.8.0)}
       \field{year}{2020}
@@ -696,62 +751,6 @@
       \range{pages}{14}
       \keyw{unmanned aerial vehicle (UAV) ; unmanned aircraft system (UAS) ; Helicopters ; Rotors ; Military aircraft ; Control systems ; quadrotor ; Unmanned aerial vehicles ; control ; Autonomous ; Aircraft propulsion}
     \endentry
-    \entry{Nuttx}{online}{}
-      \list{organization}{1}{%
-        {Wikipedia}%
-      }
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labeltitlesource}{title}
-      \field{title}{NuttX}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://it.wikipedia.org/wiki/NuttX
-      \endverb
-      \verb{url}
-      \verb https://it.wikipedia.org/wiki/NuttX
-      \endverb
-      \keyw{Nuttx}
-    \endentry
-    \entry{px4Guide}{online}{}
-      \list{organization}{1}{%
-        {PX4 Dev Team}%
-      }
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labeltitlesource}{title}
-      \field{title}{PX4 Autopilot User Guide (1.8.2)}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://docs.px4.io/v1.8.2/en/
-      \endverb
-      \verb{url}
-      \verb https://docs.px4.io/v1.8.2/en/
-      \endverb
-      \keyw{px4}
-    \endentry
-    \entry{MAVLink}{online}{}
-      \list{organization}{1}{%
-        {Dronecode Project}%
-      }
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
-      \field{labeltitlesource}{title}
-      \field{title}{MAVLink Developer Guide}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://mavlink.io/en/
-      \endverb
-      \verb{url}
-      \verb https://mavlink.io/en/
-      \endverb
-      \keyw{mavlink}
-    \endentry
     \entry{PID_vs_LQ}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=46418fc03f0fcf6e4fa7791dc9cea1f1}{%
@@ -776,15 +775,14 @@
       \strng{authorbibnamehash}{0a409cbeb8f23b8114f820b01f6fd56a}
       \strng{authornamehash}{0a409cbeb8f23b8114f820b01f6fd56a}
       \strng{authorfullhash}{0a409cbeb8f23b8114f820b01f6fd56a}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566)}
       \field{title}{PID vs LQ control techniques applied to an indoor micro quadrotor}
       \field{volume}{3}
       \field{year}{2004}
-      \true{nocite}
       \field{pages}{2451\bibrangedash 2456 vol.3}
       \range{pages}{-1}
       \verb{doi}
@@ -815,53 +813,73 @@
       \strng{authorbibnamehash}{dd7863978255f488066dc4e0533e540f}
       \strng{authornamehash}{dd7863978255f488066dc4e0533e540f}
       \strng{authorfullhash}{dd7863978255f488066dc4e0533e540f}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2005 IEEE/RSJ International Conference on Intelligent Robots and Systems}
       \field{title}{Robust feedback linearization and GH/sub /spl infin// controller for a quadrotor unmanned aerial vehicle}
       \field{year}{2005}
-      \true{nocite}
       \field{pages}{1198\bibrangedash 1203}
       \range{pages}{6}
       \verb{doi}
       \verb 10.1109/IROS.2005.1545112
       \endverb
     \endentry
-    \entry{MIL_Auto}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=7a91b822d9a0a0e3d1bc8647de873cf7}{%
-           family={Bringmann},
-           familyi={B\bibinitperiod},
-           given={Eckard},
-           giveni={E\bibinitperiod}}}%
-        {{hash=ea1df8a6f4ab76cbbc6cb97b0dfee075}{%
-           family={Kramer},
-           familyi={K\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
+    \entry{px4Guide}{online}{}
+      \list{organization}{1}{%
+        {PX4 Dev Team}%
       }
-      \strng{namehash}{12579294d3f6f7b4ce3812855995492b}
-      \strng{fullhash}{12579294d3f6f7b4ce3812855995492b}
-      \strng{bibnamehash}{12579294d3f6f7b4ce3812855995492b}
-      \strng{authorbibnamehash}{12579294d3f6f7b4ce3812855995492b}
-      \strng{authornamehash}{12579294d3f6f7b4ce3812855995492b}
-      \strng{authorfullhash}{12579294d3f6f7b4ce3812855995492b}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{title}{PX4 Autopilot User Guide (1.8.2)}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.px4.io/v1.8.2/en/
+      \endverb
+      \verb{url}
+      \verb https://docs.px4.io/v1.8.2/en/
+      \endverb
+      \keyw{px4}
+    \endentry
+    \entry{Nuttx}{online}{}
+      \list{organization}{1}{%
+        {Wikipedia}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{title}{NuttX}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://it.wikipedia.org/wiki/NuttX
+      \endverb
+      \verb{url}
+      \verb https://it.wikipedia.org/wiki/NuttX
+      \endverb
+      \keyw{Nuttx}
+    \endentry
+    \entry{MAVLink}{online}{}
+      \list{organization}{1}{%
+        {Dronecode Project}%
+      }
       \field{sortinit}{4}
       \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{978-0-7695-3127-4}
-      \field{month}{05}
-      \field{title}{Model-Based Testing of Automotive Systems}
-      \field{year}{2008}
+      \field{title}{MAVLink Developer Guide}
+      \field{year}{2020}
+      \field{dateera}{ce}
       \true{nocite}
-      \field{pages}{485\bibrangedash 493}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1109/ICST.2008.45
+      \verb{urlraw}
+      \verb https://mavlink.io/en/
       \endverb
+      \verb{url}
+      \verb https://mavlink.io/en/
+      \endverb
+      \keyw{mavlink}
     \endentry
     \entry{ElikerKaram2018AOPf}{article}{}
       \name{author}{4}{}{%
@@ -898,8 +916,8 @@
       \strng{authorbibnamehash}{8b8ad60525ee2da68a47af91630d1f91}
       \strng{authornamehash}{c44b0a82858e180ca5b9bced2220e33a}
       \strng{authorfullhash}{8b8ad60525ee2da68a47af91630d1f91}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper deals with the reference flight trajectory generation and planning problems for quadcopter Unmanned Aerial Vehicle (UAV). The reference flight trajectory is defined as the composition of path and motion functions. Both of them are generated by using quintic B-spline functions. Based on differential flatness approach, the quadcopter dynamical constraints are satisfied instantaneously by computing the induced aerodynamical moments and lift force. The optimal reference flight trajectory, with respect to the mission requirements and imposed constraints, is reached by manipulating the control points’ vectors of B-spline functions via a nonlinear constrained optimization method. The mission requirements are defined as a set of waypoints with their respective scheduled flight timetable. A minimum-energy cost function is developed to minimize the consumed energy and induced efforts by reference flight trajectory. For the need of the optimal overfly-times schedule, the overfly times with respect to the defined constraints and performance criteria are calculated. Numerical simulation results show the feasibility and effectiveness of the proposed optimization method.}
@@ -946,8 +964,8 @@
       \strng{authorbibnamehash}{7dee1498e6fd8a535edafbe6ff0f44b1}
       \strng{authornamehash}{7dee1498e6fd8a535edafbe6ff0f44b1}
       \strng{authorfullhash}{7dee1498e6fd8a535edafbe6ff0f44b1}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This work proposes a strategy for position control and obstacle avoidance in a quadcopter based on constrained generalized predictive control and geometric attitude control. The approach allows real-time trajectory tracking using optimal control actions and avoids collisions with static obstacles whose position is known. An experimental validation of the proposed controller is presented.}
@@ -991,8 +1009,8 @@
       \strng{authorbibnamehash}{5855feef864bf66f6af0c38b2fbf5bc9}
       \strng{authornamehash}{9fa8d06107059cccf34dc47a9e8bc395}
       \strng{authorfullhash}{5855feef864bf66f6af0c38b2fbf5bc9}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Mechanisms and Machine Science}
@@ -1052,8 +1070,8 @@
       \strng{authorbibnamehash}{745a11036fcc7db6837e01b2f6b8f9df}
       \strng{authornamehash}{240b9740852b5353f901147f23b858da}
       \strng{authorfullhash}{745a11036fcc7db6837e01b2f6b8f9df}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Robot 3D (three-dimension) path planning targets for finding an optimal and collision-free path in a 3D workspace while taking into account kinematic constraints (including geometric, physical, and temporal constraints). The purpose of path planning, unlike motion planning which must be taken into consideration of dynamics, is to find a kinematically optimal path with the least time as well as model the environment completely. We discuss the fundamentals of these most successful robot 3D path planning algorithms which have been developed in recent years and concentrate on universally applicable algorithms which can be implemented in aerial robots, ground robots, and underwater robots. This paper classifies all the methods into five categories based on their exploring mechanisms and proposes a category, called multifusion based algorithms. For all these algorithms, they are analyzed from a time efficiency and implementable area perspective. Furthermore a comprehensive applicable analysis for each kind of method is presented after considering their merits and weaknesses.}
@@ -1065,6 +1083,51 @@
       \true{nocite}
       \field{pages}{1\bibrangedash 22}
       \range{pages}{22}
+    \endentry
+    \entry{Literature3dPath}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d358854fc0ad71b236150fe3003a7fe6}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b9653b90295b7c9d683e1fc6b39f3612}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={Juntong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8175883d96517eae0a70fca6859fff9c}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Jizhong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e1d0dd705939917ca8e30e8d9417c811}{%
+           family={Yong},
+           familyi={Y\bibinitperiod},
+           given={Xia},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{171b2724fa1fb5d9c5312fb23a3d8572}
+      \strng{fullhash}{aac62f9199e7d174d207e65356cd7301}
+      \strng{bibnamehash}{aac62f9199e7d174d207e65356cd7301}
+      \strng{authorbibnamehash}{aac62f9199e7d174d207e65356cd7301}
+      \strng{authornamehash}{171b2724fa1fb5d9c5312fb23a3d8572}
+      \strng{authorfullhash}{aac62f9199e7d174d207e65356cd7301}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the World Congress on Intelligent Control and Automation (WCICA)}
+      \field{month}{03}
+      \field{title}{A literature review of UAV 3D path planning}
+      \field{volume}{2015}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{2376\bibrangedash 2381}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/WCICA.2014.7053093
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
