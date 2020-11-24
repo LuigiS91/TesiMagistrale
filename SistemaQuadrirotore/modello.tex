@@ -2,7 +2,7 @@
 Il capitolo è incentrato sulla descrizione del modello matematico del sistema quadricottero con le relative dinamiche, leggi di guida e leggi di controllo possibili da implementare.
 \section{Modello matematico}
 Il principio di funzionamento del quadrirotore è relativamente semplice nel suo complesso. Come accennato in precedenza la gestione dell'assetto è ottenuta attraverso l'azionamento differenziale dei rotori, montati su di una struttura rigida \cite{modelquad}.
-Nel seguente elenco di manovre di base, viene preso come riferimento la Figura \ref{fig:modello_quad}.
+Nel seguente elenco di manovre di base, viene preso come riferimento la Figura (\ref{fig:modello_quad}).
 \begin{figure}
 	\centering
 	\begin{subfigure}{0.45\textwidth}
@@ -36,16 +36,16 @@ Nel seguente elenco di manovre di base, viene preso come riferimento la Figura \
 \end{figure}
 \todo{Figure fatte da me, tranne quelle nel capitolo px4: da citare la fonte}
 \begin{itemize}
-	\item \textbf{Comando di beccheggio:} Una variazione di beccheggio positiva lungo l'asse y del corpo del drone avviene comandando una maggiore velocità ai rotori 2 e 3 rispetto ai 1 e 4, come mostrato nella Figura \ref{fig:modello_quad_pitch}
-	\item \textbf{Comando di rollio:} Una variazione di variazione dell'angolo di rollio positiva si ottiene modificando la velocità di azionamento dei rotori in modo simmetrico rispetto all'asse y del drone. Come mostra la Figura \ref{fig:modello_quad_roll} una variazione positiva si ottiene facendo ruotare i rotori 1 e 3 più lentamente dei rotori 2 e 4.
-	\item \textbf{Comando di imbardata:} Questo comando è il meno efficace nel quadricottero in quando viene implementato attraverso un effetto secondario. Come si vede nella Figura \ref{fig:modello_quad_yaw}, la rotazione dei rotori viene, mantendendo la portanza totale costante, distribuita in modo differente tra le pale che ruotano in modo orario e antiorario. Il comando di variazione positivo dell'angolo di imbardata si ottiene facendo ruotare più rapidamente i rotori 1 e 2 rispetto a 3 e 4.
+	\item \textbf{Comando di beccheggio:} Una variazione di beccheggio positiva lungo l'asse y del corpo del drone avviene comandando una maggiore velocità ai rotori 2 e 3 rispetto ai 1 e 4, come mostrato nella Figura (\ref{fig:modello_quad_pitch})
+	\item \textbf{Comando di rollio:} Una variazione di variazione dell'angolo di rollio positiva si ottiene modificando la velocità di azionamento dei rotori in modo simmetrico rispetto all'asse y del drone. Come mostra la Figura (\ref{fig:modello_quad_roll}) una variazione positiva si ottiene facendo ruotare i rotori 1 e 3 più lentamente dei rotori 2 e 4.
+	\item \textbf{Comando di imbardata:} Questo comando è il meno efficace nel quadricottero in quando viene implementato attraverso un effetto secondario. Come si vede nella Figura (\ref{fig:modello_quad_yaw}), la rotazione dei rotori viene, mantendendo la portanza totale costante, distribuita in modo differente tra le pale che ruotano in modo orario e antiorario. Il comando di variazione positivo dell'angolo di imbardata si ottiene facendo ruotare più rapidamente i rotori 1 e 2 rispetto a 3 e 4.
 	\item \textbf{Comando di spinta complessiva : } La variazione di quota avviene grazie a questo tipo di comando. Aumentando o diminuendo in modo identico la velocità di rotazione dei rotori è possibile equilibrare il peso, contrastato dalla portanza da essi generata. Una portanza maggiore si traduce in una accelerazione verso l'alto, viceversa si traduce in una diminuzione di quota.
 \end{itemize}
 Grazie a questo funzionamento e l'utilizzo di un mixer, che ha lo scopo di miscelare i quattro tipi di azionamento visti, si può governare il velivolo modificandone la posizione nello spazio \cite{DesTestCarm}.
 \subsubsection{Relazioni matematiche}
 Verranno esplicitate alcune formule utili per la modellazione iniziale del problema del quadrirotore come riportato in bibliografia, \cite{DesTestCarm}, \cite{baseTesi}. Le ipotesi di partenza della trattazione prevedono di considerare come corpi rigidi tutti i componenti, di supporre trascurabile le forze aerodinamiche diverse dalla spinta principale del rotore. Inoltre viene considerato un sistema di riferimento terrestre come fosse inerziale, conosciuto come modello di terra piatta.
 
-Utilizzando i sistemi di riferimento del corpo del drone e del riferimento terreste come in Figura \ref{fig:riferimenti}, si definisce la matrice di rotazione $R$ espressa dalla relazione (\ref{eq:SistemaQuadrirotore_R}). In questo sistema si impone che l'asse $x$ del corpo sia diretto verso il muso del drone e l'asse $y$ verso destra, in modo che l'asse $z$ sia diretto verso il basso, mentre l'asse $x_e$ risulta essere diretto verso nord, l'asse $y_e$ verso est e di conseguenza l'asse $z_e$ verso il centro della terra. 
+Utilizzando i sistemi di riferimento del corpo del drone e del riferimento terreste come in Figura (\ref{fig:riferimenti}), si definisce la matrice di rotazione $R$ espressa dalla relazione (\ref{eq:SistemaQuadrirotore_R}). In questo sistema si impone che l'asse $x$ del corpo sia diretto verso il muso del drone e l'asse $y$ verso destra, in modo che l'asse $z$ sia diretto verso il basso, mentre l'asse $x_e$ risulta essere diretto verso nord, l'asse $y_e$ verso est e di conseguenza l'asse $z_e$ verso il centro della terra. 
 Attraverso il sistema di equazioni, espresso in forma matriciale (\ref{eq:SistemaQuadrirotore_ratei}), si ricavano i ratei degli angoli di assetto partendo dalle accelerazioni angolari, utilizzando per  comodità le seguenti semplificazioni di scrittura, $ c(\cdot)=\cos(\cdot)\ ,\  s(\cdot) = \sin(\cdot) $.
 \begin{equation}
 R=
@@ -83,9 +83,9 @@ R=
 \end{figure}
 
 Risulta utile presentare anche la rappresentazione di rotazioni nello spazio attraverso l'uso di quaternioni, molto utilizzata in applicazioni robotiche grazie alla possibilità di superare le limitazioni dovute alle singolarità presenti nella rappresentazione euleriana.
-Si definisce quindi un quaternione :
+Si definisce quindi un quaternione:
 \[ 
-	\mathbb{q} = q_0 + q_1 \mathbf{i} + q_2 \mathbf{j} + q_3 \mathbf{k}
+	\mathfrak{q} = q_0 + q_1 \mathbf{i} + q_2 \mathbf{j} + q_3 \mathbf{k}
 \]
 Per comodità si utilizzeranno le scritture nelle forme :
 \[ 
@@ -98,14 +98,14 @@ Per comodità si utilizzeranno le scritture nelle forme :
 		q_3
 	\end{Bmatrix}
 \]
-Nella definizione del quaternione $\mathbf{i}$,$\mathbf{j}$ e $\mathbf{k}$ sono l'equivalente di numeri complessi che godono tra di loro della proprietà di ortogonalità, mentre $q_0$, $q_1$, $q_2$ e $q_3$ sono numeri reali. Utilizzando la definizione del prodotto di Hamilton, \ref{eq:SistemaQuadrirotore_hamilton}, si può determinare il quaternione rappresentante l'errore da minimizzare nella fase di controllo, \ref{eq:SistemaQuadrirotore_errore}, dove $\mathfrak{q}_{est}$ è la misurazione e $ \mathfrak{q}_{ref}$ e il riferimento.
+Nella definizione del quaternione $\mathbf{i}$,$\mathbf{j}$ e $\mathbf{k}$ sono l'equivalente di numeri complessi che godono tra di loro della proprietà di ortogonalità, mentre $q_0$, $q_1$, $q_2$ e $q_3$ sono numeri reali. Utilizzando la definizione del prodotto di Hamilton, Eq.  (\ref{eq:SistemaQuadrirotore_hamilton}), si può determinare il quaternione rappresentante l'errore da minimizzare nella fase di controllo, nella Eq. (\ref{eq:SistemaQuadrirotore_errore}), dove $\mathfrak{q}_{est}$ è la misurazione e $ \mathfrak{q}_{ref}$ e il riferimento.
 \begin{equation}\label{eq:SistemaQuadrirotore_hamilton}
 	\mathfrak{q} \otimes \mathfrak{p} = q_0 p_0 - \mathbf{q} \cdot \mathbf{p} + q_0 \mathbf{p} + p_0 \mathbf{q} + \mathbf{q} \times \mathbf{p}
 \end{equation}
 \begin{equation}\label{eq:SistemaQuadrirotore_errore}
 	\mathfrak{q}_{err} = \mathfrak{q}_{est}^{-1} \otimes \mathfrak{q}_{ref}
 \end{equation}
-La derivata del rotore nel tempo è esprimibile attraverso la relazione \ref{eq:SistemaQuadrirotore_quaternionederivato}, dove $p$, $q$ ed $r$ sono rispettivamente i ratei di rotazione rispetto agli assi $x$, $y$ e $z$.
+La derivata del quaternione nel tempo è esprimibile attraverso la relazione (\ref{eq:SistemaQuadrirotore_quaternionederivato}), dove $p$, $q$ ed $r$ sono i ratei di rotazione rispetto agli assi $x$, $y$ e $z$,rispettivamente.
 \begin{equation}\label{eq:SistemaQuadrirotore_quaternionederivato}
 \mathfrak{\dot{q}} = \frac{1}{2} \mathbf{\Omega} \mathfrak{q} =
 	\begin{pmatrix}
@@ -119,7 +119,7 @@ La derivata del rotore nel tempo è esprimibile attraverso la relazione \ref{eq:
 		\mathbf{q}
 	\end{Bmatrix}
 \end{equation}
-utilizzando le formule \ref{eq:SistemaQuadrirotore_Forze} e \ref{eq:SistemaQuadrirotore_momenti} si determinano relativamente le forze e i momenti applicati. Manipolando le relazioni precedenti si possono ottenere le accelerazioni e le accelerazioni angolari, \ref{eq:SistemaQuadrirotore_acc}, \ref{eq:SistemaQuadrirotore_accang}. Per esplicitare le accelerazioni angolari è necessario anche la formula \ref{eq:SistemaQuadrirotore_momento_qdm} che esprime il momento della quantità di moto.
+Utilizzando le formule (\ref{eq:SistemaQuadrirotore_Forze}) e (\ref{eq:SistemaQuadrirotore_momenti}) si determinano relativamente le forze e i momenti applicati. Manipolando le relazioni precedenti si possono ottenere le accelerazioni e le accelerazioni angolari, Eq. (\ref{eq:SistemaQuadrirotore_acc}) e (\ref{eq:SistemaQuadrirotore_accang}), rispettivamente. Per esplicitare le accelerazioni angolari è necessario considerare la formula (\ref{eq:SistemaQuadrirotore_momento_qdm}) che esprime il momento della quantità di moto.
 \begin{equation}\label{eq:SistemaQuadrirotore_Forze}
 	\mathbf{F} + \mathbf{R} m \mathbf{g} = m \left[\frac{d \mathbf{v}}{d t} + \boldsymbol{\omega}\times \mathbf{v}\right]
 \end{equation}
@@ -167,12 +167,12 @@ Si definiscono inoltre le costanti :
 	\end{matrix}
 \]
 
-Con le formule precedenti, si riformulano le equazioni differenziali ottenendo la scrittura stato spazio \ref{eq:SistemaQuadrirotore_statespace}, dove sono esplicitati gli elementi principali nelle relazioni \ref{eq:SistemaQuadrirotore_statespaceElement}.
+Con le formule precedenti, si riformulano le equazioni differenziali ottenendo la scrittura nello spazio degli stati, Eq. (\ref{eq:SistemaQuadrirotore_statespace}).
 \begin{equation}\label{eq:SistemaQuadrirotore_statespace}
-\mathbf{\dot{x}} = \mathbf{f(x)} + \mathbf{g} \cdot \mathbf{u}
+\mathbf{\dot{x}} = \mathbf{f(x)} + \mathbf{g} \cdot \mathbf{u},
 \end{equation}
-
-\begin{equation}\label{eq:SistemaQuadrirotore_statespaceElement}
+Dove
+\[
 	\mathbf{f(x)} = \begin{Bmatrix}
 		\mathbf{R} \begin{Bmatrix}
 			u \\ v \\ w
@@ -201,11 +201,11 @@ Con le formule precedenti, si riformulano le equazioni differenziali ottenendo l
 		0 & \ddots & \vdots & 0 & c_7 & 0 \\
 		0 & \cdots & 0 & c_4 & 0 & c_9 \\
 	\end{pmatrix}
-\end{equation}
+\]
 
-Quello presentato è quindi un modello matematico rappresentativo del comportamento del quadricottero, ottenibile integrando le equazioni differenziali che rappresenta.
+Il modello matematico rappresentativo del comportamento del quadricottero è ottenibile integrando le equazioni sopra riportate.
 
-Nel precedente studio il contributo della spinta introdotta dalla presenza dei rotori era stata ricavata sperimentalmente su di un banco di prova. In questa tesi verranno utilizzate le stesse leggi quadratiche ricavate e rappresentate in Figura \ref{fig:pwmTM}. Questi sono necessari per valutare il vettore di comando, presentato dalla formula \ref{eq:SistemaQuadrirotore_vettorecomando}, dove $l$ rappresenta il braccio del rotore rispetto al centro di massa.
+Nel precedente studio il contributo della spinta introdotta dalla presenza dei rotori era stata ricavata sperimentalmente su di un banco di prova \cite{DesTestCarm}. In questa tesi verranno utilizzate le stesse leggi quadratiche ricavate e rappresentate in Figura (\ref{fig:pwmTM}). Questi sono necessari per valutare il vettore di comando, presentato dalla formula (\ref{eq:SistemaQuadrirotore_vettorecomando}), dove $l$ rappresenta il braccio del rotore rispetto al centro di massa.
 
 \begin{equation}\label{eq:SistemaQuadrirotore_vettorecomando}
 	\mathbf{u}(\nu_1,\nu_2,\nu_3,\nu_4) = 
@@ -234,7 +234,7 @@ Nel precedente studio il contributo della spinta introdotta dalla presenza dei r
 		\includegraphics[width=1\textwidth]{SistemaQuadrirotore/Figure/MomentoPWM}
 		\caption{Momento generato in funzione del segnale PWM}
 	\end{subfigure}
-	\caption{Fitting quadratico delle leggi eiguardanti il rotore}
+	\caption{Fitting quadratico delle leggi riguardanti il quadrirotore}
 	\label{fig:pwmTM}
 \end{figure}
  

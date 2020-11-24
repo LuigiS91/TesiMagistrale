@@ -1,15 +1,20 @@
 \section{Leggi di controllo}
-In questa sezione verranno accennati diversi modelli di controlli utilizzati odiernamente per controllare i quadricotteri, \cite{ZuluAndrew2014ARoC}, \cite{KimJinho2020ACSo}, \cite{PID_vs_LQ}, \cite{G_inf}. Questi si possono classificare in tre categorie come in figure \ref{fig:categoriecontrolli}.
+In questa sezione verranno accennati diversi modelli di controlli utilizzati odiernamente per controllare i quadricotteri, \cite{ZuluAndrew2014ARoC}, \cite{KimJinho2020ACSo}, \cite{PID_vs_LQ}, \cite{G_inf}. Questi si possono classificare in tre categorie come in Figura (\ref{fig:categoriecontrolli}).
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\textwidth]{SistemaQuadrirotore/Figure/Classificazione}
-	\caption{Classificazione dei titpi di controllori maggiormente utilizzati}
+	\caption{Classificazione dei tipi di controllori maggiormente utilizzati \cite{KimJinho2020ACSo}}
 	\label{fig:categoriecontrolli}
 \end{figure}
 
+\todo[inline]{Assunzioni, formule e citazioni per ogni controllore soprattutto PID e SMC}
+
+
 \subsection{Controllori Lineari}
 \subsubsection{Controllore Proportional-Integral-Derivative Controller (PID)}
-Il controllore PID è molto utilizzato in diverse applicazioni, la sua semplicità e facilità di impostazione dei parametri lo rende molto rapido da implementare e relativamente robusto. Inoltre non è necessario avere la misura dello stato completo del sistema da controllare, per funzionare, semplificando eventualmente la determinazione di questo. Il principale problema risiede nella risposta alle eventuali non linearità presenti nel modello del sistema controllato o nella realtà.
+Il controllore PID è molto utilizzato in diverse applicazioni, la sua semplicità e facilità di impostazione dei parametri lo rende molto rapido da implementare e relativamente robusto. Inoltre non è necessario avere la misura dello stato completo del sistema da controllare, semplificando eventualmente la determinazione di questo. Il principale problema risiede nella risposta alle eventuali non linearità presenti nel modello del sistema controllato o nella realtà.
+
+\todo[inline]{Per cosa stanno i pid e come si determina i guadagni?}
 
 \begin{figure}
 	\centering
@@ -18,7 +23,7 @@ Il controllore PID è molto utilizzato in diverse applicazioni, la sua semplicit
 \end{figure}
 
 \subsubsection{Controllore Linear Quadratic Regulator (LQR)}
-Questo tipo di controllore si ottiene la minimizzazione della funzione di costo, ottenendo una matrice di guadagni con la quale si applica il controllo in retroazione. A differenza del PID, questo tipo di controllo prevede di avere tutto il vettore di stato a disposizione. per questo motivo viene accompagnato spesso da un Linear Quadratic Estimator (LQE) ed un filtro di Kalman, con lo scopo di determinare dalle misurazioni dei sensori lo stato del sistema. Il metodo utilizzato per determinare la matrice dei guadagni è un aspetto molto importante, inoltre è necessario modellare in modo molto preciso il sistema controllato per evitare di trovare una soluzione poco soddisfacente. Questo tipo di controllo può essere specializzato per ottenere una soluzione ottima di risparmio della batteria \cite{KoksalN2018ALQA}, risultando però poco robusti \cite{ZuluAndrew2014ARoC}.
+Con la minimizzazione della funzione di costo, si ottiene una matrice di guadagni con la quale si applica il controllo in retroazione. A differenza del PID, questo tipo di controllo prevede di avere tutto il vettore di stato a disposizione. Per questo motivo viene accompagnato spesso da un Linear Quadratic Estimator (LQE) ed un filtro di Kalman, con lo scopo di determinare dalle misurazioni dei sensori lo stato del sistema. Il metodo utilizzato per determinare la matrice dei guadagni è un aspetto molto importante, inoltre è necessario modellare in modo molto preciso il sistema controllato per evitare di trovare una soluzione poco soddisfacente. Questo tipo di controllo può essere specializzato per ottenere una soluzione ottima di risparmio della batteria \cite{KoksalN2018ALQA}, risultando però poco robusti \cite{ZuluAndrew2014ARoC}.
 
 \begin{figure}
 	\centering
@@ -35,7 +40,7 @@ Il controllore $H_\infty$ si ottiene esprimendo la soluzione del controllo attra
 
 \subsubsection{Controllore con Feedback Linearization}
 
-Questo tipo di controllore viene utilizzato comunemente. La logica di funzionamento prevede di utilizzare un controllo lineare prestante. Introducendo una mappatura dell'ingresso al sistema, attuando di fatto un cambiamento di variabili di controllo, si fa in modo che il sistema lienare sia in grado di controllare il sistema controllato efficacemente. Il controllo lineare comanda quindi un sistema linearizzato equivalente al sistema non lineare. Questo tipo di approccio ha lo svantaggio però di essere molto sensibile alle incertezze e i rumori dei sensori, fattore che ne inficia la robustezza.
+Questo tipo di controllore viene utilizzato comunemente. La logica di funzionamento prevede di utilizzare un controllo lineare prestante. Introducendo una mappatura dell'ingresso al sistema, attuando di fatto un cambiamento di variabili di controllo, si fa in modo che il sistema lineare sia in grado di controllare il sistema controllato efficacemente. Il controllo lineare comanda quindi un sistema linearizzato equivalente al sistema non lineare. Questo tipo di approccio ha lo svantaggio però di essere molto sensibile alle incertezze e i rumori dei sensori, fattore che ne inficia la robustezza.
 
 \begin{figure}
 	\centering

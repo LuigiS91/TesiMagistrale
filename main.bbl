@@ -23,8 +23,8 @@
       \list{organization}{1}{%
         {RedOrbit}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{title}{The History Of Drone Technology}
       \field{year}{2018}
@@ -50,8 +50,8 @@
       \strng{authorbibnamehash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
       \strng{authornamehash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
       \strng{authorfullhash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Helicopters "The Epic of Flight"}
@@ -72,8 +72,8 @@
       \strng{authorbibnamehash}{e31266b1bd79c3a0a971722fd92d9ba4}
       \strng{authornamehash}{e31266b1bd79c3a0a971722fd92d9ba4}
       \strng{authorfullhash}{e31266b1bd79c3a0a971722fd92d9ba4}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Science and Research}
@@ -100,8 +100,8 @@
       \strng{authorbibnamehash}{27cda715181ae968712352917e9a630f}
       \strng{authornamehash}{27cda715181ae968712352917e9a630f}
       \strng{authorfullhash}{27cda715181ae968712352917e9a630f}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2008 IEEE International Conference on Networking, Sensing and Control}
@@ -130,8 +130,8 @@
       \strng{authorbibnamehash}{ceff446ef4fafefead26c564b35a4ae7}
       \strng{authornamehash}{ceff446ef4fafefead26c564b35a4ae7}
       \strng{authorfullhash}{ceff446ef4fafefead26c564b35a4ae7}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Design and Testing of Indoor UAS Control Techniques}
@@ -155,8 +155,8 @@
       \strng{authorbibnamehash}{dd03d045deba2bf6cabba9162582c2f9}
       \strng{authornamehash}{dd03d045deba2bf6cabba9162582c2f9}
       \strng{authorfullhash}{dd03d045deba2bf6cabba9162582c2f9}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Implementation of Simulink controller design on Iris+ quadrotor}
@@ -196,8 +196,8 @@
       \strng{authorbibnamehash}{ecc4737116181300928b8b75581b2ff1}
       \strng{authornamehash}{ecc4737116181300928b8b75581b2ff1}
       \strng{authorfullhash}{ecc4737116181300928b8b75581b2ff1}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, an infinite-horizon adaptive linear quadratic tracking (ALQT) control scheme is designed for optimal attitude tracking of a quadrotor unmanned aerial vehicle (UAV). The proposed control scheme is experimentally validated in the presence of real-world uncertainties in quadrotor system parameters and sensor measurement. The designed control scheme guarantees asymptotic stability of the close-loop system with the help of complete controllability of the attitude dynamics in applying optimal control signals. To achieve robustness against parametric uncertainties, the optimal tracking solution is combined with an online least squares based parameter identification scheme to estimate the instantaneous inertia of the quadrotor. Sensor measurement noises are also taken into account for the on-board Inertia Measurement Unit (IMU) sensors. To improve controller performance in the presence of sensor measurement noises, two sensor fusion techniques are employed, one based on Kalman filtering and the other based on complementary filtering. The ALQT controller performance is compared for the use of these two sensor fusion techniques, and it is concluded that the Kalman filter based approach provides less mean-square estimation error, better attitude estimation, and better attitude control performance.}
@@ -240,8 +240,8 @@
       \strng{authorbibnamehash}{9aa201f97e07df8537278511dffec554}
       \strng{authornamehash}{267882ee1713eab75fb9510230813b3b}
       \strng{authorfullhash}{9aa201f97e07df8537278511dffec554}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2020 International Conference on Unmanned Aircraft Systems (ICUAS)}
@@ -501,8 +501,8 @@
       \strng{authorbibnamehash}{adb20de06fdc9d602881b898062569c7}
       \strng{authornamehash}{adb20de06fdc9d602881b898062569c7}
       \strng{authorfullhash}{adb20de06fdc9d602881b898062569c7}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2019 International Conference on System Science and Engineering (ICSSE)}
@@ -533,8 +533,8 @@
       \strng{authorbibnamehash}{918cc97f271f28cdbbbeb1629cdf8f94}
       \strng{authornamehash}{918cc97f271f28cdbbbeb1629cdf8f94}
       \strng{authorfullhash}{918cc97f271f28cdbbbeb1629cdf8f94}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2019 IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops)}
@@ -565,8 +565,8 @@
       \strng{authorbibnamehash}{a585da0577ebdc7496ab3239a8edce5c}
       \strng{authornamehash}{a585da0577ebdc7496ab3239a8edce5c}
       \strng{authorfullhash}{a585da0577ebdc7496ab3239a8edce5c}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Aeronautical \& Space Sciences}
@@ -666,6 +666,18 @@
       \verb 10.1109/MRA.2012.2206474
       \endverb
     \endentry
+    \entry{eulero}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{title}{Angoli di Eulero}
+      \verb{urlraw}
+      \verb https://it.wikipedia.org/wiki/Angoli_di_Eulero
+      \endverb
+      \verb{url}
+      \verb https://it.wikipedia.org/wiki/Angoli_di_Eulero
+      \endverb
+    \endentry
     \entry{ZuluAndrew2014ARoC}{article}{}
       \name{author}{2}{}{%
         {{hash=a878e386cb6ad037097a5aa6e41c5e7c}{%
@@ -691,8 +703,8 @@
       \strng{authorbibnamehash}{70f0ce7f598fc642ce62dcfad4775c2c}
       \strng{authornamehash}{70f0ce7f598fc642ce62dcfad4775c2c}
       \strng{authorfullhash}{70f0ce7f598fc642ce62dcfad4775c2c}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Open Journal of Applied Sciences, 2014, 4, 547-556 The quadrotor unmanned aerial vehicle is a great platform for control systems research as its nonlinear nature and under-actuated configuration make it ideal to synthesize and analyze control algorithms. After a brief explanation of the system, several algorithms have been analyzed including their advantages and disadvantages: PID, Linear Quadratic Regulator (LQR), Sliding mode, Backstepping, Feedback linearization, Adaptive, Robust, Optimal, L1, H-infinity, Fuzzy logic and Artificial neutral networks. The conclusion of this work is a proposal of hybrid systems to be considered as they combine advantages from more than one control philosophy.}
@@ -736,8 +748,8 @@
       \strng{authorbibnamehash}{ddcbe9c4bb6d9619f4d655960f5242e8}
       \strng{authornamehash}{ddcbe9c4bb6d9619f4d655960f5242e8}
       \strng{authorfullhash}{ddcbe9c4bb6d9619f4d655960f5242e8}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Over the past several decades, there has been a constant increase in the use of unmanned aircraft systems (UASs). Hence, there has also been a growth in the number of control algorithms to service many applications embodied by these vehicles. Initially, UASs were made popular by the military for reconnaissance, intelligence, surveillance, and target acquisition (RISTA) applications. Nowadays, UASs are used for everything from crop surveys to tourism. Nowhere is this more evident than with a multi-rotor unmanned aerial vehicle (UAV). This paper presents a survey of control methods for multi-rotor systems, namely quadrotors. In doing so, we hope to visualize a clear path to what additional capabilities might be needed in the future. In our examination, we review many of the notable research organizations and their efforts to expand the utility of multi-rotor aircraft. We also summarize the basic literature definitions and control strategies for autonomous quadrotors.}
@@ -775,8 +787,8 @@
       \strng{authorbibnamehash}{0a409cbeb8f23b8114f820b01f6fd56a}
       \strng{authornamehash}{0a409cbeb8f23b8114f820b01f6fd56a}
       \strng{authorfullhash}{0a409cbeb8f23b8114f820b01f6fd56a}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566)}
@@ -813,8 +825,8 @@
       \strng{authorbibnamehash}{dd7863978255f488066dc4e0533e540f}
       \strng{authornamehash}{dd7863978255f488066dc4e0533e540f}
       \strng{authorfullhash}{dd7863978255f488066dc4e0533e540f}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2005 IEEE/RSJ International Conference on Intelligent Robots and Systems}
@@ -826,12 +838,114 @@
       \verb 10.1109/IROS.2005.1545112
       \endverb
     \endentry
+    \entry{YangLiang2016SoR3}{article}{}
+      \name{author}{6}{}{%
+        {{hash=d358854fc0ad71b236150fe3003a7fe6}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b9653b90295b7c9d683e1fc6b39f3612}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={Juntong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2d1db4a7da580fb6a3debb4f601152a1}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Dalei},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8175883d96517eae0a70fca6859fff9c}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Jizhong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fb786d34cacce8da4b7678384857f4e2}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Jianda},
+           giveni={J\bibinitperiod}}}%
+        {{hash=61a31907b440c2414a770161a7391533}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Hindawi Limited}%
+      }
+      \strng{namehash}{240b9740852b5353f901147f23b858da}
+      \strng{fullhash}{745a11036fcc7db6837e01b2f6b8f9df}
+      \strng{bibnamehash}{745a11036fcc7db6837e01b2f6b8f9df}
+      \strng{authorbibnamehash}{745a11036fcc7db6837e01b2f6b8f9df}
+      \strng{authornamehash}{240b9740852b5353f901147f23b858da}
+      \strng{authorfullhash}{745a11036fcc7db6837e01b2f6b8f9df}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Robot 3D (three-dimension) path planning targets for finding an optimal and collision-free path in a 3D workspace while taking into account kinematic constraints (including geometric, physical, and temporal constraints). The purpose of path planning, unlike motion planning which must be taken into consideration of dynamics, is to find a kinematically optimal path with the least time as well as model the environment completely. We discuss the fundamentals of these most successful robot 3D path planning algorithms which have been developed in recent years and concentrate on universally applicable algorithms which can be implemented in aerial robots, ground robots, and underwater robots. This paper classifies all the methods into five categories based on their exploring mechanisms and proposes a category, called multifusion based algorithms. For all these algorithms, they are analyzed from a time efficiency and implementable area perspective. Furthermore a comprehensive applicable analysis for each kind of method is presented after considering their merits and weaknesses.}
+      \field{issn}{1687-5257}
+      \field{journaltitle}{Journal of control science and engineering}
+      \field{title}{Survey of Robot 3D Path Planning Algorithms}
+      \field{volume}{2016}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+    \endentry
+    \entry{PathPlannigOverview}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d51f0dc60767a4adaeaf45e1fa1d4c61}{%
+           family={Gasparetto},
+           familyi={G\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=079253368d3f09dc5f85f0038f9725d3}{%
+           family={Boscariol},
+           familyi={B\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=98695d1f881b0351feac8ef12636351d}{%
+           family={Lanzutti},
+           familyi={L\bibinitperiod},
+           given={Albano},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eb5b3138b0ff46fd56479cc67b45c9b5}{%
+           family={Vidoni},
+           familyi={V\bibinitperiod},
+           given={Renato},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{9fa8d06107059cccf34dc47a9e8bc395}
+      \strng{fullhash}{5855feef864bf66f6af0c38b2fbf5bc9}
+      \strng{bibnamehash}{5855feef864bf66f6af0c38b2fbf5bc9}
+      \strng{authorbibnamehash}{5855feef864bf66f6af0c38b2fbf5bc9}
+      \strng{authornamehash}{9fa8d06107059cccf34dc47a9e8bc395}
+      \strng{authorfullhash}{5855feef864bf66f6af0c38b2fbf5bc9}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mechanisms and Machine Science}
+      \field{month}{03}
+      \field{title}{Path Planning and Trajectory Planning Algorithms: A General Overview}
+      \field{volume}{29}
+      \field{year}{2015}
+      \field{pages}{3\bibrangedash 27}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1007/978-3-319-14705-5_1
+      \endverb
+    \endentry
     \entry{px4Guide}{online}{}
       \list{organization}{1}{%
         {PX4 Dev Team}%
       }
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{title}{PX4 Autopilot User Guide (1.8.2)}
       \field{year}{2020}
@@ -848,8 +962,8 @@
       \list{organization}{1}{%
         {Wikipedia}%
       }
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{title}{NuttX}
       \field{year}{2020}
@@ -916,8 +1030,8 @@
       \strng{authorbibnamehash}{8b8ad60525ee2da68a47af91630d1f91}
       \strng{authornamehash}{c44b0a82858e180ca5b9bced2220e33a}
       \strng{authorfullhash}{8b8ad60525ee2da68a47af91630d1f91}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper deals with the reference flight trajectory generation and planning problems for quadcopter Unmanned Aerial Vehicle (UAV). The reference flight trajectory is defined as the composition of path and motion functions. Both of them are generated by using quintic B-spline functions. Based on differential flatness approach, the quadcopter dynamical constraints are satisfied instantaneously by computing the induced aerodynamical moments and lift force. The optimal reference flight trajectory, with respect to the mission requirements and imposed constraints, is reached by manipulating the control points’ vectors of B-spline functions via a nonlinear constrained optimization method. The mission requirements are defined as a set of waypoints with their respective scheduled flight timetable. A minimum-energy cost function is developed to minimize the consumed energy and induced efforts by reference flight trajectory. For the need of the optimal overfly-times schedule, the overfly times with respect to the defined constraints and performance criteria are calculated. Numerical simulation results show the feasibility and effectiveness of the proposed optimization method.}
@@ -964,8 +1078,8 @@
       \strng{authorbibnamehash}{7dee1498e6fd8a535edafbe6ff0f44b1}
       \strng{authornamehash}{7dee1498e6fd8a535edafbe6ff0f44b1}
       \strng{authorfullhash}{7dee1498e6fd8a535edafbe6ff0f44b1}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This work proposes a strategy for position control and obstacle avoidance in a quadcopter based on constrained generalized predictive control and geometric attitude control. The approach allows real-time trajectory tracking using optimal control actions and avoids collisions with static obstacles whose position is known. An experimental validation of the proposed controller is presented.}
@@ -979,110 +1093,6 @@
       \field{pages}{1363\bibrangedash 1385}
       \range{pages}{23}
       \keyw{Articles}
-    \endentry
-    \entry{PathPlannigOverview}{article}{}
-      \name{author}{4}{}{%
-        {{hash=d51f0dc60767a4adaeaf45e1fa1d4c61}{%
-           family={Gasparetto},
-           familyi={G\bibinitperiod},
-           given={Alessandro},
-           giveni={A\bibinitperiod}}}%
-        {{hash=079253368d3f09dc5f85f0038f9725d3}{%
-           family={Boscariol},
-           familyi={B\bibinitperiod},
-           given={Paolo},
-           giveni={P\bibinitperiod}}}%
-        {{hash=98695d1f881b0351feac8ef12636351d}{%
-           family={Lanzutti},
-           familyi={L\bibinitperiod},
-           given={Albano},
-           giveni={A\bibinitperiod}}}%
-        {{hash=eb5b3138b0ff46fd56479cc67b45c9b5}{%
-           family={Vidoni},
-           familyi={V\bibinitperiod},
-           given={Renato},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{9fa8d06107059cccf34dc47a9e8bc395}
-      \strng{fullhash}{5855feef864bf66f6af0c38b2fbf5bc9}
-      \strng{bibnamehash}{5855feef864bf66f6af0c38b2fbf5bc9}
-      \strng{authorbibnamehash}{5855feef864bf66f6af0c38b2fbf5bc9}
-      \strng{authornamehash}{9fa8d06107059cccf34dc47a9e8bc395}
-      \strng{authorfullhash}{5855feef864bf66f6af0c38b2fbf5bc9}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Mechanisms and Machine Science}
-      \field{month}{03}
-      \field{title}{Path Planning and Trajectory Planning Algorithms: A General Overview}
-      \field{volume}{29}
-      \field{year}{2015}
-      \true{nocite}
-      \field{pages}{3\bibrangedash 27}
-      \range{pages}{25}
-      \verb{doi}
-      \verb 10.1007/978-3-319-14705-5_1
-      \endverb
-    \endentry
-    \entry{YangLiang2016SoR3}{article}{}
-      \name{author}{6}{}{%
-        {{hash=d358854fc0ad71b236150fe3003a7fe6}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Liang},
-           giveni={L\bibinitperiod}}}%
-        {{hash=b9653b90295b7c9d683e1fc6b39f3612}{%
-           family={Qi},
-           familyi={Q\bibinitperiod},
-           given={Juntong},
-           giveni={J\bibinitperiod}}}%
-        {{hash=2d1db4a7da580fb6a3debb4f601152a1}{%
-           family={Song},
-           familyi={S\bibinitperiod},
-           given={Dalei},
-           giveni={D\bibinitperiod}}}%
-        {{hash=8175883d96517eae0a70fca6859fff9c}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Jizhong},
-           giveni={J\bibinitperiod}}}%
-        {{hash=fb786d34cacce8da4b7678384857f4e2}{%
-           family={Han},
-           familyi={H\bibinitperiod},
-           given={Jianda},
-           giveni={J\bibinitperiod}}}%
-        {{hash=61a31907b440c2414a770161a7391533}{%
-           family={Xia},
-           familyi={X\bibinitperiod},
-           given={Yong},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{publisher}{1}{%
-        {Hindawi Limited}%
-      }
-      \strng{namehash}{240b9740852b5353f901147f23b858da}
-      \strng{fullhash}{745a11036fcc7db6837e01b2f6b8f9df}
-      \strng{bibnamehash}{745a11036fcc7db6837e01b2f6b8f9df}
-      \strng{authorbibnamehash}{745a11036fcc7db6837e01b2f6b8f9df}
-      \strng{authornamehash}{240b9740852b5353f901147f23b858da}
-      \strng{authorfullhash}{745a11036fcc7db6837e01b2f6b8f9df}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Robot 3D (three-dimension) path planning targets for finding an optimal and collision-free path in a 3D workspace while taking into account kinematic constraints (including geometric, physical, and temporal constraints). The purpose of path planning, unlike motion planning which must be taken into consideration of dynamics, is to find a kinematically optimal path with the least time as well as model the environment completely. We discuss the fundamentals of these most successful robot 3D path planning algorithms which have been developed in recent years and concentrate on universally applicable algorithms which can be implemented in aerial robots, ground robots, and underwater robots. This paper classifies all the methods into five categories based on their exploring mechanisms and proposes a category, called multifusion based algorithms. For all these algorithms, they are analyzed from a time efficiency and implementable area perspective. Furthermore a comprehensive applicable analysis for each kind of method is presented after considering their merits and weaknesses.}
-      \field{issn}{1687-5257}
-      \field{journaltitle}{Journal of control science and engineering}
-      \field{title}{Survey of Robot 3D Path Planning Algorithms}
-      \field{volume}{2016}
-      \field{year}{2016}
-      \true{nocite}
-      \field{pages}{1\bibrangedash 22}
-      \range{pages}{22}
     \endentry
     \entry{Literature3dPath}{article}{}
       \name{author}{4}{}{%
@@ -1113,8 +1123,8 @@
       \strng{authorbibnamehash}{aac62f9199e7d174d207e65356cd7301}
       \strng{authornamehash}{171b2724fa1fb5d9c5312fb23a3d8572}
       \strng{authorfullhash}{aac62f9199e7d174d207e65356cd7301}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the World Congress on Intelligent Control and Automation (WCICA)}
