@@ -25,17 +25,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Controllore Proportional-Integral-Derivative Controller (PID)}{21}{section*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Controllore Linear Quadratic Regulator (LQR)}{21}{section*.15}%
+\contentsline {subsubsection}{Controllore Linear Quadratic Regulator (LQR)}{22}{section*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Controllore $H_\infty $}{22}{section*.17}%
+\contentsline {subsubsection}{Controllore $H_\infty $}{23}{section*.17}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Controllori non lineari}{23}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Controllore con Feedback Linearization}{23}{section*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Controllore con Backstepping}{23}{section*.20}%
+\contentsline {subsubsection}{Controllore con Backstepping}{24}{section*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Controllore Sliding Mode Control (SMC)}{23}{section*.21}%
+\contentsline {subsubsection}{Controllore Sliding Mode Control (SMC)}{24}{section*.21}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}Controllori intelligenti}{24}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 

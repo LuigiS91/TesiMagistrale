@@ -13,8 +13,17 @@ In questa sezione verranno accennati diversi modelli di controlli utilizzati odi
 \subsection{Controllori Lineari}
 \subsubsection{Controllore Proportional-Integral-Derivative Controller (PID)}
 Il controllore PID è molto utilizzato in diverse applicazioni, la sua semplicità e facilità di impostazione dei parametri lo rende molto rapido da implementare e relativamente robusto. Inoltre non è necessario avere la misura dello stato completo del sistema da controllare, semplificando eventualmente la determinazione di questo. Il principale problema risiede nella risposta alle eventuali non linearità presenti nel modello del sistema controllato o nella realtà.
+Si definisce un errore di misurazione $e(t)$ come la differenza tra il valore atteso $x(t)_{ref}$ e il valore misurato nel sistema $x(t)$ di un qualunque elemento del vettore di stato : $e(t)=x(t)_{ref}-x(t)$. Attraverso la misurazione dell'errore, applicando l'equazione integro differenziale (\ref{eq:SistemaQuadrirotore_PIDErrore}), si determina il comando da attuare sul sistema \cite{pid-controllers-theory}.
+\begin{equation}\label{eq:SistemaQuadrirotore_PIDErrore}
+	u(t) = k_p e(t) + k_i \int_0^t e(\tau) d\tau + k_d \frac{d e(t)}{d t}
+\end{equation}
+Il nome del controllore deriva proprio dalla combinazione di questi tre aspetti presi in considerazione per valutare il comando da attuare.
+Nell'equazione (\ref{eq:SistemaQuadrirotore_PIDErrore}) sono presenti i tre parametri: $k_p$, $k_i$ e $k_d$.
+L'effetto del guadagno proporzionale $k_p$ è quello di ridurre l'errore in modo proporzionale allo stesso. Più l'errore è grande più sarà importante l'intervento del controllore per ridurlo. Un guadagno troppo alto però può provocare un grande superamento del segnale di riferimento causando un overshoot e l'amplificazione delle oscillazioni nella fase di assestamento.
+L'effetto $k_i$ è quello ridurre l'errore stazionario terminata la fase di assestamento. Il solo utilizzo della componente proporzionale non è infatti sufficiente per ridurre anche l'errore stazionario, definito come il valore assunto dall'errore trascorso un tempo sufficientemente lungo. Con il solo effetto proporzionale l'errore stazionario si assesta ad un valore finito, il valore integrale dell'errore tende ad aumentare nel tempo se questo on viene annullato, determinando una retroazione integrale che tende a ridurlo.
+La derivata dell'errore è invece utile a prevedere il comportamento di questo nel tempo, anticipando l'effetto del proporzionale. Tenendo conto del suo andamento, attraverso il valore di $k_d$, si può ridurre il picco generato da un guadagno alto dell'effetto proporzionale. Questo contributo però va usato con cautela perché amplificare il rumore presente nelle misurazioni.
+Il settaggio di questi parametri viene fatta impostando inizialmente solo il valore di $k_p$. Successivamente per ridurre il valore dell'errore stazionario viene aumentato il guadagno $k_i$. Modificando il valore $k_d$ si può ottenere un miglioramento in termini di risposta del sistema, rendendola più stabile. Il processo è iterativo fino ad ottenere una risposta desiderata.
 
-\todo[inline]{Per cosa stanno i pid e come si determina i guadagni?}
 
 \begin{figure}
 	\centering
@@ -23,7 +32,11 @@ Il controllore PID è molto utilizzato in diverse applicazioni, la sua semplicit
 \end{figure}
 
 \subsubsection{Controllore Linear Quadratic Regulator (LQR)}
-Con la minimizzazione della funzione di costo, si ottiene una matrice di guadagni con la quale si applica il controllo in retroazione. A differenza del PID, questo tipo di controllo prevede di avere tutto il vettore di stato a disposizione. Per questo motivo viene accompagnato spesso da un Linear Quadratic Estimator (LQE) ed un filtro di Kalman, con lo scopo di determinare dalle misurazioni dei sensori lo stato del sistema. Il metodo utilizzato per determinare la matrice dei guadagni è un aspetto molto importante, inoltre è necessario modellare in modo molto preciso il sistema controllato per evitare di trovare una soluzione poco soddisfacente. Questo tipo di controllo può essere specializzato per ottenere una soluzione ottima di risparmio della batteria \cite{KoksalN2018ALQA}, risultando però poco robusti \cite{ZuluAndrew2014ARoC}.
+Con la minimizzazione della funzione di costo espressa nella equazione (\ref{eq:SistemaQuadrirotore_LQRCosto}), si ottiene una matrice di guadagni con la quale si applica il controllo in retroazione \cite{bibid}. A differenza del PID, questo tipo di controllo prevede di avere tutto il vettore di stato a disposizione. Per questo motivo viene accompagnato spesso da un Linear Quadratic Estimator (LQE) ed un filtro di Kalman, con lo scopo di determinare dalle misurazioni dei sensori lo stato del sistema. Il metodo utilizzato per determinare la matrice dei guadagni è un aspetto molto importante, inoltre è necessario modellare in modo molto preciso il sistema controllato per evitare di trovare una soluzione poco soddisfacente. Questo tipo di controllo può essere specializzato per ottenere una soluzione ottima di risparmio della batteria \cite{KoksalN2018ALQA}, risultando però poco robusti \cite{ZuluAndrew2014ARoC}.
+
+\begin{equation}\label{eq:SistemaQuadrirotore_LQRCosto}
+	J = \int_{0}^{t} \left[e(t)^T \mathbf{Q}\right]
+\end{equation}
 
 \begin{figure}
 	\centering
