@@ -9,8 +9,6 @@
 	
 	\cite{YangLiang2016SoR3} : 
 	
-	\cite {Literature3dPath} : 
-	
 	La necessità è quella di avere autonomia nello spostamento senza l'intervento dell'uomo, determinando autonomamente il percorso da seguire.
 	Tra gli obbiettivi di pianificazione del percorso c'è anche quello di evitare gli ostacoli possibili per questioni di sicurezza.
 	Nel contesto degli UAV il problema è un problema tridimensionale.
@@ -31,13 +29,120 @@
 	
 	1. Algoritmi basati sul campionamento:
 		Questi algoritmi richiedono la conoscenza a priori di informazioni sull'ambiente e una rappresentazione matematica di questo. Si prevede di dividere l'ambiente in nodi o celle o altre forme. Avviene poi una ricerca attraverso una ricerca casuale. Questa categoria si può suddividere a sua volta in altre 2 categorie : attive e passive. Attive  si intende algoritmi che esploraro rapidamente in modo casuale per trovare il percorso migliore. Passivi algoritmi che si occupano di cercare la soluzione da percorsi già presenti come su di una mappa.
+		Tra gli attivi si parla di Rapidly Exploring Random Tree (RRT). Si generano nodi casualmente nello spazio cercando di raggiungere il punto obbiettivo. L'algoritmo ha il problema però di essere molto lento se l'ambiente è disordinato per trovare la soluzione.
+		Dinamic Domain RRT (DDRRT) : questa evoluzione attraverso l'introduzione di sfere permette di velocizzare l'esplorazione dell'ambiente superando in parte la limitazione della versione RRT.
+		Rapidly Exploring Random Graph (RRG) : Per migliorare la soluzione ottenuta attraverso RRT e DDRRT viene introdotta una struttura dati che assiste l'esplorazione. Attraverso questo approccio nuovi collegamenti vengono fatti durante l'esplorazione per avere una soluzione migliorata. Ulteriore miglioramento può essere fatto utilizzando RRT-Star (RRT*) una versione in cui vengono eliminati i percorsi che si sono ottenuti e che probabilmente non sono ottimali , raffinando invece le connessioni che lo sono. In questo modo si ottiene una soluzione ottimizzata al prezzo però di non poter generare più percorsi contemporaneamente e un costo computazionale maggiore.
+		Probabilistic Road Map (PRM) genera i nodi in modo da avere un collegamento tra i due punti. Considera differenti scelte dal set di soluzioni che si possono trovare e attraverso un algoritmo di ricerca testa la soluzione per discriminare la migliore.
+		Vornoi: Attraverso l'uso dei digrammi di Voronoi si determinano i nodi e le connessioni per generare il percorso. Il vantaggio è che in questo approccio la minima distanza con gli ostacoli è sempre la stessa. Si continua a suddividere l'ambiente fino a quando si ottiene collegamento tra tutti i canali. Non è in grado di generare contemporaneamente il migliore percorso , per sopperire a questa limitazione è necessario utilizzare un algoritmo di ricerca per trovare la soluzione migliore.
+		Algoritmo basato su energia potenziale. Viene considerata una funzione potenziale attraverso interazione tra spazio percorribile e non, da questo si determina il percorso, è molto facile da implementare e ha un costo computazionale basso, ha però il problema di presentare minimi locali e punti di ristagno , limitazione però facilmente superabile in diversi modi.
+		Riassumendo questi approcci si basano sull'esplorazione delle possibili soluzioni e la successiva valutazione per migliorare la forma ottenuta. L'algoritmo si applica in modo indipendente all'ambiente specifico perché concettualmente separato avendo la capacità di determinare le collisioni in modo autonomo se nella ricerca avviene.
+	
 		
 	2. Algoritmi basati sui nodi
-		Questi algoritmi sono basati sull'utilizzo di nodi appartenenti ad un grafo scomposto, ricercando le soluzioni gia eseguite.
+		Questi algoritmi sono basati sull'utilizzo di nodi appartenenti ad un grafo scomposto, ricercando in mappe già pronte.
+		Algoritmo di Dijkstra.l Conoscendo già un grafo in cui gli archi e i nodi sono stati pesati , si attua una ricerca per ridurre la funzione di costo. Partendo quindi dai nodi si genera il grafo con i pesi e poi si applica l'algoritmo. Un evoluzione di questo algoritmo è A-Star (A*). Indroducendo una stima euristica del costo durante il processo di ricerca permetta una più veloce velocità di convergenza. Per applicazioni con ostacoli dinamici dsi utilizza una versione modificata denominata D-Star (D*) che prevede di modificare i pesi nel grafo in funzione della configurazione degli ostacoli. Questo tipo di approccio però è limitativo in termini di soluzioni a causa della chiara incompletezza della struttura di configurazioni nell'ambiente. Di fatto si parla solamente di un algoritmo di ricerca no è in grado di generare un percorso ma solo una configurazione di sotto-percorsi già precostituiti.
 		
 	3. Algoritmi basati su modelli matematici
-		Questi metodi modellano l'ambiente  e il sistema e il sistema e modellano la funzione di costo con i limiti e vincoli per ottenere la soluzione ottimale. Equazioni e disequazioni
-		
+		Questi metodi modellano l'ambiente  e il sistema e il sistema e modellano la funzione di costo con i limiti e vincoli per ottenere la soluzione ottimale. Equazioni e disequazioni vengono utilizzate per ottenere la soluzione migliore.
+		Vengono descritte matematicamente i vincoli cinematici e dinamici attraverso combinazioni di forme polinomiali. Si può modelare sistemai tempovarianti. 
+		Algoritmi lineari. Si definisce una funzione di costo che contiene all'interno tutti i vincoli in termini di ottimizzazione della soluzione e sul e limitazioni del controllo che penalizza il costo. all'interno è presente anche l'espressione che descrive lo spazio effettivamente raggiungibile. Attraverso questa formulazione si descrive completamente l'ambiente. \'E possibile anche tenere conto delle incertezze e fattori di disturbo.
+		Controllo ottimo. Si imposta il problema da un pusto di vista ottimo per il controllollo utilizzando equazioni differenziali. Si utilizza una formulazione Hamiltoniana per risolvere il problema. 
+		Questi approcci descrivono completamente il lo stato e le variabili in gioco . Risultano però essere complessi e molto pesanti da risolvere.
 	
+	4. Algoritmi bio-ispirati
+		Questi algoritmi mimano la natura per trovare una soluzione al problema. L'approccio alla soluzione è stocastico superando la soluzione basata su modelli matematici per problemi molto complessi.
+		Si può fare una suddivisione in due sottocategorie: Algoritmi evoluzionistici e reti neurali.
+		Gli algortmi evoluzionistici cercano di imitare comportamenti e approcci presenti in naura ed osservati. Tra questi è famoso l'algoritmo genetico che attraverso una approccio simile alla selezione naturale determina attraverso simulazioni il migliore approccio da una famiglia.
+		Le reti neurali esattamente come descritto precedentemente sono formati da modelli matematici che imitano il funzionamento dei neuroni in layer. In questa applicazione specifica si fa riferimento ad una formulazione dinamica che tiene conto dell'attività del neurone.
+		
+	5. Algoritmi misti
+		Normalmente gli alg
+		oritmi presentati tendono a fondersi assieme per sopperire alle proprie limitazioni e trovare assieme una soluzione ottimale. Migliori soluzioni miste. Dove sono presenti delle limitazioni si interviene un altro algoritmo che supporta il primo a trovare una soluzione ottimale.	Si possono suddividere in due categorie: Embedded Multifusional Algorithms (EMA) e Ranked Multifusion. Algorithm (RMA).
+		EMA lavorano assieme sullo stesso modello.
+		RMA lavorano su livelli separati e in modo ordinato.	
 	
 \end{idee}
+
+Per poter muovere correttamente il velivolo nello spazio senza l'ausilio del controllo da parte di un operatore umano, mantenendo le distanze di sicurezza e in modo compatibile alla sua dinamica e alle leggi di controllo implementate, occorre generare correttamente i segnali necessari. Per questo scopo vengono sviluppate due funzionalità: trovare il percorso nello spazio evitando eventuali ostacoli presenti, creare i segnali necessari a seguire il percorso trovato seguendo vincoli di velocità e accelerazioni compatibili con le leggi di controllo e il velivolo stesso. Vengono quindi descritti gli algoritmi di pianificazione del percorso e della traiettoria in applicazioni tridimensionali presenti in letteratura \cite{YangLiang2016SoR3}, \cite{PathPlannigOverview}.
+
+\subsection{Pianificazione del percorso}
+
+La ricerca di un percorso evitando gli ostacoli in ambiente tridimensionale è una scopo molto arduo ,il problema risulta essere molto complesso. Per semplificare la trattazione si può suddividere il problema in 2 parti fondamentali:
+\begin{itemize}
+	\item Percezione e modellazione dell'ambiente
+	\item Applicazione dell'algoritmo di pianificazione
+\end{itemize}
+
+\todo[inline]{Testo seguente da adattare}
+
+Per descrivere correttamente le fasi necessarie alla guida del mezzo bisogna fare una distinzione concettuale tra pianificazione del percorso e pianificazione della traiettoria. La pianificazione del percorso ha come obbiettivo la sola ricerca di un collegamento geometrico nello spazio continuo o sequenziale, in modo da collegare il punto di partenza e di arrivo della pianificazione della missione. La pianificazione della traiettoria invece prevede di determinare come la precedente soluzione in termini geometrici debba essere percorsa, studiando attraverso la descrizione della cinematica e della dinamica del corpo. L'obbiettivo finale di quest'ultimo studio, rispettando i vincoli imposti determina in uscita la descrizione dei segnali di riferimento per la parte di comando vero e proprio.
+
+Si possono classificare gli algoritmi di pianificazione dei percorsi in 5 categorie che vengono qui descritti brevemente.
+
+\subsubsection{Algoritmi basati sul campionamento}
+
+Gli algoritmi basati sul campionamento sono in grado di generare un percorso utile attraverso l'esplorazione casuale dell'ambiente. Fanno uso di concetti come nodi, celle o altre forme per determinare se il punto esplorato è compatibile con la soluzione da ricercare. Per effettuare la ricerca questo tipo di algoritmo necessitano di avere una conoscenza a priori dell'ambiente nella quale viene effettuata la ricerca.
+Si possono suddividere le possibili implementazioni in due categorie:
+\begin{itemize}
+	\item \textbf{Attivi : } La soluzione avviene attraverso un esplorazione totalmente casuale di nuovi punti nella mappa in un solo passaggio
+	\item \textbf{Passivi : }  La soluzione avviene attraverso la ricerca da un set di possibili soluzioni già determinate in un passaggio preliminare precedente
+\end{itemize}
+
+\todo[inline]{Aggiungere albero di categoria degli algoritmi}
+
+%Questi algoritmi richiedono la conoscenza a priori di informazioni sull'ambiente e una rappresentazione matematica di questo. Si prevede di dividere l'ambiente in nodi o celle o altre forme. Avviene poi una ricerca attraverso una ricerca casuale. Questa categoria si può suddividere a sua volta in altre 2 categorie : attive e passive. Attive  si intende algoritmi che esploraro rapidamente in modo casuale per trovare il percorso migliore. Passivi algoritmi che si occupano di cercare la soluzione da percorsi già presenti come su di una mappa.
+
+
+
+Nella categoria di algoritmi attivi ricade la Rapidly Exploring Random Tree (RRT). In questo algoritmo vengono generati nodi casualmente nello spazio con l'obbiettivo di raggiungere il punto obbiettivo dopo un numero non definito a priori di interazioni. L'algoritmo ha il problema quindi di essere molto lento se l'ambiente è disordinato.
+
+Per migliorare la velocità di convergenza ad una soluzione il precedente approccio viene arricchito nell'implementazione del Dinamic Domain RRT (DDRRT). In questo algoritmo attraverso l'introduzione di sfere attorno al nodo generato si permette di determinare lo stato di esplorazione, evitando di generare nodi in luoghi già esplorati, velocizzando il processo e superando in parte la limitazione della versione RRT.
+
+Generando una struttura dati ottimizzata per la ricerca utilizzando la Rapidly Exploring Random Graph (RRG), si può migliorare ulteriormente la l'approccio ottenuto attraverso RRT e DDRRT, velocizzando l'esplorazione. Il metodo prevede di generare ulteriori nodi intermedi, parallelizzando la generazione di percorsi alternativi attraverso il riempimento di un grafo di supporto.
+
+Esiste in bibliografia anche una versione ottimizzata della RRT, denominata RRT-Star (RRT*). Una versione in cui vengono eliminati i percorsi che si sono ottenuti e che probabilmente non sono ottimali, raffinando invece le connessioni, che vengono valutati dell'algoritmo, migliori. In questo modo si ottiene una soluzione ottimizzata rispetto agli altri algoritmi precedenti al prezzo però di non poter generare più percorsi contemporaneamente, utili per applicazioni di flotte di droni. Questo approccio ha inoltre lo svantaggio di avere un costo computazione  maggiore.
+
+L'algoritmo Probabilistic Road Map (PRM) a differenza del RRT, prevede di generare più percorsi tra i vari nodi generati e valutarne successivamente la probabilità dell'efficacia di un percorso rispetto ad un altro. Attraverso un algoritmo di ricerca si testa la soluzione per discriminare la migliore.
+
+Un approccio passivo è quello che viene definito Voronoi. Attraverso l'uso dei digrammi di Voronoi si determinano i nodi e le connessioni per generare il percorso. Il vantaggio è che in questo approccio si basa sulla minima distanza tra i nodi e con gli ostacoli. Si continua a suddividere l'ambiente fino a quando si ottiene collegamento tra tutti i segmenti che vengono man mano a formarsi. In questo approccio non è generare contemporaneamente il migliore percorso. Per sopperire a questa limitazione è necessario utilizzare in supporto un algoritmo di ricerca per discriminare il percorso migliore.
+
+Tra i metodi attivi è presente anche l'algoritmo basato su energia potenziale. In questo algoritmo viene considerata una funzione potenziale attraverso interazione tra spazio percorribile e spazio occupato. Attraverso la generazione di una funzione potenziale funzione dell'ambiente e di pseudo forze si definisce il percorso da seguire. \'E molto facile da implementare e ha un costo computazionale basso, ha però il problema di presentare minimi locali e punti di ristagno , limitazione però facilmente superabile in diversi modi descritti in bibliografia.
+
+Riassumendo questi approcci si basano sull'esplorazione delle possibili soluzioni e la successiva valutazione per migliorare la forma ottenuta, ia in un solo passaggio che in più passaggi. L'algoritmo si applica in modo indipendente all'ambiente specifico, se non per la descrizione degli ostacoli e vincoli, aspetto concettualmente separato avendo la capacità di determinare le collisioni in modo autonomo.
+
+
+\subsubsection{Algoritmi basati sui nodi}
+Questi algoritmi sono basati sull'utilizzo di nodi appartenenti ad un grafo scomposto, ricercando in mappe già pronte.
+Algoritmo di Dijkstra.l Conoscendo già un grafo in cui gli archi e i nodi sono stati pesati , si attua una ricerca per ridurre la funzione di costo. Partendo quindi dai nodi si genera il grafo con i pesi e poi si applica l'algoritmo. Un evoluzione di questo algoritmo è A-Star (A*). Indroducendo una stima euristica del costo durante il processo di ricerca permetta una più veloce velocità di convergenza. Per applicazioni con ostacoli dinamici dsi utilizza una versione modificata denominata D-Star (D*) che prevede di modificare i pesi nel grafo in funzione della configurazione degli ostacoli. Questo tipo di approccio però è limitativo in termini di soluzioni a causa della chiara incompletezza della struttura di configurazioni nell'ambiente. Di fatto si parla solamente di un algoritmo di ricerca no è in grado di generare un percorso ma solo una configurazione di sotto-percorsi già precostituiti.
+
+\subsubsection{Algoritmi basati su modelli matematici}
+Questi metodi modellano l'ambiente  e il sistema e il sistema e modellano la funzione di costo con i limiti e vincoli per ottenere la soluzione ottimale. Equazioni e disequazioni vengono utilizzate per ottenere la soluzione migliore.
+Vengono descritte matematicamente i vincoli cinematici e dinamici attraverso combinazioni di forme polinomiali. Si può modelare sistemai tempovarianti. 
+Algoritmi lineari. Si definisce una funzione di costo che contiene all'interno tutti i vincoli in termini di ottimizzazione della soluzione e sul e limitazioni del controllo che penalizza il costo. all'interno è presente anche l'espressione che descrive lo spazio effettivamente raggiungibile. Attraverso questa formulazione si descrive completamente l'ambiente. \'E possibile anche tenere conto delle incertezze e fattori di disturbo.
+Controllo ottimo. Si imposta il problema da un pusto di vista ottimo per il controllollo utilizzando equazioni differenziali. Si utilizza una formulazione Hamiltoniana per risolvere il problema. 
+Questi approcci descrivono completamente il lo stato e le variabili in gioco . Risultano però essere complessi e molto pesanti da risolvere.
+
+\subsubsection{Algoritmi bio-ispirati}
+Questi algoritmi mimano la natura per trovare una soluzione al problema. L'approccio alla soluzione è stocastico superando la soluzione basata su modelli matematici per problemi molto complessi.
+Si può fare una suddivisione in due sottocategorie: Algoritmi evoluzionistici e reti neurali.
+Gli algortmi evoluzionistici cercano di imitare comportamenti e approcci presenti in naura ed osservati. Tra questi è famoso l'algoritmo genetico che attraverso una approccio simile alla selezione naturale determina attraverso simulazioni il migliore approccio da una famiglia.
+Le reti neurali esattamente come descritto precedentemente sono formati da modelli matematici che imitano il funzionamento dei neuroni in layer. In questa applicazione specifica si fa riferimento ad una formulazione dinamica che tiene conto dell'attività del neurone.
+
+\subsubsection{Algoritmi misti}
+Normalmente gli algoritmi presentati tendono a fondersi assieme per sopperire alle proprie limitazioni e trovare assieme una soluzione ottimale. Migliori soluzioni miste. Dove sono presenti delle limitazioni si interviene un altro algoritmo che supporta il primo a trovare una soluzione ottimale.	Si possono suddividere in due categorie: Embedded Multifusional Algorithms (EMA) e Ranked Multifusion. Algorithm (RMA).
+EMA lavorano assieme sullo stesso modello.
+RMA lavorano su livelli separati e in modo ordinato.
+
+
+\subsection{Pianificazione della traiettoria}
+Pianificare la traiettoria significa generare il segnale di riferimento da dare al controllore per seguire il percorso trovato dal l'algoritmo di generazione del cammino, in modo che questo si a eseguito correttamente. Per poter svolgere bene il suo compito bisogna tenere conto delle limitazioni cinematiche e dinamiche. La generazione di questi segnali avviene in genere atytraverso l'interpolazione di funzioni conosciute. Queste funzioni poi inserite all'interno della valutazione devono essere compatibili con il sistema e le richieste della pianificazione. Importante aspetto è la continuità, per limitare i disturbi e l'affaticamento degli attuatori. Traiettorie troppo discontinue son quindi da evitare anche in termini di capacità di seguire il percorso prestabilito.
+Si può suddividere in questo contesto gli algoritmi in due categorie.
+\subsubsection{Algoritmi che minimizzano il tempo di esecuzione}
+
+L'idea di base è quella di descrivere la dinamica seguendo le coordinate curvilinee lungo il percorso geometrico e analizzare pseudo-velocità e pseudo-accelerazioni lungo questo sistema di riferimento. Applicando le limitazione del caso su questi parametri , si trova la soluzione che minimizza il tempo necessario a percorrerla. Esiste un altro approccio a questo tipo di ottimizzazione che consiste nel valutare la soluzione suddividendo in porzioni il percorso e adottando in ogni sua parte , traiettorie programmate a priori. Per ogni sezione quindi in modo programmato si eseguono traiettorie che seguono la sezione del percorso. Analizzando la sequenza di comando nella totalità si determina il tempo di esecuzione e quindi se questa sia ottimale o meno e nel caso modificare. L'approccio utilizzato in robotica per velocizzare l'esecuzione del comando è minimizzare il tempo di esecuzione è sicuramente atraverso la generazione di profili di velocità trapezioidali. Anche nelle successive simulazioni verrà utilizzato per generare i segnali per i test questo tipo di approccio. Questo tipo di approccio però non tiene conto dell'azionamento degli attuatori e produce traiettorie discontinue. Per migliorare la situazione si possono usare delle spline che permettono inoltre di valutare ulteriori aspetti di ottimizzazione, ma soprattutto permettono continuità in accelerazione e velocità.
+Attraverso l'uso delle spline si può utilizzare algoritmi genetici per trovare la soluzione ottima.
+
+\subsubsection{Algoritmi che minimizzano l'energia}
+Per energia non si intende necessariamente l'energia ma anche un valore proporzionale alla coppia applicata dagli attuatori, direttamente collegata con il consumo di batteria. Si ha una riduzione anche dello stress agli attuatori. Un esempio classico prevede l'uso delle B-spline che attraverso l'utilizzo dei punti di controllo e dell'algoritmo di ottimizzazione permettono di trovare la soluzione che ha una minimizzazione in termine di utilizzo degli attuatori. Nella soluzione a questo problema di ottimizzazione vengono in letteratura utilizzati anche spline cubiche. Si possono anche cercare soluzioni ottime sia in termini di tempo che di energia.
+
+

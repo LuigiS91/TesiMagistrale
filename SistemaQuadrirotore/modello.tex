@@ -2,7 +2,7 @@
 Il capitolo è incentrato sulla descrizione del modello matematico del sistema quadricottero con le relative dinamiche, leggi di guida e leggi di controllo possibili da implementare.
 \section{Modello matematico}
 Il principio di funzionamento del quadrirotore è relativamente semplice nel suo complesso. Come accennato in precedenza la gestione dell'assetto è ottenuta attraverso l'azionamento differenziale dei rotori, montati su di una struttura rigida \cite{modelquad}.
-Nel seguente elenco di manovre di base , viene preso come riferimento la figura \ref{fig:modello_quad}.
+Nel seguente elenco di manovre di base, viene preso come riferimento la Figura \ref{fig:modello_quad}.
 \begin{figure}
 	\centering
 	\begin{subfigure}{0.45\textwidth}
@@ -36,18 +36,17 @@ Nel seguente elenco di manovre di base , viene preso come riferimento la figura 
 \end{figure}
 \todo{Figure fatte da me, tranne quelle nel capitolo px4: da citare la fonte}
 \begin{itemize}
-	\item \textbf{Comando di beccheggio : } una variazione di beccheggio positiva lungo l'asse y del corpo del drone avviene applicando maggiore forza ai rotori 2 e 3 rispetto ai 1 e 4, come mostrato nella figura \ref{fig:modello_quad_pitch}
-	\item \textbf{Comando di rollio : } una variazione di vriazione dell'angolo di rollio positiva si ottiene modificando la velocità di azionamento dei rotori in modo simmetrico rispetto all'asse y del drone. come mostra la figura \ref{fig:modello_quad_roll} una variazione positiva si ottiene facendo ruotare i rotori 1 e 3 più lentamente dei rotori 2 e 4.
-	\item \textbf{Comando di imbardata : } Questo comando è il meno efficace nel quadricottero in quando viene implementato attraverso un effetto secondario. Come si vede nella figura \ref{fig:modello_quad_yaw}, la rotazione dei rotori viene, mantendendo la portanza totale costante, distribuita in modo differente tra le pale che ruotano in modo orario e antiorario. Il comando di variazione positivo dell'angolo di imbardata si ottiene facendo ruotare più rapidamente i rotori 1 e 2 rispetto a 3 e 4.
-	\item \textbf{Comando di spinta complessiva : } La variazione di quota avviene grazie a questo tipo di comando. Aumentando o diminuendo in modo identico la velocità di rotazione dei rotori è possibile equilibrare il peso, contrastato dalla portanza da essi generata. una portanza maggiore si traduce in una accelerazione verso l'alto, viceversa una diminuzione.
+	\item \textbf{Comando di beccheggio:} Una variazione di beccheggio positiva lungo l'asse y del corpo del drone avviene comandando una maggiore velocità ai rotori 2 e 3 rispetto ai 1 e 4, come mostrato nella Figura \ref{fig:modello_quad_pitch}
+	\item \textbf{Comando di rollio:} Una variazione di variazione dell'angolo di rollio positiva si ottiene modificando la velocità di azionamento dei rotori in modo simmetrico rispetto all'asse y del drone. Come mostra la Figura \ref{fig:modello_quad_roll} una variazione positiva si ottiene facendo ruotare i rotori 1 e 3 più lentamente dei rotori 2 e 4.
+	\item \textbf{Comando di imbardata:} Questo comando è il meno efficace nel quadricottero in quando viene implementato attraverso un effetto secondario. Come si vede nella Figura \ref{fig:modello_quad_yaw}, la rotazione dei rotori viene, mantendendo la portanza totale costante, distribuita in modo differente tra le pale che ruotano in modo orario e antiorario. Il comando di variazione positivo dell'angolo di imbardata si ottiene facendo ruotare più rapidamente i rotori 1 e 2 rispetto a 3 e 4.
+	\item \textbf{Comando di spinta complessiva : } La variazione di quota avviene grazie a questo tipo di comando. Aumentando o diminuendo in modo identico la velocità di rotazione dei rotori è possibile equilibrare il peso, contrastato dalla portanza da essi generata. Una portanza maggiore si traduce in una accelerazione verso l'alto, viceversa si traduce in una diminuzione di quota.
 \end{itemize}
-Grazie a questo funzionamento e l'utilizzo di un mixer, che ha lo scopo di mescolare i quattro tipi di azionamento visti, si può governare il velivolo modificandone la posizione nello spazio \cite{DesTestCarm}.
+Grazie a questo funzionamento e l'utilizzo di un mixer, che ha lo scopo di miscelare i quattro tipi di azionamento visti, si può governare il velivolo modificandone la posizione nello spazio \cite{DesTestCarm}.
 \subsubsection{Relazioni matematiche}
 Verranno esplicitate alcune formule utili per la modellazione iniziale del problema del quadrirotore come riportato in bibliografia, \cite{DesTestCarm}, \cite{baseTesi}. Le ipotesi di partenza della trattazione prevedono di considerare come corpi rigidi tutti i componenti, di supporre trascurabile le forze aerodinamiche diverse dalla spinta principale del rotore. Inoltre viene considerato un sistema di riferimento terrestre come fosse inerziale, conosciuto come modello di terra piatta.
 
-Utilizzando i sistemi di riferimento del corpo del drone e del riferimento terreste come in figura \ref{fig:riferimenti}, si definisce la matrice di rotazione $R$ espressa dalla relazione \ref{eq:SistemaQuadrirotore_R}. In questo sistema si impongono che l'asse $x$ del corpo sia diretto ferso il muso del drone e l'asse $y$ verso destra, in modo che l'asse $z$ sia diretto verso il basso, mentre l'asse $x_e$ risulta essere diretto verso nord, l'asse $y_e$ verso est e di conseguenza l'asse $z_e$ verso il centro della terra. 
-Attraverso il sistema di equazioni , espresso in forma matriciale \ref{eq:SistemaQuadrirotore_ratei}, si ricavano i retei degli angoli di assetto partendo dalle accelerazioni angolari, utilizzando per  comodità le seguenti semplificazioni di scrittura : 
-\[ 	c(\cdot)=\cos(\cdot)\ ,\  s(\cdot) = \sin(\cdot) \]
+Utilizzando i sistemi di riferimento del corpo del drone e del riferimento terreste come in Figura \ref{fig:riferimenti}, si definisce la matrice di rotazione $R$ espressa dalla relazione (\ref{eq:SistemaQuadrirotore_R}). In questo sistema si impone che l'asse $x$ del corpo sia diretto verso il muso del drone e l'asse $y$ verso destra, in modo che l'asse $z$ sia diretto verso il basso, mentre l'asse $x_e$ risulta essere diretto verso nord, l'asse $y_e$ verso est e di conseguenza l'asse $z_e$ verso il centro della terra. 
+Attraverso il sistema di equazioni, espresso in forma matriciale (\ref{eq:SistemaQuadrirotore_ratei}), si ricavano i ratei degli angoli di assetto partendo dalle accelerazioni angolari, utilizzando per  comodità le seguenti semplificazioni di scrittura, $ c(\cdot)=\cos(\cdot)\ ,\  s(\cdot) = \sin(\cdot) $.
 \begin{equation}
 R=
 	\begin{pmatrix}
@@ -79,7 +78,7 @@ R=
 \begin{figure}
 	\centering
 	\includegraphics[width=0.33\textwidth]{SistemaQuadrirotore/Figure/eulerangles.png}
-	\caption{Rotazione tra sistemi di riferimento NED e corpo}
+	\caption{Rotazione tra sistemi di riferimento NED e corpo \cite{eulero}}
 	\label{fig:riferimenti}
 \end{figure}
 
@@ -206,7 +205,7 @@ Con le formule precedenti, si riformulano le equazioni differenziali ottenendo l
 
 Quello presentato è quindi un modello matematico rappresentativo del comportamento del quadricottero, ottenibile integrando le equazioni differenziali che rappresenta.
 
-Nel precedente studio il contributo della spinta introdotta dalla presenza dei rotori era stata ricavata sperimentalmente su di un banco di prova. In questa tesi verranno utilizzate le stesse leggi quadratiche ricavate e rappresentate in figura \ref{fig:pwmTM}. Questi sono necessari per valutare il vettore di comando, presentato dalla formula \ref{eq:SistemaQuadrirotore_vettorecomando}, dove $l$ rappresenta il braccio del rotore rispetto al centro di massa.
+Nel precedente studio il contributo della spinta introdotta dalla presenza dei rotori era stata ricavata sperimentalmente su di un banco di prova. In questa tesi verranno utilizzate le stesse leggi quadratiche ricavate e rappresentate in Figura \ref{fig:pwmTM}. Questi sono necessari per valutare il vettore di comando, presentato dalla formula \ref{eq:SistemaQuadrirotore_vettorecomando}, dove $l$ rappresenta il braccio del rotore rispetto al centro di massa.
 
 \begin{equation}\label{eq:SistemaQuadrirotore_vettorecomando}
 	\mathbf{u}(\nu_1,\nu_2,\nu_3,\nu_4) = 
@@ -220,7 +219,7 @@ Nel precedente studio il contributo della spinta introdotta dalla presenza dei r
 		\left[F(\nu_2)+F(\nu_3)-F(\nu_1)-F(\nu_4)\right] l \\
 		\tau(\nu_1)+\tau(\nu_2)-\tau(\nu_3)-\tau(\nu_4)
 	\end{Bmatrix}
-\end{equation} \todo{seguendo gli schemi in figura \ref{fig:modello_quad_pitch},\ref{fig:modello_quad_roll} e \ref{fig:modello_quad_yaw}}
+\end{equation} \todo{seguendo gli schemi in Figura \ref{fig:modello_quad_pitch},\ref{fig:modello_quad_roll} e \ref{fig:modello_quad_yaw}}
 
 \begin{figure}
 	\centering
