@@ -150,8 +150,15 @@ Partendo da un sistema non lineare che è possibile modellare nella forma (\ref{
 Nella stessa pubblicazione, \cite{G_inf}, questo approccio di controllo viene utilizzato. Il closed-loop ottenuto attraverso la Feedback Linearization, viene controllato dal controllore $H_\infty$.
 
 \subsubsection{Controllore con Backstepping}
-La tecnica di Backstepping consiste nel suddividere il modello in sottoparti e stabilizzare in modo sequenziale i sottosistemi ottenuti. 
-Questo tipo di controllore ha una procedura di convergenza molto rapida. Il suo difetto maggiore è la poca robustezza. Per poter migliorare la risposta può essere aggiunto un integratore con l'obbiettivo di ridurre l'errore stazionario.
+La tecnica di Backstepping consiste nel suddividere il modello in sottoparti e stabilizzare in modo sequenziale i sottosistemi ottenuti.
+\cite{Backstepping} : Il sistema dinamico di partenza viene diviso in tre parti 
+\begin{equation}\label{key}
+	\
+\end{equation}
+
+\begin{equation}
+	\matrix{ {\matrix{ {{x_1} = \left[{\matrix{ x \hfill \cr y \hfill \cr } } \right],} \cr {{x_2} = \left[{\matrix{ {\dot x} \hfill \cr {\dot y} \hfill \cr } } \right],} \cr } } & {\matrix{ {\;{x_3} = \left[{\matrix{ \phi \hfill \cr \theta \hfill \cr } } \right],} \cr {{x_4} = \left[{\matrix{ {\dot \phi } \hfill \cr {\dot \theta } \hfill \cr } } \right],} \cr } } & {\matrix{ {{x_5} = \left[{\matrix{ \psi \hfill \cr z \hfill \cr } } \right],} \cr {{x_6} = \left[{\matrix{ {\dot \psi } \hfill \cr {\dot z} \hfill \cr } } \right],\;} \cr } } & {{x_7} = \left[{\matrix{ {{F_1}} \hfill \cr {{F_2}} \hfill \cr {{F_3}} \hfill \cr {{F_4}} \hfill \cr } } \right]} \cr }.\eqno{\hbox{(10)}}
+\end{equation}
 
 
 
