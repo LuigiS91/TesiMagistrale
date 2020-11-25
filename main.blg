@@ -1,17 +1,15 @@
-[0] Config.pm:312> INFO - This is Biber 2.15
-[0] Config.pm:315> INFO - Logfile is 'main.blg'
-[82] biber:330> INFO - === mar nov 24, 2020, 21:09:34
-[97] Biber.pm:415> INFO - Reading 'main.bcf'
-[178] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[192] Biber.pm:4334> INFO - Processing section 0
-[202] Biber.pm:4523> INFO - Looking for bibtex format file 'Bibliografia/bibliografia.bib' for section 0
-[204] bibtex.pm:1682> INFO - LaTeX decoding ...
-[242] bibtex.pm:1494> INFO - Found BibTeX data source 'Bibliografia/bibliografia.bib'
-[412] Utils.pm:411> ERROR - Name "Åström, Karl J., Hägglund, Tore" has too many commas, skipping entry 'advanced-pid-control'
-[458] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[458] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[458] Biber.pm:4162> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'it-IT'
-[459] Biber.pm:4168> INFO - No sort tailoring available for locale 'it-IT'
-[484] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[501] bbl.pm:754> INFO - Output to main.bbl
-[502] Biber.pm:132> INFO - ERRORS: 1
+[1] Config.pm:312> INFO - This is Biber 2.15
+[1] Config.pm:315> INFO - Logfile is 'main.blg'
+[156] biber:330> INFO - === mer nov 25, 2020, 13:19:37
+[275] Biber.pm:415> INFO - Reading 'main.bcf'
+[356] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[369] Biber.pm:4334> INFO - Processing section 0
+[399] Biber.pm:4523> INFO - Looking for bibtex format file 'Bibliografia/bibliografia.bib' for section 0
+[401] bibtex.pm:1682> INFO - LaTeX decoding ...
+[444] bibtex.pm:1494> INFO - Found BibTeX data source 'Bibliografia/bibliografia.bib'
+[802] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[802] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[802] Biber.pm:4162> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'it-IT'
+[802] Biber.pm:4168> INFO - No sort tailoring available for locale 'it-IT'
+[847] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[865] bbl.pm:754> INFO - Output to main.bbl

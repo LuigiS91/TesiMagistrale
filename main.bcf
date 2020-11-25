@@ -2390,15 +2390,23 @@
     <bcf:citekey order="36">G_inf</bcf:citekey>
     <bcf:citekey order="37">KimJinho2020ACSo</bcf:citekey>
     <bcf:citekey order="38">KimJinho2020ACSo</bcf:citekey>
-    <bcf:citekey order="39">pid-controllers-theory</bcf:citekey>
-    <bcf:citekey order="40">KoksalN2018ALQA</bcf:citekey>
-    <bcf:citekey order="41">ZuluAndrew2014ARoC</bcf:citekey>
-    <bcf:citekey order="42">YangLiang2016SoR3</bcf:citekey>
-    <bcf:citekey order="43">PathPlannigOverview</bcf:citekey>
-    <bcf:citekey order="44">px4Firmware</bcf:citekey>
-    <bcf:citekey order="45">px4Guide</bcf:citekey>
-    <bcf:citekey order="46">Nuttx</bcf:citekey>
-    <bcf:citekey order="47">toolPx4</bcf:citekey>
+    <bcf:citekey order="39">advanced-pid-control</bcf:citekey>
+    <bcf:citekey order="40">advanced-pid-control</bcf:citekey>
+    <bcf:citekey order="41">ParaskevopoulosP.N2002MCE</bcf:citekey>
+    <bcf:citekey order="42">6572698</bcf:citekey>
+    <bcf:citekey order="43">baseTesi</bcf:citekey>
+    <bcf:citekey order="44">KoksalN2018ALQA</bcf:citekey>
+    <bcf:citekey order="45">GrimbleM.J1991Hrcd</bcf:citekey>
+    <bcf:citekey order="46">G_inf</bcf:citekey>
+    <bcf:citekey order="47">KimJinho2020ACSo</bcf:citekey>
+    <bcf:citekey order="48">IsidoriA2003NCS</bcf:citekey>
+    <bcf:citekey order="49">G_inf</bcf:citekey>
+    <bcf:citekey order="50">YangLiang2016SoR3</bcf:citekey>
+    <bcf:citekey order="51">PathPlannigOverview</bcf:citekey>
+    <bcf:citekey order="52">px4Firmware</bcf:citekey>
+    <bcf:citekey order="53">px4Guide</bcf:citekey>
+    <bcf:citekey order="54">Nuttx</bcf:citekey>
+    <bcf:citekey order="55">toolPx4</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

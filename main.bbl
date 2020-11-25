@@ -671,6 +671,8 @@
       \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labeltitlesource}{title}
       \field{title}{Angoli di Eulero}
+      \field{year}{2020}
+      \field{dateera}{ce}
       \verb{urlraw}
       \verb https://it.wikipedia.org/wiki/Angoli_di_Eulero
       \endverb
@@ -838,6 +840,190 @@
       \verb 10.1109/IROS.2005.1545112
       \endverb
     \endentry
+    \entry{advanced-pid-control}{book}{}
+      \name{author}{4}{}{%
+        {{hash=e02c3bb37b7420cc959fe56dedeb155c}{%
+           family={Åström},
+           familyi={Å\bibinitperiod}}}%
+        {{hash=55f451a79b8e153951e0cba11ae9edfc}{%
+           family={J.},
+           familyi={J\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d5689b957bfd101264d9f38753f8467b}{%
+           family={Hägglund},
+           familyi={H\bibinitperiod}}}%
+        {{hash=64ecd619b953ca23acb0546a472c483b}{%
+           family={Tore},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ISA}%
+      }
+      \strng{namehash}{389f8ba8afe4fe667b96f038cbc87ac9}
+      \strng{fullhash}{151ead0b9f7932fc8c0ebab1cbb74fae}
+      \strng{bibnamehash}{151ead0b9f7932fc8c0ebab1cbb74fae}
+      \strng{authorbibnamehash}{151ead0b9f7932fc8c0ebab1cbb74fae}
+      \strng{authornamehash}{389f8ba8afe4fe667b96f038cbc87ac9}
+      \strng{authorfullhash}{151ead0b9f7932fc8c0ebab1cbb74fae}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{booktitle}{Advanced PID Control}
+      \field{isbn}{978-1-55617-942-6}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://app.knovel.com/hotlink/toc/id:kpAPIDC001/advanced-pid-control/advanced-pid-control
+      \endverb
+      \verb{url}
+      \verb https://app.knovel.com/hotlink/toc/id:kpAPIDC001/advanced-pid-control/advanced-pid-control
+      \endverb
+    \endentry
+    \entry{ParaskevopoulosP.N2002MCE}{book}{}
+      \name{author}{1}{}{%
+        {{hash=637154ccef91bd6c4d3e32b815880f7d}{%
+           family={Paraskevopoulos},
+           familyi={P\bibinitperiod},
+           given={P.N},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{637154ccef91bd6c4d3e32b815880f7d}
+      \strng{fullhash}{637154ccef91bd6c4d3e32b815880f7d}
+      \strng{bibnamehash}{637154ccef91bd6c4d3e32b815880f7d}
+      \strng{authorbibnamehash}{637154ccef91bd6c4d3e32b815880f7d}
+      \strng{authornamehash}{637154ccef91bd6c4d3e32b815880f7d}
+      \strng{authorfullhash}{637154ccef91bd6c4d3e32b815880f7d}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{"Illustrates the analysis, behavior, and design of linear control systems using classical, modern, and advanced control techniques. Covers recent methods in system identification and optimal, digital, adaptive, robust, and fuzzy control, as well as stability, controllability, observability, pole placement, state observers, input-output decoupling, and model matching."}
+      \field{booktitle}{<h>Modern</h> <h>Control</h> <h>Engineering</h>}
+      \field{edition}{1}
+      \field{isbn}{9780824789817}
+      \field{series}{Control engineering}
+      \field{title}{Modern Control Engineering}
+      \field{volume}{10}
+      \field{year}{2002}
+      \keyw{Automatic control ; Control theory}
+    \endentry
+    \entry{6572698}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=65bff110eabcb67bebee81838bf12b19}{%
+           family={{Argentim}},
+           familyi={A\bibinitperiod},
+           given={L.\bibnamedelimi M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=92370be8e8f91a6d56f1f5ce455064c4}{%
+           family={{Rezende}},
+           familyi={R\bibinitperiod},
+           given={W.\bibnamedelimi C.},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=cef0555c99731984d91fa5cb7f485d04}{%
+           family={{Santos}},
+           familyi={S\bibinitperiod},
+           given={P.\bibnamedelimi E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6a0950d62e7ebf6c351f06812b7c2790}{%
+           family={{Aguiar}},
+           familyi={A\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{46c6e3f0747ea71d95f45a0346b83fa2}
+      \strng{fullhash}{74888ffe9672a2a92cdcffcca17c7c6e}
+      \strng{bibnamehash}{74888ffe9672a2a92cdcffcca17c7c6e}
+      \strng{authorbibnamehash}{74888ffe9672a2a92cdcffcca17c7c6e}
+      \strng{authornamehash}{46c6e3f0747ea71d95f45a0346b83fa2}
+      \strng{authorfullhash}{74888ffe9672a2a92cdcffcca17c7c6e}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2013 International Conference on Informatics, Electronics and Vision (ICIEV)}
+      \field{title}{PID, LQR and LQR-PID on a quadcopter platform}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICIEV.2013.6572698
+      \endverb
+    \endentry
+    \entry{GrimbleM.J1991Hrcd}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4468858fcd63193e6572ea511fb53719}{%
+           family={Grimble},
+           familyi={G\bibinitperiod},
+           given={M.J},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c19c3adb649c80ed4bd33dc46f6891a}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={M.A},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{a6a4437a2c3302dbdac2d2913bdb3253}
+      \strng{fullhash}{a6a4437a2c3302dbdac2d2913bdb3253}
+      \strng{bibnamehash}{a6a4437a2c3302dbdac2d2913bdb3253}
+      \strng{authorbibnamehash}{a6a4437a2c3302dbdac2d2913bdb3253}
+      \strng{authornamehash}{a6a4437a2c3302dbdac2d2913bdb3253}
+      \strng{authorfullhash}{a6a4437a2c3302dbdac2d2913bdb3253}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0956-3385}
+      \field{journaltitle}{Computing \& control engineering journal}
+      \field{number}{6}
+      \field{title}{H-inf robust control design-a tutorial review}
+      \field{volume}{2}
+      \field{year}{1991}
+      \field{pages}{275}
+      \range{pages}{1}
+    \endentry
+    \entry{IsidoriA2003NCS}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9b7e164762ce5a8f10873e11725f95c2}{%
+           family={Isidori},
+           familyi={I\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Hoboken}%
+      }
+      \list{publisher}{1}{%
+        {Marcel Dekker Inc}%
+      }
+      \strng{namehash}{9b7e164762ce5a8f10873e11725f95c2}
+      \strng{fullhash}{9b7e164762ce5a8f10873e11725f95c2}
+      \strng{bibnamehash}{9b7e164762ce5a8f10873e11725f95c2}
+      \strng{authorbibnamehash}{9b7e164762ce5a8f10873e11725f95c2}
+      \strng{authornamehash}{9b7e164762ce5a8f10873e11725f95c2}
+      \strng{authorfullhash}{9b7e164762ce5a8f10873e11725f95c2}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-8247-4112-9}
+      \field{title}{Nonlinear Control Systems}
+      \field{year}{2003}
+    \endentry
     \entry{YangLiang2016SoR3}{article}{}
       \name{author}{6}{}{%
         {{hash=d358854fc0ad71b236150fe3003a7fe6}{%
@@ -944,8 +1130,8 @@
       \list{organization}{1}{%
         {PX4 Dev Team}%
       }
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labeltitlesource}{title}
       \field{title}{PX4 Autopilot User Guide (1.8.2)}
       \field{year}{2020}
@@ -962,8 +1148,8 @@
       \list{organization}{1}{%
         {Wikipedia}%
       }
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labeltitlesource}{title}
       \field{title}{NuttX}
       \field{year}{2020}
@@ -1030,8 +1216,8 @@
       \strng{authorbibnamehash}{8b8ad60525ee2da68a47af91630d1f91}
       \strng{authornamehash}{c44b0a82858e180ca5b9bced2220e33a}
       \strng{authorfullhash}{8b8ad60525ee2da68a47af91630d1f91}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper deals with the reference flight trajectory generation and planning problems for quadcopter Unmanned Aerial Vehicle (UAV). The reference flight trajectory is defined as the composition of path and motion functions. Both of them are generated by using quintic B-spline functions. Based on differential flatness approach, the quadcopter dynamical constraints are satisfied instantaneously by computing the induced aerodynamical moments and lift force. The optimal reference flight trajectory, with respect to the mission requirements and imposed constraints, is reached by manipulating the control points’ vectors of B-spline functions via a nonlinear constrained optimization method. The mission requirements are defined as a set of waypoints with their respective scheduled flight timetable. A minimum-energy cost function is developed to minimize the consumed energy and induced efforts by reference flight trajectory. For the need of the optimal overfly-times schedule, the overfly times with respect to the defined constraints and performance criteria are calculated. Numerical simulation results show the feasibility and effectiveness of the proposed optimization method.}
@@ -1078,8 +1264,8 @@
       \strng{authorbibnamehash}{7dee1498e6fd8a535edafbe6ff0f44b1}
       \strng{authornamehash}{7dee1498e6fd8a535edafbe6ff0f44b1}
       \strng{authorfullhash}{7dee1498e6fd8a535edafbe6ff0f44b1}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This work proposes a strategy for position control and obstacle avoidance in a quadcopter based on constrained generalized predictive control and geometric attitude control. The approach allows real-time trajectory tracking using optimal control actions and avoids collisions with static obstacles whose position is known. An experimental validation of the proposed controller is presented.}
@@ -1123,8 +1309,8 @@
       \strng{authorbibnamehash}{aac62f9199e7d174d207e65356cd7301}
       \strng{authornamehash}{171b2724fa1fb5d9c5312fb23a3d8572}
       \strng{authorfullhash}{aac62f9199e7d174d207e65356cd7301}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the World Congress on Intelligent Control and Automation (WCICA)}
