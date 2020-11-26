@@ -7,8 +7,6 @@ In questa sezione verranno accennati diversi modelli di controlli utilizzati odi
 	\label{fig:categoriecontrolli}
 \end{figure}
 
-\todo[inline]{Assunzioni, formule e citazioni per ogni controllore soprattutto PID e SMC}
-
 
 \subsection{Controllori Lineari}
 \subsubsection{Controllore Proportional-Integral-Derivative Controller (PID)}
@@ -23,7 +21,6 @@ L'effetto del guadagno proporzionale $k_p$ è quello di ridurre l'errore in modo
 L'effetto $k_i$ è quello ridurre l'errore stazionario terminata la fase di assestamento. Il solo utilizzo della componente proporzionale non è infatti sufficiente per ridurre anche l'errore stazionario, definito come il valore assunto dall'errore trascorso un tempo sufficientemente lungo. Con il solo effetto proporzionale l'errore stazionario si assesta ad un valore finito, il valore integrale dell'errore tende ad aumentare nel tempo se questo on viene annullato, determinando una retroazione integrale che tende a ridurlo.
 La derivata dell'errore è invece utile a prevedere il comportamento di questo nel tempo, anticipando l'effetto del proporzionale. Tenendo conto del suo andamento, attraverso il valore di $k_d$, si può ridurre il picco generato da un guadagno alto dell'effetto proporzionale. Questo contributo però va usato con cautela perché amplificare il rumore presente nelle misurazioni.
 Il settaggio di questi parametri viene fatta impostando inizialmente solo il valore di $k_p$. Successivamente per ridurre il valore dell'errore stazionario viene aumentato il guadagno $k_i$. Modificando il valore $k_d$ si può ottenere un miglioramento in termini di risposta del sistema, rendendola più stabile. Il processo è iterativo fino ad ottenere una risposta desiderata \cite{advanced-pid-control}.
-Per l'implementazione specifica utilizzata in questa tesi si rimanda al capitolo \ref{cap:simulazioni}.
 
 
 \begin{figure}
@@ -246,8 +243,6 @@ Imponendo che valga la condizione (\ref{eq:SistemaQuadrirotore_SMC_cond}), si de
 
 Il funzionamento di questo controllore prevede due fasi nella sua attuazione. Una prima fase nella quale partendo da una condizione generica il sistema controllato tende a raggiungere la superficie di intersezione. La seconda fase in cui il sistema attua lo scivolamento lungo questa superficie oscillando attorno alla condizione di equilibrio, come mostrato in Figura (\ref{fig:SMC}).
 
-Un maggiore dettagli sull'applicazione utilizzata in questo lavoro di tesi verrà trattato nel capito \ref{cap:simulazioni}.
-
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\textwidth]{SistemaQuadrirotore/Figure/SMC_fasi}
@@ -268,7 +263,14 @@ Un maggiore dettagli sull'applicazione utilizzata in questo lavoro di tesi verr�
 Questo tipo di controllo si basa sulla previsione dello stato e del comando che verrà attuato seguendo dei modelli previsionali e stimatori. Molto utile se si vuole evitare di superare alcune imposizioni specifiche, per esempio le limitazioni in termini di capacità di attuazione o minimizzazione di funzioni di costo.
 Per un controllo efficacie è necessario stimare il più precisamente possibile lo stato del velivolo, \cite{KimJinho2020ACSo}.
 
-Il controllore basa il suo funzionamento su un rappresentazione discreta nel tempo. Dato quindi un segnale $s(t)$ da inseguire, il controllore lo campiona in una sequenza di punti $k$.
+
+Il controllore basa il suo funzionamento su un rappresentazione discreta nel tempo. Dato quindi un segnale $s(t)$ da inseguire, il controllore lo campiona in una sequenza di punti. Si utilizza una seconda traiettoria di riferimento $y(k)$ che descrive l'andamento che il quadritotore deve seguire per raggiunge la sequenza di punti impostati nei sotto intervalli osservati. Un aspetto critico è la selezione della funzione da utilizzare come riferimento per inserire il controllore in closed-loop, una possibile scelta ricade nel segnale di riferimento esponenziale \cite{AbdolhosseiniM2013AEMP}. Partendo quindi dalla sequenza di punti di riferimento, applicando un modello predittivo in una finestra di tempo discreta si determina il comando che permette di inseguire la seconda traiettoria scelta. Facendo scorrere per ogni interazione la finestra temporale utilizzata e il campionamento su di essa si implementa questo tipo di controllo, determinando passo-passo in comando.
+Per ottimizzare ila soluzione e determinare il segnale di attuazione ad ogni interazione in \cite{AbdolhosseiniM2013AEMP}, viene proposta l'ottimizzazione sull'errore, Eq. (\ref{eq:SistemaQuadrirotore_MPC_ERR}).
+\begin{equation}\label{eq:SistemaQuadrirotore_MPC_ERR}
+	\sum_{1}^{i} \left[r(k+1 \mid k) - \hat{y}(k+i \mid k)\right]^2
+\end{equation}
+
+Dove $\hat{y}$ rappresenta l'output misurato e $r$ il segnale di riferimento generato attraverso questo approccio di controllo.
 
 \begin{figure}
 	\centering
@@ -278,7 +280,11 @@ Il controllore basa il suo funzionamento su un rappresentazione discreta nel tem
 
 \subsubsection{Controllore con logica Fuzzy}
 
-Questo tipo di controllo si basa sulla presenza di stati logici non binari, range di valori  . Una serie di verifiche di condizioni soddisfatte con eventuali azionamenti specifici seguendo un algoritmo. Ad ogni passaggio il segnale di uscita viene determinando tenendo conto di diversi step per poter essere mandato al velivolo controllato. Non richiedono una conoscenza completa del sistema.
+Il sistam di controllo Fuzzy è fondamentalmente composto da tre parti principali: l'unità che si occupa della fuzzification, l'unità che determina le regole da implementare e l'uotput del controllo e infine il componente che determina dallo stato dell'output il segnale del controllo. 
+L'implementazione delle regole prevede di utilizzare degli stati logici non binari, compresi tra 0 e 1. Applicando questo concetto alla misura dell'errore, si determina una classificazione in funzione all'appartenenza di questo ad una determina condizione, per esempio : nullo, piccolo negativo, medio positivo, ecc. Nel cuore del controllore, utilizzando le proprietà matematiche dei set logici cosi definiti, si descrivono quindi le regole di esecuzione in base agli ingressi logici. Il risultato di questo processo di applicazione delle regole porta a definire un analogo set logico di uscita. attraverso l'unità di defuzzification, utilizzando gli stati logici di uscita si determina il segnale di comando da impartire al sistema governato, \cite{introFuzzy}.
+Lo stesso tipo di approccio può
+
+Nella publicazione \cite{introFuzzy} il sistema fuzzy viene utilizzato per controllora l'assetto del drone.
 
 \begin{figure}
 	\centering

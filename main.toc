@@ -17,124 +17,126 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Modello matematico}{15}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Relazioni matematiche}{17}{section*.6}%
+\contentsline {subsubsection}{Relazioni matematiche}{17}{section*.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Leggi di controllo}{21}{section.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Controllori Lineari}{21}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Controllore Proportional-Integral-Derivative Controller (PID)}{21}{section*.12}%
+\contentsline {subsubsection}{Controllore Proportional-Integral-Derivative Controller (PID)}{21}{section*.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Controllore Linear Quadratic Regulator (LQR)}{22}{section*.14}%
+\contentsline {subsubsection}{Controllore Linear Quadratic Regulator (LQR)}{22}{section*.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Controllore $H_\infty $}{23}{section*.16}%
+\contentsline {subsubsection}{Controllore $H_\infty $}{23}{section*.13}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Controllori non lineari}{25}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Controllore con Feedback Linearization}{25}{section*.17}%
+\contentsline {subsubsection}{Controllore con Feedback Linearization}{25}{section*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Controllore con Backstepping}{26}{section*.19}%
+\contentsline {subsubsection}{Controllore con Backstepping}{26}{section*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Controllore Sliding Mode Control (SMC)}{27}{section*.20}%
+\contentsline {subsubsection}{Controllore Sliding Mode Control (SMC)}{27}{section*.17}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}Controllori intelligenti}{28}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Controllore con Modello predittivo (MPC)}{28}{section*.23}%
+\contentsline {subsubsection}{Controllore con Modello predittivo (MPC)}{28}{section*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Controllore con logica Fuzzy}{29}{section*.25}%
+\contentsline {subsubsection}{Controllore con logica Fuzzy}{29}{section*.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Controllore con Neural Network}{29}{section*.27}%
+\contentsline {subsubsection}{Controllore con Neural Network}{30}{section*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Algoritmi di guida}{31}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Algoritmi di guida}{32}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Pianificazione del percorso}{31}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Pianificazione del percorso}{32}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Algoritmi basati sul campionamento}{31}{section*.30}%
+\contentsline {subsubsection}{Algoritmi basati sul campionamento}{32}{section*.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Algoritmi basati sui nodi}{33}{section*.32}%
+\contentsline {subsubsection}{Algoritmi basati sui nodi}{34}{section*.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Algoritmi basati su modelli matematici}{33}{section*.33}%
+\contentsline {subsubsection}{Algoritmi basati su modelli matematici}{34}{section*.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Algoritmi bio-ispirati}{34}{section*.34}%
+\contentsline {subsubsection}{Algoritmi bio-ispirati}{35}{section*.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Algoritmi misti}{34}{section*.35}%
+\contentsline {subsubsection}{Algoritmi misti}{35}{section*.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Pianificazione della traiettoria}{34}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Pianificazione della traiettoria}{35}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Algoritmi che minimizzano il tempo di esecuzione}{35}{section*.36}%
+\contentsline {subsubsection}{Algoritmi che minimizzano il tempo di esecuzione}{36}{section*.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Algoritmi che minimizzano l'energia}{35}{section*.37}%
+\contentsline {subsubsection}{Algoritmi che minimizzano l'energia}{36}{section*.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Descrizione Autopilota}{37}{chapter.3}%
+\contentsline {section}{\numberline {2.4}Leggi di controllo}{37}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Descrizione del drone}{37}{section.3.1}%
+\contentsline {chapter}{\numberline {3}Descrizione Autopilota}{39}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}PX4 Autopilot}{38}{section.3.2}%
+\contentsline {section}{\numberline {3.1}Descrizione del drone}{39}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Architettura del software}{38}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.2}PX4 Autopilot}{40}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Flight stack}{39}{section*.40}%
+\contentsline {subsection}{\numberline {3.2.1}Architettura del software}{40}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Estimator}{39}{section*.42}%
+\contentsline {subsubsection}{Flight stack}{41}{section*.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Controller}{39}{section*.43}%
+\contentsline {paragraph}{Estimator}{41}{section*.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Mixer}{39}{section*.44}%
+\contentsline {paragraph}{Controller}{41}{section*.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Middleware}{39}{section*.45}%
+\contentsline {paragraph}{Mixer}{41}{section*.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Strumenti per lo sviluppo del codice}{39}{subsection.3.2.2}%
+\contentsline {subsubsection}{Middleware}{41}{section*.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Gazebo}{43}{section.3.3}%
+\contentsline {subsection}{\numberline {3.2.2}Strumenti per lo sviluppo del codice}{41}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Simulazioni}{45}{chapter.4}%
+\contentsline {section}{\numberline {3.3}Gazebo}{45}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Simulazione SIL}{45}{section.4.1}%
+\contentsline {chapter}{\numberline {4}Simulazioni}{47}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}PID}{45}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.1}Simulazione SIL}{47}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{STEP}{45}{section*.49}%
+\contentsline {subsection}{\numberline {4.1.1}PID}{47}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SQUARE}{47}{section*.53}%
+\contentsline {subsubsection}{STEP}{47}{section*.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{BUTTERFLY}{50}{section*.58}%
+\contentsline {subsubsection}{SQUARE}{49}{section*.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SNAKE}{53}{section*.63}%
+\contentsline {subsubsection}{BUTTERFLY}{52}{section*.55}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}SMC}{56}{subsection.4.1.2}%
+\contentsline {subsubsection}{SNAKE}{55}{section*.60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{STEP}{56}{section*.68}%
+\contentsline {subsection}{\numberline {4.1.2}SMC}{58}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SQUARE}{57}{section*.72}%
+\contentsline {subsubsection}{STEP}{58}{section*.65}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{BUTTERFLY}{60}{section*.77}%
+\contentsline {subsubsection}{SQUARE}{59}{section*.69}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SNAKE}{63}{section*.82}%
+\contentsline {subsubsection}{BUTTERFLY}{62}{section*.74}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Confronto}{66}{subsection.4.1.3}%
+\contentsline {subsubsection}{SNAKE}{65}{section*.79}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Simulazioni MIL}{67}{section.4.2}%
+\contentsline {subsection}{\numberline {4.1.3}Confronto}{68}{subsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}PID}{67}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.2}Simulazioni MIL}{69}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SNAKE}{67}{section*.90}%
+\contentsline {subsection}{\numberline {4.2.1}PID}{69}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}SMC}{70}{subsection.4.2.2}%
+\contentsline {subsubsection}{SNAKE}{69}{section*.87}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SNAKE}{70}{section*.95}%
+\contentsline {subsection}{\numberline {4.2.2}SMC}{72}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Confronto}{70}{subsection.4.2.3}%
+\contentsline {subsubsection}{SNAKE}{72}{section*.92}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Simulazioni PIL}{73}{section.4.3}%
+\contentsline {subsection}{\numberline {4.2.3}Confronto}{72}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Conclusione}{74}{section.4.4}%
+\contentsline {section}{\numberline {4.3}Simulazioni PIL}{75}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendice}{75}{section*.104}%
+\contentsline {section}{\numberline {4.4}Conclusione}{76}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Modifiche nel codice dei plugin di Gazebo}{75}{section*.105}%
+\contentsline {chapter}{Appendice}{77}{section*.101}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Script per il lancio delle simulazioni}{77}{section*.106}%
+\contentsline {subsection}{Modifiche nel codice dei plugin di Gazebo}{77}{section*.102}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Modelli Simulink}{77}{section*.107}%
+\contentsline {subsection}{Script per il lancio delle simulazioni}{79}{section*.103}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografia}{81}{figure.caption.112}%
+\contentsline {subsection}{Modelli Simulink}{79}{section*.104}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografia}{83}{figure.caption.109}%

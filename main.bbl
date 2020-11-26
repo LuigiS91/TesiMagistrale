@@ -1144,6 +1144,69 @@
       \field{year}{2017}
       \keyw{Variables (Mathematics) ; Control and Systems Theory ; Engineering ; Systems Theory,Control}
     \endentry
+    \entry{AbdolhosseiniM2013AEMP}{article}{}
+      \name{author}{6}{}{%
+        {{hash=6d53c6d7cb51169362edd82e52858fe0}{%
+           family={Abdolhosseini},
+           familyi={A\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6d53c6d7cb51169362edd82e52858fe0}{%
+           family={Abdolhosseini},
+           familyi={A\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c19450b41a923c4320dcf42f3bd241bb}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y\bibnamedelima M},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c19450b41a923c4320dcf42f3bd241bb}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y\bibnamedelima M},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1b271ebfca000210606af9e7b73f4775}{%
+           family={Rabbath},
+           familyi={R\bibinitperiod},
+           given={C\bibnamedelima A},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1b271ebfca000210606af9e7b73f4775}{%
+           family={Rabbath},
+           familyi={R\bibinitperiod},
+           given={C\bibnamedelima A},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Dordrecht}%
+      }
+      \list{publisher}{1}{%
+        {Springer Netherlands}%
+      }
+      \strng{namehash}{59acd129cd1ec2e5795e63bf999dca26}
+      \strng{fullhash}{1002a42f00baa054020229a54358faa9}
+      \strng{bibnamehash}{1002a42f00baa054020229a54358faa9}
+      \strng{authorbibnamehash}{1002a42f00baa054020229a54358faa9}
+      \strng{authornamehash}{59acd129cd1ec2e5795e63bf999dca26}
+      \strng{authorfullhash}{1002a42f00baa054020229a54358faa9}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, an efficient Model Predictive Control (eMPC) algorithm deploying fewer prediction points and less computational requirement is presented in order to control a small or miniature unmanned quadrotor helicopter. A model reduction technique associated with the dynamics of an unmanned quadrotor helicopter is also put forward so as to minimize the burden of calculations in application of MPC into an airborne platform. For three-dimensional tracking control of the quadrotor helicopter, simulation results corresponding to the algebraic formulation—presented in this paper—versus the standard MPC formulation commonly found in the literature further illustrate effectiveness of this study. Unsuccessful implementation of the standard formulation on the testbed due to computational burden proves the necessity and advantages of this new approach. Eventually, to demonstrate effectiveness of the developed MPC algorithm, the suggested algebraic-based MPC framework is successfully implemented on an unmanned quadrotor helicopter testbed (known as Qball-X4) available at the Networked Autonomous Vehicles Lab (NAVL) of Concordia University for tracking control of the unmanned aerial vehicle.}
+      \field{issn}{0921-0296}
+      \field{journaltitle}{Journal of intelligent \& robotic systems}
+      \field{number}{1}
+      \field{title}{An Efficient Model Predictive Control Scheme for an Unmanned Quadrotor Helicopter}
+      \field{volume}{70}
+      \field{year}{2013}
+      \field{pages}{27\bibrangedash 38}
+      \range{pages}{12}
+      \keyw{Engineering ; Unmanned quadrotor helicopter ; Control,Robotics,Mechatronics ; Model Predictive Control (MPC) ; Artificial Intelligence (incl. Robotics) ; Experimental flight test ; Mechanical Engineering ; Electrical Engineering ; Flying-machines ; Models ; Algorithms ; Analysis ; Vehicles,Remotely piloted}
+    \endentry
     \entry{YangLiang2016SoR3}{article}{}
       \name{author}{6}{}{%
         {{hash=d358854fc0ad71b236150fe3003a7fe6}{%

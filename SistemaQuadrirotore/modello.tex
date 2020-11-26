@@ -34,7 +34,6 @@ Nel seguente elenco di manovre di base, viene preso come riferimento la Figura (
 	\end{subfigure}
 	\caption{Schemi semplificati dell'azionamento del quadrirotore}
 \end{figure}
-\todo{Figure fatte da me, tranne quelle nel capitolo px4: da citare la fonte}
 \begin{itemize}
 	\item \textbf{Comando di beccheggio:} Una variazione di beccheggio positiva lungo l'asse y del corpo del drone avviene comandando una maggiore velocità ai rotori 2 e 3 rispetto ai 1 e 4, come mostrato nella Figura (\ref{fig:modello_quad_pitch})
 	\item \textbf{Comando di rollio:} Una variazione di variazione dell'angolo di rollio positiva si ottiene modificando la velocità di azionamento dei rotori in modo simmetrico rispetto all'asse y del drone. Come mostra la Figura (\ref{fig:modello_quad_roll}) una variazione positiva si ottiene facendo ruotare i rotori 1 e 3 più lentamente dei rotori 2 e 4.
@@ -219,8 +218,7 @@ Nel precedente studio il contributo della spinta introdotta dalla presenza dei r
 		\left[F(\nu_2)+F(\nu_3)-F(\nu_1)-F(\nu_4)\right] l \\
 		\tau(\nu_1)+\tau(\nu_2)-\tau(\nu_3)-\tau(\nu_4)
 	\end{Bmatrix}
-\end{equation} \todo{seguendo gli schemi in Figura \ref{fig:modello_quad_pitch},\ref{fig:modello_quad_roll} e \ref{fig:modello_quad_yaw}}
-
+\end{equation} 
 \begin{figure}
 	\centering
 	\begin{subfigure}{0.45\textwidth}

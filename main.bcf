@@ -2410,12 +2410,15 @@
     <bcf:citekey order="57">DesTestCarm</bcf:citekey>
     <bcf:citekey order="58">LiShihua2017AiVS</bcf:citekey>
     <bcf:citekey order="59">LiShihua2017AiVS</bcf:citekey>
-    <bcf:citekey order="60">YangLiang2016SoR3</bcf:citekey>
-    <bcf:citekey order="61">PathPlannigOverview</bcf:citekey>
-    <bcf:citekey order="62">px4Firmware</bcf:citekey>
-    <bcf:citekey order="63">px4Guide</bcf:citekey>
-    <bcf:citekey order="64">Nuttx</bcf:citekey>
-    <bcf:citekey order="65">toolPx4</bcf:citekey>
+    <bcf:citekey order="60">KimJinho2020ACSo</bcf:citekey>
+    <bcf:citekey order="61">AbdolhosseiniM2013AEMP</bcf:citekey>
+    <bcf:citekey order="62">AbdolhosseiniM2013AEMP</bcf:citekey>
+    <bcf:citekey order="63">YangLiang2016SoR3</bcf:citekey>
+    <bcf:citekey order="64">PathPlannigOverview</bcf:citekey>
+    <bcf:citekey order="65">px4Firmware</bcf:citekey>
+    <bcf:citekey order="66">px4Guide</bcf:citekey>
+    <bcf:citekey order="67">Nuttx</bcf:citekey>
+    <bcf:citekey order="68">toolPx4</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
