@@ -151,21 +151,109 @@ Nella stessa pubblicazione, \cite{G_inf}, questo approccio di controllo viene ut
 
 \subsubsection{Controllore con Backstepping}
 La tecnica di Backstepping consiste nel suddividere il modello in sottoparti e stabilizzare in modo sequenziale i sottosistemi ottenuti.
-\cite{Backstepping} : Il sistema dinamico di partenza viene diviso in tre parti 
-\begin{equation}\label{key}
-	\
+Come esempio di implementazione di questi tipo di sistema di controllo si fa riferimento a \cite{Backstepping}, nella quale esprimendo il comando effettivamente applicato sui rotori $u = \left[\dot{F_1} ,\dot{F_2}, \dot{F_3},\dot{F_4} \right]$, si suddivide il sistema in tre sottosistemi, Eq. (\ref{eq:SistemaQuadrirotore_BACKSis}).
+
+\begin{equation}\label{eq:SistemaQuadrirotore_BACKSis}
+\begin{array}{r@{}l}
+	S_1 &:
+	\begin{cases}
+	\dot{x_1} = x_2 \\ \dot{x_2} = f_0(x_2,x_3,x_5,x_6) + g_0(x_5,x_7)\varphi_0(x_3) \\ \dot{x_3}=x_4 \\ \dot{x_4} = f_1(x_3,x_4,x_6,x_7) + g_1(x_5,x_7)\varphi_1(x_7)
+	\end{cases} \\ 
+		S_2 &:
+	\begin{cases}
+	\dot{x_5} = x_6 \\ \dot{x_6} = f_2(x_3,x_4,x_6,x_7) + g_2(x_3) \varphi_2(x_7)
+	\end{cases} \\
+		S_3 &:
+	\begin{cases}
+	\dot{x_7}=u
+	\end{cases}
+\end{array}
+\end{equation}
+Dove :
+\[
+\begin{matrix}
+x_1 = \begin{bmatrix}
+x \\ y
+\end{bmatrix}, &
+x_3 = \begin{bmatrix}
+\phi \\ \theta
+\end{bmatrix}, &
+x_5 = \begin{bmatrix}
+\psi \\ z
+\end{bmatrix}, \\
+x_2 = \begin{bmatrix}
+\dot{x} \\ \dot{y}
+\end{bmatrix}, &
+x_4 = \begin{bmatrix}
+\dot{\phi} \\ \dot{\theta}
+\end{bmatrix}, &
+x_6 = \begin{bmatrix}
+\dot{\psi} \\ \dot{z}
+\end{bmatrix},
+\end{matrix} \ 
+x_7 = \begin{bmatrix}
+F_1 \\ F_2 \\ F_3 \\ F_4
+\end{bmatrix}.
+\]
+Le matrici $f_i$, $g_i$ e $\varphi_i$ sono ricavate attraverso la manipolazione del modello dinamico del quadricottero preso in considerazione.
+L'obbiettivo è quello di stabilizzare il sistema complessivo. Si determinano quindi le misure di errore introducendo l'effetto di un controllo, Eq. (\ref{eq:SistemaQuadrirotore-BACKERR}), in modo da stabilizzare la soluzione del sottosistema utilizzando il criterio di Lyapunov. 
+
+\begin{equation}\label{eq:SistemaQuadrirotore-BACKERR}
+	\begin{array}{r@{}l}
+		z_1 & = x_{1r} -x_1 \\
+		z_2 & = x_2 - \dot{x_{1r}} - \alpha_1 z_1 \\
+		z_3 & = x_{3r} - x_3 \\
+		z_4 & = x_4 - x_{3r} - \alpha_3 z_3 \\
+		z_5 & = x_{5r} -x_5 \\
+		z_6 & = x_6 - x_{5r} - \alpha_5 z_5 \\
+		z_7 &= x_{7r} - x_7 \\
+		z_8 &= x_8 - \dot{x_{7r}} - \alpha_7 z_7
+	\end{array}
 \end{equation}
 
-\begin{equation}
-	\matrix{ {\matrix{ {{x_1} = \left[{\matrix{ x \hfill \cr y \hfill \cr } } \right],} \cr {{x_2} = \left[{\matrix{ {\dot x} \hfill \cr {\dot y} \hfill \cr } } \right],} \cr } } & {\matrix{ {\;{x_3} = \left[{\matrix{ \phi \hfill \cr \theta \hfill \cr } } \right],} \cr {{x_4} = \left[{\matrix{ {\dot \phi } \hfill \cr {\dot \theta } \hfill \cr } } \right],} \cr } } & {\matrix{ {{x_5} = \left[{\matrix{ \psi \hfill \cr z \hfill \cr } } \right],} \cr {{x_6} = \left[{\matrix{ {\dot \psi } \hfill \cr {\dot z} \hfill \cr } } \right],\;} \cr } } & {{x_7} = \left[{\matrix{ {{F_1}} \hfill \cr {{F_2}} \hfill \cr {{F_3}} \hfill \cr {{F_4}} \hfill \cr } } \right]} \cr }.\eqno{\hbox{(10)}}
-\end{equation}
+Le funzioni selezionate per questo controllo devo quindi soddisfare il criterio di Lyapunov. Si sceglie una funzione scalare $V(x,t)$ con argomento lo stato del sistema e con derivata prima continua. La funzione scelta deve soddisfare le seguenti tre condizioni:
+\begin{itemize}
+	\item $V(x,t)$ deve essere definita positiva
+	\item $\dot{V(x,t)}$ deve essere definita negativa
+	\item Per $V(x,t)$ che tende ad infinito $\mid{x}$ deve tendere all'infinito
+\end{itemize}
+Se queste condizioni sono soddisfatte allora la funzione scelta rispetta l'equilibrio nell'origine della superficie e si può dimostrare che questo equilibrio e globalmente asintoticamente stabile \cite{DesTestCarm}.
 
-
-
+Un approccio simile viene utilizzato anche in \cite{Backstepping1}, nella quale viene messo in confronto questa tecnica di modellazione del controllore con il controllore SMC.
 
 \subsubsection{Controllore Sliding Mode Control (SMC)}
 
-Questo tipo di controllo prevede di utilizzare un segnale di comando discontinuo, la legge di controllo non è quindi continua nel tempo. Questo sistema risulta essere molto preciso e robusto, come verrà mostrato nelle simulazioni successive. A causa della discontinuità introdotta si può  osservare il fenomeno di chattering, che ha come effetto secondario l'aumento dell'utilizzo degli attuatori, ovvero un maggior consumo di batteria. Questo effetto può essere mediato applicando alcuni filtri in uscita dal controllore, che mediano le discontinuità. Il controllo basa il funzionamento sulla definizione di una superfice di sliding definita dallo stato del sistema, una volta portato su questa superficie attraverso il segnale discontinuo il controllore mantiene le oscillazioni nei dintorni di questa. Questo tipo di controllore è molto robusto e si comporta bene in presenza di rumore ed incertezze come l'effetto suolo.
+Questo tipo di controllo prevede di utilizzare un segnale di comando discontinuo. Questo sistema risulta essere molto preciso e robusto, come verrà mostrato nelle simulazioni successive. A causa della discontinuità introdotta si può  osservare il fenomeno di chattering, che ha come effetto secondario l'aumento dell'utilizzo degli attuatori, ovvero un maggior consumo di batteria. Questo effetto può essere mediato applicando alcuni filtri in uscita dal controllore, che mediano le discontinuità \cite{KimJinho2020ACSo}. Il controllo basa il funzionamento sulla definizione di una superfice di sliding definita dallo stato del sistema, una volta portato su questa superficie attraverso il segnale discontinuo il controllore mantiene le oscillazioni nei dintorni di questa \cite{DesTestCarm}. Questo tipo di controllore è molto robusto e si comporta bene in presenza di rumore ed incertezze come l'effetto suolo.
+
+Partendo dalla scrittura nella forma espressa nell'equazione (\ref{eq:SistemaQuadrirotore_SMC_sistema}), si considera una generica superficie $S(t) 0 \{ s(x,t) \in \mathbb{R}^n  \mid s(x,t) = 0\}$.
+\begin{equation}\label{eq:SistemaQuadrirotore_SMC_sistema}
+	\dot{x(t)} = f(x,t) +g(x,t) u(x,t)
+\end{equation}
+
+La funzione che definisce il controllo viene espressa introducendo una discontinuità in $s(x,t)=0$, Eq. (\ref{eq:SistemaQuadrirotore_SMC_comando}).
+\begin{equation}\label{eq:SistemaQuadrirotore_SMC_comando}
+	u(x,t) = \begin{cases}
+		u^+ \ \text{Se} \ s(x,t) > 0 \\
+		u^- \ \text{Se} \ s(x,t) < 0
+	\end{cases}
+\end{equation}
+
+Imponendo che valga la condizione (\ref{eq:SistemaQuadrirotore_SMC_cond}), si definisce quindi il funzionamento in sliding mode.
+
+\begin{equation}\label{eq:SistemaQuadrirotore_SMC_cond}
+	s(x,t) \dot{s(x,t)} < 0
+\end{equation}
+
+Il funzionamento di questo controllore prevede due fasi nella sua attuazione. Una prima fase nella quale partendo da una condizione generica il sistema controllato tende a raggiungere la superficie di intersezione. La seconda fase in cui il sistema attua lo scivolamento lungo questa superficie oscillando attorno alla condizione di equilibrio, come mostrato in Figura (\ref{fig:SMC}).
+
+Un maggiore dettagli sull'applicazione utilizzata in questo lavoro di tesi verrà trattato nel capito \ref{cap:simulazioni}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\textwidth]{SistemaQuadrirotore/Figure/SMC_fasi}
+	\caption{Fasi di azionamento del controllore SMC \cite{LiShihua2017AiVS}}
+	\label{fig:SMC}
+\end{figure}
 
 \begin{figure}
 	\centering
@@ -177,8 +265,10 @@ Questo tipo di controllo prevede di utilizzare un segnale di comando discontinuo
 
 \subsubsection{Controllore con Modello predittivo (MPC)}
 
-Questo tipo di controllo si basa sulla previsione dello stato e del comando che verrà attuato seguendo dei modelli previsionali e stimatori. Molto utile se si vuole evitare di superare alcune imposizioni specifiche (forzare input e output in determinati contorni).
-E' necessario un buon stimatore. Il controllore è in grado di reagire efficacemente in presenza di guasti ai motori.
+Questo tipo di controllo si basa sulla previsione dello stato e del comando che verrà attuato seguendo dei modelli previsionali e stimatori. Molto utile se si vuole evitare di superare alcune imposizioni specifiche, per esempio le limitazioni in termini di capacità di attuazione o minimizzazione di funzioni di costo.
+Per un controllo efficacie è necessario stimare il più precisamente possibile lo stato del velivolo, \cite{KimJinho2020ACSo}.
+
+Il controllore basa il suo funzionamento su un rappresentazione discreta nel tempo. Dato quindi un segnale $s(t)$ da inseguire, il controllore lo campiona in una sequenza di punti $k$.
 
 \begin{figure}
 	\centering
