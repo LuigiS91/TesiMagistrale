@@ -1346,7 +1346,7 @@
       \field{abstract}{There has been great interest in "universal controllers" that mimic the functions of human processes to learn about the systems they are controlling on-line so that performance improves automatically. Neural network controllers are derived for robot manipulators in a variety of applications including position control, force control, link flexibility stabilization and the management of high-frequency joint and motor dynamics.The first chapter provides a background on neural networks and the second on dynamical systems and control. Chapter three introduces the robot control problem and standard techniques such as torque, adaptive and robust control. Subsequent chapters give design techniques and Stability Proofs For NN Controllers For Robot Arms, Practical Robotic systems with high frequency vibratory modes, force control and a general class of non-linear systems. The last chapters are devoted to discrete- time NN controllers. Throughout the text, worked examples are provided.}
       \field{booktitle}{<h>Neural</h> Network <h>Control</h> of Robot Manipulators and Non-Linear <h>Systems</h>}
       \field{isbn}{0748405968}
-      \field{series}{The Taylor & Francis Systems and Control Book Series}
+      \field{series}{The Taylor \& Francis Systems and Control Book Series}
       \field{title}{Neural Network Control of Robot Manipulators and Non-Linear Systems}
       \field{year}{2020}
       \keyw{Neural networks (Computer science) ; Robots}
