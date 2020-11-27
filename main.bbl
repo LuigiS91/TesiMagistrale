@@ -765,81 +765,6 @@
       \range{pages}{14}
       \keyw{unmanned aerial vehicle (UAV) ; unmanned aircraft system (UAS) ; Helicopters ; Rotors ; Military aircraft ; Control systems ; quadrotor ; Unmanned aerial vehicles ; control ; Autonomous ; Aircraft propulsion}
     \endentry
-    \entry{PID_vs_LQ}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=46418fc03f0fcf6e4fa7791dc9cea1f1}{%
-           family={{Bouabdallah}},
-           familyi={B\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=0e4d2db99e509a9273eee5105fda3340}{%
-           family={{Noth}},
-           familyi={N\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=07818300893272680700e26b484b2f50}{%
-           family={{Siegwart}},
-           familyi={S\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{0a409cbeb8f23b8114f820b01f6fd56a}
-      \strng{fullhash}{0a409cbeb8f23b8114f820b01f6fd56a}
-      \strng{bibnamehash}{0a409cbeb8f23b8114f820b01f6fd56a}
-      \strng{authorbibnamehash}{0a409cbeb8f23b8114f820b01f6fd56a}
-      \strng{authornamehash}{0a409cbeb8f23b8114f820b01f6fd56a}
-      \strng{authorfullhash}{0a409cbeb8f23b8114f820b01f6fd56a}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566)}
-      \field{title}{PID vs LQ control techniques applied to an indoor micro quadrotor}
-      \field{volume}{3}
-      \field{year}{2004}
-      \field{pages}{2451\bibrangedash 2456 vol.3}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1109/IROS.2004.1389776
-      \endverb
-    \endentry
-    \entry{G_inf}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=ff0ab64c013e495c08a5fb06320f6111}{%
-           family={{Mokhtari}},
-           familyi={M\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=4bfd2308aafc9db0c15e774264c34b2d}{%
-           family={{Benallegue}},
-           familyi={B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=9e4792421c35a6774c1de09a0974d7df}{%
-           family={{Daachi}},
-           familyi={D\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{dd7863978255f488066dc4e0533e540f}
-      \strng{fullhash}{dd7863978255f488066dc4e0533e540f}
-      \strng{bibnamehash}{dd7863978255f488066dc4e0533e540f}
-      \strng{authorbibnamehash}{dd7863978255f488066dc4e0533e540f}
-      \strng{authornamehash}{dd7863978255f488066dc4e0533e540f}
-      \strng{authorfullhash}{dd7863978255f488066dc4e0533e540f}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2005 IEEE/RSJ International Conference on Intelligent Robots and Systems}
-      \field{title}{Robust feedback linearization and GH/sub /spl infin// controller for a quadrotor unmanned aerial vehicle}
-      \field{year}{2005}
-      \field{pages}{1198\bibrangedash 1203}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/IROS.2005.1545112
-      \endverb
-    \endentry
     \entry{advanced-pid-control}{book}{}
       \name{author}{4}{}{%
         {{hash=e02c3bb37b7420cc959fe56dedeb155c}{%
@@ -958,6 +883,44 @@
       \verb 10.1109/ICIEV.2013.6572698
       \endverb
     \endentry
+    \entry{PID_vs_LQ}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=46418fc03f0fcf6e4fa7791dc9cea1f1}{%
+           family={{Bouabdallah}},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0e4d2db99e509a9273eee5105fda3340}{%
+           family={{Noth}},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=07818300893272680700e26b484b2f50}{%
+           family={{Siegwart}},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a409cbeb8f23b8114f820b01f6fd56a}
+      \strng{fullhash}{0a409cbeb8f23b8114f820b01f6fd56a}
+      \strng{bibnamehash}{0a409cbeb8f23b8114f820b01f6fd56a}
+      \strng{authorbibnamehash}{0a409cbeb8f23b8114f820b01f6fd56a}
+      \strng{authornamehash}{0a409cbeb8f23b8114f820b01f6fd56a}
+      \strng{authorfullhash}{0a409cbeb8f23b8114f820b01f6fd56a}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566)}
+      \field{title}{PID vs LQ control techniques applied to an indoor micro quadrotor}
+      \field{volume}{3}
+      \field{year}{2004}
+      \field{pages}{2451\bibrangedash 2456 vol.3}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/IROS.2004.1389776
+      \endverb
+    \endentry
     \entry{GrimbleM.J1991Hrcd}{article}{}
       \name{author}{2}{}{%
         {{hash=4468858fcd63193e6572ea511fb53719}{%
@@ -993,36 +956,70 @@
       \field{pages}{275}
       \range{pages}{1}
     \endentry
-    \entry{IsidoriA2003NCS}{book}{}
-      \name{author}{1}{}{%
-        {{hash=9b7e164762ce5a8f10873e11725f95c2}{%
-           family={Isidori},
-           familyi={I\bibinitperiod},
-           given={A},
+    \entry{G_inf}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=ff0ab64c013e495c08a5fb06320f6111}{%
+           family={{Mokhtari}},
+           familyi={M\bibinitperiod},
+           given={A.},
            giveni={A\bibinitperiod}}}%
+        {{hash=4bfd2308aafc9db0c15e774264c34b2d}{%
+           family={{Benallegue}},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9e4792421c35a6774c1de09a0974d7df}{%
+           family={{Daachi}},
+           familyi={D\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd7863978255f488066dc4e0533e540f}
+      \strng{fullhash}{dd7863978255f488066dc4e0533e540f}
+      \strng{bibnamehash}{dd7863978255f488066dc4e0533e540f}
+      \strng{authorbibnamehash}{dd7863978255f488066dc4e0533e540f}
+      \strng{authornamehash}{dd7863978255f488066dc4e0533e540f}
+      \strng{authorfullhash}{dd7863978255f488066dc4e0533e540f}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2005 IEEE/RSJ International Conference on Intelligent Robots and Systems}
+      \field{title}{Robust feedback linearization and GH/sub /spl infin// controller for a quadrotor unmanned aerial vehicle}
+      \field{year}{2005}
+      \field{pages}{1198\bibrangedash 1203}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IROS.2005.1545112
+      \endverb
+    \endentry
+    \entry{Feedlin}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c687708249e29c8fa3d8d0c0ff1612f9}{%
+           family={Khalil},
+           familyi={K\bibinitperiod},
+           given={Hassan\bibnamedelima K.},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {eng}%
       }
-      \list{location}{1}{%
-        {Hoboken}%
-      }
       \list{publisher}{1}{%
-        {Marcel Dekker Inc}%
+        {PEARSON}%
       }
-      \strng{namehash}{9b7e164762ce5a8f10873e11725f95c2}
-      \strng{fullhash}{9b7e164762ce5a8f10873e11725f95c2}
-      \strng{bibnamehash}{9b7e164762ce5a8f10873e11725f95c2}
-      \strng{authorbibnamehash}{9b7e164762ce5a8f10873e11725f95c2}
-      \strng{authornamehash}{9b7e164762ce5a8f10873e11725f95c2}
-      \strng{authorfullhash}{9b7e164762ce5a8f10873e11725f95c2}
+      \strng{namehash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{fullhash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{bibnamehash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{authorbibnamehash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{authornamehash}{c687708249e29c8fa3d8d0c0ff1612f9}
+      \strng{authorfullhash}{c687708249e29c8fa3d8d0c0ff1612f9}
       \field{sortinit}{5}
       \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{0-8247-4112-9}
+      \field{isbn}{978-0-13-349926-1}
       \field{title}{Nonlinear Control Systems}
-      \field{year}{2003}
+      \field{year}{2015}
     \endentry
     \entry{Backstepping}{inproceedings}{}
       \name{author}{2}{}{%
@@ -1207,6 +1204,271 @@
       \range{pages}{12}
       \keyw{Engineering ; Unmanned quadrotor helicopter ; Control,Robotics,Mechatronics ; Model Predictive Control (MPC) ; Artificial Intelligence (incl. Robotics) ; Experimental flight test ; Mechanical Engineering ; Electrical Engineering ; Flying-machines ; Models ; Algorithms ; Analysis ; Vehicles,Remotely piloted}
     \endentry
+    \entry{ChenGuanrong2001ItFS}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c2465aadc98c418b040e810d4f8c1b79}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Guanrong},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Boca Raton}%
+      }
+      \list{publisher}{1}{%
+        {CRC}%
+      }
+      \strng{namehash}{c2465aadc98c418b040e810d4f8c1b79}
+      \strng{fullhash}{c2465aadc98c418b040e810d4f8c1b79}
+      \strng{bibnamehash}{c2465aadc98c418b040e810d4f8c1b79}
+      \strng{authorbibnamehash}{c2465aadc98c418b040e810d4f8c1b79}
+      \strng{authornamehash}{c2465aadc98c418b040e810d4f8c1b79}
+      \strng{authorfullhash}{c2465aadc98c418b040e810d4f8c1b79}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-8493-1658-8}
+      \field{title}{Introduction to Fuzzy Sets, Fuzzy Logic, and Fuzzy Control Systems}
+      \field{year}{2001}
+    \endentry
+    \entry{6988024}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=5b7ae85b03c5b187088b01846c0a6d48}{%
+           family={{Lee}},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b182a2eec4e96a403f4b109145401e77}{%
+           family={{Kim}},
+           familyi={K\bibinitperiod},
+           given={H.\bibnamedelimi J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0609cd0ee483eab7ab6fe81a890458a}
+      \strng{fullhash}{b0609cd0ee483eab7ab6fe81a890458a}
+      \strng{bibnamehash}{b0609cd0ee483eab7ab6fe81a890458a}
+      \strng{authorbibnamehash}{b0609cd0ee483eab7ab6fe81a890458a}
+      \strng{authornamehash}{b0609cd0ee483eab7ab6fe81a890458a}
+      \strng{authorfullhash}{b0609cd0ee483eab7ab6fe81a890458a}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 14th International Conference on Control, Automation and Systems (ICCAS 2014)}
+      \field{title}{Robust control of a quadrotor using Takagi-Sugeno fuzzy model and an LMI approach}
+      \field{year}{2014}
+      \field{pages}{370\bibrangedash 374}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICCAS.2014.6988024
+      \endverb
+    \endentry
+    \entry{AmoozgarMohammadHadi2012FFGP}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d10bad36fdd6137f4fdfa991f3121acd}{%
+           family={Amoozgar},
+           familyi={A\bibinitperiod},
+           given={Mohammad\bibnamedelima Hadi},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=0c2316069b8152f4d25d5abb88548999}{%
+           family={Chamseddine},
+           familyi={C\bibinitperiod},
+           given={Abbas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5940c51c507510174d62cde5e15cde9e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Youmin},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{dac507bf2d18b7f93da51e6f11abc6b0}
+      \strng{fullhash}{dac507bf2d18b7f93da51e6f11abc6b0}
+      \strng{bibnamehash}{dac507bf2d18b7f93da51e6f11abc6b0}
+      \strng{authorbibnamehash}{dac507bf2d18b7f93da51e6f11abc6b0}
+      \strng{authornamehash}{dac507bf2d18b7f93da51e6f11abc6b0}
+      \strng{authorfullhash}{dac507bf2d18b7f93da51e6f11abc6b0}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the current study, an adaptive PID controller is proposed for fault-tolerant control of a quadrotor helicopter system in the presence of actuator faults. A fuzzy inference scheme is used to tune in real-time the controller gains. Tracking errors and change in tracking errors are used in this fuzzy scheduler to make the system act faster and more effectively in the event of fault occurrence. Two fault scenarios are investigated: the loss of control effectiveness in all actuators and the loss of control effectiveness in one single actuator. The proposed adaptive PID controller is compared with the conventional one through an experimental application to a quadrotor helicopter testbed at the Department of Mechanical and Industrial Engineering of Concordia University. The obtained results show the effectiveness of the proposed method.}
+      \field{issn}{1474-6670}
+      \field{journaltitle}{IFAC Proceedings Volumes}
+      \field{number}{3}
+      \field{title}{Fault-Tolerant Fuzzy Gain-Scheduled PID for a Quadrotor Helicopter Testbed in the Presence of Actuator Faults}
+      \field{volume}{45}
+      \field{year}{2012}
+      \field{pages}{282\bibrangedash 287}
+      \range{pages}{6}
+      \keyw{Fuzzy control ; System failure and recovery ; Autonomous aerial vehicles ; PID control ; Fault-tolerant systems}
+    \endentry
+    \entry{YesildirakA2020NNCo}{book}{}
+      \name{author}{3}{}{%
+        {{hash=152b2eb6d3c5d1347c3e58f61cc11580}{%
+           family={Yesildirak},
+           familyi={Y\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4218e6b62ce6eb0eb321f7dba1240b16}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={F\bibnamedelima W},
+           giveni={F\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=fa7d84e015d18104684e8539e2eee793}{%
+           family={Jagannathan},
+           familyi={J\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{50c2f833500481649a5b07022ac4fb99}
+      \strng{fullhash}{50c2f833500481649a5b07022ac4fb99}
+      \strng{bibnamehash}{50c2f833500481649a5b07022ac4fb99}
+      \strng{authorbibnamehash}{50c2f833500481649a5b07022ac4fb99}
+      \strng{authornamehash}{50c2f833500481649a5b07022ac4fb99}
+      \strng{authorfullhash}{50c2f833500481649a5b07022ac4fb99}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There has been great interest in "universal controllers" that mimic the functions of human processes to learn about the systems they are controlling on-line so that performance improves automatically. Neural network controllers are derived for robot manipulators in a variety of applications including position control, force control, link flexibility stabilization and the management of high-frequency joint and motor dynamics.The first chapter provides a background on neural networks and the second on dynamical systems and control. Chapter three introduces the robot control problem and standard techniques such as torque, adaptive and robust control. Subsequent chapters give design techniques and Stability Proofs For NN Controllers For Robot Arms, Practical Robotic systems with high frequency vibratory modes, force control and a general class of non-linear systems. The last chapters are devoted to discrete- time NN controllers. Throughout the text, worked examples are provided.}
+      \field{booktitle}{<h>Neural</h> Network <h>Control</h> of Robot Manipulators and Non-Linear <h>Systems</h>}
+      \field{isbn}{0748405968}
+      \field{series}{The Taylor & Francis Systems and Control Book Series}
+      \field{title}{Neural Network Control of Robot Manipulators and Non-Linear Systems}
+      \field{year}{2020}
+      \keyw{Neural networks (Computer science) ; Robots}
+    \endentry
+    \entry{4564736}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=5ca25c8d6750959888a7c292492f4312}{%
+           family={{Nicol}},
+           familyi={N\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=de508b206e59bde0f4dc9c514eeeb291}{%
+           family={{Macnab}},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi J.\bibnamedelimi B.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=708c31046e069b15069c4656e0134b6c}{%
+           family={{Ramirez-Serrano}},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6462efc5cb6b79f921a9fc0e2ec40045}
+      \strng{fullhash}{6462efc5cb6b79f921a9fc0e2ec40045}
+      \strng{bibnamehash}{6462efc5cb6b79f921a9fc0e2ec40045}
+      \strng{authorbibnamehash}{6462efc5cb6b79f921a9fc0e2ec40045}
+      \strng{authornamehash}{6462efc5cb6b79f921a9fc0e2ec40045}
+      \strng{authorfullhash}{6462efc5cb6b79f921a9fc0e2ec40045}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 Canadian Conference on Electrical and Computer Engineering}
+      \field{title}{Robust neural network control of a quadrotor helicopter}
+      \field{year}{2008}
+      \field{pages}{001233\bibrangedash 001238}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/CCECE.2008.4564736
+      \endverb
+    \endentry
+    \entry{8287305}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=d8e74ce46401643cf9d3d0a8b8f32e3d}{%
+           family={{Teng}},
+           familyi={T\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d6220c75419ea8eff9ff219f819e0020}{%
+           family={{Hu}},
+           familyi={H\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4502ea5dcc2b2cf1ac11fe01b5f68826}{%
+           family={{Liu}},
+           familyi={L\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=01857aa236d9261867a4ccbd55bd157a}{%
+           family={{Huang}},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1fc5730be85cb3d2f9fc0f9f44e04c16}{%
+           family={{Guan}},
+           familyi={G\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{84bb134e504c853e29b6e1fb7817a685}
+      \strng{fullhash}{8f46e2a5d21a1f41195d5678686b9947}
+      \strng{bibnamehash}{8f46e2a5d21a1f41195d5678686b9947}
+      \strng{authorbibnamehash}{8f46e2a5d21a1f41195d5678686b9947}
+      \strng{authornamehash}{84bb134e504c853e29b6e1fb7817a685}
+      \strng{authorfullhash}{8f46e2a5d21a1f41195d5678686b9947}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 11th Asian Control Conference (ASCC)}
+      \field{title}{Adaptive neural network control for quadrotor unmanned aerial vehicles}
+      \field{year}{2017}
+      \field{pages}{988\bibrangedash 992}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ASCC.2017.8287305
+      \endverb
+    \endentry
+    \entry{5345702}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6c6055273d129ef2bbd36d887c880094}{%
+           family={{Dierks}},
+           familyi={D\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=fa7d84e015d18104684e8539e2eee793}{%
+           family={{Jagannathan}},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{106d7bf85d755c4efc54fd3399521995}
+      \strng{fullhash}{106d7bf85d755c4efc54fd3399521995}
+      \strng{bibnamehash}{106d7bf85d755c4efc54fd3399521995}
+      \strng{authorbibnamehash}{106d7bf85d755c4efc54fd3399521995}
+      \strng{authornamehash}{106d7bf85d755c4efc54fd3399521995}
+      \strng{authorfullhash}{106d7bf85d755c4efc54fd3399521995}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Neural Networks}
+      \field{number}{1}
+      \field{title}{Output Feedback Control of a Quadrotor UAV Using Neural Networks}
+      \field{volume}{21}
+      \field{year}{2010}
+      \field{pages}{50\bibrangedash 66}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1109/TNN.2009.2034145
+      \endverb
+    \endentry
     \entry{YangLiang2016SoR3}{article}{}
       \name{author}{6}{}{%
         {{hash=d358854fc0ad71b236150fe3003a7fe6}{%
@@ -1252,8 +1514,8 @@
       \strng{authorbibnamehash}{745a11036fcc7db6837e01b2f6b8f9df}
       \strng{authornamehash}{240b9740852b5353f901147f23b858da}
       \strng{authorfullhash}{745a11036fcc7db6837e01b2f6b8f9df}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Robot 3D (three-dimension) path planning targets for finding an optimal and collision-free path in a 3D workspace while taking into account kinematic constraints (including geometric, physical, and temporal constraints). The purpose of path planning, unlike motion planning which must be taken into consideration of dynamics, is to find a kinematically optimal path with the least time as well as model the environment completely. We discuss the fundamentals of these most successful robot 3D path planning algorithms which have been developed in recent years and concentrate on universally applicable algorithms which can be implemented in aerial robots, ground robots, and underwater robots. This paper classifies all the methods into five categories based on their exploring mechanisms and proposes a category, called multifusion based algorithms. For all these algorithms, they are analyzed from a time efficiency and implementable area perspective. Furthermore a comprehensive applicable analysis for each kind of method is presented after considering their merits and weaknesses.}
@@ -1294,8 +1556,8 @@
       \strng{authorbibnamehash}{5855feef864bf66f6af0c38b2fbf5bc9}
       \strng{authornamehash}{9fa8d06107059cccf34dc47a9e8bc395}
       \strng{authorfullhash}{5855feef864bf66f6af0c38b2fbf5bc9}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Mechanisms and Machine Science}
@@ -1313,8 +1575,8 @@
       \list{organization}{1}{%
         {PX4 Dev Team}%
       }
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labeltitlesource}{title}
       \field{title}{PX4 Autopilot User Guide (1.8.2)}
       \field{year}{2020}
@@ -1331,8 +1593,8 @@
       \list{organization}{1}{%
         {Wikipedia}%
       }
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labeltitlesource}{title}
       \field{title}{NuttX}
       \field{year}{2020}
@@ -1349,8 +1611,8 @@
       \list{organization}{1}{%
         {Dronecode Project}%
       }
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labeltitlesource}{title}
       \field{title}{MAVLink Developer Guide}
       \field{year}{2020}
@@ -1399,8 +1661,8 @@
       \strng{authorbibnamehash}{8b8ad60525ee2da68a47af91630d1f91}
       \strng{authornamehash}{c44b0a82858e180ca5b9bced2220e33a}
       \strng{authorfullhash}{8b8ad60525ee2da68a47af91630d1f91}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper deals with the reference flight trajectory generation and planning problems for quadcopter Unmanned Aerial Vehicle (UAV). The reference flight trajectory is defined as the composition of path and motion functions. Both of them are generated by using quintic B-spline functions. Based on differential flatness approach, the quadcopter dynamical constraints are satisfied instantaneously by computing the induced aerodynamical moments and lift force. The optimal reference flight trajectory, with respect to the mission requirements and imposed constraints, is reached by manipulating the control points’ vectors of B-spline functions via a nonlinear constrained optimization method. The mission requirements are defined as a set of waypoints with their respective scheduled flight timetable. A minimum-energy cost function is developed to minimize the consumed energy and induced efforts by reference flight trajectory. For the need of the optimal overfly-times schedule, the overfly times with respect to the defined constraints and performance criteria are calculated. Numerical simulation results show the feasibility and effectiveness of the proposed optimization method.}
@@ -1447,8 +1709,8 @@
       \strng{authorbibnamehash}{7dee1498e6fd8a535edafbe6ff0f44b1}
       \strng{authornamehash}{7dee1498e6fd8a535edafbe6ff0f44b1}
       \strng{authorfullhash}{7dee1498e6fd8a535edafbe6ff0f44b1}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This work proposes a strategy for position control and obstacle avoidance in a quadcopter based on constrained generalized predictive control and geometric attitude control. The approach allows real-time trajectory tracking using optimal control actions and avoids collisions with static obstacles whose position is known. An experimental validation of the proposed controller is presented.}
@@ -1492,8 +1754,8 @@
       \strng{authorbibnamehash}{aac62f9199e7d174d207e65356cd7301}
       \strng{authornamehash}{171b2724fa1fb5d9c5312fb23a3d8572}
       \strng{authorfullhash}{aac62f9199e7d174d207e65356cd7301}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the World Congress on Intelligent Control and Automation (WCICA)}

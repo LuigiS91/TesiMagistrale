@@ -1,5 +1,5 @@
 \section{Leggi di controllo}
-In questa sezione verranno accennati diversi modelli di controlli utilizzati odiernamente per controllare i quadricotteri, \cite{ZuluAndrew2014ARoC}, \cite{KimJinho2020ACSo}, \cite{PID_vs_LQ}, \cite{G_inf}. Questi si possono classificare in tre categorie come in Figura (\ref{fig:categoriecontrolli}).
+In questa sezione verranno accennati diversi modelli di controlli utilizzati odiernamente per controllare i quadricotteri, \cite{ZuluAndrew2014ARoC}, \cite{KimJinho2020ACSo}. Questi si possono classificare in tre categorie come in Figura (\ref{fig:categoriecontrolli}).
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\textwidth]{SistemaQuadrirotore/Figure/Classificazione}
@@ -30,23 +30,25 @@ Il settaggio di questi parametri viene fatta impostando inizialmente solo il val
 \end{figure}
 
 \subsubsection{Controllore Linear Quadratic Regulator (LQR)}
-Con la minimizzazione della funzione di costo espressa nella equazione (\ref{eq:SistemaQuadrirotore_LQRCosto}), si ottiene una matrice di guadagni $\mathbf{K}$ con la quale si applica il controllo in retroazione, Eq. (\ref{eq:SistemaQuadrirotore_K_LQR}), \cite{ParaskevopoulosP.N2002MCE}, \cite{6572698}. A differenza del PID, questo tipo di controllo prevede di avere tutto il vettore di stato a disposizione. Per questo motivo viene accompagnato spesso da un Linear Quadratic Estimator (LQE) ed un filtro di Kalman, con lo scopo di determinare dalle misurazioni dei sensori lo stato completo del sistema da controllare. Il metodo utilizzato per determinare la matrice dei guadagni è un aspetto molto importante, inoltre è necessario modellare in modo molto preciso il sistema controllato per evitare di trovare una soluzione poco soddisfacente. Nel caso si considerino sistemi tempo invarianti la soluzione si può determinare attraverso l'equazione di Ricatti (\ref{eq:SistemaQuadrirotore_Ricatti}), da qui si ottiene la soluzione (\ref{eq:SistemaQuadrirotore_Ricatti_sol}) \cite{baseTesi}. Questo tipo di controllo può essere specializzato per ottenere una soluzione ottima di risparmio della batteria attraverso la scelta delle matrici $\mathbf{Q}$ ed $\mathbf{R}$ \cite{KoksalN2018ALQA}. Gli elementi delle due matrici rappresentano il contributo nella funzione di costo del corrispettivo elemento del vettore di stato o di comando. Più precisamente, aumentando i valori presenti nella matrice $\mathbf{Q}$ ha l'effetto di dare più importanza all'inseguimento dei segnali di riferimento da parte del sistema. Mentre la matrice $\mathbf{R}$ determina una minimizzazione in termine di comando attuato, con l'obbiettivo di ridurre l'azionamento e quindi il consumo.
+Con la minimizzazione della funzione di costo espressa nella equazione (\ref{eq:SistemaQuadrirotore_LQRCosto}), si ottiene una matrice di guadagni $K$ con la quale si applica il controllo in retroazione, Eq. (\ref{eq:SistemaQuadrirotore_K_LQR}), \cite{ParaskevopoulosP.N2002MCE}, \cite{6572698}. A differenza del PID, questo tipo di controllo prevede di avere tutto il vettore di stato a disposizione. Per questo motivo viene accompagnato spesso da un Linear Quadratic Estimator (LQE) ed un filtro di Kalman, con lo scopo di determinare dalle misurazioni dei sensori lo stato completo del sistema da controllare. Il metodo utilizzato per determinare la matrice dei guadagni è un aspetto molto importante, inoltre è necessario modellare in modo molto preciso il sistema controllato per evitare di trovare una soluzione poco soddisfacente. Nel caso si considerino sistemi tempo invarianti la soluzione si può determinare attraverso l'equazione di Ricatti (\ref{eq:SistemaQuadrirotore_Ricatti}), da qui si ottiene la soluzione (\ref{eq:SistemaQuadrirotore_Ricatti_sol}) \cite{baseTesi}. Questo tipo di controllo può essere specializzato per ottenere una soluzione ottima di risparmio della batteria attraverso la scelta delle matrici $Q$ ed $R$ \cite{KoksalN2018ALQA}. Gli elementi delle due matrici rappresentano il contributo nella funzione di costo del corrispettivo elemento del vettore di stato o di comando. Più precisamente, aumentando i valori presenti nella matrice $Q$ ha l'effetto di dare più importanza all'inseguimento dei segnali di riferimento da parte del sistema. Mentre la matrice $R$ determina una minimizzazione in termine di comando attuato, con l'obbiettivo di ridurre l'azionamento e quindi il consumo.
 
 \begin{equation}\label{eq:SistemaQuadrirotore_LQRCosto}
-	J = \int_{0}^{t} \left[e(\tau)^T \mathbf{Q} e(\tau) + u(\tau)^T \mathbf{R} u(\tau)\right] d \tau
+	J = \int_{0}^{t} \left[e(\tau)^T Q e(\tau) + u(\tau)^T R u(\tau)\right] d \tau
 \end{equation}
 
 \begin{equation}\label{eq:SistemaQuadrirotore_K_LQR}
-	u(t) = -\mathbf{K} x(t)
+	u(t) = -K x(t)
 \end{equation}
 
 \begin{equation}\label{eq:SistemaQuadrirotore_Ricatti}
-	\mathbf{A}^T \mathbf{S} + \mathbf{S} \mathbf{A} - \mathbf{S} \mathbf{B} \mathbf{R}^{-1} \mathbf{B}^T \mathbf{S} + \mathbf{Q} = 0
+	A^T S + S A - S B R^{-1} B^T S + Q = 0
 \end{equation}
 
 \begin{equation}\label{eq:SistemaQuadrirotore_Ricatti_sol}
-	\mathbf{K} = \mathbf{R}^{-1}  \mathbf{B}^T \mathbf{S}
+	K = R^{-1} B^T S
 \end{equation}
+
+In letteratura è stato fatto un confronto tra questo tipo di controllore e un controllore PID, \cite{PID_vs_LQ}.
 
 \begin{figure}
 	\centering
@@ -55,7 +57,7 @@ Con la minimizzazione della funzione di costo espressa nella equazione (\ref{eq:
 \end{figure}
  
 
-\subsubsection{Controllore $H_\infty$}
+\subsubsection{Controllore $\mathbf{H_\infty}$}
 
 Il controllore $H_\infty$ si ottiene esprimendo la soluzione del controllo attraverso una formulazione matematica, prende il nome dallo spazio matematico in cui ha luogo l'ottimizzazione, ovvero lo spazio di Hardy. Il problema principale di questo approccio è la complessità analitica che risiede nell'ottimizzazione stessa. Il sistema così trovato però ha il vantaggio di essere di più facile implementazione su sistemi multi-variabili. Facendo riferimento a \cite{GrimbleM.J1991Hrcd}, si utilizza la rappresentazione con funzioni di trasferimento e considerando anche la presenza di incertezza della modellazione, Eq (\ref{eq:SistemaQuadrirotore_G_inf_TF}).
 
@@ -100,7 +102,7 @@ Si applica infine la definizione (\ref{eq:SistemaQuadrirotore_G_inf_Hardy}) alla
 		\|T_0 B_m\|_\infty = \sup_\omega \mid T_0(j \omega) B_m(\omega) \mid
 \end{equation}
 
-Analogamente si studia l'effetto del disturbo ottenendo l'equazione (\ref{eq:SistemaQuadrirotore_G_inf_maximaS}. Attraverso la selezione della funzione $W_d(\omega)$ si enfatizza la regione di frequenze nella quale occorre aumentare la sensibilità per ridurre l'effetto dei disturbi esterni.
+Analogamente si studia l'effetto del disturbo ottenendo l'equazione (\ref{eq:SistemaQuadrirotore_G_inf_maximaS}). Attraverso la selezione della funzione $W_d(\omega)$ si enfatizza la regione di frequenze nella quale occorre aumentare la sensibilità per ridurre l'effetto dei disturbi esterni.
 
 \begin{equation}\label{eq:SistemaQuadrirotore_G_inf_maximaS}
 	\|S W_d\|_\infty = \sup_\omega \mid S(j \omega) W_d(\omega) \mid
@@ -122,9 +124,9 @@ L'applicazione per il quadricottero di questo tipo di controllore e stata studia
 
 \subsubsection{Controllore con Feedback Linearization}
 
-Questo tipo di controllore viene utilizzato comunemente quando è necessario controllare dei sistemi non lineari. La logica di funzionamento prevede di utilizzare un controllo lineare, introducendo una mappatura dell'ingresso al sistema, attuando di fatto un cambiamento delle variabili di controllo, in modo che il sistema di controllo lineare sia in grado di controllare il sistema non lineare.  Questo tipo di approccio ha lo svantaggio però di essere molto sensibile alle incertezze e i rumori dei sensori, fattore che ne inficia la robustezza \cite{KimJinho2020ACSo}.
+Questo tipo di controllore viene utilizzato comunemente quando è necessario controllare dei sistemi non lineari. La logica di funzionamento prevede di introdurre una mappatura dell'ingresso al sistema da controllare, attuando di fatto un cambiamento delle variabili di controllo, in modo che un sistema di controllo lineare, azionando il comando attraverso questa mappatura, sia in grado di controllare il sistema non lineare.  Questo tipo di approccio ha lo svantaggio però di essere molto sensibile alle incertezze e i rumori dei sensori, fattore che ne inficia la robustezza \cite{KimJinho2020ACSo}.
 
-Partendo da un sistema non lineare che è possibile modellare nella forma (\ref{eq:SistemaQuadrirotore_Sistemanonlin}), si ricava il sistema lineare (\ref{eq:SistemaQuadrirotore_Sistemalin}). Questa linearizzazione avviene attraverso l'introduzione di una mappatura del comando espressa dalla equazione (\ref{eq:SistemaQuadrirotore_FL_com}). Si utilizza quindo la nuova variabile di controllo $v$ in un classico sistema di controllo lineare. La determinazione delle matrici $\gamma(x)$ e $\psi(x)$ è quindi la chiave per rimuovere le linearità del sistema. Quando non risulta possibile determinare esattamente queste due matrici, si utilizza una approssimazione oppure una linearizzazione solamente parziale, \cite{IsidoriA2003NCS}.
+Supponendo di esprimere il sistema non lineare nella forma (\ref{eq:SistemaQuadrirotore_Sistemanonlin}), si ricava il sistema lineare (\ref{eq:SistemaQuadrirotore_Sistemalin}). Si introduce la mappatura del comando espressa dalla equazione (\ref{eq:SistemaQuadrirotore_FL_com}). Si utilizza quindo la nuova variabile di controllo $v$ proveniente da sistema di controllo lineare. La determinazione delle matrici $\gamma(x)$ e $\psi(x)$ è quindi la chiave per rimuovere le linearità del sistema. Quando non risulta possibile determinare esattamente queste due matrici, si utilizza una approssimazione oppure una linearizzazione solamente parziale, \cite{Feedlin}. In definitiva una volta scelto il sistema lineare da adottare per il controllo, si determinano le matrici necessarie per consentire la stabilità del sistema.
 
 \begin{equation}\label{eq:SistemaQuadrirotore_Sistemanonlin}
 	\dot{x} = f(x) + G(x) u
@@ -198,20 +200,20 @@ L'obbiettivo è quello di stabilizzare il sistema complessivo. Si determinano qu
 \begin{equation}\label{eq:SistemaQuadrirotore-BACKERR}
 	\begin{array}{r@{}l}
 		z_1 & = x_{1r} -x_1 \\
-		z_2 & = x_2 - \dot{x_{1r}} - \alpha_1 z_1 \\
+		z_2 & = x_2 - \dot{x}_{1r} - \alpha_1 z_1 \\
 		z_3 & = x_{3r} - x_3 \\
 		z_4 & = x_4 - x_{3r} - \alpha_3 z_3 \\
 		z_5 & = x_{5r} -x_5 \\
 		z_6 & = x_6 - x_{5r} - \alpha_5 z_5 \\
 		z_7 &= x_{7r} - x_7 \\
-		z_8 &= x_8 - \dot{x_{7r}} - \alpha_7 z_7
+		z_8 &= x_8 - \dot{x}_{7r} - \alpha_7 z_7
 	\end{array}
 \end{equation}
 
 Le funzioni selezionate per questo controllo devo quindi soddisfare il criterio di Lyapunov. Si sceglie una funzione scalare $V(x,t)$ con argomento lo stato del sistema e con derivata prima continua. La funzione scelta deve soddisfare le seguenti tre condizioni:
 \begin{itemize}
 	\item $V(x,t)$ deve essere definita positiva
-	\item $\dot{V(x,t)}$ deve essere definita negativa
+	\item $\dot{V}(x,t)$ deve essere definita negativa
 	\item Per $V(x,t)$ che tende ad infinito $\mid{x}$ deve tendere all'infinito
 \end{itemize}
 Se queste condizioni sono soddisfatte allora la funzione scelta rispetta l'equilibrio nell'origine della superficie e si può dimostrare che questo equilibrio e globalmente asintoticamente stabile \cite{DesTestCarm}.
@@ -224,7 +226,7 @@ Questo tipo di controllo prevede di utilizzare un segnale di comando discontinuo
 
 Partendo dalla scrittura nella forma espressa nell'equazione (\ref{eq:SistemaQuadrirotore_SMC_sistema}), si considera una generica superficie $S(t) 0 \{ s(x,t) \in \mathbb{R}^n  \mid s(x,t) = 0\}$.
 \begin{equation}\label{eq:SistemaQuadrirotore_SMC_sistema}
-	\dot{x(t)} = f(x,t) +g(x,t) u(x,t)
+	\dot{x}(t) = f(x,t) +g(x,t) u(x,t)
 \end{equation}
 
 La funzione che definisce il controllo viene espressa introducendo una discontinuità in $s(x,t)=0$, Eq. (\ref{eq:SistemaQuadrirotore_SMC_comando}).
@@ -281,10 +283,10 @@ Dove $\hat{y}$ rappresenta l'output misurato e $r$ il segnale di riferimento gen
 \subsubsection{Controllore con logica Fuzzy}
 
 Il sistam di controllo Fuzzy è fondamentalmente composto da tre parti principali: l'unità che si occupa della fuzzification, l'unità che determina le regole da implementare e l'uotput del controllo e infine il componente che determina dallo stato dell'output il segnale del controllo. 
-L'implementazione delle regole prevede di utilizzare degli stati logici non binari, compresi tra 0 e 1. Applicando questo concetto alla misura dell'errore, si determina una classificazione in funzione all'appartenenza di questo ad una determina condizione, per esempio : nullo, piccolo negativo, medio positivo, ecc. Nel cuore del controllore, utilizzando le proprietà matematiche dei set logici cosi definiti, si descrivono quindi le regole di esecuzione in base agli ingressi logici. Il risultato di questo processo di applicazione delle regole porta a definire un analogo set logico di uscita. attraverso l'unità di defuzzification, utilizzando gli stati logici di uscita si determina il segnale di comando da impartire al sistema governato, \cite{introFuzzy}.
-Lo stesso tipo di approccio può
+L'implementazione delle regole prevede di utilizzare degli stati logici non binari, compresi tra 0 e 1. Applicando questo concetto alla misura dell'errore, si determina una classificazione in funzione all'appartenenza di questo ad una determina condizione, per esempio : nullo, piccolo negativo, medio positivo, ecc. Nel cuore del controllore, utilizzando le proprietà matematiche dei set logici cosi definiti, si descrivono quindi le regole di esecuzione in base agli ingressi logici. Il risultato di questo processo di applicazione delle regole porta a definire un analogo set logico di uscita. attraverso l'unità di defuzzification, utilizzando gli stati logici di uscita si determina il segnale di comando da impartire al sistema governato, \cite{ChenGuanrong2001ItFS}.
+Lo stesso tipo di approccio in bibliografia viene utilizzato in combinazione con altri tipi di controllore, modificando la regolazione in funzione delle condizioni logiche che si verificano.
+Per esempio in \cite{6988024}, attraverso l'utilizzo di controllore fuzzy, viene utilizzato per modificare la posizione di poli utilizzati per rendere stabile il sistema. In \cite{AmoozgarMohammadHadi2012FFGP}, allo scopo di reagire ad un eventuale guasto attraverso l'analisi effettuata da un controllo fuzzy, vengono modificati i valori del controllore PID che è stato utilizzato per il controllo del mezzo.
 
-Nella publicazione \cite{introFuzzy} il sistema fuzzy viene utilizzato per controllora l'assetto del drone.
 
 \begin{figure}
 	\centering
@@ -294,7 +296,24 @@ Nella publicazione \cite{introFuzzy} il sistema fuzzy viene utilizzato per contr
 
 \subsubsection{Controllore con Neural Network}
 
-Si utilizza una rete neurale formata da diversi layer con la quale attraverso una fase di addestramento si ottiene un sistema di controllo. La rete è formata da neuroni collegati attraverso dei collegamenti pesati. Il vantaggio di questo metodo di controllo è la capacità di avere risultati migliori rispetto ai normali controlli lineari senza dover necessariamente conoscere la dinamica del quadrirotore e i suoi parametri.
+Si utilizza una rete neurale formata da diversi layer con la quale attraverso una fase di addestramento si ottiene un sistema di controllo. La rete è formata da neuroni collegati attraverso dei collegamenti pesati. Il vantaggio di questo metodo di controllo è la capacità di avere risultati migliori rispetto ai normali controlli lineari senza dover necessariamente conoscere la dinamica del quadrirotore e i suoi parametri, \cite{ZuluAndrew2014ARoC}, \cite{KimJinho2020ACSo}.
+
+Il modello matematico del singolo neurone è rappresentato nella formula \ref{eq:SistemaQuadrirotore_NN}, nella quale $\sigma(\cdot)$ è la funzione di attivazione del neurone, $x_i$ il valore degli ingressi, i pesi di ogni connessione al neurone $w_i$ e $v_0$ un valore costante.
+Attraverso la composizione di più neuroni si crea una matrice neurale suddivisa in layer, come mostrato nell'esempio in Figura (\ref{fig:NN}). In questo tipo di rete si definisco le due matrici dei pesi $V^T$ e $W^T$, incognite per implementare il controllo. Esistono diverse tecniche per determinare questi valori, per esempio attraverso la backpropagation.
+Questa tecnica consiste, una volta scelta la funzione di attivazione, nel testare il valore restituito dalla rete ad un determinato input con quello atteso. Determinando questo errore e analizzando la distribuzione che esso ha all'interno della rete neurale, vengono aggiornati i pesi delle interconnessioni. Questo processo è rieseguito ricorsivamente fino a raggiungere i risultati aspettati \cite{YesildirakA2020NNCo}.
+
+\begin{equation}\label{eq:SistemaQuadrirotore_NN}
+	y(t) = \sigma\left(\sum_{i=1}^{n} v_i x_i(t) + v_0\right)
+\end{equation}
+
+In letteratura le applicazioni di questo tipologia di controllore viene testato in \cite{4564736}. In questa pubblicazione vengono studiate 3 differenti tecniche di adattamento della rete, introducendo dei disturbi dovuti al vento e osservando la reazione della rete. In \cite{8287305}, viene applicato il modello di rete neurale, applicando la backpropagation, per determinare i guadagni dei controllori PID che gestiscono la dinamica del velivolo, rendendo il sistema di controllo complessivamente adattivo. Un applicazione della logica di controllo tramite neural-network viene ampliamene utilizzata nel lavoro \cite{5345702}. In questo documento viene mostrato come un osservatore implementando una rete neurale può determinare la dinamica del velivolo attraverso l'apprendimento. Successivamente viene definito e addestrato un sistemo di controllo con la stessa tecnica.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\textwidth]{SistemaQuadrirotore/Figure/NN_Struttura}
+	\caption{Schema di una configurazione a due layer di Neural Network}
+	\label{fig:NN}
+\end{figure}
 
 \begin{figure}
 	\centering

@@ -10,7 +10,7 @@
 \BOOKMARK [1][-]{section.2.3}{Algoritmi di guida}{chapter.2}% 10
 \BOOKMARK [2][-]{subsection.2.3.1}{Pianificazione del percorso}{section.2.3}% 11
 \BOOKMARK [2][-]{subsection.2.3.2}{Pianificazione della traiettoria}{section.2.3}% 12
-\BOOKMARK [1][-]{section.2.4}{Leggi di controllo}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.4}{Implementazioni del controllo utilizzate}{chapter.2}% 13
 \BOOKMARK [0][-]{chapter.3}{Descrizione Autopilota}{}% 14
 \BOOKMARK [1][-]{section.3.1}{Descrizione del drone}{chapter.3}% 15
 \BOOKMARK [1][-]{section.3.2}{PX4 Autopilot}{chapter.3}% 16
@@ -28,8 +28,8 @@
 \BOOKMARK [2][-]{subsection.4.2.3}{Confronto}{section.4.2}% 28
 \BOOKMARK [1][-]{section.4.3}{Simulazioni PIL}{chapter.4}% 29
 \BOOKMARK [1][-]{section.4.4}{Conclusione}{chapter.4}% 30
-\BOOKMARK [0][-]{section*.101}{Appendice}{}% 31
-\BOOKMARK [1][-]{section*.102}{Modifiche nel codice dei plugin di Gazebo}{section*.101}% 32
-\BOOKMARK [2][-]{section*.103}{Script per il lancio delle simulazioni}{section*.102}% 33
-\BOOKMARK [2][-]{section*.104}{Modelli Simulink}{section*.102}% 34
-\BOOKMARK [0][-]{figure.caption.109}{Bibliografia}{}% 35
+\BOOKMARK [0][-]{section*.102}{Appendice}{}% 31
+\BOOKMARK [1][-]{section*.103}{Modifiche nel codice dei plugin di Gazebo}{section*.102}% 32
+\BOOKMARK [2][-]{section*.104}{Script per il lancio delle simulazioni}{section*.103}% 33
+\BOOKMARK [2][-]{section*.105}{Modelli Simulink}{section*.103}% 34
+\BOOKMARK [0][-]{figure.caption.110}{Bibliografia}{}% 35
