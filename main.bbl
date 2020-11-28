@@ -2197,6 +2197,154 @@
       \field{pages}{525\bibrangedash 533}
       \range{pages}{9}
     \endentry
+    \entry{BobrowJ.E2016TCoR}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d1f7e88bf30765fae33550d6c40eb2d0}{%
+           family={Bobrow},
+           familyi={B\bibinitperiod},
+           given={J.E},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bef52f9f867057bfb6cbf3cef143b6cd}{%
+           family={Dubowsky},
+           familyi={D\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=706b6583877552330d287e3e13fedd4b}{%
+           family={Gibson},
+           familyi={G\bibinitperiod},
+           given={J.S},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Thousand Oaks, CA}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{91ef033bb03572ad2eaa8b270d2e06ef}
+      \strng{fullhash}{91ef033bb03572ad2eaa8b270d2e06ef}
+      \strng{bibnamehash}{91ef033bb03572ad2eaa8b270d2e06ef}
+      \strng{authorbibnamehash}{91ef033bb03572ad2eaa8b270d2e06ef}
+      \strng{authornamehash}{91ef033bb03572ad2eaa8b270d2e06ef}
+      \strng{authorfullhash}{91ef033bb03572ad2eaa8b270d2e06ef}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The minimum-time manipulator control problem is solved for the case when the path is specified and the actuator torque limitations are known. The optimal open-loop torques are found, and a method is given for implementing these torques with a conventional linear feedback control system. The algorithm allows bounds on the torques that may be arbitrary functions of the joint angles and angular velocities. This method is valid for any path and orientation of the end- effector that is specified. The algorithm can be used for any manipulator that has rigid links, known dynamic equations of motion, and joint angles that can be determined at a given position on the path.}
+      \field{issn}{1741-3176}
+      \field{journaltitle}{The International Journal of Robotics Research}
+      \field{number}{3}
+      \field{title}{Time-Optimal Control of Robotic Manipulators Along Specified Paths}
+      \field{volume}{4}
+      \field{year}{2016}
+      \field{pages}{3\bibrangedash 17}
+      \range{pages}{15}
+    \endentry
+    \entry{HowieChoset2005PoRM}{book}{}
+      \name{author}{1}{}{%
+        {{hash=72811108dcbc25428de5c7e317f511ed}{%
+           family={Choset},
+           familyi={C\bibinitperiod},
+           given={Howie},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Cambridge (Mass.)}%
+      }
+      \list{publisher}{1}{%
+        {The MIT Press}%
+      }
+      \strng{namehash}{72811108dcbc25428de5c7e317f511ed}
+      \strng{fullhash}{72811108dcbc25428de5c7e317f511ed}
+      \strng{bibnamehash}{72811108dcbc25428de5c7e317f511ed}
+      \strng{authorbibnamehash}{72811108dcbc25428de5c7e317f511ed}
+      \strng{authornamehash}{72811108dcbc25428de5c7e317f511ed}
+      \strng{authorfullhash}{72811108dcbc25428de5c7e317f511ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0-262-30395-7}
+      \field{series}{Intelligent robotics and autonomous agents}
+      \field{title}{Principles of Robot Motion: Theory; Algorithms; and Implementation}
+      \field{year}{2005}
+    \endentry
+    \entry{MartinBryanJ1999MMfO}{article}{}
+      \name{author}{2}{}{%
+        {{hash=336be469592fb74cab88a0cd07e5c479}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Bryan\bibnamedelima J},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8aac4076f27aaf9a178297cc0a7c8f00}{%
+           family={Bobrow},
+           familyi={B\bibinitperiod},
+           given={James\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{80d6bdf0d36d68ac7b9fd3ea2f842eb6}
+      \strng{fullhash}{80d6bdf0d36d68ac7b9fd3ea2f842eb6}
+      \strng{bibnamehash}{80d6bdf0d36d68ac7b9fd3ea2f842eb6}
+      \strng{authorbibnamehash}{80d6bdf0d36d68ac7b9fd3ea2f842eb6}
+      \strng{authornamehash}{80d6bdf0d36d68ac7b9fd3ea2f842eb6}
+      \strng{authorfullhash}{80d6bdf0d36d68ac7b9fd3ea2f842eb6}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this article, we examine the solution of minimum-effort optimal control problems for open-chain manipulators. An approximate Solution to the optimal control problem is determined by a constrained parameter optimization over a set of B-spline basis functions. We demonstrate that the parameter-optimization formulation of the problem is numerically ill-conditioned, and that it is therefore essential to include analytic, or exact, gradients of the objective fiunction and the constraints in order to guarantee a solution. A recursive expression for these gradients is developed for general serial chains. Constraints on end-effector motions are taken into account using the logarithmn of the spatial displacement. Our formulation relies on the use of matrix exponentials for the manipulator kinematics, dynamics, and task constraints. Several examples are presented that demostrate the power and flexibility of our approach.}
+      \field{issn}{0278-3649}
+      \field{journaltitle}{The International journal of robotics research}
+      \field{number}{2}
+      \field{title}{Minimum-Effort Motions for Open-Chain Manipulators with Task-Dependent End-Effector Constraints}
+      \field{volume}{18}
+      \field{year}{1999}
+      \field{pages}{213\bibrangedash 224}
+      \range{pages}{12}
+    \endentry
+    \entry{Shin1986ADP}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b1bd8c745ffb408dee4f2bb54631e65b}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0ec7d028b21078c79b3dc85294c67a99}{%
+           family={McKay},
+           familyi={M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ffdf2ffe43db5392e793e44264310a21}
+      \strng{fullhash}{ffdf2ffe43db5392e793e44264310a21}
+      \strng{bibnamehash}{ffdf2ffe43db5392e793e44264310a21}
+      \strng{authorbibnamehash}{ffdf2ffe43db5392e793e44264310a21}
+      \strng{authornamehash}{ffdf2ffe43db5392e793e44264310a21}
+      \strng{authorfullhash}{ffdf2ffe43db5392e793e44264310a21}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Automatic Control}
+      \field{title}{A dynamic programming approach to trajectory planning of robotic manipulators}
+      \field{volume}{31}
+      \field{year}{1986}
+      \field{pages}{491\bibrangedash 500}
+      \range{pages}{10}
+    \endentry
     \entry{px4Guide}{online}{}
       \list{organization}{1}{%
         {PX4 Dev Team}%

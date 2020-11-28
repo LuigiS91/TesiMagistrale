@@ -33,6 +33,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Schema di applicazione del controllore con Neural Network\relax }}{32}{figure.caption.26}%
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Classificazione dei tipi di algoritmi di Path Planning \cite {YangLiang2016SoR3}\relax }}{33}{figure.caption.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Schema della configurazione del software dell'autopilota\relax }}{39}{figure.caption.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Schema della configurazione del software dell'autopilota\relax }}{39}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Architettura del codice di PX4 Autopilot\relax }}{45}{figure.caption.36}%

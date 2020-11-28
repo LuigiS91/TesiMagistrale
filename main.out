@@ -10,7 +10,7 @@
 \BOOKMARK [1][-]{section.2.3}{Algoritmi di guida}{chapter.2}% 10
 \BOOKMARK [2][-]{subsection.2.3.1}{Pianificazione del percorso}{section.2.3}% 11
 \BOOKMARK [2][-]{subsection.2.3.2}{Pianificazione della traiettoria}{section.2.3}% 12
-\BOOKMARK [1][-]{section.2.4}{Implementazioni del controllo utilizzate}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.4}{Implementazioni utilizzate}{chapter.2}% 13
 \BOOKMARK [0][-]{chapter.3}{Descrizione Autopilota}{}% 14
 \BOOKMARK [1][-]{section.3.1}{Descrizione del drone}{chapter.3}% 15
 \BOOKMARK [1][-]{section.3.2}{PX4 Autopilot}{chapter.3}% 16

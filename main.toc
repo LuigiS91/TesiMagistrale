@@ -49,11 +49,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Pianificazione del percorso}{33}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Algoritmi basati sul campionamento}{33}{section*.27}%
+\contentsline {subsubsection}{Algoritmi basati sul campionamento}{34}{section*.28}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Algoritmi basati sui nodi}{35}{section*.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Algoritmi basati su modelli matematici}{35}{section*.30}%
+\contentsline {subsubsection}{Algoritmi basati su modelli matematici}{36}{section*.30}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Algoritmi bio-ispirati}{36}{section*.31}%
 \defcounter {refsection}{0}\relax 
@@ -61,11 +61,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Pianificazione della traiettoria}{37}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Algoritmi che minimizzano il tempo di esecuzione}{38}{section*.33}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Algoritmi che minimizzano l'energia}{38}{section*.34}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Implementazioni del controllo utilizzate}{39}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Implementazioni utilizzate}{39}{section.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Descrizione Autopilota}{41}{chapter.3}%
 \defcounter {refsection}{0}\relax 

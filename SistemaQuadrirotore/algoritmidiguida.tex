@@ -77,6 +77,14 @@ Per descrivere correttamente le fasi necessarie alla guida del mezzo bisogna far
 
 Si possono classificare gli algoritmi di pianificazione dei percorsi in 5 categorie che vengono qui descritti brevemente.
 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\textwidth]{SistemaQuadrirotore/Figure/Path}
+	\caption{Classificazione dei tipi di algoritmi di Path Planning \cite{YangLiang2016SoR3}}
+	\label{fig:categoriecontrolli}
+\end{figure}
+
+
 \subsubsection{Algoritmi basati sul campionamento}
 
 Gli algoritmi basati sul campionamento sono in grado di generare un percorso utile attraverso l'esplorazione casuale dell'ambiente. Fanno uso di concetti come nodi, celle o altre forme per determinare se il punto esplorato è compatibile con la soluzione da ricercare. Per effettuare la ricerca questo tipo di algoritmo necessitano di avere una conoscenza a priori dell'ambiente nella quale viene effettuata la ricerca.
@@ -85,8 +93,6 @@ Si possono suddividere le possibili implementazioni in due categorie:
 	\item \textbf{Attivi : } La soluzione avviene attraverso un esplorazione totalmente casuale di nuovi punti nella mappa in un solo passaggio si cerca di ottimizzarla
 	\item \textbf{Passivi : }  La soluzione avviene attraverso la ricerca da un set di possibili soluzioni già determinate in un passaggio preliminare e attraverso un algoritmo di ricerca la migliore viene selezionata
 \end{itemize}
-
-\todo[inline]{Aggiungere albero di categoria degli algoritmi}
 
 %Questi algoritmi richiedono la conoscenza a priori di informazioni sull'ambiente e una rappresentazione matematica di questo. Si prevede di dividere l'ambiente in nodi o celle o altre forme. Avviene poi una ricerca attraverso una ricerca casuale. Questa categoria si può suddividere a sua volta in altre 2 categorie : attive e passive. Attive  si intende algoritmi che esploraro rapidamente in modo casuale per trovare il percorso migliore. Passivi algoritmi che si occupano di cercare la soluzione da percorsi già presenti come su di una mappa.
 
@@ -165,23 +171,19 @@ In \cite{FeiYanYi-ShaLiuJi-ZhongXiao2013PPiC}, invece si implementa un approccio
 
 
 \subsection{Pianificazione della traiettoria}
-Pianificare la traiettoria significa generare il segnale di riferimento da dare al controllore per seguire il percorso trovato dall'algoritmo di generazione del cammino, in modo che questo si a eseguito correttamente. Per poter svolgere bene il suo compito bisogna tenere conto delle limitazioni cinematiche e dinamiche. La generazione di questi segnali avviene in genere attraverso l'interpolazione di funzioni conosciute. Queste funzioni poi inserite all'interno della valutazione devono essere compatibili con il sistema e le richieste della pianificazione, \cite{PathPlannigOverview}.
-In \cite{BobrowJ.E2016TCoR}, viene descritto il metodo per minimizzare il tempo di percorrenza di una 
-
+Pianificare la traiettoria significa generare il segnale di riferimento da dare al controllore per seguire il percorso trovato dall'algoritmo di generazione del cammino, in modo che questo si a eseguito correttamente. Per poter svolgere bene il suo compito bisogna tenere conto delle limitazioni cinematiche e dinamiche. La generazione di questi segnali avviene in genere attraverso l'interpolazione di funzioni conosciute. Queste funzioni poi inserite all'interno della valutazione devono essere compatibili con il sistema e le richieste della pianificazione.
 Importante aspetto è la continuità, per limitare i disturbi e l'affaticamento degli attuatori. Traiettorie troppo discontinue son quindi da evitare anche in termini di capacità di seguire il percorso prestabilito, \cite{PathPlannigOverview}.
-Si può suddividere in questo contesto gli algoritmi in due categorie.
-\subsubsection{Algoritmi che minimizzano il tempo di esecuzione}
 
-L'idea di base è quella di descrivere la dinamica seguendo le coordinate curvilinee lungo il percorso geometrico e analizzare pseudo-velocità e pseudo-accelerazioni lungo questo sistema di riferimento. Applicando le limitazione del caso su questi parametri, si trova la soluzione che minimizza il tempo necessario a percorrerla, \cite{PathPlannigOverview}. 
-\todo[inline]{Trovare un esempio}
+Una possibile impostazione del problema può essere quella di minimizzare il tempo di percorrenza. Si esprime la dinamica seguendo le coordinate curvilinee lungo il percorso geometrico e si analizzano le pseudo-velocità e le pseudo-accelerazioni lungo questo sistema di riferimento. Applicando le limitazione del caso su questi parametri, si trova la soluzione in termine di tempo necessario al percorrimento, \cite{PathPlannigOverview}. 
+In \cite{BobrowJ.E2016TCoR} e \cite{HowieChoset2005PoRM}, viene descritto in dettaglio il metodo per minimizzare il tempo di percorrenza passante per un numero prestabilito di way-point, determinando le leggi orarie da imporre per l'inseguimento della traiettoria rispettando i vincoli imposti. 
 
-Esiste un altro approccio a questo tipo di ottimizzazione che consiste nel valutare la soluzione suddividendo in porzioni il percorso e adottando in ogni sua parte, traiettorie programmate a priori. Per ogni sezione quindi in modo programmato si eseguono traiettorie che seguono la sezione del percorso. Analizzando la sequenza di comando nella totalità si determina il tempo di esecuzione e quindi se questa sia ottimale o meno e nel caso, iterare nuovamente la composizione delle sotto-traiettorie. 
+Esiste un altro approccio a questo tipo di ottimizzazione che consiste nel valutare la soluzione suddividendo in porzioni il percorso e adottando in ogni sua parte, traiettorie programmate a priori. Per ogni sezione, in modo sequenziale, si eseguono traiettorie raccordate tra di esse, che seguono la sequenza di way-point prestabiliti ricercando contemporaneamente di soddisfare la minimizzazione del tempo di percorrenza globale, \cite{HowieChoset2005PoRM}. 
 
-L'approccio utilizzato in robotica per velocizzare l'esecuzione del comando è minimizzare il tempo di esecuzione è sicuramente attraverso la generazione di profili di velocità trapezoidali. In questo caso non si tiene conto dell'azionamento degli attuatori e vengono prodotte traiettorie discontinue. In \cite{DesTestCarm}, viene usato questo algoritmo per generare i segnali necessari al test MIL del controllore.
-Per migliorare la risposta si possono usare delle spline che permettono inoltre di valutare ulteriori aspetti di ottimizzazione, ma soprattutto permettono continuità in accelerazione e velocità , \cite{baseTesi}.
-Attraverso l'uso delle spline, inoltre si può permetta l'approccio per mezzo dell'uso di algoritmi genetici per trovare la soluzione ottima, \cite{PathPlannigOverview}.
+Un approccio utilizzato in robotica per velocizzare l'esecuzione del comando è minimizzare il tempo di esecuzione attraverso la generazione di profili di velocità trapezoidali. In questo caso non si tiene conto dell'azionamento degli attuatori e vengono prodotte traiettorie discontinue in termine di accelerazione. In \cite{DesTestCarm}, viene usato questo algoritmo per generare i segnali necessari al test MIL del controllore.
+Per migliorare la risposta, si possono utilizzare funzioni spline, permettendo continuità in accelerazione e velocità, \cite{baseTesi}.
+Attraverso l'uso delle spline, è possibile l'approccio per mezzo dell'uso di algoritmi genetici con lo scopo di ricercare una soluzione ottima, \cite{PathPlannigOverview}.
 
-\subsubsection{Algoritmi che minimizzano l'energia}
-Per energia non si intende necessariamente l'energia ma anche un valore proporzionale alla coppia applicata dagli attuatori, direttamente collegata con il consumo di batteria. Si ha una riduzione anche dello stress agli attuatori. Un esempio classico prevede l'uso delle B-spline che attraverso l'utilizzo dei punti di controllo e dell'algoritmo di ottimizzazione permettono di trovare la soluzione che ha una minimizzazione in termine di utilizzo degli attuatori. Nella soluzione a questo problema di ottimizzazione vengono in letteratura utilizzati anche spline cubiche. Si possono anche cercare soluzioni ottime sia in termini di tempo che di energia.
+Nella ricerca di una traiettoria occorre anche minimizzare l'energia, valore stimato dalla coppia applicata dagli attuatori, direttamente collegata con il consumo di batteria, \cite{PathPlannigOverview}. Questo tipo di ottimizzazione permette inoltre una riduzione anche dello stress agli attuatori. Un esempio classico prevede l'uso delle B-spline, \cite{MartinBryanJ1999MMfO}. Nella soluzione a questo problema vengono in letteratura utilizzati anche spline cubiche \cite{Shin1986ADP}.
+
 
 
