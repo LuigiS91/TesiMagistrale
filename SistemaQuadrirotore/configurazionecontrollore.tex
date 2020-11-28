@@ -2,6 +2,7 @@
 In questa tesi vengono messe a confronto due configurazioni diverse di leggi di contollo che condividono l'algoritmo di trajectory planning. La gestione del percorso non è trattata, vengono definiti per effettuare le simulazione una sequesza di punti nello spazio accompagnati dal tempo alla quale la posizione specifica deve essere raggiunta.
 Uno schema generale della configurazione del software dell'autopilota è riportato nella Figura (\ref{fig:Autopilota}).
 
+
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\textwidth]{SistemaQuadrirotore/Figure/Autopilota}
@@ -13,6 +14,7 @@ L'algoritmo implementato per generare la traiettoria è uguale per tutti i tipi 
 
 Sia nelle simulazioni MIL e SIL due tipologie di controllori vengono messi a confronto. In entrambe le configurazioni il controllore viene suddiviso in tre componenti base: Altitude Controller, Attitude Controller e Position Controller, come mostrato in Figura (\ref{fig:Controller}).
 
+Da questo momento si farà riferimento alla denominazione di controllore PID nel caso in cui i tre controllori siano derivati da controllori PID, mentre si parlerà di controllore SMC, nell'implementazione in sui compare il controllore SMC nel modulo di Altitude e di Attitude.
 
 \begin{figure}
 	\centering
@@ -20,3 +22,125 @@ Sia nelle simulazioni MIL e SIL due tipologie di controllori vengono messi a con
 	\caption{Schema della configurazione del software dell'autopilota}
 	\label{fig:Controller}
 \end{figure}
+
+Il primo tipo di controllore implementa il modulo di Attitude Control come mostrato in Figura (\ref{fig:PIDAttitudeCTR}). In questo modello si utilizza una versione modificata del PID, dove il contributo derivativo è determinato dalla misura dei ratei angolari sugli assetti. I parametri utilizzati sono riassunti nella Tabella (\ref{tab:PIDATT}).
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{SistemaQuadrirotore/Figure/PIDAttitudeCtrl}
+	\caption{Schema del Attitude Controller}
+	\label{fig:PIDAttitudeCTR}
+\end{figure}
+
+
+\begin{table}
+	\centering
+	\begin{tabular}{c c c}
+		\hline
+		Canale  & Parametro & Valore \\
+		\hline
+		\multirow{4}{*}{Beccheggio / Rollio}&$K_p$ & 0.531 \\
+		&$K_d$ & 0.031\\
+		&$K_i$ & -0.156\\
+		&$S$ & -1 $\leftrightarrow$ 1\\
+		\hline
+		\multirow{4}{*}{Imbardata}&$K_p$ & 5 \\
+		&$K_d$ & 1\\
+		&$K_i$ & -1\\
+		&$S$ & -1 $\leftrightarrow$ 1\\
+		\hline
+	\end{tabular}	
+	\caption{Parametri PID - Attitude Controller}
+	\label{tab:PIDATT}
+\end{table}
+
+Nel modello del Altitude Controller, Figura (\ref{fig:PIDAltitudeCTR}), viene implementato un controllore PID con contributo derivativo ricavato dalla misura di errore relativa al rateo di salita/discesa. I parametri utilizzati sono riuassunti in Tabella (\ref{tab:PIDALT}).
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{SistemaQuadrirotore/Figure/PIDAltitudeCtrl}
+	\caption{Schema del Altidude Controller}
+	\label{fig:PIDAltitudeCTR}
+\end{figure}
+
+\begin{table}
+	\centering
+	\begin{tabular}{c c}
+		\hline
+		Parametro & Valore \\
+		\hline
+		$K_p$ & -1.875 \\
+		$K_d$ & -1.188\\
+		$K_i$ & 0.625\\
+		$S$ & 0 $\leftrightarrow$ 1\\
+		\hline
+	\end{tabular}	
+	\caption{Parametri PID - Altitude Controller}
+	\label{tab:PIDALT}
+\end{table}
+
+Nell'ultimo modello relativo al Position Controller, Figura (\ref{fig:PIDPosCTR}), viene implementata una configurazione di PID particolare. In questo modello, per ridurre l'overshot sulla posizione, si introduce un contributo derivativo proporzionale alla derivata dell'errore sulla velocità $K_{dd}$, \cite{DesTestCarm}. Nella Tabella (\ref{tab:PIDPOS}), vengono riassunti i parametri utilizzati per le simulazioni. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{SistemaQuadrirotore/Figure/PIDPositionCtrl}
+	\caption{Schema del Position Controller}
+	\label{fig:PIDPosCTR}
+\end{figure}
+
+\begin{table}
+	\centering
+	\begin{tabular}{c c c}
+		\hline
+		 Canale & Parametro & Valore \\
+		\hline
+		\multirow{3}{*}{$\theta$}&$K_p$ & -1.5 \\
+		&$K_d$ & 1.5\\
+		&$K_{dd}$ & 0.3\\
+		\hline
+		\multirow{3}{*}{$\phi$}& $K_p$ & 1.5 \\
+		&$K_d$ & -1.5\\
+		&$K_{dd}$ & -0,3\\
+		\hline
+		\multirow{3}{*}{$\theta$, $\phi$}&$K$ & 2 \\ 
+		&$S1$ & -0.524 rad $\leftrightarrow$ +0.524 rad\\
+		&$S2$ & -1 rad/s $\leftrightarrow$ 1  rad/s\\
+		\hline
+		\multirow{2}{*}{$\psi$}&$K$ & 2 \\
+		&$S3$ & -0.5 rad/s $\leftrightarrow$ 0.5 rad/s\\
+		\hline
+		
+	\end{tabular}	
+	\caption{Parametri PID - Position Controller}
+	\label{tab:PIDPOS}
+\end{table}
+
+Nel secondo sistema di controllo simulato, denominato SMC, il modulo di Position Control è identico come configurazione al la versione PID ma con parametri riportati in Tabella (\ref{tab:SMCPOS}), di fatto rimuovendo il contributo della derivata dell'errore misurato rispetto alle velocità, $K_{dd}$.
+
+\begin{table}
+	\centering
+	\begin{tabular}{c c c}
+		\hline
+		Canale & Parametro & Valore \\
+		\hline
+		\multirow{3}{*}{$\theta$}&$K_p$ & -1.5 \\
+		&$K_d$ & 0.5\\
+		&$K_{dd}$ & 0\\
+		\hline
+		\multirow{3}{*}{$\phi$}& $K_p$ & 1.5 \\
+		&$K_d$ & -0.5\\
+		&$K_{dd}$ & 0\\
+		\hline
+		\multirow{3}{*}{$\theta$, $\phi$}&$K$ & 2 \\ 
+		&$S1$ & -0.524 rad $\leftrightarrow$ +0.524 rad\\
+		&$S2$ & -1 rad/s $\leftrightarrow$ 1  rad/s\\
+		\hline
+		\multirow{2}{*}{$\psi$}&$K$ & 2 \\
+		&$S3$ & -0.5 rad/s $\leftrightarrow$ 0.5 rad/s\\
+		\hline		
+	\end{tabular}	
+	\caption{Parametri SMC - Position Controller}
+	\label{tab:SMCPOS}
+\end{table}
+
+
