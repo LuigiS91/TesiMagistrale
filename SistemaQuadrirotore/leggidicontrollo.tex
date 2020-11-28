@@ -11,16 +11,18 @@ In questa sezione verranno accennati diversi modelli di controlli utilizzati odi
 \subsection{Controllori Lineari}
 \subsubsection{Controllore Proportional-Integral-Derivative Controller (PID)}
 Il controllore PID è molto utilizzato in diverse applicazioni, la sua semplicità e facilità di impostazione dei parametri lo rende molto rapido da implementare e relativamente robusto. Inoltre non è necessario avere la misura dello stato completo del sistema da controllare, semplificando eventualmente la determinazione di questo. Il principale problema risiede nella risposta alle eventuali non linearità presenti nel modello del sistema controllato o nella realtà.
-Assumendo un errore di misurazione $e(t)$ come la differenza tra il valore atteso $x(t)_{ref}$ e il valore misurato nel sistema $x(t)$ di un qualunque elemento del vettore di stato : $e(t)=x(t)_{ref}-x(t)$. Attraverso la misurazione dell'errore, applicando l'equazione integro differenziale (\ref{eq:SistemaQuadrirotore_PIDErrore}), si determina il comando da attuare sul sistema, \cite{advanced-pid-control}.
+
+Assumendo un errore di misurazione $e(t)$, come la differenza tra il valore atteso $x(t)_{ref}$ e il valore misurato nel sistema $x(t)$, di un qualunque elemento del vettore di stato : $e(t)=x(t)_{ref}-x(t)$. Attraverso la misurazione dell'errore, applicando l'equazione integro differenziale (\ref{eq:SistemaQuadrirotore_PIDErrore}), si determina il comando da attuare sul sistema, \cite{advanced-pid-control}.
 \begin{equation}\label{eq:SistemaQuadrirotore_PIDErrore}
 	u(t) = k_p e(t) + k_i \int_0^t e(\tau) d\tau + k_d \frac{d e(t)}{d t}
 \end{equation}
 Il nome del controllore deriva proprio dalla combinazione di questi tre aspetti presi in considerazione per valutare il comando da attuare.
 Nell'equazione (\ref{eq:SistemaQuadrirotore_PIDErrore}) sono presenti i tre parametri: $k_p$, $k_i$ e $k_d$.
 L'effetto del guadagno proporzionale $k_p$ è quello di ridurre l'errore in modo proporzionale allo stesso. Più l'errore è grande più sarà importante l'intervento del controllore per ridurlo. Un guadagno troppo alto però può provocare un grande superamento del segnale di riferimento causando un overshoot e l'amplificazione delle oscillazioni nella fase di assestamento.
-L'effetto $k_i$ è quello ridurre l'errore stazionario terminata la fase di assestamento. Il solo utilizzo della componente proporzionale non è infatti sufficiente per ridurre anche l'errore stazionario, definito come il valore assunto dall'errore trascorso un tempo sufficientemente lungo. Con il solo effetto proporzionale l'errore stazionario si assesta ad un valore finito, il valore integrale dell'errore tende ad aumentare nel tempo se questo on viene annullato, determinando una retroazione integrale che tende a ridurlo.
-La derivata dell'errore è invece utile a prevedere il comportamento di questo nel tempo, anticipando l'effetto del proporzionale. Tenendo conto del suo andamento, attraverso il valore di $k_d$, si può ridurre il picco generato da un guadagno alto dell'effetto proporzionale. Questo contributo però va usato con cautela perché amplificare il rumore presente nelle misurazioni.
-Il settaggio di questi parametri viene fatta impostando inizialmente solo il valore di $k_p$. Successivamente per ridurre il valore dell'errore stazionario viene aumentato il guadagno $k_i$. Modificando il valore $k_d$ si può ottenere un miglioramento in termini di risposta del sistema, rendendola più stabile. Il processo è iterativo fino ad ottenere una risposta desiderata \cite{advanced-pid-control}.
+L'effetto $k_i$ è quello ridurre l'errore stazionario terminata la fase di assestamento. Il solo utilizzo della componente proporzionale non è sufficiente per ridurre anche l'errore stazionario, definito come il valore assunto dall'errore trascorso un tempo sufficientemente lungo. Con il solo effetto proporzionale l'errore stazionario si assesta ad un valore finito, il valore integrale dell'errore tende ad aumentare nel tempo se questo non viene annullato. Aggiungendo quindi l'effetto della retroazione dell'errore integrale, l'errore tende ad annullarsi asintoticamente.
+La derivata dell'errore è invece utile a prevedere il comportamento di questo nel tempo, anticipando l'effetto del proporzionale. Tenendo conto del suo andamento, attraverso il valore di $k_d$, si può ridurre il picco generato da un guadagno alto dell'effetto proporzionale. Questo contributo però va usato con cautela perché amplifica il rumore presente eventualmente nelle misurazioni in ingresso e le discontinuità.
+
+Il settaggio di questi parametri viene fatta impostando inizialmente solo il valore di $k_p$. Successivamente per ridurre il valore dell'errore stazionario viene aumentato il guadagno $k_i$. Modificando il valore $k_d$ si può ottenere un miglioramento in termini di risposta del sistema, rendendola più stabile. Il processo è iterativo fino ad ottenere una risposta desiderata, oppure attraverso tabelle nella quale si prendono come riferimento tempi caratteristi della dinamica del sistema da controllare \cite{advanced-pid-control}.
 
 
 \begin{figure}
@@ -30,7 +32,7 @@ Il settaggio di questi parametri viene fatta impostando inizialmente solo il val
 \end{figure}
 
 \subsubsection{Controllore Linear Quadratic Regulator (LQR)}
-Con la minimizzazione della funzione di costo espressa nella equazione (\ref{eq:SistemaQuadrirotore_LQRCosto}), si ottiene una matrice di guadagni $K$ con la quale si applica il controllo in retroazione, Eq. (\ref{eq:SistemaQuadrirotore_K_LQR}), \cite{ParaskevopoulosP.N2002MCE}, \cite{6572698}. A differenza del PID, questo tipo di controllo prevede di avere tutto il vettore di stato a disposizione. Per questo motivo viene accompagnato spesso da un Linear Quadratic Estimator (LQE) ed un filtro di Kalman, con lo scopo di determinare dalle misurazioni dei sensori lo stato completo del sistema da controllare. Il metodo utilizzato per determinare la matrice dei guadagni è un aspetto molto importante, inoltre è necessario modellare in modo molto preciso il sistema controllato per evitare di trovare una soluzione poco soddisfacente. Nel caso si considerino sistemi tempo invarianti la soluzione si può determinare attraverso l'equazione di Ricatti (\ref{eq:SistemaQuadrirotore_Ricatti}), da qui si ottiene la soluzione (\ref{eq:SistemaQuadrirotore_Ricatti_sol}) \cite{baseTesi}. Questo tipo di controllo può essere specializzato per ottenere una soluzione ottima di risparmio della batteria attraverso la scelta delle matrici $Q$ ed $R$ \cite{KoksalN2018ALQA}. Gli elementi delle due matrici rappresentano il contributo nella funzione di costo del corrispettivo elemento del vettore di stato o di comando. Più precisamente, aumentando i valori presenti nella matrice $Q$ ha l'effetto di dare più importanza all'inseguimento dei segnali di riferimento da parte del sistema. Mentre la matrice $R$ determina una minimizzazione in termine di comando attuato, con l'obbiettivo di ridurre l'azionamento e quindi il consumo.
+Con la minimizzazione della funzione di costo espressa nella equazione (\ref{eq:SistemaQuadrirotore_LQRCosto}), si ottiene una matrice di guadagni $K$, la quale viene utilizzata per comandare in retroazione, Eq. (\ref{eq:SistemaQuadrirotore_K_LQR}), \cite{ParaskevopoulosP.N2002MCE}, \cite{6572698}. A differenza del PID, questo tipo di controllo prevede di avere tutto il vettore di stato a disposizione. Per questo motivo viene accompagnato spesso da un Linear Quadratic Estimator (LQE) ed un filtro di Kalman, con lo scopo di determinare dalle misurazioni dei sensori lo stato completo del sistema da controllare. Il metodo utilizzato per determinare la matrice dei guadagni è un aspetto molto importante, inoltre è necessario modellare in modo molto preciso il sistema controllato per evitare di trovare una soluzione poco soddisfacente, \cite{ZuluAndrew2014ARoC}. Nel caso si considerino sistemi tempo invarianti la soluzione si può determinare attraverso l'equazione di Ricatti (\ref{eq:SistemaQuadrirotore_Ricatti}), da qui si ottiene la soluzione (\ref{eq:SistemaQuadrirotore_Ricatti_sol}), come riportato in \cite{baseTesi}. Questo tipo di controllo può essere specializzato per ottenere una soluzione ottima di risparmio della batteria attraverso la scelta delle matrici $Q$ ed $R$ \cite{KoksalN2018ALQA}. Gli elementi delle due matrici rappresentano il contributo nella funzione di costo del corrispettivo elemento del vettore di stato o di comando. Più precisamente, aumentando i valori presenti nella matrice $Q$ ha l'effetto di dare più importanza all'inseguimento dei segnali di riferimento da parte del sistema. Mentre la matrice $R$ determina una minimizzazione in termine di comando attuato, con l'obbiettivo di ridurre l'azionamento e quindi il consumo.
 
 \begin{equation}\label{eq:SistemaQuadrirotore_LQRCosto}
 	J = \int_{0}^{t} \left[e(\tau)^T Q e(\tau) + u(\tau)^T R u(\tau)\right] d \tau
@@ -48,7 +50,7 @@ Con la minimizzazione della funzione di costo espressa nella equazione (\ref{eq:
 	K = R^{-1} B^T S
 \end{equation}
 
-In letteratura è stato fatto un confronto tra questo tipo di controllore e un controllore PID, \cite{PID_vs_LQ}.
+In letteratura è stato fatto un confronto tra questo tipo di controllore e un controllore PID in \cite{PID_vs_LQ}.
 
 \begin{figure}
 	\centering
@@ -59,7 +61,7 @@ In letteratura è stato fatto un confronto tra questo tipo di controllore e un c
 
 \subsubsection{Controllore $\mathbf{H_\infty}$}
 
-Il controllore $H_\infty$ si ottiene esprimendo la soluzione del controllo attraverso una formulazione matematica, prende il nome dallo spazio matematico in cui ha luogo l'ottimizzazione, ovvero lo spazio di Hardy. Il problema principale di questo approccio è la complessità analitica che risiede nell'ottimizzazione stessa. Il sistema così trovato però ha il vantaggio di essere di più facile implementazione su sistemi multi-variabili. Facendo riferimento a \cite{GrimbleM.J1991Hrcd}, si utilizza la rappresentazione con funzioni di trasferimento e considerando anche la presenza di incertezza della modellazione, Eq (\ref{eq:SistemaQuadrirotore_G_inf_TF}).
+Il controllore $H_\infty$ si ottiene esprimendo la soluzione del controllo attraverso una formulazione matematica che prende il nome dallo spazio matematico in cui ha luogo l'ottimizzazione, ovvero lo spazio di Hardy. Il problema principale di questo approccio è la complessità analitica che risiede nell'ottimizzazione stessa, \cite{GrimbleM.J1991Hrcd}. Il sistema così trovato però ha il vantaggio di essere di più facile implementazione su sistemi multi-variabili. Facendo riferimento a \cite{GrimbleM.J1991Hrcd}, si utilizza la rappresentazione con funzioni di trasferimento e considerando anche la presenza di incertezza della modellazione, Eq (\ref{eq:SistemaQuadrirotore_G_inf_TF}).
 
 \begin{equation}\label{eq:SistemaQuadrirotore_G_inf_TF}
 	y(s) = \left(G_0(s) + \Delta G_A(s)\right) u(s) 
@@ -102,7 +104,7 @@ Si applica infine la definizione (\ref{eq:SistemaQuadrirotore_G_inf_Hardy}) alla
 		\|T_0 B_m\|_\infty = \sup_\omega \mid T_0(j \omega) B_m(\omega) \mid
 \end{equation}
 
-Analogamente si studia l'effetto del disturbo ottenendo l'equazione (\ref{eq:SistemaQuadrirotore_G_inf_maximaS}). Attraverso la selezione della funzione $W_d(\omega)$ si enfatizza la regione di frequenze nella quale occorre aumentare la sensibilità per ridurre l'effetto dei disturbi esterni.
+Analogamente si studia l'effetto del disturbo ottenendo l'equazione (\ref{eq:SistemaQuadrirotore_G_inf_maximaS}. Attraverso la selezione della funzione $W_d(\omega)$ si enfatizza la regione di frequenze nella quale occorre aumentare la sensibilità per ridurre l'effetto dei disturbi esterni.
 
 \begin{equation}\label{eq:SistemaQuadrirotore_G_inf_maximaS}
 	\|S W_d\|_\infty = \sup_\omega \mid S(j \omega) W_d(\omega) \mid
@@ -214,7 +216,7 @@ Le funzioni selezionate per questo controllo devo quindi soddisfare il criterio 
 \begin{itemize}
 	\item $V(x,t)$ deve essere definita positiva
 	\item $\dot{V}(x,t)$ deve essere definita negativa
-	\item Per $V(x,t)$ che tende ad infinito $\mid{x}$ deve tendere all'infinito
+	\item Per $V(x,t)$ che tende ad infinito $\Vert x \Vert$ tende all'infinito
 \end{itemize}
 Se queste condizioni sono soddisfatte allora la funzione scelta rispetta l'equilibrio nell'origine della superficie e si può dimostrare che questo equilibrio e globalmente asintoticamente stabile \cite{DesTestCarm}.
 
@@ -266,10 +268,10 @@ Questo tipo di controllo si basa sulla previsione dello stato e del comando che 
 Per un controllo efficacie è necessario stimare il più precisamente possibile lo stato del velivolo, \cite{KimJinho2020ACSo}.
 
 
-Il controllore basa il suo funzionamento su un rappresentazione discreta nel tempo. Dato quindi un segnale $s(t)$ da inseguire, il controllore lo campiona in una sequenza di punti. Si utilizza una seconda traiettoria di riferimento $y(k)$ che descrive l'andamento che il quadritotore deve seguire per raggiunge la sequenza di punti impostati nei sotto intervalli osservati. Un aspetto critico è la selezione della funzione da utilizzare come riferimento per inserire il controllore in closed-loop, una possibile scelta ricade nel segnale di riferimento esponenziale \cite{AbdolhosseiniM2013AEMP}. Partendo quindi dalla sequenza di punti di riferimento, applicando un modello predittivo in una finestra di tempo discreta si determina il comando che permette di inseguire la seconda traiettoria scelta. Facendo scorrere per ogni interazione la finestra temporale utilizzata e il campionamento su di essa si implementa questo tipo di controllo, determinando passo-passo in comando.
-Per ottimizzare ila soluzione e determinare il segnale di attuazione ad ogni interazione in \cite{AbdolhosseiniM2013AEMP}, viene proposta l'ottimizzazione sull'errore, Eq. (\ref{eq:SistemaQuadrirotore_MPC_ERR}).
+Il controllore basa il suo funzionamento su un rappresentazione discreta nel tempo. Dato quindi un segnale $s(t)$ da inseguire, il controllore lo campiona in una sequenza di punti $k$ . Si utilizza una seconda traiettoria di riferimento $y(k)$ che descrive l'andamento che il quadritotore deve seguire per raggiunge la sequenza di punti impostati nei sotto intervalli osservati. Un aspetto critico è la selezione della funzione da utilizzare come riferimento per inserire il controllore in closed-loop, una possibile scelta ricade nel segnale di riferimento esponenziale \cite{AbdolhosseiniM2013AEMP}. Partendo quindi dalla sequenza di punti di riferimento, applicando un modello predittivo in una finestra di tempo discreta si determina il comando che permette di inseguire la seconda traiettoria scelta. Facendo scorrere per ogni interazione la finestra temporale utilizzata e il campionamento su di essa si implementa questo tipo di controllo, determinando passo-passo in comando.
+Per ottimizzare la soluzione e determinare il segnale di attuazione ad ogni interazione in \cite{AbdolhosseiniM2013AEMP}, viene proposta l'ottimizzazione sull'errore, Eq. (\ref{eq:SistemaQuadrirotore_MPC_ERR}).
 \begin{equation}\label{eq:SistemaQuadrirotore_MPC_ERR}
-	\sum_{1}^{i} \left[r(k+1 \mid k) - \hat{y}(k+i \mid k)\right]^2
+	\epsilon = \sum_{1}^{i} \left[r(k+i \mid k) - \hat{y}(k+i \mid k)\right]^2
 \end{equation}
 
 Dove $\hat{y}$ rappresenta l'output misurato e $r$ il segnale di riferimento generato attraverso questo approccio di controllo.
@@ -282,7 +284,7 @@ Dove $\hat{y}$ rappresenta l'output misurato e $r$ il segnale di riferimento gen
 
 \subsubsection{Controllore con logica Fuzzy}
 
-Il sistam di controllo Fuzzy è fondamentalmente composto da tre parti principali: l'unità che si occupa della fuzzification, l'unità che determina le regole da implementare e l'uotput del controllo e infine il componente che determina dallo stato dell'output il segnale del controllo. 
+Il sistema di controllo Fuzzy è fondamentalmente composto da tre parti principali: l'unità che si occupa della fuzzification, l'unità che determina le regole da implementare e l'uotput del controllo e infine il componente che determina dallo stato dell'output il segnale del controllo. 
 L'implementazione delle regole prevede di utilizzare degli stati logici non binari, compresi tra 0 e 1. Applicando questo concetto alla misura dell'errore, si determina una classificazione in funzione all'appartenenza di questo ad una determina condizione, per esempio : nullo, piccolo negativo, medio positivo, ecc. Nel cuore del controllore, utilizzando le proprietà matematiche dei set logici cosi definiti, si descrivono quindi le regole di esecuzione in base agli ingressi logici. Il risultato di questo processo di applicazione delle regole porta a definire un analogo set logico di uscita. attraverso l'unità di defuzzification, utilizzando gli stati logici di uscita si determina il segnale di comando da impartire al sistema governato, \cite{ChenGuanrong2001ItFS}.
 Lo stesso tipo di approccio in bibliografia viene utilizzato in combinazione con altri tipi di controllore, modificando la regolazione in funzione delle condizioni logiche che si verificano.
 Per esempio in \cite{6988024}, attraverso l'utilizzo di controllore fuzzy, viene utilizzato per modificare la posizione di poli utilizzati per rendere stabile il sistema. In \cite{AmoozgarMohammadHadi2012FFGP}, allo scopo di reagire ad un eventuale guasto attraverso l'analisi effettuata da un controllo fuzzy, vengono modificati i valori del controllore PID che è stato utilizzato per il controllo del mezzo.

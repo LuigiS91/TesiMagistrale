@@ -980,8 +980,8 @@
       \strng{authorbibnamehash}{dd7863978255f488066dc4e0533e540f}
       \strng{authornamehash}{dd7863978255f488066dc4e0533e540f}
       \strng{authorfullhash}{dd7863978255f488066dc4e0533e540f}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2005 IEEE/RSJ International Conference on Intelligent Robots and Systems}
@@ -1375,8 +1375,8 @@
       \strng{authorbibnamehash}{6462efc5cb6b79f921a9fc0e2ec40045}
       \strng{authornamehash}{6462efc5cb6b79f921a9fc0e2ec40045}
       \strng{authorfullhash}{6462efc5cb6b79f921a9fc0e2ec40045}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2008 Canadian Conference on Electrical and Computer Engineering}
@@ -1422,8 +1422,8 @@
       \strng{authorbibnamehash}{8f46e2a5d21a1f41195d5678686b9947}
       \strng{authornamehash}{84bb134e504c853e29b6e1fb7817a685}
       \strng{authorfullhash}{8f46e2a5d21a1f41195d5678686b9947}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2017 11th Asian Control Conference (ASCC)}
@@ -1571,12 +1571,638 @@
       \verb 10.1007/978-3-319-14705-5_1
       \endverb
     \endentry
+    \entry{Lavalle98rapidly-exploringrandom}{report}{}
+      \name{author}{1}{}{%
+        {{hash=3068a4de31fc23f2b01082f0ea20c702}{%
+           family={Lavalle},
+           familyi={L\bibinitperiod},
+           given={Steven\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3068a4de31fc23f2b01082f0ea20c702}
+      \strng{fullhash}{3068a4de31fc23f2b01082f0ea20c702}
+      \strng{bibnamehash}{3068a4de31fc23f2b01082f0ea20c702}
+      \strng{authorbibnamehash}{3068a4de31fc23f2b01082f0ea20c702}
+      \strng{authornamehash}{3068a4de31fc23f2b01082f0ea20c702}
+      \strng{authorfullhash}{3068a4de31fc23f2b01082f0ea20c702}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Rapidly-Exploring Random Trees: A New Tool for Path Planning}
+      \field{type}{techreport}
+      \field{year}{1998}
+    \endentry
+    \entry{doi:10.1080/01691864.2013.805472}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2e5bae34e43354de8fc9a0f104a1066b}{%
+           family={Kala},
+           familyi={K\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{2e5bae34e43354de8fc9a0f104a1066b}
+      \strng{fullhash}{2e5bae34e43354de8fc9a0f104a1066b}
+      \strng{bibnamehash}{2e5bae34e43354de8fc9a0f104a1066b}
+      \strng{authorbibnamehash}{2e5bae34e43354de8fc9a0f104a1066b}
+      \strng{authornamehash}{2e5bae34e43354de8fc9a0f104a1066b}
+      \strng{authorfullhash}{2e5bae34e43354de8fc9a0f104a1066b}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advanced Robotics}
+      \field{number}{14}
+      \field{title}{Rapidly exploring random graphs: motion planning of multiple mobile robots}
+      \field{volume}{27}
+      \field{year}{2013}
+      \field{pages}{1113\bibrangedash 1122}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1080/01691864.2013.805472
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/01691864.2013.805472
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/01691864.2013.805472
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/01691864.2013.805472
+      \endverb
+    \endentry
+    \entry{ChoudhurySanjiban2013RSar}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f21fbb2d47098970182066e05150b23a}{%
+           family={Choudhury},
+           familyi={C\bibinitperiod},
+           given={Sanjiban},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ad26bf16eeaee427e8e36bea35587822}{%
+           family={Scherer},
+           familyi={S\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=495200d014eb282f882493a67e925f57}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Sanjiv},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{03c2f5805dd1ba11d82dfa682899ad31}
+      \strng{fullhash}{03c2f5805dd1ba11d82dfa682899ad31}
+      \strng{bibnamehash}{03c2f5805dd1ba11d82dfa682899ad31}
+      \strng{authorbibnamehash}{03c2f5805dd1ba11d82dfa682899ad31}
+      \strng{authornamehash}{03c2f5805dd1ba11d82dfa682899ad31}
+      \strng{authorfullhash}{03c2f5805dd1ba11d82dfa682899ad31}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2013 IEEE International Conference on Robotics and Automation}
+      \field{isbn}{1467356417}
+      \field{issn}{1050-4729}
+      \field{title}{RRT-AR: Sampling-based alternate routes planning with applications to autonomous emergency landing of a helicopter}
+      \field{year}{2013}
+      \field{pages}{3947\bibrangedash 3952}
+      \range{pages}{6}
+      \keyw{Xenon ; Planning}
+    \endentry
+    \entry{KavrakiL1994Prfp}{book}{}
+      \name{author}{3}{}{%
+        {{hash=3468bd8f0b456c9dd83279b5eae72d89}{%
+           family={Kavraki},
+           familyi={K\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=dbc947a3afd2f3e3c62cfce6aab62152}{%
+           family={Svestka},
+           familyi={S\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=23a0114857febda51c53176b3eddffe4}{%
+           family={Overmars},
+           familyi={O\bibinitperiod},
+           given={M.H},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{ce2495b6f15ed3e03f2e61fddda47987}
+      \strng{fullhash}{ce2495b6f15ed3e03f2e61fddda47987}
+      \strng{bibnamehash}{ce2495b6f15ed3e03f2e61fddda47987}
+      \strng{authorbibnamehash}{ce2495b6f15ed3e03f2e61fddda47987}
+      \strng{authornamehash}{ce2495b6f15ed3e03f2e61fddda47987}
+      \strng{authorfullhash}{ce2495b6f15ed3e03f2e61fddda47987}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{<h>Probabilistic</h> <h>roadmaps</h> <h>for path</h> <h>planning</h> <h>in high</h>-<h>dimensional</h> <h>configuration</h> <h>spaces</h>}
+      \field{title}{Probabilistic roadmaps for path planning in high-dimensional configuration spaces}
+      \field{year}{1994}
+      \keyw{Natuurwetenschappen ; Ordered by external client ; Mathematics ; Informatica ; Wiskunde en Informatica (WIIN) ; Landbouwwetenschappen}
+    \endentry
+    \entry{LuchnikovVA1999Vaov}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e1f72a8e0c525e29a0c93365a43755a3}{%
+           family={Luchnikov},
+           familyi={L\bibinitperiod},
+           given={V\bibnamedelima A},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=93c37bd565608e9d71111275af165f5d}{%
+           family={Medvedev},
+           familyi={M\bibinitperiod},
+           given={N\bibnamedelima N},
+           giveni={N\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=1655cf3666a0cedff8cb06e3c528c0de}{%
+           family={Oger},
+           familyi={O\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ebd471946dabe37b0b472000f792ad35}{%
+           family={Troadec},
+           familyi={T\bibinitperiod},
+           given={J\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {United States}%
+      }
+      \strng{namehash}{550eeda0cd5014a220bb454811dbb1ea}
+      \strng{fullhash}{7154a8d69cfe6191b4127daafbe2a822}
+      \strng{bibnamehash}{7154a8d69cfe6191b4127daafbe2a822}
+      \strng{authorbibnamehash}{7154a8d69cfe6191b4127daafbe2a822}
+      \strng{authornamehash}{550eeda0cd5014a220bb454811dbb1ea}
+      \strng{authorfullhash}{7154a8d69cfe6191b4127daafbe2a822}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Voronoi network is known to be a useful tool for the structural description of voids in the packings of spheres produced by computer simulations. In this article we extend the Voronoi-Delaunay analysis to packings of nonspherical convex objects. Main properties of the Voronoi network, which are known for systems of spheres, are valid for systems of any convex objects. A general numerical algorithm for calculation of the Voronoi network in three dimensions is proposed. It is based on the calculation of the trajectory of the imaginary empty sphere of variable size, moving inside a system (the Delaunay empty sphere method). Analysis of voids is presented for an ensemble of random straight lines and for a molecular dynamics model of liquid crystal. The spatial distribution of voids and a simple percolation analysis are obtained. The distributions of the bottleneck radii and the radii of spheres inscribed in the voids are calculated.}
+      \field{issn}{1063-651X}
+      \field{journaltitle}{Physical review. E, Statistical physics, plasmas, fluids, and related interdisciplinary topics}
+      \field{number}{6}
+      \field{title}{Voronoi-Delaunay analysis of voids in systems of nonspherical particles}
+      \field{volume}{59}
+      \field{year}{1999}
+      \field{pages}{7205\bibrangedash 7212}
+      \range{pages}{8}
+    \endentry
+    \entry{RimonE1992Ernu}{article}{}
+      \name{author}{2}{}{%
+        {{hash=99c59211cf99fd548d141d903af74c2d}{%
+           family={Rimon},
+           familyi={R\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=fcb2d4b641d2805ca44e9a7d728cb3e2}{%
+           family={Koditschek},
+           familyi={K\bibinitperiod},
+           given={D.E},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{106995da43ae1ab5e56943dcfa3e5210}
+      \strng{fullhash}{106995da43ae1ab5e56943dcfa3e5210}
+      \strng{bibnamehash}{106995da43ae1ab5e56943dcfa3e5210}
+      \strng{authorbibnamehash}{106995da43ae1ab5e56943dcfa3e5210}
+      \strng{authornamehash}{106995da43ae1ab5e56943dcfa3e5210}
+      \strng{authorfullhash}{106995da43ae1ab5e56943dcfa3e5210}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A methodology for exact robot motion planning and control that unifies the purely kinematic path planning problem with the lower level feedback controller design is presented. Complete information about a freespace and goal is encoded in the form of a special artificial potential function, called a navigation function, that connects the kinematic planning problem with the dynamic execution problem in a provably correct fashion. The navigation function automatically gives rise to a bounded-torque feedback controller for the robot's actuators that guarantees collision-free motion and convergence to the destination from almost all initial free configurations. A formula for navigation functions that guide a point-mass robot in a generalized sphere world is developed. The simplest member of this family is a space obtained by puncturing a disk by an arbitrary number of smaller disjoint disks representing obstacles. The other spaces are obtained from this model by a suitable coordinate transformation. Simulation results for planar scenarios are provided.< >}
+      \field{issn}{1042-296X}
+      \field{journaltitle}{IEEE transactions on robotics and automation}
+      \field{number}{5}
+      \field{title}{Exact robot navigation using artificial potential functions}
+      \field{volume}{8}
+      \field{year}{1992}
+      \field{pages}{501\bibrangedash 518}
+      \range{pages}{18}
+      \keyw{Motion planning ; Robot motion ; Actuators ; Navigation ; Robot kinematics ; Path planning ; Adaptive control ; Robotics and automation ; Motion control ; Orbital robotics ; Controllers (Computers) ; Usage ; Design and construction ; Robots}
+    \endentry
+    \entry{DIJKSTRA1959}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fa6182769b69c9f7b1559f8430d88929}{%
+           family={Dijkstra},
+           familyi={D\bibinitperiod},
+           given={E.\bibnamedelimi W},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{fa6182769b69c9f7b1559f8430d88929}
+      \strng{fullhash}{fa6182769b69c9f7b1559f8430d88929}
+      \strng{bibnamehash}{fa6182769b69c9f7b1559f8430d88929}
+      \strng{authorbibnamehash}{fa6182769b69c9f7b1559f8430d88929}
+      \strng{authornamehash}{fa6182769b69c9f7b1559f8430d88929}
+      \strng{authorfullhash}{fa6182769b69c9f7b1559f8430d88929}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0945-3245}
+      \field{journaltitle}{Numerische Mathematik}
+      \field{number}{1}
+      \field{title}{A note on two problems in connexion with graphs}
+      \field{volume}{1}
+      \field{year}{1959}
+      \field{pages}{269\bibrangedash 271}
+      \range{pages}{3}
+    \endentry
+    \entry{HartPeter1968AFBf}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5f7d498e6ea16510d746ba3d22fd28db}{%
+           family={Hart},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=554618115c97ec956d0353919ee5dbc9}{%
+           family={Nilsson},
+           familyi={N\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+        {{hash=253a4de6b29f96e30136e368e9af44d0}{%
+           family={Raphael},
+           familyi={R\bibinitperiod},
+           given={Bertram},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers (IEEE)}%
+      }
+      \strng{namehash}{279a929920db407e494987a8d79f3479}
+      \strng{fullhash}{279a929920db407e494987a8d79f3479}
+      \strng{bibnamehash}{279a929920db407e494987a8d79f3479}
+      \strng{authorbibnamehash}{279a929920db407e494987a8d79f3479}
+      \strng{authornamehash}{279a929920db407e494987a8d79f3479}
+      \strng{authorfullhash}{279a929920db407e494987a8d79f3479}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although the problem of determining the minimum cost path through a graph arises naturally in a number of interesting applications, there has been no underlying theory to guide the development of efficient search procedures. Moreover, there is no adequate conceptual framework within which the various ad hoc search strategies proposed to date can be compared. This paper describes how heuristic information from the problem domain can be incorporated into a formal mathematical theory of graph searching and demonstrates an optimality property of a class of search strategies.}
+      \field{issn}{0536-1567}
+      \field{journaltitle}{IEEE transactions on systems science and cybernetics}
+      \field{number}{2}
+      \field{title}{A Formal Basis for the Heuristic Determination of Minimum Cost Paths}
+      \field{volume}{4}
+      \field{year}{1968}
+      \field{pages}{100\bibrangedash 107}
+      \range{pages}{8}
+      \keyw{Gradient methods ; Costs ; Minimization methods ; Automatic programming ; Instruction sets ; Automatic control ; Minimax techniques ; Functional programming ; Chemical technology ; Mathematical programming}
+    \endentry
+    \entry{StentzA1994Oaep}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=2b27eb45700cc9002483c454e38467f2}{%
+           family={Stentz},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Comput. Soc. Press}%
+      }
+      \strng{namehash}{2b27eb45700cc9002483c454e38467f2}
+      \strng{fullhash}{2b27eb45700cc9002483c454e38467f2}
+      \strng{bibnamehash}{2b27eb45700cc9002483c454e38467f2}
+      \strng{authorbibnamehash}{2b27eb45700cc9002483c454e38467f2}
+      \strng{authornamehash}{2b27eb45700cc9002483c454e38467f2}
+      \strng{authorfullhash}{2b27eb45700cc9002483c454e38467f2}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The task of planning trajectories for a mobile robot has received considerable attention in the research literature. Most of the work assumes the robot has a complete and accurate model of its environment before it begins to move; less attention has been paid to the problem of partially known environments. This situation occurs for an exploratory robot or one that must move to a goal location without the benefit of a floorplan or terrain map. Existing approaches plan an initial path based on known information and then modify the plan locally or replan the entire path as the robot discovers obstacles with its sensors, sacrificing optimality or computational efficiency respectively. This paper introduces a new algorithm, D*, capable of planning paths in unknown, partially known, and changing environments in an efficient, optimal, and complete manner.< >}
+      \field{booktitle}{Proceedings of the 1994 IEEE International Conference on Robotics and Automation}
+      \field{isbn}{0818653302}
+      \field{title}{Optimal and efficient path planning for partially-known environments}
+      \field{year}{1994}
+      \field{pages}{3310\bibrangedash 3317 vol.4}
+      \range{pages}{-1}
+      \keyw{Motion planning ; Robot sensing systems ; Cost function ; Path planning ; Regions ; Trajectory ; State-space methods ; Mobile robots ; State estimation ; Orbital robotics}
+    \endentry
+    \entry{AndersonS.J2009Auat}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=e21e3eff5183805d0e51f5e7dd67762d}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={S.J},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9df8035af6bea7fbe60ed0f265d5d45e}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={S.C},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5db343b79b2eecd5801f87a010309310}{%
+           family={Iagnemma},
+           familyi={I\bibinitperiod},
+           given={K.D},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2c7a109a8eb5970a9f0206f10a7347c6}{%
+           family={Pilutti},
+           familyi={P\bibinitperiod},
+           given={T.E},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{3599d42538f9673065f8e2e8e2ba5165}
+      \strng{fullhash}{1ca53aa3dbc8d2b6ae8b6d9709eb8605}
+      \strng{bibnamehash}{1ca53aa3dbc8d2b6ae8b6d9709eb8605}
+      \strng{authorbibnamehash}{1ca53aa3dbc8d2b6ae8b6d9709eb8605}
+      \strng{authornamehash}{3599d42538f9673065f8e2e8e2ba5165}
+      \strng{authorfullhash}{1ca53aa3dbc8d2b6ae8b6d9709eb8605}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper describes the design of unified active safety framework that combines trajectory planning, threat assessment, and semi-autonomous control of passenger vehicles into a single constrained-optimal-control-based system. This framework allows for multiple actuation modes, diverse trajectory-planning objectives, and varying levels of autonomy. The vehicle navigation problem is formulated as a constrained optimal control problem with constraints bounding a navigable region of the road surface. A model predictive controller iteratively plans the best-case vehicle trajectory through this constrained corridor. The framework then uses this trajectory to assess the threat posed to the vehicle and intervenes in proportion to this threat. This approach minimizes controller intervention while ensuring that the vehicle does not depart from a navigable corridor of travel. Simulated results are presented here to demonstrate the framework's ability to incorporate multiple threat thresholds and configurable intervention laws while sharing control with a human driver.}
+      \field{booktitle}{2009 IEEE International Conference on Systems, Man and Cybernetics}
+      \field{isbn}{9781424427932}
+      \field{issn}{1062-922X}
+      \field{title}{A unified approach to semi-autonomous control of passenger vehicles in hazard avoidance scenarios}
+      \field{year}{2009}
+      \field{pages}{2032\bibrangedash 2037}
+      \range{pages}{6}
+      \keyw{model predictive control ; MPC ; shared adaptive control ; Navigation ; Humans ; Predictive models ; Control systems ; Semi-autonomous control ; Hazards ; active safety ; mobile robotics ; lane keeping ; hazard avoidance ; Proportional control ; human-machine interaction ; Vehicle safety ; Road vehicles ; threat assessment ; vehicle autonomy ; Road safety ; Trajectory}
+    \endentry
+    \entry{TricaudChristophe2010Aamf}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cd816a5a7518452928baecef2b5e2bb2}{%
+           family={Tricaud},
+           familyi={T\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cc012cb35dabc84a8f3be9e5436141e0}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={YangQuan},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{78e8e53ef1b3f737d10133cbb21a9ee2}
+      \strng{fullhash}{78e8e53ef1b3f737d10133cbb21a9ee2}
+      \strng{bibnamehash}{78e8e53ef1b3f737d10133cbb21a9ee2}
+      \strng{authorbibnamehash}{78e8e53ef1b3f737d10133cbb21a9ee2}
+      \strng{authornamehash}{78e8e53ef1b3f737d10133cbb21a9ee2}
+      \strng{authorfullhash}{78e8e53ef1b3f737d10133cbb21a9ee2}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this article, we discuss fractional order optimal control problems (FOCPs) and their solutions by means of rational approximation. The methodology developed here allows us to solve a very large class of FOCPs (linear/nonlinear, time-invariant/time-variant, SISO/MIMO, state/input constrained, free terminal conditions etc.) by converting them into a general, rational form of optimal control problem (OCP). The fractional differentiation operator used in the FOCP is approximated using Oustaloup’s approximation into a state-space realization form. The original problem is then reformulated to fit the definition used in general-purpose optimal control problem (OCP) solvers such as RIOTS_95, a solver created as a Matlab toolbox. Illustrative examples from the literature are reproduced to demonstrate the effectiveness of the proposed methodology and a free final time OCP is also solved.}
+      \field{issn}{0898-1221}
+      \field{journaltitle}{Computers \& mathematics with applications (1987)}
+      \field{number}{5}
+      \field{title}{An approximate method for numerically solving fractional order optimal control problems of general form}
+      \field{volume}{59}
+      \field{year}{2010}
+      \field{pages}{1644\bibrangedash 1655}
+      \range{pages}{12}
+      \keyw{Fractional order optimal control ; Fractional dynamic systems ; Optimal control ; Time-optimal control ; Fractional calculus ; RIOTS_95 Optimal Control Toolbox}
+    \endentry
+    \entry{6564703}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=333f82f95ff6e4e8a1fa966b9aad4796}{%
+           family={{Özalp}},
+           familyi={Ö\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e2aca892111d2e080a3cd3ac419631a9}{%
+           family={{Sahingoz}},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi K.},
+           giveni={O\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5350fb9bcaf2fa1d374fd4b346ecdd5b}
+      \strng{fullhash}{5350fb9bcaf2fa1d374fd4b346ecdd5b}
+      \strng{bibnamehash}{5350fb9bcaf2fa1d374fd4b346ecdd5b}
+      \strng{authorbibnamehash}{5350fb9bcaf2fa1d374fd4b346ecdd5b}
+      \strng{authornamehash}{5350fb9bcaf2fa1d374fd4b346ecdd5b}
+      \strng{authorfullhash}{5350fb9bcaf2fa1d374fd4b346ecdd5b}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2013 International Conference on Unmanned Aircraft Systems (ICUAS)}
+      \field{title}{Optimal UAV path planning in a 3D threat environment by using parallel evolutionary algorithms}
+      \field{year}{2013}
+      \field{pages}{308\bibrangedash 317}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/ICUAS.2013.6564703
+      \endverb
+    \endentry
+    \entry{DuanHaibin2010Tppf}{article}{}
+      \name{author}{4}{}{%
+        {{hash=15d69e98290fc4142571efe03f85387d}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={Haibin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4b4a9250a2e0d5a9c407d578b63be787}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Yaxiang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f2bdd55bfc327505ed2efef8a17ed767}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiangyin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=0fdb67a9966dfb9c02029151a5ef161e}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={Shan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{3abf0ae16a84f2a43c1374b4a4df8a4e}
+      \strng{fullhash}{6e141f976ffec8c4df99e682361f0ec2}
+      \strng{bibnamehash}{6e141f976ffec8c4df99e682361f0ec2}
+      \strng{authorbibnamehash}{6e141f976ffec8c4df99e682361f0ec2}
+      \strng{authornamehash}{3abf0ae16a84f2a43c1374b4a4df8a4e}
+      \strng{authorfullhash}{6e141f976ffec8c4df99e682361f0ec2}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1569-190X}
+      \field{journaltitle}{Simulation modelling practice and theory}
+      \field{number}{8}
+      \field{title}{Three-dimension path planning for UCAV using hybrid meta-heuristic ACO-DE algorithm}
+      \field{volume}{18}
+      \field{year}{2010}
+      \field{pages}{1104\bibrangedash 1115}
+      \range{pages}{12}
+    \endentry
+    \entry{KassimA.A1992Anna}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=d6663f8890172372160446b445dec01f}{%
+           family={Kassim},
+           familyi={K\bibinitperiod},
+           given={A.A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7294e1ea25807f310af965cbd814924b}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={B.V.K.V},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{016bcf2ee0ec69b136c110f802d0a6fd}
+      \strng{fullhash}{016bcf2ee0ec69b136c110f802d0a6fd}
+      \strng{bibnamehash}{016bcf2ee0ec69b136c110f802d0a6fd}
+      \strng{authorbibnamehash}{016bcf2ee0ec69b136c110f802d0a6fd}
+      \strng{authornamehash}{016bcf2ee0ec69b136c110f802d0a6fd}
+      \strng{authorfullhash}{016bcf2ee0ec69b136c110f802d0a6fd}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The potential field approach to path planning is computationally intensive but highly parallel. The authors propose a general neural network architecture called the wave expansion neural network (WENN), specifically designed to implement such potential field operations useful for path planning. The authors describe WENN-based neural network systems which implement certain types of artificial potential fields for path planning. The neural network takes the workspace which needs to be navigated as input and generates artificial potential fields which are then subsequently used to find a path. Neural network implementation results in greatly reduced computations.< >}
+      \field{booktitle}{[Proceedings 1992] IJCNN International Joint Conference on Neural Networks}
+      \field{isbn}{0780305590}
+      \field{title}{A neural network architecture for path planning}
+      \field{volume}{2}
+      \field{year}{1992}
+      \field{pages}{787\bibrangedash 792 vol.2}
+      \range{pages}{-1}
+      \keyw{Concurrent computing ; Information geometry ; Navigation ; Neural networks ; Neurons ; Artificial neural networks ; Computer architecture ; Path planning ; Computer networks ; Distributed computing}
+    \endentry
+    \entry{SaberAhmedYousuf2008Sucb}{article}{}
+      \name{author}{2}{}{%
+        {{hash=66b57f19332ab1866dd1642f1f651354}{%
+           family={Saber},
+           familyi={S\bibinitperiod},
+           given={Ahmed\bibnamedelima Yousuf},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=e45675e8f7f9baeb82ccd64e4bf2bf5e}{%
+           family={Alshareef},
+           familyi={A\bibinitperiod},
+           given={Abdulaziz\bibnamedelima Mohammed},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{7dd62e57a749ba18a35fbb52feade0b4}
+      \strng{fullhash}{7dd62e57a749ba18a35fbb52feade0b4}
+      \strng{bibnamehash}{7dd62e57a749ba18a35fbb52feade0b4}
+      \strng{authorbibnamehash}{7dd62e57a749ba18a35fbb52feade0b4}
+      \strng{authornamehash}{7dd62e57a749ba18a35fbb52feade0b4}
+      \strng{authorfullhash}{7dd62e57a749ba18a35fbb52feade0b4}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0142-0615}
+      \field{journaltitle}{International journal of electrical power \& energy systems}
+      \field{number}{6}
+      \field{title}{Scalable unit commitment by memory-bounded ant colony optimization with A* local search}
+      \field{volume}{30}
+      \field{year}{2008}
+      \field{pages}{403\bibrangedash 414}
+      \range{pages}{12}
+    \endentry
+    \entry{FeiYanYi-ShaLiuJi-ZhongXiao2013PPiC}{article}{}
+      \name{author}{1}{}{%
+        {{hash=be843f2d1351895cd12310720254e5f8}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Fei\bibnamedelimb Yan\bibnamedelimb Yi-Sha\bibnamedelimb Liu\bibnamedelima Ji-Zhong},
+           giveni={F\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim Y\bibinithyphendelim S\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim J\bibinithyphendelim Z\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{be843f2d1351895cd12310720254e5f8}
+      \strng{fullhash}{be843f2d1351895cd12310720254e5f8}
+      \strng{bibnamehash}{be843f2d1351895cd12310720254e5f8}
+      \strng{authorbibnamehash}{be843f2d1351895cd12310720254e5f8}
+      \strng{authornamehash}{be843f2d1351895cd12310720254e5f8}
+      \strng{authorfullhash}{be843f2d1351895cd12310720254e5f8}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-8186}
+      \field{journaltitle}{International journal of automation and computing}
+      \field{number}{6}
+      \field{title}{Path Planning in Complex 3D Environments Using a Probabilistic Roadmap Method}
+      \field{volume}{10}
+      \field{year}{2013}
+      \field{pages}{525\bibrangedash 533}
+      \range{pages}{9}
+    \endentry
     \entry{px4Guide}{online}{}
       \list{organization}{1}{%
         {PX4 Dev Team}%
       }
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{title}{PX4 Autopilot User Guide (1.8.2)}
       \field{year}{2020}
@@ -1593,8 +2219,8 @@
       \list{organization}{1}{%
         {Wikipedia}%
       }
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{title}{NuttX}
       \field{year}{2020}
@@ -1611,8 +2237,8 @@
       \list{organization}{1}{%
         {Dronecode Project}%
       }
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{title}{MAVLink Developer Guide}
       \field{year}{2020}
