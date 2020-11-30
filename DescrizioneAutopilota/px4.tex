@@ -1,4 +1,4 @@
-\section{PX4 Autopilot}
+\section{Descrizione del firmware PX4 Autopilot}
 Il firmware utilizzato nelle simulazioni di software in the loop e processor in the loop è il PX4 Autopilot \cite{px4Firmware}, \cite{px4Guide}.
 	
 Questo software mette a disposizione diverse funzionalità per avere un sistema di gestione e controllo robusto e affidabile, implementato in diversi tipi di sistemi. L'implementazione non è quindi specifica solo a mezzi aerei di qualsiasi configurazione, ma anche a velicoli di terra, marini e razzi. Il software è open-source e vanta del contributo di parecchi sviluppatori, dagli esperti del settore a contributi di livello accademico. Lo sviluppo open-source permette quindi di aggiungere o modificare le funzionalità messe a disposizione in modo da soddisfare le proprie esigenze e arricchire il progetto generico di nuove funzionalità utili ad altri. Il sistema operativo sulla quale viene eseguito materialmente il codice può essere Nuttx o Linux/MacOS la cui distinzione principale in questa applicazione è solo nella gestione di task e thread.
@@ -17,10 +17,10 @@ Il firmware è principalmente suddiviso in due categorie di moduli:
 Il sistema quindi separa le varie funzionalità in moduli separati, eseguiti in modo indipendente che scambiano i dati e comandi tra di loro e con l'esterno attraverso messaggi asincroni.
 Nella figura \ref{fig:px4.architettura} è riportato lo schema di alto livello del software di PX4 e la sua modularità.
 
-\begin{figure}[ht]
+\begin{figure}
 	\centering
-	\includegraphics[width=1\textwidth]{DescrizioneAutopilota/Figure/PX4_Architecture}
-	\caption{Architettura del codice di PX4 Autopilot}
+	\includegraphics[width=0.8\textwidth]{DescrizioneAutopilota/Figure/PX4_Architecture}
+	\caption{Architettura del codice di PX4 Autopilot, \cite{px4Guide}}
 	\label{fig:px4.architettura}
 \end{figure}
 \subsubsection{Flight stack}
@@ -28,7 +28,7 @@ Il flight stack, mostrato in figura \ref{fig:px4.flightstack} è l'insieme di mo
 	\begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\textwidth]{DescrizioneAutopilota/Figure/PX4_High-Level_Flight-Stack}
-	\caption{Architettura del flight stack di PX4}
+	\caption{Architettura del flight stack di PX4, \cite{px4Guide}}
 	\label{fig:px4.flightstack}
 \end{figure}
 \paragraph{Estimator}
@@ -40,13 +40,42 @@ Il mixer si occupa di tradurre i segnali del comandi normalizzati di rollio, imb
 \subsubsection{Middleware}
 Questo insieme di moduli si occupa invece di tutte le comunicazioni interne tra processi e tra PX4 e il mondo esterno. \'E composta principalmente dai driver per i sensori, i canali di comunicazione verso l'esterno e il bus di trasmissione di messaggi attraverso $\micro$ORB e MAVLink. In questo contesto ricade anche  la connessione con un simulatore per testare il codice generato nelle varie fasi di validazione.
 \subsection{Strumenti per lo sviluppo del codice}
-L'intero codice del firmware PX4 viene messo a disposizione attraverso la piattaforma github. Il progetto contiene all'interno le toolchain necessarie per compilare il sistema nei vari sistemi operativi. Agendo sulle varie possibili configurazioni di compilazione è possibile modificare e aggiunge delle funzionalità. Modificando le impostazioni di compilazione si può generare il programma finale da caricare ed eseguire sull'autopilota.
+Il sistema operativo utilizzato per lo sviluppo è Ubuntu 18.04.5 LTS, nella quale è stato installato MATLAB 2020a. Viene inoltre installato il tool "Embeded Coder Support Package for PX4 Autopilots", seguendo la guida, \cite{PX4MATLAB}. La versione di Ubuntu  installata però non è pienamente compatibile in quanto no presenta di default il software necessario al lancio delle simulazioni da parte di Simulink, ovvero "xterm", che va installato manualmente. La versione di PX4 utilizzata è quella prevista dalla guida \cite{PX4MATLAB}, ovvero la versione "1.8.0". Risulta inoltre necessario installare anche la versione di Java 8 e ROS-Melodic con il modulo di Gazebo.
+
+L'intero codice del firmware PX4 viene messo a disposizione attraverso la piattaforma github, \cite{PX4FIRMWARE}. Il progetto contiene all'interno le toolchain necessarie per compilare il sistema nei vari sistemi operativi. Agendo sulle varie possibili configurazioni di compilazione è possibile modificare e aggiunge delle funzionalità. Modificando le impostazioni di compilazione si può generare il programma finale da caricare ed eseguire sull'autopilota.
 Sono presenti anche delle configurazioni per effettuare l'analisi e la verifica del codice generato attraverso l'utilizzo di un ambiente simulato. I simulatori che presentano una configurazione di base sono : Gazebo, jMAVSim , AirSim, Xplane. Per quanto riguarda questa tesi, verrà utilizzato il software Gazebo sfruttando parzialmente il codice già presente e adottando alcune modifiche. Nulla vieta comunque di poter collegare un simulatore diverso attraverso la creazione di un interfaccia dati con il firmware. Infatti, la connessione viene effettuata attraverso UDP o seriale, utilizzando su essa il protocollo MAVLink.
 
-\todo[inline]{Prendere spunto dalla guida al tool di simulink \cite{toolPx4}}
-\todo[inline]{Parlare del codice generato e della code generation}
+Per la generazione del codice sorgente da implementare nel firmware PX4, si fa utilizzo delle funzionalità aggiunte a MATLAB/Simulink dal tool "Embeded Coder Support Package for PX4 Autopilots", \cite{PX4MATLAB}. Dopo l'installazione di questo pacchetto vengono aggiunti alla libreria standard di Simulink, alcuni blocchetti utili all'interfacciamento con le restanti parti del firmware di PX4. Attraverso l'utilizzo di messaggi $\micro$ORB avvengono infatti le comunicazioni con i moduli eseguiti parallelamente alla configurazione del firmware: stimatore, sensori, attuatori ecc.
 
-\begin{idee}
-	Bypass del mixer nel codice generato attraverso simulink.
-\end{idee}
+Nella creazione del modello in Simulink, si è tenuto conto del fatto che i dati necessari al controllo, venissero prelevati dallo stimatore di default di PX4, a differenza del lavoro svolto precedentemente in \cite{DesTestCarm}, nella quale si sono implementati le funzioni dei sensori e uno stimatore specifico.
+
+Attraverso l'uso dei messaggi passati dal Firmware a Simulink quindi si sono implementati i controllori come spiegato in dettaglio nel capilo precedente. Nella Figura (\ref{fig:in}), viene mostrato l'implementazione su simulink necessaria a leggere lo stato del drone.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{DescrizioneAutopilota/Figure/IN}
+	\caption{Interfaccia di input del modulo di controllo implementato su Simulink}
+	\label{fig:in}
+\end{figure}
+
+Analogamente avviene il collegamento in output del sistema di controllo con l'apposito modulo della libreria, Figura (\ref{fig:out}).
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\textwidth]{DescrizioneAutopilota/Figure/OUT}
+	\caption{Interfaccia di output del modulo di controllo implementato su Simulink}
+	\label{fig:out}
+\end{figure}
+
+Utilizzando quindi questi moduli in input e output, il Coder è in grado generare il codice sorgente, incapsularlo in un modulo di PX4 e compilarlo. Da questo si ottiene quindi un file eseguibile con il sistema PX4 compilato e integrato in esso il controllo implementato. 
+
+Nativamente il tool di Simulink sopracitato non permette l'utilizzo dell'ambiente Gazebo, ma solamente il simulatore jMavSim. Per questo è stato studiato il processo di lancio della simulazione integrato nel tool e la documentazione sui collegamenti tra il firmware PX4 e Gazebo nelle simulazioni SIL effettuate senza utilizzare Simulink. Attraverso la scrittura di uno script, presente in appendice, si è superata questa limitazione, rendendo possibile l'utilizzo di Gazebo per effettuare le simulazioni SIL. In Figura (\ref{fig:ig:INTERSIL}), viene mostrata la configurazione utilizzata per effettuare le simulazioni SIL. Come è possibile osservare nel caso si compili il codice per effettuare SIL, viene compilato all'interno del firmware un modulo che ha lo scopo specifico di interfacciare il simulatore con il Firmware. Il controllore utilizzato è integrato come modulo all'interno del firmware stesso.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{DescrizioneAutopilota/Figure/INTERSIL}
+	\caption{Configurazione per effettuare le simulazioni SIL}
+	\label{fig:ig:INTERSIL}
+\end{figure}
+
 

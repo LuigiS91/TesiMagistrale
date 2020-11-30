@@ -1,15 +1,17 @@
 [0] Config.pm:312> INFO - This is Biber 2.15
 [0] Config.pm:315> INFO - Logfile is 'main.blg'
-[78] biber:330> INFO - === sab nov 28, 2020, 15:26:19
-[93] Biber.pm:415> INFO - Reading 'main.bcf'
-[192] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[209] Biber.pm:4334> INFO - Processing section 0
-[221] Biber.pm:4523> INFO - Looking for bibtex format file 'Bibliografia/bibliografia.bib' for section 0
-[226] bibtex.pm:1682> INFO - LaTeX decoding ...
-[321] bibtex.pm:1494> INFO - Found BibTeX data source 'Bibliografia/bibliografia.bib'
-[816] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[816] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[816] Biber.pm:4162> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'it-IT'
-[816] Biber.pm:4168> INFO - No sort tailoring available for locale 'it-IT'
-[860] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[899] bbl.pm:754> INFO - Output to main.bbl
+[163] biber:330> INFO - === lun nov 30, 2020, 16:55:41
+[270] Biber.pm:415> INFO - Reading 'main.bcf'
+[360] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[373] Biber.pm:4334> INFO - Processing section 0
+[394] Biber.pm:4523> INFO - Looking for bibtex format file 'Bibliografia/bibliografia.bib' for section 0
+[397] bibtex.pm:1682> INFO - LaTeX decoding ...
+[482] bibtex.pm:1494> INFO - Found BibTeX data source 'Bibliografia/bibliografia.bib'
+[487] Utils.pm:395> WARN - Possible typo (case mismatch) between datasource keys: 'PX4FIRMWARE' and 'px4Firmware' in file 'Bibliografia/bibliografia.bib'
+[1043] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1043] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1043] Biber.pm:4162> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'it-IT'
+[1043] Biber.pm:4168> INFO - No sort tailoring available for locale 'it-IT'
+[1119] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1153] bbl.pm:754> INFO - Output to main.bbl
+[1153] Biber.pm:128> INFO - WARNINGS: 1

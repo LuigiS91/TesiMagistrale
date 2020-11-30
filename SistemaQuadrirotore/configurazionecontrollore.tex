@@ -103,11 +103,11 @@ Nell'ultimo modello relativo al Position Controller, Figura (\ref{fig:PIDPosCTR}
 		&$K_{dd}$ & -0,3\\
 		\hline
 		\multirow{3}{*}{$\theta$, $\phi$}&$K$ & 2 \\ 
-		&$S1$ & -0.524 rad $\leftrightarrow$ +0.524 rad\\
-		&$S2$ & -1 rad/s $\leftrightarrow$ 1  rad/s\\
+		&$S1$ & -0.524 [rad] $\leftrightarrow$ +0.524 [rad]\\
+		&$S2$ & -1 [rad/s] $\leftrightarrow$ 1  [rad/s]\\
 		\hline
 		\multirow{2}{*}{$\psi$}&$K$ & 2 \\
-		&$S3$ & -0.5 rad/s $\leftrightarrow$ 0.5 rad/s\\
+		&$S3$ & -0.5 [rad/s] $\leftrightarrow$ 0.5 [rad/s]\\
 		\hline
 		
 	\end{tabular}	
@@ -132,15 +132,168 @@ Nel secondo sistema di controllo simulato, denominato SMC, il modulo di Position
 		&$K_{dd}$ & 0\\
 		\hline
 		\multirow{3}{*}{$\theta$, $\phi$}&$K$ & 2 \\ 
-		&$S1$ & -0.524 rad $\leftrightarrow$ +0.524 rad\\
-		&$S2$ & -1 rad/s $\leftrightarrow$ 1  rad/s\\
+		&$S1$ & -0.524 [rad] $\leftrightarrow$ +0.524 [rad]\\
+		&$S2$ & -1 [rad/s] $\leftrightarrow$ 1  [rad/s]\\
 		\hline
 		\multirow{2}{*}{$\psi$}&$K$ & 2 \\
-		&$S3$ & -0.5 rad/s $\leftrightarrow$ 0.5 rad/s\\
+		&$S3$ & -0.5 [rad/s] $\leftrightarrow$ 0.5 [rad/s]\\
 		\hline		
 	\end{tabular}	
 	\caption{Parametri SMC - Position Controller}
 	\label{tab:SMCPOS}
 \end{table}
 
+La leggi di controllo nell'applicazione con SMC derivano dalla scrittura delle derivate seconde della dinamica, Eq. (\ref{eq:SistemaQuadrirotore_hdd}).
+\begin{equation}\label{eq:SistemaQuadrirotore_hdd}
+\begin{array}{r@{}l}
+	\ddot{h} = & g -\cos(\theta)\cos(\phi)\frac{F_z}{m} \\[1ex]
+	\ddot{\phi} = &\frac{J_y -J_z}{J_x} \dot{\theta} \dot{\psi} + \frac{\tau_x}{J_x} \\[1ex]
+	\ddot{\theta}  = & \frac{J_z -J_x}{J_y} \dot{\phi} \dot{\psi} + \frac{\tau_y}{J_y} \\[1ex]
+	\ddot{\psi}  = & \frac{J_x -J_y}{J_z} \dot{\theta} \dot{\phi} + \frac{\tau_z}{J_z} 
+\end{array}
+\end{equation}
 
+Per il sistema di Altitude control viene scelta una superficie definita nell'equazione (\ref{eq:SistemaQuadrirotore_s_h}).
+\begin{equation}\label{eq:SistemaQuadrirotore_s_h}
+	s(z) = \dot{z}_{ref} - \dot{z}_{est} + \lambda (z_{ref} - z_{est})
+\end{equation}
+
+Da questa scelta, nel rispetto della condizione (\ref{eq:SistemaQuadrirotore_SMC_cond}) e supponendo che la derivata seconda di $s$ sia nulla, si ottiene la legge di controllo espressa nella formula (\ref{eq:SistemaQuadrirotore_HCTRL}).
+
+\begin{equation}\label{eq:SistemaQuadrirotore_HCTRL}
+	F_z = -\frac{m}{\cos(\phi) \cos(\theta)} (\lambda (\dot{z}_{ref}-\dot{z}_{est})- g) - K \textit{sign}(s(z))
+\end{equation}
+
+Nella Figura (\ref{fig:SMC_ALT}), è presentato lo schema di controllo applicato nel modello . I parametri utilizzati sono riassunti nella Tabella (\ref{tab:ab:SMC_ALT}).
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{SistemaQuadrirotore/Figure/SMCAltitudeCtrl}
+	\caption{Schema del Altidude Controller utilizzando il controllo SMC}
+	\label{fig:SMC_ALT}
+\end{figure}
+
+\begin{table}
+	\centering
+	\begin{tabular}{c c}
+		\hline
+		Parametro & Valore \\
+		\hline
+		$K_1$ & 10 \\
+		$K_2$ & 0.0313\\
+		$K$ & 4\\
+		$\lambda$ & 20\\
+		$S1$ & -10 $\leftrightarrow$ +10\\
+		$S2$ & 0 $\leftrightarrow$ 1\\
+		\hline
+	\end{tabular}	
+	\caption{Parametri SMC - Altitude Controller}
+	\label{tab:ab:SMC_ALT}
+\end{table}
+
+Analogamente per il sistema di Altitude Control, nel sistema di Attitude Control viene scelta una superficie di sliding espressa dall'equazione (\ref{eq:SistemaQuadrirotore_slideATT}), utilizzando la definizione di $\mathfrak{q}_{err}$ riportata nella formula (\ref{eq:SistemaQuadrirotore_errore}), \cite{DesTestCarm}.
+
+\begin{equation}\label{eq:SistemaQuadrirotore_slideATT}
+	s(\phi, \theta, \psi, \mathbf{q}_{err}) =  \begin{Bmatrix}
+		\dot{\phi}_{ref} - \dot{\phi}_{est} \\
+		\dot{\theta}_{ref} - \dot{\theta}_{est} \\
+		\dot{\psi}_{ref} - \dot{\psi}_{est} \\
+	\end{Bmatrix} + \begin{pmatrix}
+		\lambda_{roll} & 0 & 0 \\
+		0 & \lambda_{pitch} & 0 \\
+		0 & 0 & \lambda_{yaw} \\
+	\end{pmatrix} \mathbf{q}_{err}
+\end{equation}
+
+Dove $\mathbf{q}_{err}$ è la parte immaginaria del quaternione $\mathfrak{q}_{err}$.
+
+Determinando la derivata prima di $s$ e ponendo la derivata seconda di $s$ nulla, imponendo la condizione (\ref{eq:SistemaQuadrirotore_SMC_cond}) si ottiene infine la legge di controllo, Eq. (\ref{eq:SistemaQuadrirotore_SMCATT}), \cite{DesTestCarm}.
+
+\begin{equation}\label{eq:SistemaQuadrirotore_SMCATT}
+\begin{Bmatrix}
+\tau_x \\ \tau_y \\ \tau_z 
+\end{Bmatrix} = - \begin{Bmatrix}
+	(J_y -J_z)\dot{\psi} \dot{\theta} \\
+	(J_z -J_x)\dot{\psi} \dot{\phi} \\
+	(J_x -J_y)\dot{\theta} \dot{\phi} \\
+\end{Bmatrix} +
+	\Lambda
+	\begin{pmatrix}
+	J_x & 0 & 0 \\
+	0 & J_y & 0 \\
+	0 & 0 & J_z \\
+	\end{pmatrix}
+	\mathbf{q}_{err} 
+	-
+	K
+	\textit{sign}(s)
+\end{equation}
+
+Dove 
+\[
+\Lambda = 
+\begin{pmatrix}
+\lambda_{roll} & 0 & 0 \\
+0 & \lambda_{pitch} & 0 \\
+0 & 0 & \lambda_{yaw} \\
+\end{pmatrix} \ , \ 
+K = \begin{pmatrix}
+K_{roll} & 0 & 0 \\
+0 & K_{pitch} & 0 \\
+0 & 0 & K_{yaw} \\	
+\end{pmatrix}
+\]
+
+Nella Figura (\ref{fig:SMC_ATT}), è presentato lo schema di controllo applicato nel modello. I parametri utilizzati sono riassunti nella Tabella (\ref{tab:ab:SMC_ATT}).
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{SistemaQuadrirotore/Figure/SMCAttitudeCtrl}
+	\caption{Schema del Attidude Controller utilizzando il controllo SMC}
+	\label{fig:SMC_ATT}
+\end{figure}
+
+\begin{table}
+	\centering
+	\begin{tabular}{c c c}
+		\hline
+		Canale  & Parametro & Valore \\
+		\hline
+		\multirow{4}{*}{Beccheggio}&$K_x$ & 0.313 [1/Nm]\\
+		&$K_{pitch}$ & -0.25\\
+		&$\lambda_{pitch}$ & 20\\
+		&$S1$ & -1 $\leftrightarrow$ 1\\
+		\hline
+		\multirow{4}{*}{Rollio}&$K_y$ & 0.313 [1/Nm]\\
+		&$K_{roll}$ & -0.25\\
+		&$\lambda_{roll}$ & 20\\
+		&$S2$ & -1 $\leftrightarrow$ 1\\
+		\hline
+		\multirow{4}{*}{Imbardata}&$K_z$ & 1 [1/Nm]\\
+		&$K_{yaw}$ & -0.25\\
+		&$\lambda_{yaw}$ & 10\\
+		&$S3$ & -1 $\leftrightarrow$ 1\\
+		\hline
+	\end{tabular}	
+	\caption{Parametri SMC - Attitude Controller}
+	\label{tab:ab:SMC_ATT}
+\end{table}
+\clearpage
+In uscita dai tre moduli di controllo sopracitati quindi ci sono quattro segnali :
+\begin{itemize}
+	\item \textbf{Spinta:} Comando $T$ definito da 0 a 1
+	\item \textbf{Imbardata:} Comando $Y$ definito da -1 a 1
+	\item \textbf{Rollio:} Comando $R$ definito da -1 a 1
+	\item \textbf{Beccheggio:} Comando $P$ definito da -1 a 1
+\end{itemize}
+
+Il modulo Mixer si occupa di determinare a partire da questi segnali il comando espresso in termini di Duty Cycle (DC), per generare il segnale elettrico utilizzando la Power-Width Modulation (PWM), in modo da comunicare con il componente che aziona l'attuatore, ovvero l'Electronic Speed Controller (ESC), \cite{DesTestCarm}. Seguendo la descrizione della guida presente in rete del Firmware PX4 si può definire la legge matematica che descrive il mixer, Eq. (\ref{eq:SistemaQuadrirotore_MIXER}).
+
+\begin{equation}\label{eq:SistemaQuadrirotore_MIXER}
+	\begin{array}{r@{}l}
+		\nu_1 = & \left(\frac{-R +P +Y}{2} + T\right) 1000 + 1000 \\[1ex]
+		\nu_2 = & \left(\frac{R -P +Y}{2} + T\right) 1000 + 1000 \\[1ex]
+		\nu_3 = & \left(\frac{R +P -Y}{2} + T\right) 1000 + 1000 \\[1ex]
+		\nu_4 = & \left(\frac{-R -P -Y}{2} + T\right) 1000 + 1000 \\[1ex]
+	\end{array}
+\end{equation}
