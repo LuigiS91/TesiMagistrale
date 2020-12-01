@@ -391,7 +391,7 @@ Vengono qui riportate le simulazioni SIL utilizzando la configurazione denominat
 	\label{fig:STEPPWMSMC}
 \end{figure}
 
-La risposta del controllore SMC in merito alla posizione è abbastanza precisa. Sussiste una differenza piccola ma costante lungo tutta la salita dovuta all'errore iniziale di misurazione, differenza che si annulla rapidamente a livellamento, Figura (\ref{fig:STEPerrposzSMC}).
+La risposta del controllore SMC in merito alla posizione è abbastanza precisa. Sussiste una differenza piccola ma costante lungo tutta la salita, differenza che si annulla rapidamente a livellamento, Figura (\ref{fig:STEPerrposzSMC}). Il profilo di velocità è seguito anch'esso con abbastanza precisione, esiste in questo caso un oscillazione costante nella risposta in velocità rispetto al valore di riferimento della velocità, Figura (\ref{fig:STEPerrvelzSMC}). Il segnale PWM generato da controllore mostra un comportamento discontinuo con ampiezza molto marcata, Figura (\ref{fig:STEPPWMSMC}).
 
 \subsubsection{SQUARE}
 \begin{figure}
@@ -400,24 +400,28 @@ La risposta del controllore SMC in merito alla posizione è abbastanza precisa. 
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SQUARE/PositionControlXPos}
 		\caption{Controllo posizione lungo x}
+		\label{fig:SQUAREerrposxSMC}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SQUARE/PositionControlYPos}
 		\caption{Controllo posizione lungo y}
+		\label{fig:SQUAREerrposySMC}
 	\end{subfigure}
 	\\
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SQUARE/PositionControlXVel}
 		\caption{Controllo velocità lungo x}
+		\label{fig:SQUAREerrvelxSMC}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SQUARE/PositionControlYVel}
 		\caption{Controllo velocità lungo y}
+		\label{fig:SQUAREerrvelySMC}
 	\end{subfigure}
 	\caption{Risposta del controllo posizione con controllore SMC al comando SQUARE}
 \end{figure}
@@ -428,18 +432,21 @@ La risposta del controllore SMC in merito alla posizione è abbastanza precisa. 
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SQUARE/AttitudeControlPitch}
 		\caption{Controllo beccheggio}
+		\label{fig:SQUAREbecSMC}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SQUARE/AttitudeControlRoll}
 		\caption{Controllo rollio}
+		\label{fig:SQUARErolSMC}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SQUARE/AttitudeControlYaw}
 		\caption{Controllo imbardata}
+		\label{fig:SQUAREyawSMC}
 	\end{subfigure}
 	\caption{Risposta dell' assetto con controllore interno SMC al comando SQUARE}
 \end{figure}
@@ -449,11 +456,13 @@ La risposta del controllore SMC in merito alla posizione è abbastanza precisa. 
 	\centering
 	\includegraphics[width=0.5\textwidth]{Simulazioni/Figure/SMC/SQUARE/PWM}
 	\caption{Segnali PWM del controllore SMC al segnale SQUARE}
+	\label{fig:SQUAREPWMSMC}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SQUARE/Trajectory}
 	\caption{Traiettoria percorsa con controllore SMC al segnale SQUARE}
+	\label{fig:SQUAREtraSMC}
 \end{figure}
 
 \todo{Da cambiare}
@@ -468,24 +477,28 @@ In questa simulazione viene mostrata la capacità di muoversi nello spazio rispe
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXPos}
 		\caption{Controllo posizione lungo x}
+		\label{fig:BUTTERFLYerrposxSMC}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYPos}
 		\caption{Controllo posizione lungo y}
+		\label{fig:BUTTERFLYerrposySMC}
 	\end{subfigure}
 	\\
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXVel}
 		\caption{Controllo velocità lungo x}
+		\label{fig:BUTTERFLYerrvelxSMC}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/BUTTERFLY/PositionControlYVel}
 		\caption{Controllo velocità lungo y}
+		\label{fig:BUTTERFLYerrvelySMC}
 	\end{subfigure}
 	\caption{Risposta in posizione con controllore interno SMC al comando BUTTERFLY}
 \end{figure}
@@ -496,18 +509,21 @@ In questa simulazione viene mostrata la capacità di muoversi nello spazio rispe
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlPitch}
 		\caption{Controllo beccheggio}
+		\label{fig:BUTTERFLYbecSMC}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlRoll}
 		\caption{Controllo rollio}
+		\label{fig:BUTTERFLYrolSMC}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/BUTTERFLY/AttitudeControlYaw}
 		\caption{Controllo imbardata}
+		\label{fig:BUTTERFLYyawSMC}
 	\end{subfigure}
 	\caption{Risposta dell' assetto con controllore interno SMC al comando BUTTERFLY}
 \end{figure}
@@ -516,11 +532,13 @@ In questa simulazione viene mostrata la capacità di muoversi nello spazio rispe
 	\centering
 	\includegraphics[width=0.5\textwidth]{Simulazioni/Figure/SMC/BUTTERFLY/PWM}
 	\caption{Segnali PWM del controllore SMC al segnale BUTTERFLY}
+	\label{fig:BUTTERFLYPWMSMC}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/BUTTERFLY/Trajectory}
 	\caption{Traiettoria percorsa con controllore SMC al segnale BUTTERFLY}
+	\label{fig:BUTTERFLYtraSMC}
 \end{figure}
 
 \todo{Da cambiare}
@@ -533,24 +551,28 @@ In questa simulazione si oserva come il controllore PID risponda correttamente a
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/PositionControlXPos}
 		\caption{Controllo posizione lungo x}
+		\label{fig:SNAKEerrposxSMC}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/PositionControlYPos}
 		\caption{Controllo posizione lungo y}
+		\label{fig:SNAKEerrposySMC}
 	\end{subfigure}
 	\\
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/PositionControlXVel}
 		\caption{Controllo velocità lungo x}
+		\label{fig:SNAKEerrvelxSMC}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/PositionControlYVel}
 		\caption{Controllo velocità lungo y}
+		\label{fig:SNAKEerrvelySMC}
 	\end{subfigure}
 	\caption{Risposta in posizione con controllore interno SMC al comando SNAKE}
 \end{figure}
@@ -561,18 +583,21 @@ In questa simulazione si oserva come il controllore PID risponda correttamente a
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/AttitudeControlPitch}
 		\caption{Controllo beccheggio}
+		\label{fig:SNAKEbecSMC}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/AttitudeControlRoll}
 		\caption{Controllo rollio}
+		\label{fig:SNAKErolSMC}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/AttitudeControlYaw}
 		\caption{Controllo imbardata}
+		\label{fig:SNAKEyawSMC}
 	\end{subfigure}
 	\caption{Risposta dell' assetto con controllore interno SMC al comando SNAKE}
 \end{figure}
@@ -582,11 +607,13 @@ In questa simulazione si oserva come il controllore PID risponda correttamente a
 	\centering
 	\includegraphics[width=0.5\textwidth]{Simulazioni/Figure/SMC/SNAKE/PWM}
 	\caption{Segnali PWM del controllore SMC al segnale SNAKE}
+	\label{fig:SNAKEPWMSMC}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/Trajectory}
 	\caption{Traiettoria percorsa con controllore SMC al segnale SNAKE}
+	\label{fig:SNAKEtraSMC}
 \end{figure}
 
 \todo{Da cambiare}
