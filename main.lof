@@ -7,148 +7,154 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Schemi semplificati dell'azionamento del quadrirotore\relax }}{18}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schemi semplificati dell'azionamento del quadrirotore\relax }}{16}{figure.caption.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Rotazione tra sistemi di riferimento NED e corpo \cite {eulero}\relax }}{19}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Rotazione tra sistemi di riferimento NED e corpo \cite {eulero}\relax }}{17}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Fitting quadratico delle leggi riguardanti il quadrirotore\relax }}{22}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Fitting quadratico delle leggi riguardanti il quadrirotore\relax }}{20}{figure.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Classificazione dei tipi di controllori maggiormente utilizzati \cite {KimJinho2020ACSo}\relax }}{23}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Classificazione dei tipi di controllori maggiormente utilizzati \cite {KimJinho2020ACSo}\relax }}{21}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Schema di applicazione del controllore PID\relax }}{24}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Schema di applicazione del controllore PID\relax }}{22}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Schema di applicazione del controllore LQR\relax }}{25}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Schema di applicazione del controllore LQR\relax }}{23}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Schema di applicazione del controllore con Feedback Linearization\relax }}{28}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Schema di applicazione del controllore con Feedback Linearization\relax }}{26}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Fasi di azionamento del controllore SMC \cite {LiShihua2017AiVS}\relax }}{30}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Fasi di azionamento del controllore SMC \cite {LiShihua2017AiVS}\relax }}{28}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Schema di applicazione del controllore SMC\relax }}{31}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Schema di applicazione del controllore SMC\relax }}{29}{figure.caption.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Schema di applicazione del controllore MPC\relax }}{32}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Schema di applicazione del controllore MPC\relax }}{29}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Schema di applicazione del controllore Fuzzy\relax }}{33}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Schema di applicazione del controllore Fuzzy\relax }}{30}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Schema di una configurazione a due layer di Neural Network\relax }}{34}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Schema di una configurazione a due layer di Neural Network\relax }}{31}{figure.caption.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Classificazione dei tipi di algoritmi di Path Planning \cite {YangLiang2016SoR3}\relax }}{35}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Classificazione dei tipi di algoritmi di Path Planning \cite {YangLiang2016SoR3}\relax }}{32}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Schema della configurazione dell'autopilota\relax }}{41}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Schema della configurazione dell'autopilota\relax }}{38}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Schema della configurazione del software dell'autopilota\relax }}{42}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Schema della configurazione del software dell'autopilota\relax }}{39}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Schema del Attitude Controller\relax }}{42}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Schema del Attitude Controller\relax }}{39}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Schema del Altidude Controller\relax }}{43}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Schema del Altidude Controller\relax }}{40}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Schema del Position Controller\relax }}{44}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Schema del Position Controller\relax }}{41}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Schema del Altidude Controller utilizzando il controllo SMC\relax }}{45}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Schema del Altidude Controller utilizzando il controllo SMC\relax }}{42}{figure.caption.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Schema del Attidude Controller utilizzando il controllo SMC\relax }}{46}{figure.caption.44}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Prototipo di riferimento\relax }}{50}{figure.caption.46}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces CUAV\textregistered V5 Nano , \cite {CUAV}\relax }}{50}{figure.caption.48}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Architettura del codice di PX4 Autopilot, \cite {px4Guide}\relax }}{53}{figure.caption.49}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Architettura del flight stack di PX4, \cite {px4Guide}\relax }}{54}{figure.caption.51}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Interfaccia di input del modulo di controllo implementato su Simulink\relax }}{56}{figure.caption.56}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Interfaccia di output del modulo di controllo implementato su Simulink\relax }}{56}{figure.caption.57}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Configurazione per effettuare le simulazioni SIL\relax }}{57}{figure.caption.58}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Drone utilizzato nella simulazione in Gazebo\relax }}{58}{figure.caption.59}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Schema del Attidude Controller utilizzando il controllo SMC\relax }}{43}{figure.caption.44}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Descrizione del procedimento per effettuare la simulazione SIL\relax }}{62}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Prototipo di riferimento\relax }}{46}{figure.caption.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Risposta del controllore PID di quota al segnale STEP\relax }}{64}{figure.caption.66}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces CUAV\textregistered V5 Nano , \cite {CUAV}\relax }}{46}{figure.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Segnali PWM del controllore PID al segnale STEP\relax }}{64}{figure.caption.67}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Architettura del codice di PX4 Autopilot, \cite {px4Guide}\relax }}{49}{figure.caption.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Risposta in posizione con controllore interno PID al comando SQUARE\relax }}{65}{figure.caption.69}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Architettura del flight stack di PX4, \cite {px4Guide}\relax }}{50}{figure.caption.51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Risposta dell' assetto con controllore interno PID al comando SQUARE\relax }}{66}{figure.caption.70}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Interfaccia di input del modulo di controllo implementato su Simulink\relax }}{52}{figure.caption.56}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Segnali PWM del controllore PID al segnale SQUARE\relax }}{66}{figure.caption.71}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Interfaccia di output del modulo di controllo implementato su Simulink\relax }}{52}{figure.caption.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Traiettoria percorsa con controllore PID al segnale SQUARE\relax }}{67}{figure.caption.72}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Configurazione per effettuare le simulazioni SIL\relax }}{52}{figure.caption.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Risposta in posizione con controllore interno PID al comando BUTTERFLY\relax }}{68}{figure.caption.74}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Risposta dell' assetto con controllore interno PID al comando BUTTERFLY\relax }}{69}{figure.caption.75}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Segnali PWM del controllore PID al segnale BUTTERFLY\relax }}{69}{figure.caption.76}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Traiettoria percorsa con controllore PID al segnale SQUARE\relax }}{70}{figure.caption.77}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Risposta in posizione con controllore interno PID al comando SNAKE\relax }}{71}{figure.caption.79}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Risposta dell' assetto con controllore interno PID al comando SNAKE\relax }}{72}{figure.caption.80}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Segnali PWM del controllore PID al segnale SNAKE\relax }}{72}{figure.caption.81}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Traiettoria percorsa con controllore PID al segnale SNAKE\relax }}{73}{figure.caption.82}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Risposta del controllore SMC di quota al segnale STEP\relax }}{74}{figure.caption.84}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Segnali PWM generati del controllore SMC al segnale STEP\relax }}{74}{figure.caption.85}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Risposta del controllo posizione con controllore SMC al comando SQUARE\relax }}{75}{figure.caption.87}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Risposta dell' assetto con controllore interno SMC al comando SQUARE\relax }}{76}{figure.caption.88}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Segnali PWM del controllore SMC al segnale SQUARE\relax }}{77}{figure.caption.89}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Traiettoria percorsa con controllore SMC al segnale SQUARE\relax }}{77}{figure.caption.90}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Risposta in posizione con controllore interno SMC al comando BUTTERFLY\relax }}{78}{figure.caption.93}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Risposta dell' assetto con controllore interno SMC al comando BUTTERFLY\relax }}{79}{figure.caption.94}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Segnali PWM del controllore SMC al segnale BUTTERFLY\relax }}{80}{figure.caption.95}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Traiettoria percorsa con controllore SMC al segnale BUTTERFLY\relax }}{80}{figure.caption.96}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Risposta in posizione con controllore interno SMC al comando SNAKE\relax }}{81}{figure.caption.99}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Risposta dell' assetto con controllore interno SMC al comando SNAKE\relax }}{82}{figure.caption.100}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Segnali PWM del controllore SMC al segnale SNAKE\relax }}{82}{figure.caption.101}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Traiettoria percorsa con controllore SMC al segnale SNAKE\relax }}{83}{figure.caption.102}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Risposta nella simulazione MIL in posizione con controllore interno PID al comando SNAKE\relax }}{84}{figure.caption.109}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Risposta dell' assetto nella simulazione MIL con controllore interno PID al comando SNAKE\relax }}{85}{figure.caption.110}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Segnali PWM nella simulazione MIL del controllore PID al segnale SNAKE\relax }}{85}{figure.caption.111}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Traiettoria percorsa nella simulazione MIL con controllore PID al segnale SNAKE\relax }}{86}{figure.caption.112}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Risposta in posizione nella simulazione MIL con controllore interno SMC al comando SNAKE\relax }}{87}{figure.caption.114}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Risposta dell' assetto nella simulazione MIL con controllore interno SMC al comando SNAKE\relax }}{88}{figure.caption.115}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Segnali PWM del controllore SMC al segnale SNAKE\relax }}{88}{figure.caption.116}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.37}{\ignorespaces Traiettoria percorsa con controllore SMC nella simulazione MIL al segnale SNAKE\relax }}{89}{figure.caption.117}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Drone utilizzato nella simulazione in Gazebo\relax }}{53}{figure.caption.59}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.38}{\ignorespaces Modello di controllo completo PID\relax }}{96}{figure.caption.132}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Descrizione del procedimento per effettuare la simulazione SIL\relax }}{55}{figure.caption.60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.39}{\ignorespaces Modello di controllo d' assetto PID\relax }}{96}{figure.caption.133}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Risposta del controllore PID di quota al segnale STEP\relax }}{57}{figure.caption.65}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.40}{\ignorespaces Modello di controllo di altitudine PID\relax }}{97}{figure.caption.134}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Segnali PWM del controllore PID al segnale STEP\relax }}{57}{figure.caption.66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.41}{\ignorespaces Modello di controllo di posizione PID\relax }}{97}{figure.caption.135}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Risposta in posizione con controllore PID al comando SQUARE\relax }}{58}{figure.caption.67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.42}{\ignorespaces Modello di gestione dei segnali di armamento\relax }}{98}{figure.caption.136}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Traiettoria percorsa con controllore PID al comando SQUARE\relax }}{59}{figure.caption.68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Risposta in velocità con controllore PID al comando SQUARE\relax }}{59}{figure.caption.69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Risposta dell' assetto con controllore PID al comando SQUARE\relax }}{60}{figure.caption.70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Segnali PWM del controllore PID al segnale SQUARE\relax }}{60}{figure.caption.71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Risposta in posizione con controllore interno PID al comando BUTTERFLY\relax }}{61}{figure.caption.72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Traiettoria percorsa con controllore interno PID al comando BUTTERFLY\relax }}{62}{figure.caption.73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Risposta in velocità con controllore PID al comando BUTTERFLY\relax }}{62}{figure.caption.74}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Risposta dell' assetto con controllore PID al comando BUTTERFLY\relax }}{63}{figure.caption.75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Segnali PWM del controllore PID al segnale BUTTERFLY\relax }}{63}{figure.caption.76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Risposta in posizione con controllore PID al comando SNAKE\relax }}{64}{figure.caption.77}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Traiettoria percorsa con controllore PID al segnale SNAKE\relax }}{64}{figure.caption.78}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Risposta in velocità con controllore PID al comando SNAKE\relax }}{65}{figure.caption.79}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Risposta dell' assetto con controllore PID al comando SNAKE\relax }}{65}{figure.caption.80}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Segnali PWM del controllore PID al segnale SNAKE\relax }}{66}{figure.caption.81}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Risposta del controllore SMC di quota al segnale STEP\relax }}{66}{figure.caption.82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Segnali PWM generati del controllore SMC al segnale STEP\relax }}{67}{figure.caption.83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Risposta del controllo posizione con controllore SMC al comando SQUARE\relax }}{67}{figure.caption.84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Risposta dell' assetto con controllore interno SMC al comando SQUARE\relax }}{68}{figure.caption.85}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Segnali PWM del controllore SMC al segnale SQUARE\relax }}{68}{figure.caption.86}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Traiettoria percorsa con controllore SMC al segnale SQUARE\relax }}{69}{figure.caption.87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Risposta in posizione con controllore interno SMC al comando BUTTERFLY\relax }}{70}{figure.caption.88}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Risposta dell' assetto con controllore interno SMC al comando BUTTERFLY\relax }}{71}{figure.caption.89}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Segnali PWM del controllore SMC al segnale BUTTERFLY\relax }}{71}{figure.caption.90}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Traiettoria percorsa con controllore SMC al segnale BUTTERFLY\relax }}{72}{figure.caption.91}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Risposta in posizione con controllore interno SMC al comando SNAKE\relax }}{73}{figure.caption.92}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Risposta dell' assetto con controllore interno SMC al comando SNAKE\relax }}{74}{figure.caption.93}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Segnali PWM del controllore SMC al segnale SNAKE\relax }}{74}{figure.caption.94}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Traiettoria percorsa con controllore SMC al segnale SNAKE\relax }}{75}{figure.caption.95}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Risposta nella simulazione MIL in posizione con controllore interno PID al comando SNAKE\relax }}{77}{figure.caption.97}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Risposta dell' assetto nella simulazione MIL con controllore interno PID al comando SNAKE\relax }}{78}{figure.caption.98}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Segnali PWM nella simulazione MIL del controllore PID al segnale SNAKE\relax }}{78}{figure.caption.99}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Traiettoria percorsa nella simulazione MIL con controllore PID al segnale SNAKE\relax }}{79}{figure.caption.100}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Risposta in posizione nella simulazione MIL con controllore interno SMC al comando SNAKE\relax }}{80}{figure.caption.102}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Risposta dell' assetto nella simulazione MIL con controllore interno SMC al comando SNAKE\relax }}{81}{figure.caption.103}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Segnali PWM del controllore SMC al segnale SNAKE\relax }}{81}{figure.caption.104}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Traiettoria percorsa con controllore SMC nella simulazione MIL al segnale SNAKE\relax }}{82}{figure.caption.105}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.41}{\ignorespaces Modello di controllo completo PID\relax }}{88}{figure.caption.109}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.42}{\ignorespaces Modello di controllo d' assetto PID\relax }}{88}{figure.caption.110}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.43}{\ignorespaces Modello di controllo di altitudine PID\relax }}{89}{figure.caption.111}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.44}{\ignorespaces Modello di controllo di posizione PID\relax }}{89}{figure.caption.112}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.45}{\ignorespaces Modello di gestione dei segnali di armamento\relax }}{90}{figure.caption.113}%

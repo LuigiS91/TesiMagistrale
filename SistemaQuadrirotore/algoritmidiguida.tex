@@ -144,11 +144,11 @@ Un altro tipo di algoritmo matematico è il Controllo Ottimo. Si imposta il prob
 In questa equazione $f\left[x(t),u(t)\right]$ rappresenta la dinamica del sistema.
 Questi approcci descrivono completamente lo stato e le variabili in gioco. Risultano però essere complessa la risoluzione analitica. In bibliografia esistono strumenti che risolvono questo problema di ottimizzazione attraverso la sua discretizzazione, \cite{TricaudChristophe2010Aamf}.
 
-\subsubsection{Algoritmi bio-ispirati}
+\subsubsection{Algoritmi "bio-ispirati"}
 Questi algoritmi mimano la natura per trovare una soluzione al problema. L'approccio è stocastico superando la soluzione basata su modelli matematici quando questi sono eccessivamente complessi.
-Si può fare una suddivisione in due sottocategorie: Algoritmi evoluzionistici e reti neurali.
+Si può fare una suddivisione in due sottocategorie: Algoritmi evolutivi e reti neurali.
 
-Gli algoritmi evoluzionistici cercano di imitare comportamenti e approcci presenti in natura. Grazie all'uso dell'algoritmo genetico si determina attraverso simulazioni la soluzione migliore. In \cite{6564703} viene mostrato una possibile sequenza genetica da utilizzare per sintetizzare  la soluzione. L'applicazione dell'algoritmo comporta di effettuare delle mutazioni di questa configurazione e di confrontarle tra di loro per mezzo di una funzione di fitness, in questo caso la minima distanza percorsa. Il processo prosegue iterativamente scartando le soluzioni peggiori. Raggiunta la condizione soddisfacente in almeno una soluzione, questa viene selezionata.
+Gli algoritmi evolutivi cercano di imitare comportamenti e approcci presenti in natura. Grazie all'uso dell'algoritmo genetico si determina attraverso simulazioni la soluzione migliore. In \cite{6564703} viene mostrato una possibile sequenza genetica da utilizzare per sintetizzare  la soluzione. L'applicazione dell'algoritmo comporta di effettuare delle mutazioni di questa configurazione e di confrontarle tra di loro per mezzo di una funzione di fitness, in questo caso la minima distanza percorsa. Il processo prosegue iterativamente scartando le soluzioni peggiori. Raggiunta la condizione soddisfacente in almeno una soluzione, questa viene selezionata.
 Altro esempio in bibliografia lo si trova in \cite{DuanHaibin2010Tppf}. In questo studio viene utilizzato un algoritmo che prende ispirazione dal rilascio di feromoni da parte delle formiche per determinare il percorso più breve, denominato Ant Colony Optimization (ACO) .
 
 Le reti neurali esattamente come descritto precedentemente sono formati da modelli matematici che imitano il funzionamento dei neuroni in layer. In questa applicazione specifica si fa riferimento ad una formulazione dinamica che tiene conto dell'attività del neurone, Eq. (\ref{eq:SistemaQuadrirotore_DNN}).

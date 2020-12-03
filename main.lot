@@ -7,30 +7,30 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.1}{\ignorespaces Parametri PID - Attitude Controller\relax }}{43}{table.caption.36}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Parametri PID - Attitude Controller\relax }}{40}{table.caption.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.2}{\ignorespaces Parametri PID - Altitude Controller\relax }}{44}{table.caption.38}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Parametri PID - Altitude Controller\relax }}{41}{table.caption.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.3}{\ignorespaces Parametri PID - Position Controller\relax }}{45}{table.caption.40}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Parametri PID - Position Controller\relax }}{42}{table.caption.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.4}{\ignorespaces Parametri SMC - Position Controller\relax }}{45}{table.caption.41}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Parametri SMC - Position Controller\relax }}{42}{table.caption.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.5}{\ignorespaces Parametri SMC - Altitude Controller\relax }}{46}{table.caption.43}%
+\contentsline {table}{\numberline {2.5}{\ignorespaces Parametri SMC - Altitude Controller\relax }}{43}{table.caption.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.6}{\ignorespaces Parametri SMC - Attitude Controller\relax }}{46}{table.caption.45}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Principali caratteristiche del drone\relax }}{49}{table.caption.47}%
+\contentsline {table}{\numberline {2.6}{\ignorespaces Parametri SMC - Attitude Controller\relax }}{43}{table.caption.45}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Descrizione del segnale STEP\relax }}{62}{table.caption.61}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Principali caratteristiche del drone\relax }}{45}{table.caption.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Descrizione del segnale SQUARE\relax }}{63}{table.caption.62}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.3}{\ignorespaces Descrizione del segnale BUTTERFLY\relax }}{63}{table.caption.63}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Descrizione del segnale STEP\relax }}{55}{table.caption.61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.4}{\ignorespaces Descrizione del segnale SNAKE\relax }}{63}{table.caption.64}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Descrizione del segnale SQUARE\relax }}{56}{table.caption.62}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Descrizione del segnale BUTTERFLY\relax }}{56}{table.caption.63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.4}{\ignorespaces Descrizione del segnale SNAKE\relax }}{56}{table.caption.64}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
