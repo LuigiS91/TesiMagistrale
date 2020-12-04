@@ -230,20 +230,21 @@ Nella successiva simulazione viene mostrata la risposta riguardante il segnale d
 		\caption{Controllo posizione lungo y}
 		\label{fig:BUTTERFLYerrposyPID}
 	\end{subfigure}
-	\caption{Risposta in posizione con controllore interno PID al comando BUTTERFLY}
+	\caption{Risposta in posizione con controllore PID al comando BUTTERFLY}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.65\textwidth]{Simulazioni/Figure/PID/BUTTERFLY/Trajectory}
-	\caption{Traiettoria percorsa con controllore interno PID al comando BUTTERFLY}
+	\caption{Traiettoria percorsa con controllore PID al comando BUTTERFLY}
+	\label{fig:BUTTERFLYtraPID}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\begin{subfigure}{0.45\textwidth}
 		\centering
-		\includegraphics[width=1\textwidth]{Simulazioni/Figure/PID/BUTTERFLY/PositionControlXVel}
+		\includegraphics[width=0.65\textwidth]{Simulazioni/Figure/PID/BUTTERFLY/PositionControlXVel}
 		\caption{Controllo velocità lungo x}
 		\label{fig:BUTTERFLYerrvelxPID}
 	\end{subfigure}
@@ -421,7 +422,18 @@ Viene ora analizzata la traiettoria SQUARE, decritta in precedenza.
 		\caption{Controllo posizione lungo y}
 		\label{fig:SQUAREerrposySMC}
 	\end{subfigure}
-	\\
+	\caption{Risposta del controllo posizione con controllore SMC al comando SQUARE}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.65\textwidth]{Simulazioni/Figure/SMC/SQUARE/Trajectory}
+	\caption{Traiettoria percorsa con controllore SMC al segnale SQUARE}
+	\label{fig:SQUAREtraSMC}
+\end{figure}
+
+\begin{figure}
+	\centering
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SQUARE/PositionControlXVel}
@@ -435,7 +447,7 @@ Viene ora analizzata la traiettoria SQUARE, decritta in precedenza.
 		\caption{Controllo velocità lungo y}
 		\label{fig:SQUAREerrvelySMC}
 	\end{subfigure}
-	\caption{Risposta del controllo posizione con controllore SMC al comando SQUARE}
+	\caption{Risposta del controllo velocità con controllore SMC al comando SQUARE}
 \end{figure}
 
 \begin{figure}
@@ -460,7 +472,7 @@ Viene ora analizzata la traiettoria SQUARE, decritta in precedenza.
 		\caption{Controllo imbardata}
 		\label{fig:SQUAREyawSMC}
 	\end{subfigure}
-	\caption{Risposta dell' assetto con controllore interno SMC al comando SQUARE}
+	\caption{Risposta dell' assetto con controllore SMC al comando SQUARE}
 \end{figure}
 
 
@@ -470,16 +482,11 @@ Viene ora analizzata la traiettoria SQUARE, decritta in precedenza.
 	\caption{Segnali PWM del controllore SMC al segnale SQUARE}
 	\label{fig:SQUAREPWMSMC}
 \end{figure}
-\begin{figure}
-	\centering
-	\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SQUARE/Trajectory}
-	\caption{Traiettoria percorsa con controllore SMC al segnale SQUARE}
-	\label{fig:SQUAREtraSMC}
-\end{figure}
+
 
 Nella figure (\ref{fig:SQUAREerrposxSMC}) e (\ref{fig:SQUAREerrposySMC}) sono mostrati gli andamenti del drone nel seguire la traiettoria impostaa. In questa simulazione l'errore di posizione è molto ridotto, esiste una differenza osservabile solo nei cambi di direzione, valore molto piccolo. L'inseguimento del profilo di velocità, Figure (\ref{fig:SQUAREerrvelxSMC}) e (\ref{fig:SQUAREerrvelySMC}), avviene con molta precisione e oscillazioni relativamente piccole, presentando alcuni picchi di overshoot nella prossimità dei cambiamenti repentini di velocità, con successivo assestamento. Il segnale di riferimento generato dal comando di posizione non presenta rumore e solo alcune brevi condizioni di saturazione nelle fasi di massima variazione di velocità, Figure (\ref{fig:SQUAREbecSMC}) e (\ref{fig:SQUARErolSMC}). Il sistema di Attitude Control è in grado di seguire questo segnale di riferimento in modo ottimale senza presentare errori eccessivi e oscillazioni. Nella fase terminale del volo, durante la discesa, il comando PWM generato presenta maggiori oscillazioni. Osservando i dati ricavati riguardante il segnale PWM, Figura(\ref{fig:SQUAREPWMSMC}), si nota la presenza del comando discontinuo introdotto, sussiste una oscillazione continua necessaria a seguire con precisione il segnale di riferimento dell'assetto del drone. Anche in questa simulazione la risposta relativa all'angolo di imbartata è molto piccolo è praticamente trascurabile, (\ref{fig:SQUAREyawSMC}) La traiettoria è seguita in modo efficacie e presenta scostamenti maggiori nella fase di variazione della direzione, Figura (\ref{fig:SQUAREtraSMC}). In questa simulazione è possibile anche osservare il tipico comportamento del sistema SMC, con la fase di reaching e di sliding.
 
-PEr la terza simulazione si fa riferimento alla missione
+Per la terza simulazione si fa riferimento alla missione BUTTERFLY, descritta nella sezione precedente.
 
 \begin{figure}
 	\centering
@@ -496,7 +503,18 @@ PEr la terza simulazione si fa riferimento alla missione
 		\caption{Controllo posizione lungo y}
 		\label{fig:BUTTERFLYerrposySMC}
 	\end{subfigure}
-	\\
+	\caption{Risposta in posizione con controllore SMC al comando BUTTERFLY}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.65\textwidth]{Simulazioni/Figure/SMC/BUTTERFLY/Trajectory}
+	\caption{Traiettoria percorsa con controllore SMC al segnale BUTTERFLY}
+	\label{fig:BUTTERFLYtraSMC}
+\end{figure}
+
+\begin{figure}
+	\centering
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/BUTTERFLY/PositionControlXVel}
@@ -510,7 +528,7 @@ PEr la terza simulazione si fa riferimento alla missione
 		\caption{Controllo velocità lungo y}
 		\label{fig:BUTTERFLYerrvelySMC}
 	\end{subfigure}
-	\caption{Risposta in posizione con controllore interno SMC al comando BUTTERFLY}
+	\caption{Risposta in velocità con controllore SMC al comando BUTTERFLY}
 \end{figure}
 
 \begin{figure}
@@ -535,7 +553,7 @@ PEr la terza simulazione si fa riferimento alla missione
 		\caption{Controllo imbardata}
 		\label{fig:BUTTERFLYyawSMC}
 	\end{subfigure}
-	\caption{Risposta dell' assetto con controllore interno SMC al comando BUTTERFLY}
+	\caption{Risposta dell' assetto con controllore SMC al comando BUTTERFLY}
 \end{figure}
 
 \begin{figure}
@@ -545,16 +563,10 @@ PEr la terza simulazione si fa riferimento alla missione
 	\label{fig:BUTTERFLYPWMSMC}
 \end{figure}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/BUTTERFLY/Trajectory}
-	\caption{Traiettoria percorsa con controllore SMC al segnale BUTTERFLY}
-	\label{fig:BUTTERFLYtraSMC}
-\end{figure}
-
 Nella seguente simulazione l'andamento è simile al precedente caso, la posizione di riferimento è seguita con precisione nonostante la maggiore variazione di direzione, Figure (\ref{fig:BUTTERFLYerrposxSMC}) e (\ref{fig:BUTTERFLYerrposySMC}). Nella parte finale della simulazione, a circa 25 secondi dall'inizio della prova, Figura (\ref{fig:BUTTERFLYerrposxSMC}), si  osserva l'innesco di un modo oscillatorio smorzato dovuto probabilmente all'accoppiamento della dinamica con la variazione di direzione e il rumore di misurazione introdotta dai sensori. Questo effetto è osservabile anche in Figura (\ref{fig:BUTTERFLYerrvelxSMC}). L'inseguimento del profilo di velocità è comunque rispettato correttamento presentatno solo dei piccoli overshoot nella fase di variazione maggiore di velocità, Figure (\ref{fig:BUTTERFLYerrvelxSMC}) e (\ref{fig:BUTTERFLYerrvelySMC}). Anche in questo caso l'andamento del segnale di riferimento generato dal Position Controller è simile al precedente, Figure (\ref{fig:BUTTERFLYbecSMC}) e (\ref{fig:BUTTERFLYrolSMC}). In prossimità dell'oscillazione citata precedentemente, si osserva una maggiore saturazione del segnale di riferimento, nonostante ciò la risposta e stabile e precisa, Figura(\ref{fig:BUTTERFLYbecSMC}). Il segnale PWM , Figura (\ref{fig:BUTTERFLYPWMSMC}), presenta il tipico andamento discontinuo come nelle simulazioni precedenti. Si nota nella fase terminale della simulazione, l'incremento di questa oscillazione dovuto al controllo effettuato per correggere il modo che si è innescato a 25 secondi.
 
-%\subsubsection{SNAKE}
+L'ultima missione riguarda la missione più completa denominata SNAKE, descritta in dettaglio nella sezione precedente.
+
 \begin{figure}
 	\centering
 	\begin{subfigure}{0.45\textwidth}
@@ -570,7 +582,18 @@ Nella seguente simulazione l'andamento è simile al precedente caso, la posizion
 		\caption{Controllo posizione lungo y}
 		\label{fig:SNAKEerrposySMC}
 	\end{subfigure}
-	\\
+	\caption{Risposta in posizione con controllore SMC al comando SNAKE}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.65\textwidth]{Simulazioni/Figure/SMC/SNAKE/Trajectory}
+	\caption{Traiettoria percorsa con controllore SMC al segnale SNAKE}
+	\label{fig:SNAKEtraSMC}
+\end{figure}
+
+\begin{figure}
+	\centering
 	\begin{subfigure}{0.45\textwidth}
 		\centering
 		\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/PositionControlXVel}
@@ -584,7 +607,7 @@ Nella seguente simulazione l'andamento è simile al precedente caso, la posizion
 		\caption{Controllo velocità lungo y}
 		\label{fig:SNAKEerrvelySMC}
 	\end{subfigure}
-	\caption{Risposta in posizione con controllore interno SMC al comando SNAKE}
+	\caption{Risposta in velocità con controllore SMC al comando SNAKE}
 \end{figure}
 
 \begin{figure}
@@ -609,7 +632,7 @@ Nella seguente simulazione l'andamento è simile al precedente caso, la posizion
 		\caption{Controllo imbardata}
 		\label{fig:SNAKEyawSMC}
 	\end{subfigure}
-	\caption{Risposta dell' assetto con controllore interno SMC al comando SNAKE}
+	\caption{Risposta dell' assetto con controllore SMC al comando SNAKE}
 \end{figure}
 
 
@@ -620,29 +643,51 @@ Nella seguente simulazione l'andamento è simile al precedente caso, la posizion
 	\label{fig:SNAKEPWMSMC}
 \end{figure}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=1\textwidth]{Simulazioni/Figure/SMC/SNAKE/Trajectory}
-	\caption{Traiettoria percorsa con controllore SMC al segnale SNAKE}
-	\label{fig:SNAKEtraSMC}
-\end{figure}
-
-In questa simulazione più lunga , no si presentano particolari moti oscillatori come nella precedente. La risposta in termini di posizioni è molto fedele al riferimento, con scostamenti solo in prossimità dei cambi di direzione, Figure (\ref{fig:SNAKEerrposxSMC}) e (\ref{fig:SNAKEerrposySMC}). Lo stesso discorso vale per il profilo di velocità. Sono visibili brevi tratti in cui si verifica overshoot e il successivo rapido assestamento mediamente sulla velocità di riferimento, Figure (\ref{fig:SNAKEerrvelxSMC}) e (\ref{fig:SNAKEerrvelySMC}). Nella fase terminale del volo, a circa 80 secondi dall'inizio di missione, durante la discesa, si può notare un incremento delle oscillazioni nelle Figure (\ref{fig:SNAKEerrvelxSMC}) e (\ref{fig:SNAKEerrvelySMC}). Queste oscillazioni sono visibili anche nei restanti grafici relativi a questa simulazione. Analizzando la Figura (\ref{fig:SNAKEPWMSMC}), si osserva la presenza di alcuni tratti nella quale si presenta la saturazione del segnale èed un incremento considerevole della componente oscillatoria del segnale. Questa è ben visibile soprattutto nella parte finale del voloa circa 80 secondi dall'inizio della simulazione, in fase di discesa.
-
-\clearpage
+In questa simulazione più lunga, non si presentano particolari moti oscillatori come nella precedente. La risposta in termini di posizioni è molto fedele al riferimento, con scostamenti solo in prossimità dei cambi di direzione, Figure (\ref{fig:SNAKEerrposxSMC}) e (\ref{fig:SNAKEerrposySMC}). Lo stesso discorso vale per il profilo di velocità. Sono visibili brevi tratti in cui si verifica overshoot e il successivo rapido assestamento mediamente sulla velocità di riferimento, Figure (\ref{fig:SNAKEerrvelxSMC}) e (\ref{fig:SNAKEerrvelySMC}). Nelle stesse Figure, nella fase terminale del volo, a circa 80 secondi dall'inizio di missione, durante la discesa, si può notare un incremento delle oscillazioni. Queste oscillazioni sono visibili anche nei restanti grafici relativi a questa simulazione. Analizzando la Figura (\ref{fig:SNAKEPWMSMC}), si osserva la presenza di alcuni tratti nella quale si presenta la saturazione del segnale ed un incremento considerevole della componente oscillatoria del segnale. Questa è ben visibile soprattutto nella parte finale del volo a circa 80 secondi dall'inizio della simulazione, in fase di discesa.
 
 \subsection{Confronto}
 
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.48\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/Confronto/ERRPID}
+		\caption{Controllore PID}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.48\textwidth}
+		\centering
+		\includegraphics[width=1\textwidth]{Simulazioni/Figure/Confronto/ERRSMC}
+		\caption{ SMC}
+	\end{subfigure}
+	\caption{Errori di posizione tra PID e SMC nel tempo nelle simulazioni SIL}
+	\label{fig:errori}
+\end{figure}
+
 Comparando le simulazioni sopra-riportate, si può affermare la superiorità di inseguimento del riferimento del controllore PID rispetto al controllore SMC. Nel controllore PID, il Position Controller genera un segnale in uscita molto discontinuo, a causa dell'amplificazione dell'errore di misurazione dovuto alla derivazione numerica calcolata sulla velocità. Come mostrato nella tesi \cite{DesTestCarm}, questa derivata però migliora la risposta di un semplice controllo proporzionale derivativo. Nel controllore SMC, la derivata della velocità non viene utilizzata e il coefficiente $K_{dd}$ è nullo. L'efficacia del Attitude Control con SMC però compensa appieno la perdita di precisione del Position Controller senza contributo derivativo, risultando complessivamente più preciso del controllore PID. D'altro canto il controllore PID, pur attuando una traiettoria meno precisamente rispetto al SMC, mostra una variazione di assetto meno rapido e più smorzato, anche a causa della linearità del comando PWM generato. Esso infatti è quasi privo di componente oscillante e di saturazione del comando, a differenza del comando PWM generato dal controllore SMC, che presenta una componente discontinua costante. Confrontando questo comportamento si può affermare che l'azionamento del controllore SMC è molto più aggressivo di quello del controllore PID, considerazione che si traduce in un consumo di batteria maggiore del controllore SMC.
 
-Nella Tabella (\ref{tab:ConfrontoPIDSMCSIL}), vengono riportate scostamento massimo e medio sulla posizione calcolate con le formule () e (), rispettivamente.
+Nella Tabella (\ref{tab:ConfrontoPIDSMCSIL}), vengono riportate scostamento massimo e medio sulla posizione calcolate con le formule (\ref{eq:err_max}) e (\ref{eq:err_med}), rispettivamente. Nella Figura (\ref{fig:errori}), viene mostrato l'andamento dell'errore nel tempo, nella quale è possibile valutare quantitativamente la migliore prestazione ottenuta dal controllore SMC rispetto al PID. Si nota dall'analisi dell'errore che il valore massimo in entrambi i casi viene misurato nella prima accelerazione, subito dopo il decollo, Figura (\ref{fig:errori}).
 
-\begin{equation}\label{key}
+\begin{equation}\label{eq:err_max}
 \epsilon_{max} = \max \sqrt{(x_{ref}-x_{est})^2+(y_{ref}-y_{est})^2+(z_{ref}-z_{est})^2}
 \end{equation}
 
-\begin{equation}\label{key}
-\epsilon_{medio} = \int_{0}^{T_f} \sqrt{(x_{ref}-x_{est})^2+(y_{ref}-y_{est})^2+(z_{ref}-z_{est})^2} dt = \sum_{0}^{N}
+\begin{equation}\label{eq:err_med}
+\epsilon_{medio} = \frac{1}{T_f}\int_{0}^{T_f} \sqrt{(x_{ref}-x_{est})^2+(y_{ref}-y_{est})^2+(z_{ref}-z_{est})^2} \ dt
 \end{equation}
+
+\begin{table}
+	\centering
+	\caption{Errori di posizione al comando SNAKE attraverso simulazione MIL}
+	\begin{tabular}{c c c}
+		\hline
+		Errore &  PID [m] & SMC [m] \\
+		\hline
+		 $\epsilon_{max}$ & 0.37 & 0.29  \\
+		 $\epsilon_{medio}$ & 0.08 & 0.03  \\
+		\hline
+	\end{tabular}	
+	\label{tab:ConfrontoPIDSMCSIL}
+\end{table}
 
 

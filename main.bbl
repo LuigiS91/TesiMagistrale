@@ -23,8 +23,8 @@
       \list{organization}{1}{%
         {RedOrbit}%
       }
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labeltitlesource}{title}
       \field{title}{The History Of Drone Technology}
       \field{year}{2018}
@@ -50,8 +50,8 @@
       \strng{authorbibnamehash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
       \strng{authornamehash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
       \strng{authorfullhash}{aa4b5b88ea6a3f49af037b1fce9b01aa}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Helicopters "The Epic of Flight"}
@@ -72,8 +72,8 @@
       \strng{authorbibnamehash}{e31266b1bd79c3a0a971722fd92d9ba4}
       \strng{authornamehash}{e31266b1bd79c3a0a971722fd92d9ba4}
       \strng{authorfullhash}{e31266b1bd79c3a0a971722fd92d9ba4}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Science and Research}
@@ -105,8 +105,8 @@
       \strng{authorbibnamehash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
       \strng{authornamehash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
       \strng{authorfullhash}{874e5e1bf71bcb7312d7a78fcc9b0ce8}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Robotics Automation Magazine}
@@ -278,8 +278,8 @@
       \strng{authorbibnamehash}{9aa201f97e07df8537278511dffec554}
       \strng{authornamehash}{267882ee1713eab75fb9510230813b3b}
       \strng{authorfullhash}{9aa201f97e07df8537278511dffec554}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2020 International Conference on Unmanned Aircraft Systems (ICUAS)}
@@ -292,8 +292,8 @@
       \endverb
     \endentry
     \entry{iso26262}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{title}{ISO26262}
       \field{year}{2020}
@@ -571,8 +571,8 @@
       \strng{authorbibnamehash}{918cc97f271f28cdbbbeb1629cdf8f94}
       \strng{authornamehash}{918cc97f271f28cdbbbeb1629cdf8f94}
       \strng{authorfullhash}{918cc97f271f28cdbbbeb1629cdf8f94}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2019 IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops)}
@@ -603,8 +603,8 @@
       \strng{authorbibnamehash}{a585da0577ebdc7496ab3239a8edce5c}
       \strng{authornamehash}{a585da0577ebdc7496ab3239a8edce5c}
       \strng{authorfullhash}{a585da0577ebdc7496ab3239a8edce5c}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Aeronautical \& Space Sciences}
@@ -632,8 +632,8 @@
       \strng{authorbibnamehash}{8687eae34a3830fc0c113d9d65382e90}
       \strng{authornamehash}{8687eae34a3830fc0c113d9d65382e90}
       \strng{authorfullhash}{8687eae34a3830fc0c113d9d65382e90}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{PX4 Autopilots Support from Embedded Coder}
@@ -704,8 +704,8 @@
       \strng{authorbibnamehash}{70f0ce7f598fc642ce62dcfad4775c2c}
       \strng{authornamehash}{70f0ce7f598fc642ce62dcfad4775c2c}
       \strng{authorfullhash}{70f0ce7f598fc642ce62dcfad4775c2c}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2165-3925}
@@ -748,8 +748,8 @@
       \strng{authorbibnamehash}{ddcbe9c4bb6d9619f4d655960f5242e8}
       \strng{authornamehash}{ddcbe9c4bb6d9619f4d655960f5242e8}
       \strng{authorfullhash}{ddcbe9c4bb6d9619f4d655960f5242e8}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0840-8688}
@@ -790,8 +790,9 @@
       \field{sortinit}{4}
       \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
-      \field{booktitle}{Advanced PID Control}
+      \field{labeltitlesource}{title}
       \field{isbn}{978-1-55617-942-6}
+      \field{title}{Advanced PID Control}
       \field{year}{2006}
       \verb{urlraw}
       \verb https://app.knovel.com/hotlink/toc/id:kpAPIDC001/advanced-pid-control/advanced-pid-control
@@ -865,8 +866,8 @@
       \strng{authorbibnamehash}{74888ffe9672a2a92cdcffcca17c7c6e}
       \strng{authornamehash}{46c6e3f0747ea71d95f45a0346b83fa2}
       \strng{authorfullhash}{74888ffe9672a2a92cdcffcca17c7c6e}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2013 International Conference on Informatics, Electronics and Vision (ICIEV)}
@@ -1035,8 +1036,8 @@
       \strng{authorbibnamehash}{1ac430ca60374f1b4e04619382450612}
       \strng{authornamehash}{1ac430ca60374f1b4e04619382450612}
       \strng{authorfullhash}{1ac430ca60374f1b4e04619382450612}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2006 IEEE/RSJ International Conference on Intelligent Robots and Systems}
@@ -1221,8 +1222,8 @@
       \strng{authorbibnamehash}{c2465aadc98c418b040e810d4f8c1b79}
       \strng{authornamehash}{c2465aadc98c418b040e810d4f8c1b79}
       \strng{authorfullhash}{c2465aadc98c418b040e810d4f8c1b79}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{0-8493-1658-8}
@@ -1248,8 +1249,8 @@
       \strng{authorbibnamehash}{b0609cd0ee483eab7ab6fe81a890458a}
       \strng{authornamehash}{b0609cd0ee483eab7ab6fe81a890458a}
       \strng{authorfullhash}{b0609cd0ee483eab7ab6fe81a890458a}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2014 14th International Conference on Control, Automation and Systems (ICCAS 2014)}
@@ -1506,8 +1507,8 @@
       \strng{authorbibnamehash}{745a11036fcc7db6837e01b2f6b8f9df}
       \strng{authornamehash}{240b9740852b5353f901147f23b858da}
       \strng{authorfullhash}{745a11036fcc7db6837e01b2f6b8f9df}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1687-5257}
@@ -1547,8 +1548,8 @@
       \strng{authorbibnamehash}{5855feef864bf66f6af0c38b2fbf5bc9}
       \strng{authornamehash}{9fa8d06107059cccf34dc47a9e8bc395}
       \strng{authorfullhash}{5855feef864bf66f6af0c38b2fbf5bc9}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Mechanisms and Machine Science}
@@ -1695,8 +1696,8 @@
       \strng{authorbibnamehash}{ce2495b6f15ed3e03f2e61fddda47987}
       \strng{authornamehash}{ce2495b6f15ed3e03f2e61fddda47987}
       \strng{authorfullhash}{ce2495b6f15ed3e03f2e61fddda47987}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{<h>Probabilistic</h> <h>roadmaps</h> <h>for path</h> <h>planning</h> <h>in high</h>-<h>dimensional</h> <h>configuration</h> <h>spaces</h>}
@@ -1937,8 +1938,8 @@
       \strng{authorbibnamehash}{1ca53aa3dbc8d2b6ae8b6d9709eb8605}
       \strng{authornamehash}{3599d42538f9673065f8e2e8e2ba5165}
       \strng{authorfullhash}{1ca53aa3dbc8d2b6ae8b6d9709eb8605}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2009 IEEE International Conference on Systems, Man and Cybernetics}
@@ -2377,7 +2378,33 @@
       \endverb
       \keyw{Nuttx}
     \endentry
-    \entry{PX4FIRMWARE}{online}{}
+    \entry{MAVLink}{online}{}
+      \list{organization}{1}{%
+        {Dronecode Project}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{MAVLink Developer Guide}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://mavlink.io/en/
+      \endverb
+      \verb{url}
+      \verb https://mavlink.io/en/
+      \endverb
+      \keyw{mavlink}
+    \endentry
+    \entry{PX4MATLAB}{manual}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Embedded Coder Support Package for PX4 Autopilots - User’s Guide}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{PX4-FIRMWAREGIT}{online}{}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
@@ -2390,14 +2417,6 @@
       \verb{url}
       \verb https://github.com/PX4/PX4-Autopilot
       \endverb
-    \endentry
-    \entry{PX4MATLAB}{manual}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labeltitlesource}{title}
-      \field{title}{Embedded Coder Support Package for PX4 Autopilots - User’s Guide}
-      \field{year}{2020}
-      \field{dateera}{ce}
     \endentry
     \entry{ODE}{online}{}
       \field{sortinit}{1}
@@ -2441,165 +2460,18 @@
       \verb http://gazebosim.org/tutorials?tut=ros_overview
       \endverb
     \endentry
-    \entry{MAVLink}{online}{}
-      \list{organization}{1}{%
-        {Dronecode Project}%
-      }
+    \entry{PIL}{online}{}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
-      \field{title}{MAVLink Developer Guide}
+      \field{title}{Hardware in the Loop Simulation (HITL)}
       \field{year}{2020}
       \field{dateera}{ce}
-      \true{nocite}
       \verb{urlraw}
-      \verb https://mavlink.io/en/
+      \verb https://dev.px4.io/v1.8.0/en/simulation/hitl.html
       \endverb
       \verb{url}
-      \verb https://mavlink.io/en/
-      \endverb
-      \keyw{mavlink}
-    \endentry
-    \entry{ElikerKaram2018AOPf}{article}{}
-      \name{author}{4}{}{%
-        {{hash=987a1876d1fbd57f96288563c97b50da}{%
-           family={Eliker},
-           familyi={E\bibinitperiod},
-           given={Karam},
-           giveni={K\bibinitperiod}}}%
-        {{hash=9897f6a87bae4ecd87561ab25457bc1c}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Guoqing},
-           giveni={G\bibinitperiod}}}%
-        {{hash=c56f246661c86cabd7f2859757aa8f54}{%
-           family={Grouni},
-           familyi={G\bibinitperiod},
-           given={Said},
-           giveni={S\bibinitperiod}}}%
-        {{hash=4fece3f163324172bba987dcd205bd8e}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Weidong},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{publisher}{1}{%
-        {Hindawi Limited}%
-      }
-      \strng{namehash}{c44b0a82858e180ca5b9bced2220e33a}
-      \strng{fullhash}{8b8ad60525ee2da68a47af91630d1f91}
-      \strng{bibnamehash}{8b8ad60525ee2da68a47af91630d1f91}
-      \strng{authorbibnamehash}{8b8ad60525ee2da68a47af91630d1f91}
-      \strng{authornamehash}{c44b0a82858e180ca5b9bced2220e33a}
-      \strng{authorfullhash}{8b8ad60525ee2da68a47af91630d1f91}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2042-3195}
-      \field{journaltitle}{Journal of Advanced Transportation}
-      \field{title}{An Optimization Problem for Quadcopter Reference Flight Trajectory Generation}
-      \field{volume}{2018}
-      \field{year}{2018}
-      \true{nocite}
-      \field{pages}{1\bibrangedash 15}
-      \range{pages}{15}
-      \keyw{Drone aircraft}
-    \endentry
-    \entry{Mendoza-SotoJoséLuis2018Cgpc}{article}{}
-      \name{author}{3}{}{%
-        {{hash=9aaf60cad00b2ac1f84cfcbb8c6f63c8}{%
-           family={Mendoza-Soto},
-           familyi={M\bibinithyphendelim S\bibinitperiod},
-           given={José\bibnamedelima Luis},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=ae8e10c7afd37a96e96144014aa05a54}{%
-           family={Alvarez-Icaza},
-           familyi={A\bibinithyphendelim I\bibinitperiod},
-           given={Luis},
-           giveni={L\bibinitperiod}}}%
-        {{hash=58c9920bb460f8f3176c7aad62ab25d7}{%
-           family={Rodríguez-Cortés},
-           familyi={R\bibinithyphendelim C\bibinitperiod},
-           given={H},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {eng}%
-      }
-      \list{location}{1}{%
-        {Cambridge, UK}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{7dee1498e6fd8a535edafbe6ff0f44b1}
-      \strng{fullhash}{7dee1498e6fd8a535edafbe6ff0f44b1}
-      \strng{bibnamehash}{7dee1498e6fd8a535edafbe6ff0f44b1}
-      \strng{authorbibnamehash}{7dee1498e6fd8a535edafbe6ff0f44b1}
-      \strng{authornamehash}{7dee1498e6fd8a535edafbe6ff0f44b1}
-      \strng{authorfullhash}{7dee1498e6fd8a535edafbe6ff0f44b1}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0263-5747}
-      \field{journaltitle}{Robotica}
-      \field{number}{9}
-      \field{title}{Constrained generalized predictive control for obstacle avoidance in a quadcopter}
-      \field{volume}{36}
-      \field{year}{2018}
-      \true{nocite}
-      \field{pages}{1363\bibrangedash 1385}
-      \range{pages}{23}
-      \keyw{Articles}
-    \endentry
-    \entry{Literature3dPath}{article}{}
-      \name{author}{4}{}{%
-        {{hash=d358854fc0ad71b236150fe3003a7fe6}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Liang},
-           giveni={L\bibinitperiod}}}%
-        {{hash=b9653b90295b7c9d683e1fc6b39f3612}{%
-           family={Qi},
-           familyi={Q\bibinitperiod},
-           given={Juntong},
-           giveni={J\bibinitperiod}}}%
-        {{hash=8175883d96517eae0a70fca6859fff9c}{%
-           family={Xiao},
-           familyi={X\bibinitperiod},
-           given={Jizhong},
-           giveni={J\bibinitperiod}}}%
-        {{hash=e1d0dd705939917ca8e30e8d9417c811}{%
-           family={Yong},
-           familyi={Y\bibinitperiod},
-           given={Xia},
-           giveni={X\bibinitperiod}}}%
-      }
-      \strng{namehash}{171b2724fa1fb5d9c5312fb23a3d8572}
-      \strng{fullhash}{aac62f9199e7d174d207e65356cd7301}
-      \strng{bibnamehash}{aac62f9199e7d174d207e65356cd7301}
-      \strng{authorbibnamehash}{aac62f9199e7d174d207e65356cd7301}
-      \strng{authornamehash}{171b2724fa1fb5d9c5312fb23a3d8572}
-      \strng{authorfullhash}{aac62f9199e7d174d207e65356cd7301}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the World Congress on Intelligent Control and Automation (WCICA)}
-      \field{month}{03}
-      \field{title}{A literature review of UAV 3D path planning}
-      \field{volume}{2015}
-      \field{year}{2015}
-      \true{nocite}
-      \field{pages}{2376\bibrangedash 2381}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/WCICA.2014.7053093
+      \verb https://dev.px4.io/v1.8.0/en/simulation/hitl.html
       \endverb
     \endentry
   \enddatalist

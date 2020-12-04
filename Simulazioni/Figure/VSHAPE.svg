@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1080"
+   height="600"
+   viewBox="0 0 285.74999 158.75001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="VSHAPE.svg"
+   inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/PID.png"
+   inkscape:export-xdpi="150"
+   inkscape:export-ydpi="150">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5705"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5703"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-1.6042736 : 705.81225 : 1"
+       inkscape:vp_y="0 : 3779.5277 : 0"
+       inkscape:vp_z="1069.8094 : 528.53047 : 1"
+       inkscape:persp3d-origin="529.80945 : 350.19712 : 1"
+       id="perspective1131" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="12.477148 : 155.007 : 1"
+       inkscape:vp_y="0 : 1000.0001 : 0"
+       inkscape:vp_z="295.95535 : 108.1012 : 1"
+       inkscape:persp3d-origin="153.08036 : 60.917167 : 1"
+       id="perspective1101" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter2924">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2914" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2916" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="9.1"
+         result="blur"
+         id="feGaussianBlur2918" />
+      <feOffset
+         dx="4.3"
+         dy="7.8"
+         result="offset"
+         id="feOffset2920" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite2922" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter2936">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2926" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2928" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="9.1"
+         result="blur"
+         id="feGaussianBlur2930" />
+      <feOffset
+         dx="4.3"
+         dy="7.8"
+         result="offset"
+         id="feOffset2932" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite2934" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter2948">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2938" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2940" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="9.1"
+         result="blur"
+         id="feGaussianBlur2942" />
+      <feOffset
+         dx="4.3"
+         dy="7.8"
+         result="offset"
+         id="feOffset2944" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite2946" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter2960">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2950" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2952" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="9.1"
+         result="blur"
+         id="feGaussianBlur2954" />
+      <feOffset
+         dx="4.3"
+         dy="7.8"
+         result="offset"
+         id="feOffset2956" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite2958" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter2972">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2962" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2964" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="9.1"
+         result="blur"
+         id="feGaussianBlur2966" />
+      <feOffset
+         dx="4.3"
+         dy="7.8"
+         result="offset"
+         id="feOffset2968" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite2970" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter2984">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2974" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2976" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="9.1"
+         result="blur"
+         id="feGaussianBlur2978" />
+      <feOffset
+         dx="4.3"
+         dy="7.8"
+         result="offset"
+         id="feOffset2980" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite2982" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter2996">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2986" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2988" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="9.1"
+         result="blur"
+         id="feGaussianBlur2990" />
+      <feOffset
+         dx="4.3"
+         dy="7.8"
+         result="offset"
+         id="feOffset2992" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite2994" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="680.8474"
+     inkscape:cy="354.59136"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false"
+     inkscape:window-width="1853"
+     inkscape:window-height="1052"
+     inkscape:window-x="67"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-138.24998)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5417"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,13.895817)"
+       inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion5419"><rect
+           id="rect5421"
+           width="111.56705"
+           height="144.97052"
+           x="114.14724"
+           y="92.172333" /></flowRegion><flowPara
+         id="flowPara5423" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5939"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,13.895817)"
+       inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion5941"><rect
+           id="rect5943"
+           width="271.73105"
+           height="96.974648"
+           x="653.56873"
+           y="104.29417" /></flowRegion><flowPara
+         id="flowPara5945" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5955"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
+       inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion5957"><rect
+           id="rect5959"
+           width="156.42857"
+           height="77.85714"
+           x="141.42857"
+           y="30" /></flowRegion><flowPara
+         id="flowPara5961" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5963"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
+       inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion5965"><rect
+           id="rect5967"
+           width="142.14285"
+           height="41.42857"
+           x="101.42857"
+           y="54.285713" /></flowRegion><flowPara
+         id="flowPara5969" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5971"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
+       inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion5973"><rect
+           id="rect5975"
+           width="105.71429"
+           height="67.14286"
+           x="89.285713"
+           y="52.142857" /></flowRegion><flowPara
+         id="flowPara5977" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="88.198944"
+       y="178.59958"
+       id="text6029"
+       inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan6027"
+         x="88.198944"
+         y="184.84209"
+         style="stroke-width:0.26458332" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="187.08865"
+       y="199.98114"
+       id="text1027"
+       inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         x="187.08865"
+         y="206.22365"
+         style="stroke-width:0.26458332"
+         id="tspan1029" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1033"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:26.66666667px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'sans-serif, Normal';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal"
+       inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><flowRegion
+         id="flowRegion1035"><rect
+           id="rect1037"
+           width="154.55334"
+           height="119.198"
+           x="508.10672"
+           y="29.263815" /></flowRegion><flowPara
+         id="flowPara1039" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="35.368332"
+       y="219.49936"
+       id="text1086-3"
+       inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan1084-6"
+         x="35.368332"
+         y="225.74187"
+         style="stroke-width:0.26458332" /></text>
+    <g
+       id="g1384"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path951"
+         d="M 39.555888,153.74351 146.4637,270.80757 215.45194,194.88584 252.83697,153.74352"
+         style="fill:none;stroke:#cccccc;stroke-width:22.66500092;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         style="filter:url(#filter2996);fill:#f2f2f2;stroke:#000000"
+         transform="translate(-30.238095,-4.1577381)"
+         id="g989">
+        <rect
+           style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.72517455;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect955"
+           width="102.57132"
+           height="26.666777"
+           x="-1.3062606"
+           y="148.96277" />
+      </g>
+      <g
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         style="filter:url(#filter2984);fill:#f2f2f2;stroke:#000000"
+         transform="translate(-23.056547,1.1339285)"
+         id="g984">
+        <rect
+           y="184.24234"
+           x="29.429735"
+           height="26.666777"
+           width="102.57132"
+           id="rect979"
+           style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.72517455;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         style="filter:url(#filter2972);fill:#f2f2f2;stroke:#000000"
+         transform="translate(-5.6696428,3.7797618)"
+         id="g998">
+        <rect
+           style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.72424501;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect959"
+           width="102.30499"
+           height="26.667707"
+           x="46.267246"
+           y="219.52147" />
+      </g>
+      <g
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         style="filter:url(#filter2960);fill:#f2f2f2;stroke:#000000"
+         id="g1011"
+         transform="translate(48.043664,41.953447)">
+        <rect
+           y="219.2542"
+           x="48.405403"
+           height="26.667707"
+           width="102.30499"
+           id="rect1000"
+           style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.72424501;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         style="filter:url(#filter2948);fill:#f2f2f2;stroke:#000000"
+         transform="translate(-9.8273809,3.4017856)"
+         id="g1082">
+        <rect
+           y="219.50037"
+           x="160.10298"
+           height="26.709906"
+           width="90.587318"
+           id="rect965"
+           style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.68204677;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+      <rect
+         y="184.3125"
+         x="185.99339"
+         height="26.709906"
+         width="90.587318"
+         id="rect1023"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.68204677;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter2936)" />
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,58.764566,174.42308)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#b3b3b3;fill-opacity:1;stroke:#000000;"
+         id="flowRoot1041"
+         xml:space="preserve"><flowRegion
+           style="text-align:center;text-anchor:middle;fill:#b3b3b3;stroke:#000000;"
+           id="flowRegion1043"><rect
+             style="text-align:center;text-anchor:middle;fill:#b3b3b3;stroke:#000000;"
+             y="52.497326"
+             x="517.19812"
+             height="74.751274"
+             width="266.68027"
+             id="rect1045" /></flowRegion><flowPara
+           id="flowPara1047">Integrazione Hardware/Software</flowPara></flowRoot>      <g
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         style="filter:url(#filter2924);fill:#f2f2f2;stroke:#000000"
+         transform="translate(43.089285,-4.5357143)"
+         id="g1077">
+        <g
+           style="fill:#f2f2f2;stroke:#000000"
+           id="g1062">
+          <rect
+             y="148.96371"
+             x="178.83434"
+             height="26.664923"
+             width="103.104"
+             id="rect967"
+             style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:0.7270298;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <text
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         id="text1128"
+         y="220.27081"
+         x="247.19643"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="fill:#000080;stroke-width:0.26458332"
+           y="220.27081"
+           x="247.19643"
+           id="tspan1126"
+           sodipodi:role="line">PIL</tspan></text>
+      <text
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         id="text1136"
+         y="123.13094"
+         x="90.714287"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332;fill:#000080;"
+           y="123.13094"
+           x="90.714287"
+           id="tspan1134"
+           sodipodi:role="line">Sim: Simulation</tspan><tspan
+           id="tspan1138"
+           style="stroke-width:0.26458332;fill:#000080;"
+           y="131.95038"
+           x="90.714287"
+           sodipodi:role="line">RP: Rapid Prototyping</tspan><tspan
+           id="tspan1140"
+           style="stroke-width:0.26458332;fill:#000080;"
+           y="140.76982"
+           x="90.714287"
+           sodipodi:role="line">OTRP: On-Target Rapid prototyping</tspan><tspan
+           id="tspan1142"
+           style="stroke-width:0.26458332;fill:#000080;"
+           y="149.58926"
+           x="90.714287"
+           sodipodi:role="line">PCG: Production Code Generation</tspan><tspan
+           id="tspan1144"
+           style="stroke-width:0.26458332;fill:#000080;"
+           y="158.40871"
+           x="90.714287"
+           sodipodi:role="line">SIL: Software In the Loop</tspan><tspan
+           id="tspan1146"
+           style="stroke-width:0.26458332;fill:#000080;"
+           y="167.22815"
+           x="90.714287"
+           sodipodi:role="line">PIL: Processor In the Loop</tspan><tspan
+           id="tspan1148"
+           style="stroke-width:0.26458332;fill:#000080;"
+           y="176.04761"
+           x="90.714287"
+           sodipodi:role="line">HIL: Harware In the Loop</tspan></text>
+      <text
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         id="text1108"
+         y="180.20534"
+         x="-8.3154764"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="fill:#000080;stroke-width:0.26458332"
+           y="180.20534"
+           x="-8.3154764"
+           id="tspan1106"
+           sodipodi:role="line">Sim</tspan></text>
+      <text
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         id="text1112"
+         y="222.53867"
+         x="27.59226"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="fill:#000080;stroke-width:0.26458332"
+           y="222.53867"
+           x="27.59226"
+           id="tspan1110"
+           sodipodi:role="line">RP</tspan></text>
+      <text
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         id="text1116"
+         y="260.71426"
+         x="69.547623"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="fill:#000080;stroke-width:0.26458332"
+           y="260.71426"
+           x="69.547623"
+           id="tspan1114"
+           sodipodi:role="line">OTRP</tspan></text>
+      <text
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         id="text1120"
+         y="297.75592"
+         x="140.60715"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="fill:#000080;stroke-width:0.26458332"
+           y="297.75592"
+           x="140.60715"
+           id="tspan1118"
+           sodipodi:role="line">PCG</tspan></text>
+      <text
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         id="text1124"
+         y="259.95831"
+         x="212.42261"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="fill:#000080;stroke-width:0.26458332"
+           y="259.95831"
+           x="212.42261"
+           id="tspan1122"
+           sodipodi:role="line">SIL</tspan></text>
+      <text
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="/home/luigi/Scrivania/Tesi/SistemaQuadrirotore/Figure/VSHAPE.png"
+         id="text1132"
+         y="180.5833"
+         x="281.97021"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="fill:#000080;stroke-width:0.26458332"
+           y="180.5833"
+           x="281.97021"
+           id="tspan1130"
+           sodipodi:role="line">HIL</tspan></text>
+      <text
+         xml:space="preserve"
+         style="filter:url(#filter2996);fill:#b3b3b3;stroke:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill-opacity:1;stroke-width:0.26458332;"
+         x="17.372517"
+         y="164.16704"
+         id="text973"
+         transform="translate(-30.238094,-4.1577394)"><tspan
+           sodipodi:role="line"
+           id="tspan971"
+           x="17.372517"
+           y="164.16704"
+           style="stroke-width:0.26458332;fill:#b3b3b3;stroke:#000000;">Requisiti di sistema</tspan></text>
+      <text
+         id="text977"
+         y="199.17934"
+         x="35.012314"
+         style="filter:url(#filter2984);fill:#b3b3b3;stroke:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill-opacity:1;stroke-width:0.26458332;"
+         xml:space="preserve"
+         transform="translate(-23.056547,1.1339273)"><tspan
+           style="stroke-width:0.26458332;fill:#b3b3b3;stroke:#000000;"
+           y="199.17934"
+           x="35.012314"
+           id="tspan975"
+           sodipodi:role="line">Progettazione del sistema</tspan></text>
+      <text
+         xml:space="preserve"
+         style="filter:url(#filter2972);fill:#b3b3b3;stroke:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill-opacity:1;stroke-width:0.26458332;"
+         x="49.444862"
+         y="234.72618"
+         id="text993"
+         transform="translate(-5.6696427,3.7797606)"><tspan
+           sodipodi:role="line"
+           id="tspan991"
+           x="49.444862"
+           y="234.72618"
+           style="stroke-width:0.26458332;fill:#b3b3b3;stroke:#000000;">Progettazione del software</tspan></text>
+      <text
+         id="text1004"
+         y="234.99345"
+         x="56.393871"
+         style="filter:url(#filter2960);fill:#b3b3b3;stroke:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill-opacity:1;stroke-width:0.26458332;"
+         xml:space="preserve"
+         transform="translate(48.043663,41.953447)"><tspan
+           style="stroke-width:0.26458332;fill:#b3b3b3;stroke:#000000;"
+           y="234.99345"
+           x="56.393871"
+           id="tspan1002"
+           sodipodi:role="line">Generazione del codice</tspan></text>
+      <text
+         id="text1015"
+         y="234.72618"
+         x="164.37074"
+         style="filter:url(#filter2948);fill:#b3b3b3;stroke:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill-opacity:1;stroke-width:0.26458332;"
+         xml:space="preserve"
+         transform="translate(-9.8273809,3.4017848)"><tspan
+           style="stroke-width:0.26458332;fill:#b3b3b3;stroke:#000000;"
+           y="234.72618"
+           x="164.37074"
+           id="tspan1013"
+           sodipodi:role="line">Integrazione del codice</tspan></text>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot1053"
+         style="fill:#b3b3b3;stroke:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill-opacity:1;"
+         transform="matrix(0.26458333,0,0,0.26458333,80.774289,173.00288)"><flowRegion
+           id="flowRegion1055"
+           style="text-align:center;text-anchor:middle;fill:#b3b3b3;stroke:#000000;"><rect
+             id="rect1057"
+             width="384.86813"
+             height="90.913727"
+             x="536.39099"
+             y="-88.924034"
+             style="text-align:center;text-anchor:middle;fill:#b3b3b3;stroke:#000000;" /></flowRegion><flowPara
+           id="flowPara1059">Integrazione nel sistema e calibrazione</flowPara></flowRoot>    </g>
+  </g>
+</svg>

@@ -1,68 +1,4 @@
 \section{Algoritmi di guida}
-
-%\begin{idee}
-%	\cite{ElikerKaram2018AOPf}
-%	\cite{baseTesi}
-%	\cite{Mendoza-SotoJoséLuis2018Cgpc}
-%	\cite{PathPlannigOverview}
-%	
-%	
-%	\cite{YangLiang2016SoR3} : 
-%	
-%	La necessità è quella di avere autonomia nello spostamento senza l'intervento dell'uomo, determinando autonomamente il percorso da seguire.
-%	Tra gli obbiettivi di pianificazione del percorso c'è anche quello di evitare gli ostacoli possibili per questioni di sicurezza.
-%	Nel contesto degli UAV il problema è un problema tridimensionale.
-%	
-%	La soluzione a questo tipo di problema è estremamente complessa.
-%	
-%	Si può suddividere il problema in 2 parti fondamentali:
-%	
-%	1. Percezione e modellazione dell'ambiente
-%	2. Applicazione dell'algoritmo di pianificazione
-%	
-%	Non è necessario però che la pianificazione si sempre accompagnata da una ottimizazione, alcune volte basta che questa colleghi i due punti nello spazio.
-%	Si distingue in pianificazione del persorso e pianificazione del percorso ottimo se si vuole ottimizzare una certa funzione di costo oppure no.
-%	
-%	Sussiste una differenza tra pianificazione del percorso e della traiettoria. La pianificazione del percorso cerca solo un a curva o una sequenza di curve che colleghino due punti nello spazio, mentre la pianificazione della traiettoria prevede di determinare anche come questa debba essere percorsa, descrivendo in modo cinematico e dinamico, attraverso la valutazione di questi nella ricerca della soluzione.
-%	
-%	Si possono classificare gli algoritmi di pianificazione dei percorsi in 5 categorie.
-%	
-%	1. Algoritmi basati sul campionamento:
-%		Questi algoritmi richiedono la conoscenza a priori di informazioni sull'ambiente e una rappresentazione matematica di questo. Si prevede di dividere l'ambiente in nodi o celle o altre forme. Avviene poi una ricerca attraverso una ricerca casuale. Questa categoria si può suddividere a sua volta in altre 2 categorie : attive e passive. Attive  si intende algoritmi che esploraro rapidamente in modo casuale per trovare il percorso migliore. Passivi algoritmi che si occupano di cercare la soluzione da percorsi già presenti come su di una mappa.
-%		Tra gli attivi si parla di Rapidly Exploring Random Tree (RRT). Si generano nodi casualmente nello spazio cercando di raggiungere il punto obbiettivo. L'algoritmo ha il problema però di essere molto lento se l'ambiente è disordinato per trovare la soluzione.
-%		Dinamic Domain RRT (DDRRT) : questa evoluzione attraverso l'introduzione di sfere permette di velocizzare l'esplorazione dell'ambiente superando in parte la limitazione della versione RRT.
-%		Rapidly Exploring Random Graph (RRG) : Per migliorare la soluzione ottenuta attraverso RRT e DDRRT viene introdotta una struttura dati che assiste l'esplorazione. Attraverso questo approccio nuovi collegamenti vengono fatti durante l'esplorazione per avere una soluzione migliorata. Ulteriore miglioramento può essere fatto utilizzando RRT-Star (RRT*) una versione in cui vengono eliminati i percorsi che si sono ottenuti e che probabilmente non sono ottimali , raffinando invece le connessioni che lo sono. In questo modo si ottiene una soluzione ottimizzata al prezzo però di non poter generare più percorsi contemporaneamente e un costo computazionale maggiore.
-%		Probabilistic Road Map (PRM) genera i nodi in modo da avere un collegamento tra i due punti. Considera differenti scelte dal set di soluzioni che si possono trovare e attraverso un algoritmo di ricerca testa la soluzione per discriminare la migliore.
-%		Vornoi: Attraverso l'uso dei digrammi di Voronoi si determinano i nodi e le connessioni per generare il percorso. Il vantaggio è che in questo approccio la minima distanza con gli ostacoli è sempre la stessa. Si continua a suddividere l'ambiente fino a quando si ottiene collegamento tra tutti i canali. Non è in grado di generare contemporaneamente il migliore percorso , per sopperire a questa limitazione è necessario utilizzare un algoritmo di ricerca per trovare la soluzione migliore.
-%		Algoritmo basato su energia potenziale. Viene considerata una funzione potenziale attraverso interazione tra spazio percorribile e non, da questo si determina il percorso, è molto facile da implementare e ha un costo computazionale basso, ha però il problema di presentare minimi locali e punti di ristagno , limitazione però facilmente superabile in diversi modi.
-%		Riassumendo questi approcci si basano sull'esplorazione delle possibili soluzioni e la successiva valutazione per migliorare la forma ottenuta. L'algoritmo si applica in modo indipendente all'ambiente specifico perché concettualmente separato avendo la capacità di determinare le collisioni in modo autonomo se nella ricerca avviene.
-%	
-%		
-%	2. Algoritmi basati sui nodi
-%		Questi algoritmi sono basati sull'utilizzo di nodi appartenenti ad un grafo scomposto, ricercando in mappe già pronte.
-%		Algoritmo di Dijkstra.l Conoscendo già un grafo in cui gli archi e i nodi sono stati pesati , si attua una ricerca per ridurre la funzione di costo. Partendo quindi dai nodi si genera il grafo con i pesi e poi si applica l'algoritmo. Un evoluzione di questo algoritmo è A-Star (A*). Indroducendo una stima euristica del costo durante il processo di ricerca permetta una più veloce velocità di convergenza. Per applicazioni con ostacoli dinamici dsi utilizza una versione modificata denominata D-Star (D*) che prevede di modificare i pesi nel grafo in funzione della configurazione degli ostacoli. Questo tipo di approccio però è limitativo in termini di soluzioni a causa della chiara incompletezza della struttura di configurazioni nell'ambiente. Di fatto si parla solamente di un algoritmo di ricerca no è in grado di generare un percorso ma solo una configurazione di sotto-percorsi già precostituiti.
-%		
-%	3. Algoritmi basati su modelli matematici
-%		Questi metodi modellano l'ambiente  e il sistema e il sistema e modellano la funzione di costo con i limiti e vincoli per ottenere la soluzione ottimale. Equazioni e disequazioni vengono utilizzate per ottenere la soluzione migliore.
-%		Vengono descritte matematicamente i vincoli cinematici e dinamici attraverso combinazioni di forme polinomiali. Si può modelare sistemai tempovarianti. 
-%		Algoritmi lineari. Si definisce una funzione di costo che contiene all'interno tutti i vincoli in termini di ottimizzazione della soluzione e sul e limitazioni del controllo che penalizza il costo. all'interno è presente anche l'espressione che descrive lo spazio effettivamente raggiungibile. Attraverso questa formulazione si descrive completamente l'ambiente. \'E possibile anche tenere conto delle incertezze e fattori di disturbo.
-%		Controllo ottimo. Si imposta il problema da un pusto di vista ottimo per il controllollo utilizzando equazioni differenziali. Si utilizza una formulazione Hamiltoniana per risolvere il problema. 
-%		Questi approcci descrivono completamente il lo stato e le variabili in gioco . Risultano però essere complessi e molto pesanti da risolvere.
-%	
-%	4. Algoritmi bio-ispirati
-%		Questi algoritmi mimano la natura per trovare una soluzione al problema. L'approccio alla soluzione è stocastico superando la soluzione basata su modelli matematici per problemi molto complessi.
-%		Si può fare una suddivisione in due sottocategorie: Algoritmi evoluzionistici e reti neurali.
-%		Gli algortmi evoluzionistici cercano di imitare comportamenti e approcci presenti in naura ed osservati. Tra questi è famoso l'algoritmo genetico che attraverso una approccio simile alla selezione naturale determina attraverso simulazioni il migliore approccio da una famiglia.
-%		Le reti neurali esattamente come descritto precedentemente sono formati da modelli matematici che imitano il funzionamento dei neuroni in layer. In questa applicazione specifica si fa riferimento ad una formulazione dinamica che tiene conto dell'attività del neurone.
-%		
-%	5. Algoritmi misti
-%		Normalmente gli alg
-%		oritmi presentati tendono a fondersi assieme per sopperire alle proprie limitazioni e trovare assieme una soluzione ottimale. Migliori soluzioni miste. Dove sono presenti delle limitazioni si interviene un altro algoritmo che supporta il primo a trovare una soluzione ottimale.	Si possono suddividere in due categorie: Embedded Multifusional Algorithms (EMA) e Ranked Multifusion. Algorithm (RMA).
-%		EMA lavorano assieme sullo stesso modello.
-%		RMA lavorano su livelli separati e in modo ordinato.	
-%	
-%\end{idee}
-
 Per poter muovere correttamente il velivolo nello spazio senza l'ausilio del controllo da parte di un operatore umano, mantenendo le distanze di sicurezza e in modo compatibile alla sua dinamica e alle leggi di controllo implementate, occorre generare correttamente i segnali necessari. A questo scopo vengono sviluppate due funzionalità: trovare il percorso nello spazio evitando eventuali ostacoli presenti, creare i segnali necessari a seguire il percorso trovato seguendo vincoli di velocità e accelerazioni compatibili con le leggi di controllo e il velivolo stesso. Vengono quindi descritti gli algoritmi di pianificazione del percorso e della traiettoria in applicazioni tridimensionali presenti in letteratura \cite{YangLiang2016SoR3}, \cite{PathPlannigOverview}.
 
 \subsection{Pianificazione del percorso}
@@ -92,10 +28,6 @@ Si possono suddividere le possibili implementazioni in due categorie:
 	\item \textbf{Attivi : } La soluzione avviene attraverso un esplorazione totalmente casuale di nuovi punti nella mappa in un solo passaggio si cerca di ottimizzarla
 	\item \textbf{Passivi : }  La soluzione avviene attraverso la ricerca da un set di possibili soluzioni già determinate in un passaggio preliminare e attraverso un algoritmo di ricerca la migliore viene selezionata
 \end{itemize}
-
-%Questi algoritmi richiedono la conoscenza a priori di informazioni sull'ambiente e una rappresentazione matematica di questo. Si prevede di dividere l'ambiente in nodi o celle o altre forme. Avviene poi una ricerca attraverso una ricerca casuale. Questa categoria si può suddividere a sua volta in altre 2 categorie : attive e passive. Attive  si intende algoritmi che esploraro rapidamente in modo casuale per trovare il percorso migliore. Passivi algoritmi che si occupano di cercare la soluzione da percorsi già presenti come su di una mappa.
-
-
 
 Nella categoria di algoritmi attivi ricade la Rapidly Exploring Random Tree (RRT). In questo algoritmo vengono generati nodi casualmente nello spazio con l'obbiettivo di raggiungere il punto obbiettivo dopo un numero non definito a priori di interazioni, \cite{Lavalle98rapidly-exploringrandom}. L'algoritmo ha il problema quindi di essere molto lento se l'ambiente è disordinato.
 
